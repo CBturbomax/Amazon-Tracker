@@ -15,8 +15,8 @@
  },
  "B000YACKO0": {
   "error": "no_brand",
-  "checked_at": "2026-09-28T10:41:59+09:00",
-  "tries": 1
+  "checked_at": "2026-09-28T10:51:10+09:00",
+  "tries": 2
  },
  "B0011291MO": {
   "brand": "wet n wild",
@@ -33,14 +33,17 @@
   "tries": 1
  },
  "B001ETUD5I": {
-  "error": "captcha",
-  "checked_at": "2026-09-28T10:46:07+09:00",
-  "tries": 1
+  "checked_at": "2026-09-28T10:51:18+09:00",
+  "tries": 2,
+  "brand": "Nizoral",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "curl_cffi"
  },
  "B002MSN3QQ": {
   "error": "no_brand",
-  "checked_at": "2026-09-28T10:38:26+09:00",
-  "tries": 1
+  "checked_at": "2026-09-28T10:51:05+09:00",
+  "tries": 2
  },
  "B00365DABC": {
   "brand": "CeraVe",
@@ -254,8 +257,8 @@
  },
  "B01MDTVZTZ": {
   "error": "no_brand",
-  "checked_at": "2026-09-28T10:35:47+09:00",
-  "tries": 1
+  "checked_at": "2026-09-28T10:50:50+09:00",
+  "tries": 2
  },
  "B01MSSDEPK": {
   "brand": "CeraVe",
@@ -266,8 +269,8 @@
  },
  "B01MYEZPC8": {
   "error": "no_brand",
-  "checked_at": "2026-09-28T10:36:33+09:00",
-  "tries": 1
+  "checked_at": "2026-09-28T10:50:55+09:00",
+  "tries": 2
  },
  "B01N1LL62W": {
   "brand": "CeraVe",
@@ -523,7 +526,7 @@
  },
  "B0B7RQ46LD": {
   "error": "captcha",
-  "checked_at": "2026-09-28T10:46:35+09:00",
+  "checked_at": "2026-09-28T10:51:37+09:00",
   "tries": 1
  },
  "B0B854YTCF": {
@@ -715,7 +718,7 @@
  },
  "B0G35QMQ82": {
   "error": "captcha",
-  "checked_at": "2026-09-28T10:46:31+09:00",
+  "checked_at": "2026-09-28T10:51:33+09:00",
   "tries": 1
  },
  "B0G643D8ZG": {
