@@ -166,6 +166,7 @@ requests·curl_cffi는 카드 30개만 받고, Playwright만 스크롤로 50개�
 - `.github/workflows/daily.yml`: 매일 **09:07 KST**(00:07 UTC) 수집 → `build/` → `data/`·`docs/data/`를 main에 커밋 → `docs/`를 `gh-pages` 브랜치로 배포.
   main에 `docs/index.html`·`build/`·`config/`가 바뀌면 수집 없이 빌드·배포만 한다.
 - 사이트 주소: https://cbturbomax.github.io/Amazon-Tracker/ (Pages 소스 = `gh-pages` 브랜치 루트)
+- main에는 원자료(`data/`)만 커밋한다. `docs/data/`는 빌드 결과라 git에서 제외하고 gh-pages에만 배포한다.
 - 수집 원본 HTML은 git에 넣지 않는다 (하루 수십 MB). 불완전 수집 페이지만 Actions artifact(`collect-html`, 14일)로 남는다.
 
 처음 비교했던 선택지:

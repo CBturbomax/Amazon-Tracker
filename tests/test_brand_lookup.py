@@ -19,3 +19,39 @@ def test_byline_variants():
 
 def test_missing():
     assert parse_brand("<html></html>") == (None, None)
+
+
+def test_switches_to_playwright_on_captcha(tmp_path, monkeypatch):
+    import json
+
+    import scraper.brand_lookup as bl
+    from scraper.fetchers.base import FetchResult, now_kst
+    from tests.fake_amazon import CAPTCHA_PAGE
+
+    snap = {"country": "US", "items": [{"asin": "A1", "rank": 1}, {"asin": "A2", "rank": 2}]}
+    (tmp_path / "kbeauty" / "US").mkdir(parents=True)
+    (tmp_path / "kbeauty" / "US" / "2026-09-28.json").write_text(json.dumps(snap))
+    made = []
+
+    class F:
+        def __init__(self, method):
+            self.method = method
+
+        def fetch(self, url):
+            html = CAPTCHA_PAGE if self.method == "curl_cffi" else '<a id="bylineInfo">Visit the COSRX Store</a>'
+            return FetchResult(url, self.method, now_kst().isoformat(), status=200, html=html)
+
+        def close(self):
+            pass
+
+    def fake_make(method, **kw):
+        made.append((method, kw.get("scroll")))
+        return F(method)
+
+    monkeypatch.setattr(bl, "make_fetcher", fake_make)
+    monkeypatch.setattr(bl.time, "sleep", lambda s: None)
+    bl.main(["--data-dir", str(tmp_path), "--max", "5"])
+    cache = json.loads((tmp_path / "asin_brands.json").read_text())
+    assert cache["A1"]["brand"] == "COSRX" and cache["A2"]["brand"] == "COSRX"
+    assert cache["A1"]["method"] == "playwright" and cache["A1"]["tries"] == 1
+    assert made[0] == ("curl_cffi", None) and made[1] == ("playwright", False)

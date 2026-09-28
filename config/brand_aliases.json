@@ -47,6 +47,8 @@
     "Rexona": ["REXONA"],
     "Dove": ["DOVE"],
     "Neutrogena": ["NEUTROGENA"],
-    "Luxéol": ["LUXÉOL", "LUXEOL"]
+    "Luxéol": ["LUXÉOL", "LUXEOL"],
+    "Revlon": ["REVLON"],
+    "Gillette": ["Gillette Venus", "GILLETTE"]
   }
 }

@@ -105,43 +105,64 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     rng = random.Random()
+    # 빠른 방식(curl_cffi)이 막히면 브라우저(Playwright)로 바꿔서 이어간다
+    methods = [args.method] + (["playwright"] if args.method != "playwright" else [])
+    mi = 0
     fetchers: dict[str, object] = {}
+
+    def fetcher(market: str):
+        if market not in fetchers:
+            kw = {"accept_language": MARKETS[market]["accept_language"]}
+            if methods[mi] == "playwright":
+                kw["scroll"] = False
+            fetchers[market] = make_fetcher(methods[mi], **kw)
+        return fetchers[market]
+
+    def lookup(asin: str, cc: str) -> dict:
+        entry: dict = {}
+        for market in dict.fromkeys(["US", cc]):  # 미국 → (없으면) 처음 본 나라
+            fr = fetcher(market).fetch(f"https://{MARKETS[market]['domain']}/dp/{asin}")
+            if fr.block:
+                return {"error": fr.block, "checked_at": fr.fetched_at}
+            brand, source = parse_brand(fr.html) if fr.status == 200 else (None, None)
+            if brand:
+                return {"brand": brand, "source": source, "domain": MARKETS[market]["domain"],
+                        "method": methods[mi], "checked_at": fr.fetched_at}
+            entry = {"error": f"status={fr.status}" if fr.status != 200 else "no_brand",
+                     "checked_at": fr.fetched_at}
+        return entry
+
     blocks = 0
+    i = 0
     try:
-        for i, (asin, cc) in enumerate(todo):
+        while i < len(todo):
+            asin, cc = todo[i]
             if i:
                 time.sleep(rng.uniform(args.delay_min, args.delay_max))
-            entry = None
-            # 미국 → (없으면) 처음 본 나라 순서로 시도
-            for market in dict.fromkeys(["US", cc]):
-                f = fetchers.get(market)
-                if f is None:
-                    f = fetchers[market] = make_fetcher(args.method,
-                                                        accept_language=MARKETS[market]["accept_language"])
-                url = f"https://{MARKETS[market]['domain']}/dp/{asin}"
-                fr = f.fetch(url)
-                if fr.block:
-                    entry = {"error": fr.block, "checked_at": fr.fetched_at}
-                    break
-                brand, source = parse_brand(fr.html) if fr.status == 200 else (None, None)
-                if brand:
-                    entry = {"brand": brand, "source": source, "domain": MARKETS[market]["domain"],
-                             "checked_at": fr.fetched_at}
-                    break
-                entry = {"error": f"status={fr.status}" if fr.status != 200 else "no_brand",
-                         "checked_at": fr.fetched_at}
+            entry = lookup(asin, cc)
+            blocked = entry.get("error") in ("captcha", "http_503")
+            if blocked and mi + 1 < len(methods):
+                for f in fetchers.values():
+                    f.close()
+                fetchers.clear()
+                mi += 1
+                print(f"{asin} {entry['error']} → {methods[mi]} 방식으로 전환", flush=True)
+                continue  # 같은 ASIN을 새 방식으로 다시
             old = cache.get(asin) or {}
-            new = {**old, **entry, "tries": old.get("tries", 0) + 1}
+            # 차단은 ASIN 탓이 아니므로 시도 횟수에 넣지 않는다
+            new = {**old, **entry, "tries": old.get("tries", 0) + (0 if blocked else 1)}
             if "brand" in entry:
                 new.pop("error", None)
             cache[asin] = new
-            print(f"{i + 1:>3}/{len(todo)} {asin} {entry.get('brand') or entry.get('error')}", flush=True)
-            blocks = blocks + 1 if entry.get("error") in ("captcha", "http_503") else 0
+            print(f"{i + 1:>3}/{len(todo)} [{methods[mi]}] {asin} {entry.get('brand') or entry.get('error')}",
+                  flush=True)
+            blocks = blocks + 1 if blocked else 0
             if blocks >= args.stop_after:
                 print(f"연속 차단 {blocks}회 → 중단", flush=True)
                 break
             if (i + 1) % 25 == 0:
                 save_cache(cache, args.data_dir)  # 중간 저장
+            i += 1
     finally:
         for f in fetchers.values():
             f.close()

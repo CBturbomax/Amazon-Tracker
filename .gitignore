@@ -219,3 +219,6 @@ __marimo__/
 
 # amazon-tracker: 차단 테스트 등 로컬 실행 결과물
 reports/
+
+# 빌드 결과 (gh-pages로만 배포)
+docs/data/

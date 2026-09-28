@@ -18,9 +18,10 @@ class PlaywrightFetcher:
     name = "playwright"
 
     def __init__(self, timeout: float = 45.0, headless: bool = True, target_items: int = 50,
-                 accept_language: str = DEFAULT_ACCEPT_LANGUAGE) -> None:
+                 accept_language: str = DEFAULT_ACCEPT_LANGUAGE, scroll: bool = True) -> None:
         self.timeout_ms = int(timeout * 1000)
         self.target_items = target_items
+        self.scroll = scroll  # 상세 페이지처럼 목록이 아니면 False
         self._pw = sync_playwright().start()
         launch_kwargs: dict = {"headless": headless}
         # 설치된 Chromium을 직접 지정하고 싶을 때 (예: 사내 PC)
@@ -47,7 +48,7 @@ class PlaywrightFetcher:
             resp = page.goto(url, wait_until="domcontentloaded", timeout=self.timeout_ms)
             status = resp.status if resp else None
             self._dismiss_cookie_banner()
-            if not self._scroll_until_loaded():
+            if self.scroll and not self._scroll_until_loaded():
                 # 가끔 lazy-load가 안 붙는다. 맨 위로 갔다가 한 번 더 천천히 내린다 (새 요청 아님).
                 page.evaluate("window.scrollTo(0, 0)")
                 page.wait_for_timeout(1000)
