@@ -1,0 +1,10 @@
+{
+  "description": "브랜드 → 회사 매핑. patterns는 정규식이며 대소문자를 무시하고 제품명에서 찾는다. 회사·패턴은 자유롭게 추가 가능.",
+  "companies": [
+    {"id": "apr",      "name": "에이피알",   "patterns": ["\\bmedicube\\b", "\\bAGE-R\\b"]},
+    {"id": "dalba",    "name": "달바글로벌", "patterns": ["\\bd['’]?alba\\b"]},
+    {"id": "cosrx",    "name": "코스알엑스", "patterns": ["\\bCOSRX\\b"]},
+    {"id": "anua",     "name": "아누아",     "patterns": ["\\bAnua\\b"]},
+    {"id": "joseon",   "name": "조선미녀",   "patterns": ["\\bBeauty of Joseon\\b"]}
+  ]
+}
