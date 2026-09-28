@@ -1,0 +1,4064 @@
+{
+ "source": "사용자 제공 캡처 집계표 (아마존 6개국 베스트셀러 브랜드 집계, 2026-06-24 ~ 09-21)",
+ "note": "각 시점 표에 있던 상위 브랜드만 들어 있다. 표에 없던 브랜드는 0이 아니라 '기록 없음'이다. 자동 수집(Top 100 전체)과 방식이 달라 사이트에서 구분해 표시한다. 값은 원본 그대로 옮겼다.",
+ "total_mismatches": [
+  "2026-06-25 Piz Buin: 나라별 합 3 ≠ 총합계 5",
+  "2026-08-24 Remington: 나라별 합 4 ≠ 총합계 5",
+  "2026-08-31 NIVEA: 나라별 합 6 ≠ 총합계 7",
+  "2026-09-08 Manucurist: 나라별 합 4 ≠ 총합계 5"
+ ],
+ "countries": [
+  "US",
+  "UK",
+  "FR",
+  "DE",
+  "IT",
+  "ES"
+ ],
+ "points": [
+  {
+   "date": "2026-06-24",
+   "brands": [
+    {
+     "brand": "Medicube",
+     "counts": {
+      "US": 7,
+      "UK": 6,
+      "FR": 3,
+      "DE": 3,
+      "IT": 5,
+      "ES": 5
+     },
+     "total": 29
+    },
+    {
+     "brand": "NIVEA",
+     "counts": {
+      "US": 0,
+      "UK": 11,
+      "FR": 3,
+      "DE": 7,
+      "IT": 5,
+      "ES": 2
+     },
+     "total": 28
+    },
+    {
+     "brand": "Garnier",
+     "counts": {
+      "US": 1,
+      "UK": 6,
+      "FR": 7,
+      "DE": 2,
+      "IT": 8,
+      "ES": 1
+     },
+     "total": 25
+    },
+    {
+     "brand": "CeraVe",
+     "counts": {
+      "US": 5,
+      "UK": 5,
+      "FR": 3,
+      "DE": 1,
+      "IT": 3,
+      "ES": 6
+     },
+     "total": 23
+    },
+    {
+     "brand": "L'Oréal Paris",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 7,
+      "DE": 3,
+      "IT": 4,
+      "ES": 4
+     },
+     "total": 19
+    },
+    {
+     "brand": "Maybelline New York",
+     "counts": {
+      "US": 1,
+      "UK": 3,
+      "FR": 3,
+      "DE": 2,
+      "IT": 4,
+      "ES": 3
+     },
+     "total": 16
+    },
+    {
+     "brand": "The Ordinary",
+     "counts": {
+      "US": 4,
+      "UK": 3,
+      "FR": 2,
+      "DE": 2,
+      "IT": 3,
+      "ES": 1
+     },
+     "total": 15
+    },
+    {
+     "brand": "La Roche-Posay",
+     "counts": {
+      "US": 5,
+      "UK": 1,
+      "FR": 1,
+      "DE": 2,
+      "IT": 3,
+      "ES": 1
+     },
+     "total": 13
+    },
+    {
+     "brand": "Neutrogena",
+     "counts": {
+      "US": 3,
+      "UK": 1,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 6
+     },
+     "total": 10
+    },
+    {
+     "brand": "BIODANCE",
+     "counts": {
+      "US": 2,
+      "UK": 1,
+      "FR": 2,
+      "DE": 1,
+      "IT": 1,
+      "ES": 2
+     },
+     "total": 9
+    },
+    {
+     "brand": "La Roche",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 1,
+      "IT": 2,
+      "ES": 5
+     },
+     "total": 8
+    },
+    {
+     "brand": "Remington",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 1,
+      "DE": 4,
+      "IT": 0,
+      "ES": 2
+     },
+     "total": 8
+    },
+    {
+     "brand": "Dove",
+     "counts": {
+      "US": 3,
+      "UK": 3,
+      "FR": 0,
+      "DE": 0,
+      "IT": 1,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "HAWAIIAN Tropic",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 1,
+      "DE": 3,
+      "IT": 2,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "Rilastil",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 7,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "Essence Cosmetics",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 2,
+      "DE": 0,
+      "IT": 3,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "Mixa",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 2,
+      "DE": 2,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 6
+    },
+    {
+     "brand": "Pantene",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 0,
+      "DE": 0,
+      "IT": 2,
+      "ES": 2
+     },
+     "total": 6
+    },
+    {
+     "brand": "Revlon Professional",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 2,
+      "IT": 2,
+      "ES": 2
+     },
+     "total": 6
+    },
+    {
+     "brand": "Rimmel London",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 5,
+      "ES": 1
+     },
+     "total": 6
+    },
+    {
+     "brand": "Amazon Basics",
+     "counts": {
+      "US": 5,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "celimax",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Just For Men",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 1,
+      "DE": 0,
+      "IT": 0,
+      "ES": 3
+     },
+     "total": 5
+    },
+    {
+     "brand": "Wella",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 4,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Aveeno",
+     "counts": {
+      "US": 0,
+      "UK": 4,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 4
+    },
+    {
+     "brand": "Beiersdorf",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 4,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 4
+    },
+    {
+     "brand": "BIONOBLE",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 4
+    },
+    {
+     "brand": "by Amazon",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 4,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 4
+    },
+    {
+     "brand": "d'alba",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 1,
+      "IT": 0,
+      "ES": 3
+     },
+     "total": 4
+    },
+    {
+     "brand": "Erborian",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 3,
+      "DE": 0,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 4
+    },
+    {
+     "brand": "Etiaxil",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 4,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 4
+    },
+    {
+     "brand": "Kérastase",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 4
+    },
+    {
+     "brand": "NYX Professional Makeup",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 2,
+      "DE": 0,
+      "IT": 2,
+      "ES": 0
+     },
+     "total": 4
+    },
+    {
+     "brand": "PHILIPS",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 4
+     },
+     "total": 4
+    },
+    {
+     "brand": "Piz Buin",
+     "counts": {
+      "US": 0,
+      "UK": 2,
+      "FR": 0,
+      "DE": 0,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 4
+    },
+    {
+     "brand": "Rimmel",
+     "counts": {
+      "US": 0,
+      "UK": 4,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 4
+    }
+   ]
+  },
+  {
+   "date": "2026-06-25",
+   "brands": [
+    {
+     "brand": "Medicube",
+     "counts": {
+      "US": 10,
+      "UK": 10,
+      "FR": 8,
+      "DE": 3,
+      "IT": 9,
+      "ES": 9
+     },
+     "total": 49
+    },
+    {
+     "brand": "L'Oréal Paris",
+     "counts": {
+      "US": 0,
+      "UK": 6,
+      "FR": 7,
+      "DE": 5,
+      "IT": 6,
+      "ES": 8
+     },
+     "total": 32
+    },
+    {
+     "brand": "Garnier",
+     "counts": {
+      "US": 0,
+      "UK": 8,
+      "FR": 7,
+      "DE": 3,
+      "IT": 5,
+      "ES": 2
+     },
+     "total": 25
+    },
+    {
+     "brand": "NIVEA",
+     "counts": {
+      "US": 0,
+      "UK": 11,
+      "FR": 3,
+      "DE": 5,
+      "IT": 2,
+      "ES": 2
+     },
+     "total": 23
+    },
+    {
+     "brand": "CeraVe",
+     "counts": {
+      "US": 4,
+      "UK": 6,
+      "FR": 2,
+      "DE": 2,
+      "IT": 2,
+      "ES": 3
+     },
+     "total": 19
+    },
+    {
+     "brand": "La Roche-Posay",
+     "counts": {
+      "US": 3,
+      "UK": 2,
+      "FR": 1,
+      "DE": 3,
+      "IT": 6,
+      "ES": 4
+     },
+     "total": 19
+    },
+    {
+     "brand": "Maybelline New York",
+     "counts": {
+      "US": 1,
+      "UK": 4,
+      "FR": 3,
+      "DE": 3,
+      "IT": 4,
+      "ES": 3
+     },
+     "total": 18
+    },
+    {
+     "brand": "BIODANCE",
+     "counts": {
+      "US": 2,
+      "UK": 2,
+      "FR": 3,
+      "DE": 3,
+      "IT": 3,
+      "ES": 3
+     },
+     "total": 16
+    },
+    {
+     "brand": "Rilastil",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 11,
+      "ES": 1
+     },
+     "total": 12
+    },
+    {
+     "brand": "d'alba",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 1,
+      "DE": 2,
+      "IT": 0,
+      "ES": 4
+     },
+     "total": 9
+    },
+    {
+     "brand": "Neutrogena",
+     "counts": {
+      "US": 2,
+      "UK": 1,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 6
+     },
+     "total": 9
+    },
+    {
+     "brand": "The Ordinary",
+     "counts": {
+      "US": 1,
+      "UK": 2,
+      "FR": 2,
+      "DE": 2,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 9
+    },
+    {
+     "brand": "Wella",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 6,
+      "IT": 0,
+      "ES": 2
+     },
+     "total": 9
+    },
+    {
+     "brand": "Mixa",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 2,
+      "DE": 2,
+      "IT": 3,
+      "ES": 1
+     },
+     "total": 8
+    },
+    {
+     "brand": "NYX Professional Makeup",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 3,
+      "DE": 0,
+      "IT": 4,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "Beauty of Joseon",
+     "counts": {
+      "US": 1,
+      "UK": 3,
+      "FR": 0,
+      "DE": 2,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "celimax",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 2,
+      "ES": 1
+     },
+     "total": 6
+    },
+    {
+     "brand": "Erborian",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 4,
+      "DE": 1,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 6
+    },
+    {
+     "brand": "HAWAIIAN Tropic",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 2,
+      "IT": 3,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "Revlon Professional",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 2,
+      "IT": 2,
+      "ES": 2
+     },
+     "total": 6
+    },
+    {
+     "brand": "Rexona",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 3,
+      "IT": 0,
+      "ES": 2
+     },
+     "total": 6
+    },
+    {
+     "brand": "ANUA",
+     "counts": {
+      "US": 3,
+      "UK": 1,
+      "FR": 0,
+      "DE": 1,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Aveeno",
+     "counts": {
+      "US": 0,
+      "UK": 5,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "COSRX",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 0,
+      "DE": 3,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Kérastase",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 2,
+      "IT": 2,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Olaplex",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 0,
+      "DE": 3,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Pantene",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 4
+     },
+     "total": 5
+    },
+    {
+     "brand": "PHILIPS",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 5
+     },
+     "total": 5
+    },
+    {
+     "brand": "Piz Buin",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 1,
+      "ES": 2
+     },
+     "total": 5
+    }
+   ]
+  },
+  {
+   "date": "2026-06-26",
+   "brands": [
+    {
+     "brand": "Medicube",
+     "counts": {
+      "US": 10,
+      "UK": 9,
+      "FR": 8,
+      "DE": 3,
+      "IT": 9,
+      "ES": 9
+     },
+     "total": 48
+    },
+    {
+     "brand": "L'Oréal Paris",
+     "counts": {
+      "US": 0,
+      "UK": 5,
+      "FR": 9,
+      "DE": 5,
+      "IT": 6,
+      "ES": 8
+     },
+     "total": 33
+    },
+    {
+     "brand": "Garnier",
+     "counts": {
+      "US": 0,
+      "UK": 9,
+      "FR": 7,
+      "DE": 4,
+      "IT": 5,
+      "ES": 2
+     },
+     "total": 27
+    },
+    {
+     "brand": "NIVEA",
+     "counts": {
+      "US": 0,
+      "UK": 11,
+      "FR": 3,
+      "DE": 5,
+      "IT": 3,
+      "ES": 2
+     },
+     "total": 24
+    },
+    {
+     "brand": "CeraVe",
+     "counts": {
+      "US": 4,
+      "UK": 7,
+      "FR": 2,
+      "DE": 2,
+      "IT": 2,
+      "ES": 3
+     },
+     "total": 20
+    },
+    {
+     "brand": "La Roche-Posay",
+     "counts": {
+      "US": 3,
+      "UK": 2,
+      "FR": 1,
+      "DE": 3,
+      "IT": 6,
+      "ES": 4
+     },
+     "total": 19
+    },
+    {
+     "brand": "Maybelline New York",
+     "counts": {
+      "US": 1,
+      "UK": 4,
+      "FR": 3,
+      "DE": 3,
+      "IT": 4,
+      "ES": 3
+     },
+     "total": 18
+    },
+    {
+     "brand": "BIODANCE",
+     "counts": {
+      "US": 3,
+      "UK": 2,
+      "FR": 3,
+      "DE": 3,
+      "IT": 3,
+      "ES": 2
+     },
+     "total": 16
+    },
+    {
+     "brand": "Rilastil",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 11,
+      "ES": 1
+     },
+     "total": 12
+    },
+    {
+     "brand": "Wella",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 7,
+      "IT": 0,
+      "ES": 2
+     },
+     "total": 10
+    },
+    {
+     "brand": "d'alba",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 1,
+      "DE": 2,
+      "IT": 0,
+      "ES": 4
+     },
+     "total": 9
+    },
+    {
+     "brand": "Neutrogena",
+     "counts": {
+      "US": 2,
+      "UK": 1,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 6
+     },
+     "total": 9
+    },
+    {
+     "brand": "The Ordinary",
+     "counts": {
+      "US": 1,
+      "UK": 2,
+      "FR": 2,
+      "DE": 2,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 9
+    },
+    {
+     "brand": "ANUA",
+     "counts": {
+      "US": 3,
+      "UK": 3,
+      "FR": 0,
+      "DE": 1,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "Mixa",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 2,
+      "DE": 2,
+      "IT": 3,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "NYX Professional Makeup",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 3,
+      "DE": 0,
+      "IT": 4,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "PHILIPS",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 7
+     },
+     "total": 7
+    },
+    {
+     "brand": "Aveeno",
+     "counts": {
+      "US": 1,
+      "UK": 5,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "Beauty of Joseon",
+     "counts": {
+      "US": 1,
+      "UK": 3,
+      "FR": 0,
+      "DE": 2,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "celimax",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 2,
+      "ES": 1
+     },
+     "total": 6
+    },
+    {
+     "brand": "HAWAIIAN Tropic",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 2,
+      "IT": 3,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "Revlon Professional",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 2,
+      "IT": 2,
+      "ES": 2
+     },
+     "total": 6
+    },
+    {
+     "brand": "Rexona",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 3,
+      "IT": 0,
+      "ES": 2
+     },
+     "total": 6
+    },
+    {
+     "brand": "COSRX",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 0,
+      "DE": 3,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Erborian",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 3,
+      "DE": 1,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Olaplex",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 0,
+      "DE": 3,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Pantene",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 4
+     },
+     "total": 5
+    }
+   ]
+  },
+  {
+   "date": "2026-06-27",
+   "brands": [
+    {
+     "brand": "Medicube",
+     "counts": {
+      "US": 10,
+      "UK": 9,
+      "FR": 9,
+      "DE": 3,
+      "IT": 10,
+      "ES": 9
+     },
+     "total": 50
+    },
+    {
+     "brand": "L'Oréal Paris",
+     "counts": {
+      "US": 0,
+      "UK": 6,
+      "FR": 9,
+      "DE": 9,
+      "IT": 7,
+      "ES": 10
+     },
+     "total": 41
+    },
+    {
+     "brand": "Garnier",
+     "counts": {
+      "US": 0,
+      "UK": 10,
+      "FR": 7,
+      "DE": 2,
+      "IT": 5,
+      "ES": 2
+     },
+     "total": 26
+    },
+    {
+     "brand": "NIVEA",
+     "counts": {
+      "US": 0,
+      "UK": 10,
+      "FR": 2,
+      "DE": 5,
+      "IT": 1,
+      "ES": 3
+     },
+     "total": 21
+    },
+    {
+     "brand": "CeraVe",
+     "counts": {
+      "US": 4,
+      "UK": 6,
+      "FR": 2,
+      "DE": 2,
+      "IT": 2,
+      "ES": 4
+     },
+     "total": 20
+    },
+    {
+     "brand": "Maybelline New York",
+     "counts": {
+      "US": 1,
+      "UK": 3,
+      "FR": 4,
+      "DE": 3,
+      "IT": 5,
+      "ES": 3
+     },
+     "total": 19
+    },
+    {
+     "brand": "BIODANCE",
+     "counts": {
+      "US": 3,
+      "UK": 2,
+      "FR": 3,
+      "DE": 3,
+      "IT": 3,
+      "ES": 2
+     },
+     "total": 16
+    },
+    {
+     "brand": "La Roche-Posay",
+     "counts": {
+      "US": 2,
+      "UK": 2,
+      "FR": 1,
+      "DE": 3,
+      "IT": 5,
+      "ES": 3
+     },
+     "total": 16
+    },
+    {
+     "brand": "Neutrogena",
+     "counts": {
+      "US": 2,
+      "UK": 1,
+      "FR": 0,
+      "DE": 2,
+      "IT": 1,
+      "ES": 6
+     },
+     "total": 12
+    },
+    {
+     "brand": "Rilastil",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 11,
+      "ES": 1
+     },
+     "total": 12
+    },
+    {
+     "brand": "Wella",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 8,
+      "IT": 0,
+      "ES": 2
+     },
+     "total": 11
+    },
+    {
+     "brand": "d'alba",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 1,
+      "DE": 3,
+      "IT": 0,
+      "ES": 4
+     },
+     "total": 10
+    },
+    {
+     "brand": "The Ordinary",
+     "counts": {
+      "US": 2,
+      "UK": 2,
+      "FR": 2,
+      "DE": 2,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 10
+    },
+    {
+     "brand": "ANUA",
+     "counts": {
+      "US": 3,
+      "UK": 3,
+      "FR": 0,
+      "DE": 1,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 8
+    },
+    {
+     "brand": "Mixa",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 2,
+      "DE": 2,
+      "IT": 3,
+      "ES": 1
+     },
+     "total": 8
+    },
+    {
+     "brand": "Kérastase",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 2,
+      "DE": 1,
+      "IT": 2,
+      "ES": 2
+     },
+     "total": 7
+    },
+    {
+     "brand": "Aveeno",
+     "counts": {
+      "US": 1,
+      "UK": 5,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "Beauty of Joseon",
+     "counts": {
+      "US": 1,
+      "UK": 3,
+      "FR": 0,
+      "DE": 2,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "celimax",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 2,
+      "ES": 1
+     },
+     "total": 6
+    },
+    {
+     "brand": "HAWAIIAN Tropic",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 2,
+      "IT": 3,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "NYX Professional Makeup",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 2,
+      "DE": 0,
+      "IT": 4,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "Olaplex",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 0,
+      "DE": 3,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 6
+    },
+    {
+     "brand": "Remington",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 2,
+      "IT": 3,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "COSRX",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 0,
+      "DE": 3,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Erborian",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 3,
+      "DE": 1,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "L'Oreal",
+     "counts": {
+      "US": 1,
+      "UK": 3,
+      "FR": 1,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Pantene",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 4
+     },
+     "total": 5
+    },
+    {
+     "brand": "PHILIPS",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 5
+     },
+     "total": 5
+    },
+    {
+     "brand": "Revlon",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 2,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Revlon Professional",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 1,
+      "IT": 2,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Rexona",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 3,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 5
+    }
+   ]
+  },
+  {
+   "date": "2026-07-29",
+   "brands": [
+    {
+     "brand": "Medicube",
+     "counts": {
+      "US": 8,
+      "UK": 10,
+      "FR": 9,
+      "DE": 6,
+      "IT": 10,
+      "ES": 10
+     },
+     "total": 53
+    },
+    {
+     "brand": "CeraVe",
+     "counts": {
+      "US": 5,
+      "UK": 6,
+      "FR": 3,
+      "DE": 5,
+      "IT": 3,
+      "ES": 6
+     },
+     "total": 28
+    },
+    {
+     "brand": "Garnier",
+     "counts": {
+      "US": 1,
+      "UK": 4,
+      "FR": 10,
+      "DE": 0,
+      "IT": 4,
+      "ES": 4
+     },
+     "total": 23
+    },
+    {
+     "brand": "L'Oréal Paris",
+     "counts": {
+      "US": 0,
+      "UK": 3,
+      "FR": 4,
+      "DE": 2,
+      "IT": 4,
+      "ES": 7
+     },
+     "total": 20
+    },
+    {
+     "brand": "The Ordinary",
+     "counts": {
+      "US": 4,
+      "UK": 4,
+      "FR": 2,
+      "DE": 3,
+      "IT": 3,
+      "ES": 2
+     },
+     "total": 18
+    },
+    {
+     "brand": "Maybelline New York",
+     "counts": {
+      "US": 1,
+      "UK": 3,
+      "FR": 6,
+      "DE": 1,
+      "IT": 3,
+      "ES": 3
+     },
+     "total": 17
+    },
+    {
+     "brand": "La Roche-Posay",
+     "counts": {
+      "US": 3,
+      "UK": 1,
+      "FR": 1,
+      "DE": 3,
+      "IT": 4,
+      "ES": 2
+     },
+     "total": 14
+    },
+    {
+     "brand": "Rimmel London",
+     "counts": {
+      "US": 0,
+      "UK": 5,
+      "FR": 0,
+      "DE": 0,
+      "IT": 3,
+      "ES": 4
+     },
+     "total": 12
+    },
+    {
+     "brand": "BIODANCE",
+     "counts": {
+      "US": 2,
+      "UK": 2,
+      "FR": 3,
+      "DE": 1,
+      "IT": 1,
+      "ES": 2
+     },
+     "total": 11
+    },
+    {
+     "brand": "NIVEA",
+     "counts": {
+      "US": 0,
+      "UK": 6,
+      "FR": 2,
+      "DE": 3,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 11
+    },
+    {
+     "brand": "Revlon",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 2,
+      "DE": 3,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 9
+    },
+    {
+     "brand": "d'alba",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 0,
+      "DE": 3,
+      "IT": 0,
+      "ES": 4
+     },
+     "total": 8
+    },
+    {
+     "brand": "Essence Cosmetics",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 0,
+      "IT": 6,
+      "ES": 0
+     },
+     "total": 8
+    },
+    {
+     "brand": "Wella",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 7,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 8
+    },
+    {
+     "brand": "by Amazon",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 6,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "NYX Professional Makeup",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 4,
+      "DE": 0,
+      "IT": 3,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "Rilastil",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 7,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "e.l.f.",
+     "counts": {
+      "US": 3,
+      "UK": 3,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "Just For Men",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 1,
+      "DE": 0,
+      "IT": 1,
+      "ES": 3
+     },
+     "total": 6
+    },
+    {
+     "brand": "celimax",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Dove",
+     "counts": {
+      "US": 4,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 1,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Dr.Althea",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Kérastase",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 1,
+      "IT": 1,
+      "ES": 3
+     },
+     "total": 5
+    },
+    {
+     "brand": "Neutrogena",
+     "counts": {
+      "US": 2,
+      "UK": 1,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 2
+     },
+     "total": 5
+    },
+    {
+     "brand": "UNA GELLA",
+     "counts": {
+      "US": 2,
+      "UK": 0,
+      "FR": 1,
+      "DE": 2,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    }
+   ]
+  },
+  {
+   "date": "2026-08-10",
+   "brands": [
+    {
+     "brand": "Medicube",
+     "counts": {
+      "US": 7,
+      "UK": 7,
+      "FR": 6,
+      "DE": 3,
+      "IT": 7,
+      "ES": 6
+     },
+     "total": 36
+    },
+    {
+     "brand": "CeraVe",
+     "counts": {
+      "US": 5,
+      "UK": 5,
+      "FR": 3,
+      "DE": 4,
+      "IT": 4,
+      "ES": 7
+     },
+     "total": 28
+    },
+    {
+     "brand": "Garnier",
+     "counts": {
+      "US": 1,
+      "UK": 5,
+      "FR": 9,
+      "DE": 1,
+      "IT": 5,
+      "ES": 2
+     },
+     "total": 23
+    },
+    {
+     "brand": "The Ordinary",
+     "counts": {
+      "US": 5,
+      "UK": 4,
+      "FR": 2,
+      "DE": 3,
+      "IT": 3,
+      "ES": 3
+     },
+     "total": 20
+    },
+    {
+     "brand": "L'Oréal Paris",
+     "counts": {
+      "US": 0,
+      "UK": 4,
+      "FR": 5,
+      "DE": 2,
+      "IT": 4,
+      "ES": 4
+     },
+     "total": 19
+    },
+    {
+     "brand": "Wella",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 3,
+      "DE": 9,
+      "IT": 0,
+      "ES": 5
+     },
+     "total": 17
+    },
+    {
+     "brand": "Maybelline New York",
+     "counts": {
+      "US": 2,
+      "UK": 3,
+      "FR": 4,
+      "DE": 2,
+      "IT": 3,
+      "ES": 2
+     },
+     "total": 16
+    },
+    {
+     "brand": "La Roche-Posay",
+     "counts": {
+      "US": 3,
+      "UK": 1,
+      "FR": 1,
+      "DE": 2,
+      "IT": 4,
+      "ES": 3
+     },
+     "total": 14
+    },
+    {
+     "brand": "BIODANCE",
+     "counts": {
+      "US": 2,
+      "UK": 1,
+      "FR": 3,
+      "DE": 1,
+      "IT": 3,
+      "ES": 2
+     },
+     "total": 12
+    },
+    {
+     "brand": "Rimmel London",
+     "counts": {
+      "US": 0,
+      "UK": 6,
+      "FR": 0,
+      "DE": 0,
+      "IT": 4,
+      "ES": 2
+     },
+     "total": 12
+    },
+    {
+     "brand": "Revlon",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 2,
+      "DE": 3,
+      "IT": 2,
+      "ES": 2
+     },
+     "total": 11
+    },
+    {
+     "brand": "Mixa",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 3,
+      "DE": 3,
+      "IT": 2,
+      "ES": 1
+     },
+     "total": 9
+    },
+    {
+     "brand": "Essence Cosmetics",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 3,
+      "DE": 0,
+      "IT": 4,
+      "ES": 0
+     },
+     "total": 8
+    },
+    {
+     "brand": "NIVEA",
+     "counts": {
+      "US": 0,
+      "UK": 5,
+      "FR": 1,
+      "DE": 2,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 8
+    },
+    {
+     "brand": "by Amazon",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 6,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "e.l.f.",
+     "counts": {
+      "US": 3,
+      "UK": 4,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "NYX Professional Makeup",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 4,
+      "DE": 0,
+      "IT": 2,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "d'alba",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 2,
+      "IT": 0,
+      "ES": 4
+     },
+     "total": 6
+    },
+    {
+     "brand": "Just For Men",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 1,
+      "DE": 0,
+      "IT": 1,
+      "ES": 3
+     },
+     "total": 6
+    },
+    {
+     "brand": "Rilastil",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 6,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "celimax",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Dove",
+     "counts": {
+      "US": 4,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 1,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Dr. Scholl's",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 3,
+      "DE": 0,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Kérastase",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 2
+     },
+     "total": 5
+    },
+    {
+     "brand": "Neutrogena",
+     "counts": {
+      "US": 2,
+      "UK": 1,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 2
+     },
+     "total": 5
+    }
+   ]
+  },
+  {
+   "date": "2026-08-18",
+   "brands": [
+    {
+     "brand": "Medicube",
+     "counts": {
+      "US": 6,
+      "UK": 7,
+      "FR": 8,
+      "DE": 2,
+      "IT": 9,
+      "ES": 8
+     },
+     "total": 40
+    },
+    {
+     "brand": "CeraVe",
+     "counts": {
+      "US": 4,
+      "UK": 7,
+      "FR": 2,
+      "DE": 4,
+      "IT": 5,
+      "ES": 6
+     },
+     "total": 28
+    },
+    {
+     "brand": "Garnier",
+     "counts": {
+      "US": 1,
+      "UK": 6,
+      "FR": 9,
+      "DE": 0,
+      "IT": 5,
+      "ES": 2
+     },
+     "total": 23
+    },
+    {
+     "brand": "L'Oréal Paris",
+     "counts": {
+      "US": 0,
+      "UK": 6,
+      "FR": 6,
+      "DE": 2,
+      "IT": 2,
+      "ES": 5
+     },
+     "total": 21
+    },
+    {
+     "brand": "The Ordinary",
+     "counts": {
+      "US": 5,
+      "UK": 4,
+      "FR": 2,
+      "DE": 3,
+      "IT": 3,
+      "ES": 3
+     },
+     "total": 20
+    },
+    {
+     "brand": "La Roche-Posay",
+     "counts": {
+      "US": 4,
+      "UK": 2,
+      "FR": 1,
+      "DE": 2,
+      "IT": 4,
+      "ES": 5
+     },
+     "total": 18
+    },
+    {
+     "brand": "Maybelline New York",
+     "counts": {
+      "US": 2,
+      "UK": 3,
+      "FR": 4,
+      "DE": 3,
+      "IT": 4,
+      "ES": 2
+     },
+     "total": 18
+    },
+    {
+     "brand": "BIODANCE",
+     "counts": {
+      "US": 2,
+      "UK": 1,
+      "FR": 3,
+      "DE": 2,
+      "IT": 3,
+      "ES": 3
+     },
+     "total": 14
+    },
+    {
+     "brand": "Rimmel London",
+     "counts": {
+      "US": 0,
+      "UK": 6,
+      "FR": 0,
+      "DE": 0,
+      "IT": 4,
+      "ES": 1
+     },
+     "total": 11
+    },
+    {
+     "brand": "Essence Cosmetics",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 3,
+      "DE": 0,
+      "IT": 6,
+      "ES": 0
+     },
+     "total": 10
+    },
+    {
+     "brand": "Revlon",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 2,
+      "DE": 3,
+      "IT": 2,
+      "ES": 1
+     },
+     "total": 10
+    },
+    {
+     "brand": "by Amazon",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 6,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 8
+    },
+    {
+     "brand": "Dove",
+     "counts": {
+      "US": 4,
+      "UK": 3,
+      "FR": 0,
+      "DE": 0,
+      "IT": 1,
+      "ES": 0
+     },
+     "total": 8
+    },
+    {
+     "brand": "NIVEA",
+     "counts": {
+      "US": 0,
+      "UK": 6,
+      "FR": 0,
+      "DE": 2,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 8
+    },
+    {
+     "brand": "celimax",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 2,
+      "ES": 1
+     },
+     "total": 6
+    },
+    {
+     "brand": "d'alba",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 2,
+      "IT": 0,
+      "ES": 4
+     },
+     "total": 6
+    },
+    {
+     "brand": "Just For Men",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 1,
+      "DE": 0,
+      "IT": 1,
+      "ES": 3
+     },
+     "total": 6
+    },
+    {
+     "brand": "Mixa",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 2,
+      "DE": 3,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 6
+    },
+    {
+     "brand": "Neutrogena",
+     "counts": {
+      "US": 2,
+      "UK": 1,
+      "FR": 1,
+      "DE": 0,
+      "IT": 0,
+      "ES": 2
+     },
+     "total": 6
+    },
+    {
+     "brand": "Wella",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 2,
+      "DE": 4,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "ANUA",
+     "counts": {
+      "US": 3,
+      "UK": 0,
+      "FR": 0,
+      "DE": 2,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Dr. Scholl's",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 4,
+      "DE": 0,
+      "IT": 1,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Dr.Althea",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "e.l.f.",
+     "counts": {
+      "US": 3,
+      "UK": 2,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Gillette",
+     "counts": {
+      "US": 2,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 3
+     },
+     "total": 5
+    },
+    {
+     "brand": "Kérastase",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 1,
+      "IT": 2,
+      "ES": 2
+     },
+     "total": 5
+    },
+    {
+     "brand": "NYX Professional Makeup",
+     "counts": {
+      "US": 2,
+      "UK": 0,
+      "FR": 2,
+      "DE": 0,
+      "IT": 1,
+      "ES": 0
+     },
+     "total": 5
+    }
+   ]
+  },
+  {
+   "date": "2026-08-24",
+   "brands": [
+    {
+     "brand": "Medicube",
+     "counts": {
+      "US": 6,
+      "UK": 11,
+      "FR": 13,
+      "DE": 4,
+      "IT": 18,
+      "ES": 13
+     },
+     "total": 65
+    },
+    {
+     "brand": "CeraVe",
+     "counts": {
+      "US": 6,
+      "UK": 7,
+      "FR": 3,
+      "DE": 4,
+      "IT": 5,
+      "ES": 5
+     },
+     "total": 30
+    },
+    {
+     "brand": "L'Oréal Paris",
+     "counts": {
+      "US": 1,
+      "UK": 4,
+      "FR": 7,
+      "DE": 4,
+      "IT": 6,
+      "ES": 8
+     },
+     "total": 30
+    },
+    {
+     "brand": "Garnier",
+     "counts": {
+      "US": 1,
+      "UK": 4,
+      "FR": 9,
+      "DE": 2,
+      "IT": 5,
+      "ES": 1
+     },
+     "total": 22
+    },
+    {
+     "brand": "Maybelline New York",
+     "counts": {
+      "US": 1,
+      "UK": 3,
+      "FR": 5,
+      "DE": 4,
+      "IT": 4,
+      "ES": 4
+     },
+     "total": 21
+    },
+    {
+     "brand": "BIODANCE",
+     "counts": {
+      "US": 2,
+      "UK": 3,
+      "FR": 3,
+      "DE": 2,
+      "IT": 4,
+      "ES": 5
+     },
+     "total": 19
+    },
+    {
+     "brand": "The Ordinary",
+     "counts": {
+      "US": 4,
+      "UK": 5,
+      "FR": 2,
+      "DE": 3,
+      "IT": 3,
+      "ES": 2
+     },
+     "total": 19
+    },
+    {
+     "brand": "La Roche-Posay",
+     "counts": {
+      "US": 4,
+      "UK": 2,
+      "FR": 0,
+      "DE": 2,
+      "IT": 3,
+      "ES": 2
+     },
+     "total": 13
+    },
+    {
+     "brand": "Revlon",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 2,
+      "DE": 3,
+      "IT": 2,
+      "ES": 2
+     },
+     "total": 11
+    },
+    {
+     "brand": "Rimmel London",
+     "counts": {
+      "US": 0,
+      "UK": 6,
+      "FR": 0,
+      "DE": 0,
+      "IT": 3,
+      "ES": 1
+     },
+     "total": 10
+    },
+    {
+     "brand": "NYX Professional Makeup",
+     "counts": {
+      "US": 2,
+      "UK": 0,
+      "FR": 4,
+      "DE": 1,
+      "IT": 2,
+      "ES": 0
+     },
+     "total": 9
+    },
+    {
+     "brand": "celimax",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 3,
+      "ES": 2
+     },
+     "total": 8
+    },
+    {
+     "brand": "Mixa",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 2,
+      "DE": 3,
+      "IT": 2,
+      "ES": 1
+     },
+     "total": 8
+    },
+    {
+     "brand": "Wella",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 2,
+      "DE": 6,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 8
+    },
+    {
+     "brand": "by Amazon",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 6,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "d'alba",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 2,
+      "IT": 0,
+      "ES": 4
+     },
+     "total": 7
+    },
+    {
+     "brand": "Essence Cosmetics",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 3,
+      "DE": 0,
+      "IT": 3,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "Kérastase",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 1,
+      "IT": 2,
+      "ES": 4
+     },
+     "total": 7
+    },
+    {
+     "brand": "Just For Men",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 1,
+      "DE": 0,
+      "IT": 1,
+      "ES": 3
+     },
+     "total": 6
+    },
+    {
+     "brand": "Neutrogena",
+     "counts": {
+      "US": 2,
+      "UK": 2,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 2
+     },
+     "total": 6
+    },
+    {
+     "brand": "ANUA",
+     "counts": {
+      "US": 3,
+      "UK": 0,
+      "FR": 0,
+      "DE": 2,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Dove",
+     "counts": {
+      "US": 4,
+      "UK": 1,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Remington",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 3,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "UNA GELLA",
+     "counts": {
+      "US": 2,
+      "UK": 0,
+      "FR": 1,
+      "DE": 2,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    }
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "brands": [
+    {
+     "brand": "Medicube",
+     "counts": {
+      "US": 8,
+      "UK": 12,
+      "FR": 12,
+      "DE": 5,
+      "IT": 14,
+      "ES": 12
+     },
+     "total": 63
+    },
+    {
+     "brand": "CeraVe",
+     "counts": {
+      "US": 5,
+      "UK": 6,
+      "FR": 4,
+      "DE": 4,
+      "IT": 4,
+      "ES": 6
+     },
+     "total": 29
+    },
+    {
+     "brand": "L'Oréal Paris",
+     "counts": {
+      "US": 2,
+      "UK": 2,
+      "FR": 7,
+      "DE": 3,
+      "IT": 6,
+      "ES": 8
+     },
+     "total": 28
+    },
+    {
+     "brand": "Garnier",
+     "counts": {
+      "US": 1,
+      "UK": 4,
+      "FR": 9,
+      "DE": 2,
+      "IT": 6,
+      "ES": 1
+     },
+     "total": 23
+    },
+    {
+     "brand": "Maybelline New York",
+     "counts": {
+      "US": 2,
+      "UK": 3,
+      "FR": 3,
+      "DE": 3,
+      "IT": 4,
+      "ES": 4
+     },
+     "total": 19
+    },
+    {
+     "brand": "The Ordinary",
+     "counts": {
+      "US": 4,
+      "UK": 4,
+      "FR": 2,
+      "DE": 3,
+      "IT": 3,
+      "ES": 2
+     },
+     "total": 18
+    },
+    {
+     "brand": "La Roche-Posay",
+     "counts": {
+      "US": 4,
+      "UK": 2,
+      "FR": 0,
+      "DE": 3,
+      "IT": 5,
+      "ES": 2
+     },
+     "total": 16
+    },
+    {
+     "brand": "BIODANCE",
+     "counts": {
+      "US": 2,
+      "UK": 2,
+      "FR": 3,
+      "DE": 2,
+      "IT": 2,
+      "ES": 4
+     },
+     "total": 15
+    },
+    {
+     "brand": "Revlon",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 3,
+      "DE": 3,
+      "IT": 2,
+      "ES": 1
+     },
+     "total": 11
+    },
+    {
+     "brand": "Wella",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 8,
+      "IT": 0,
+      "ES": 2
+     },
+     "total": 10
+    },
+    {
+     "brand": "NYX Professional Makeup",
+     "counts": {
+      "US": 2,
+      "UK": 0,
+      "FR": 4,
+      "DE": 0,
+      "IT": 2,
+      "ES": 1
+     },
+     "total": 9
+    },
+    {
+     "brand": "Rimmel London",
+     "counts": {
+      "US": 0,
+      "UK": 6,
+      "FR": 0,
+      "DE": 0,
+      "IT": 3,
+      "ES": 0
+     },
+     "total": 9
+    },
+    {
+     "brand": "d'alba",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 0,
+      "DE": 2,
+      "IT": 0,
+      "ES": 4
+     },
+     "total": 8
+    },
+    {
+     "brand": "Essence Cosmetics",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 3,
+      "DE": 0,
+      "IT": 4,
+      "ES": 0
+     },
+     "total": 8
+    },
+    {
+     "brand": "Neutrogena",
+     "counts": {
+      "US": 2,
+      "UK": 2,
+      "FR": 0,
+      "DE": 1,
+      "IT": 0,
+      "ES": 3
+     },
+     "total": 8
+    },
+    {
+     "brand": "Remington",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 1,
+      "DE": 3,
+      "IT": 1,
+      "ES": 2
+     },
+     "total": 8
+    },
+    {
+     "brand": "Dove",
+     "counts": {
+      "US": 5,
+      "UK": 2,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "Kérastase",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 2,
+      "ES": 3
+     },
+     "total": 7
+    },
+    {
+     "brand": "NIVEA",
+     "counts": {
+      "US": 0,
+      "UK": 4,
+      "FR": 1,
+      "DE": 0,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 7
+    },
+    {
+     "brand": "by Amazon",
+     "counts": {
+      "US": 0,
+      "UK": 2,
+      "FR": 0,
+      "DE": 4,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "celimax",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 2,
+      "ES": 1
+     },
+     "total": 6
+    },
+    {
+     "brand": "e.l.f.",
+     "counts": {
+      "US": 3,
+      "UK": 3,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "Just For Men",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 1,
+      "DE": 0,
+      "IT": 1,
+      "ES": 3
+     },
+     "total": 6
+    },
+    {
+     "brand": "Mixa",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 2,
+      "DE": 2,
+      "IT": 2,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "Beauty of Joseon",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 3,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Paula's Choice",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Rilastil",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 0,
+      "IT": 5,
+      "ES": 0
+     },
+     "total": 5
+    }
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "brands": [
+    {
+     "brand": "Medicube",
+     "counts": {
+      "US": 7,
+      "UK": 8,
+      "FR": 9,
+      "DE": 2,
+      "IT": 11,
+      "ES": 9
+     },
+     "total": 46
+    },
+    {
+     "brand": "CeraVe",
+     "counts": {
+      "US": 6,
+      "UK": 5,
+      "FR": 4,
+      "DE": 5,
+      "IT": 4,
+      "ES": 7
+     },
+     "total": 31
+    },
+    {
+     "brand": "L'Oréal Paris",
+     "counts": {
+      "US": 3,
+      "UK": 3,
+      "FR": 6,
+      "DE": 3,
+      "IT": 5,
+      "ES": 5
+     },
+     "total": 25
+    },
+    {
+     "brand": "Garnier",
+     "counts": {
+      "US": 1,
+      "UK": 4,
+      "FR": 9,
+      "DE": 1,
+      "IT": 7,
+      "ES": 1
+     },
+     "total": 23
+    },
+    {
+     "brand": "The Ordinary",
+     "counts": {
+      "US": 4,
+      "UK": 5,
+      "FR": 3,
+      "DE": 3,
+      "IT": 4,
+      "ES": 3
+     },
+     "total": 22
+    },
+    {
+     "brand": "La Roche-Posay",
+     "counts": {
+      "US": 4,
+      "UK": 2,
+      "FR": 0,
+      "DE": 2,
+      "IT": 3,
+      "ES": 7
+     },
+     "total": 18
+    },
+    {
+     "brand": "Maybelline New York",
+     "counts": {
+      "US": 2,
+      "UK": 3,
+      "FR": 3,
+      "DE": 2,
+      "IT": 4,
+      "ES": 2
+     },
+     "total": 16
+    },
+    {
+     "brand": "Rimmel London",
+     "counts": {
+      "US": 0,
+      "UK": 6,
+      "FR": 1,
+      "DE": 0,
+      "IT": 5,
+      "ES": 2
+     },
+     "total": 14
+    },
+    {
+     "brand": "BIODANCE",
+     "counts": {
+      "US": 2,
+      "UK": 2,
+      "FR": 2,
+      "DE": 1,
+      "IT": 2,
+      "ES": 2
+     },
+     "total": 11
+    },
+    {
+     "brand": "Essence Cosmetics",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 3,
+      "DE": 0,
+      "IT": 5,
+      "ES": 1
+     },
+     "total": 10
+    },
+    {
+     "brand": "Revlon",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 2,
+      "DE": 3,
+      "IT": 1,
+      "ES": 2
+     },
+     "total": 10
+    },
+    {
+     "brand": "by Amazon",
+     "counts": {
+      "US": 0,
+      "UK": 2,
+      "FR": 1,
+      "DE": 5,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 8
+    },
+    {
+     "brand": "Wella",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 7,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 8
+    },
+    {
+     "brand": "Neutrogena",
+     "counts": {
+      "US": 2,
+      "UK": 2,
+      "FR": 0,
+      "DE": 1,
+      "IT": 0,
+      "ES": 2
+     },
+     "total": 7
+    },
+    {
+     "brand": "d'alba",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 2,
+      "IT": 0,
+      "ES": 4
+     },
+     "total": 6
+    },
+    {
+     "brand": "Just For Men",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 0,
+      "DE": 0,
+      "IT": 2,
+      "ES": 3
+     },
+     "total": 6
+    },
+    {
+     "brand": "Kérastase",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 2,
+      "ES": 2
+     },
+     "total": 6
+    },
+    {
+     "brand": "Mixa",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 3,
+      "DE": 2,
+      "IT": 1,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "NIVEA",
+     "counts": {
+      "US": 0,
+      "UK": 5,
+      "FR": 0,
+      "DE": 1,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "NYX Professional Makeup",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 4,
+      "DE": 0,
+      "IT": 1,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "Paula's Choice",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 6
+    },
+    {
+     "brand": "Vichy",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 2,
+      "DE": 1,
+      "IT": 1,
+      "ES": 2
+     },
+     "total": 6
+    },
+    {
+     "brand": "ANUA",
+     "counts": {
+      "US": 3,
+      "UK": 0,
+      "FR": 0,
+      "DE": 2,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "celimax",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Dove",
+     "counts": {
+      "US": 4,
+      "UK": 1,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "e.l.f.",
+     "counts": {
+      "US": 3,
+      "UK": 2,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Manucurist",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 3,
+      "DE": 0,
+      "IT": 1,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Remington",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 2,
+      "IT": 2,
+      "ES": 0
+     },
+     "total": 5
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "brands": [
+    {
+     "brand": "Medicube",
+     "counts": {
+      "US": 6,
+      "UK": 8,
+      "FR": 10,
+      "DE": 3,
+      "IT": 9,
+      "ES": 10
+     },
+     "total": 46
+    },
+    {
+     "brand": "L'Oréal Paris",
+     "counts": {
+      "US": 3,
+      "UK": 6,
+      "FR": 9,
+      "DE": 3,
+      "IT": 6,
+      "ES": 6
+     },
+     "total": 33
+    },
+    {
+     "brand": "CeraVe",
+     "counts": {
+      "US": 6,
+      "UK": 6,
+      "FR": 3,
+      "DE": 5,
+      "IT": 5,
+      "ES": 7
+     },
+     "total": 32
+    },
+    {
+     "brand": "Garnier",
+     "counts": {
+      "US": 1,
+      "UK": 4,
+      "FR": 10,
+      "DE": 1,
+      "IT": 6,
+      "ES": 2
+     },
+     "total": 24
+    },
+    {
+     "brand": "The Ordinary",
+     "counts": {
+      "US": 4,
+      "UK": 3,
+      "FR": 3,
+      "DE": 4,
+      "IT": 4,
+      "ES": 3
+     },
+     "total": 21
+    },
+    {
+     "brand": "Essence Cosmetics",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 3,
+      "DE": 1,
+      "IT": 14,
+      "ES": 1
+     },
+     "total": 20
+    },
+    {
+     "brand": "La Roche-Posay",
+     "counts": {
+      "US": 4,
+      "UK": 2,
+      "FR": 0,
+      "DE": 2,
+      "IT": 4,
+      "ES": 5
+     },
+     "total": 17
+    },
+    {
+     "brand": "Maybelline New York",
+     "counts": {
+      "US": 2,
+      "UK": 3,
+      "FR": 1,
+      "DE": 1,
+      "IT": 4,
+      "ES": 4
+     },
+     "total": 15
+    },
+    {
+     "brand": "Revlon",
+     "counts": {
+      "US": 1,
+      "UK": 2,
+      "FR": 3,
+      "DE": 3,
+      "IT": 1,
+      "ES": 2
+     },
+     "total": 12
+    },
+    {
+     "brand": "Rimmel London",
+     "counts": {
+      "US": 0,
+      "UK": 6,
+      "FR": 0,
+      "DE": 0,
+      "IT": 4,
+      "ES": 1
+     },
+     "total": 11
+    },
+    {
+     "brand": "BIODANCE",
+     "counts": {
+      "US": 2,
+      "UK": 2,
+      "FR": 2,
+      "DE": 1,
+      "IT": 1,
+      "ES": 2
+     },
+     "total": 10
+    },
+    {
+     "brand": "by Amazon",
+     "counts": {
+      "US": 0,
+      "UK": 3,
+      "FR": 1,
+      "DE": 5,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 9
+    },
+    {
+     "brand": "NYX Professional Makeup",
+     "counts": {
+      "US": 2,
+      "UK": 0,
+      "FR": 4,
+      "DE": 0,
+      "IT": 2,
+      "ES": 0
+     },
+     "total": 8
+    },
+    {
+     "brand": "Wella",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 7,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 8
+    },
+    {
+     "brand": "e.l.f.",
+     "counts": {
+      "US": 4,
+      "UK": 3,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "Neutrogena",
+     "counts": {
+      "US": 2,
+      "UK": 2,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 3
+     },
+     "total": 7
+    },
+    {
+     "brand": "Just For Men",
+     "counts": {
+      "US": 0,
+      "UK": 2,
+      "FR": 1,
+      "DE": 0,
+      "IT": 0,
+      "ES": 3
+     },
+     "total": 6
+    },
+    {
+     "brand": "Kérastase",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 2,
+      "DE": 1,
+      "IT": 1,
+      "ES": 2
+     },
+     "total": 6
+    },
+    {
+     "brand": "Mixa",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 3,
+      "DE": 2,
+      "IT": 1,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "Paula's Choice",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 6
+    },
+    {
+     "brand": "ANUA",
+     "counts": {
+      "US": 3,
+      "UK": 0,
+      "FR": 0,
+      "DE": 2,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "celimax",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "d'alba",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 0,
+      "DE": 2,
+      "IT": 0,
+      "ES": 3
+     },
+     "total": 5
+    },
+    {
+     "brand": "Dove",
+     "counts": {
+      "US": 4,
+      "UK": 1,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "NIVEA",
+     "counts": {
+      "US": 0,
+      "UK": 3,
+      "FR": 1,
+      "DE": 1,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Vichy",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 2
+     },
+     "total": 5
+    }
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "brands": [
+    {
+     "brand": "Medicube",
+     "counts": {
+      "US": 6,
+      "UK": 11,
+      "FR": 13,
+      "DE": 6,
+      "IT": 12,
+      "ES": 16
+     },
+     "total": 64
+    },
+    {
+     "brand": "CeraVe",
+     "counts": {
+      "US": 6,
+      "UK": 5,
+      "FR": 1,
+      "DE": 5,
+      "IT": 6,
+      "ES": 8
+     },
+     "total": 31
+    },
+    {
+     "brand": "L'Oréal Paris",
+     "counts": {
+      "US": 4,
+      "UK": 5,
+      "FR": 7,
+      "DE": 2,
+      "IT": 7,
+      "ES": 5
+     },
+     "total": 30
+    },
+    {
+     "brand": "Garnier",
+     "counts": {
+      "US": 1,
+      "UK": 4,
+      "FR": 9,
+      "DE": 1,
+      "IT": 6,
+      "ES": 2
+     },
+     "total": 23
+    },
+    {
+     "brand": "Essence Cosmetics",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 4,
+      "DE": 0,
+      "IT": 14,
+      "ES": 1
+     },
+     "total": 20
+    },
+    {
+     "brand": "Maybelline New York",
+     "counts": {
+      "US": 2,
+      "UK": 3,
+      "FR": 3,
+      "DE": 2,
+      "IT": 3,
+      "ES": 4
+     },
+     "total": 17
+    },
+    {
+     "brand": "The Ordinary",
+     "counts": {
+      "US": 4,
+      "UK": 4,
+      "FR": 2,
+      "DE": 2,
+      "IT": 3,
+      "ES": 2
+     },
+     "total": 17
+    },
+    {
+     "brand": "La Roche-Posay",
+     "counts": {
+      "US": 5,
+      "UK": 1,
+      "FR": 0,
+      "DE": 3,
+      "IT": 5,
+      "ES": 2
+     },
+     "total": 16
+    },
+    {
+     "brand": "Rimmel London",
+     "counts": {
+      "US": 0,
+      "UK": 6,
+      "FR": 2,
+      "DE": 0,
+      "IT": 4,
+      "ES": 0
+     },
+     "total": 12
+    },
+    {
+     "brand": "BIODANCE",
+     "counts": {
+      "US": 2,
+      "UK": 2,
+      "FR": 2,
+      "DE": 1,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 9
+    },
+    {
+     "brand": "by Amazon",
+     "counts": {
+      "US": 0,
+      "UK": 3,
+      "FR": 1,
+      "DE": 5,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 9
+    },
+    {
+     "brand": "Revlon",
+     "counts": {
+      "US": 1,
+      "UK": 2,
+      "FR": 3,
+      "DE": 1,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 9
+    },
+    {
+     "brand": "d'alba",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 1,
+      "DE": 2,
+      "IT": 0,
+      "ES": 3
+     },
+     "total": 7
+    },
+    {
+     "brand": "Dove",
+     "counts": {
+      "US": 4,
+      "UK": 2,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 7
+    },
+    {
+     "brand": "NYX Professional Makeup",
+     "counts": {
+      "US": 2,
+      "UK": 0,
+      "FR": 3,
+      "DE": 0,
+      "IT": 2,
+      "ES": 0
+     },
+     "total": 7
+    },
+    {
+     "brand": "Wella",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 1,
+      "DE": 5,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 6
+    },
+    {
+     "brand": "ANUA",
+     "counts": {
+      "US": 3,
+      "UK": 0,
+      "FR": 0,
+      "DE": 1,
+      "IT": 0,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "celimax",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Dr.Althea",
+     "counts": {
+      "US": 1,
+      "UK": 0,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "e.l.f.",
+     "counts": {
+      "US": 3,
+      "UK": 2,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Erborian",
+     "counts": {
+      "US": 0,
+      "UK": 0,
+      "FR": 3,
+      "DE": 0,
+      "IT": 1,
+      "ES": 1
+     },
+     "total": 5
+    },
+    {
+     "brand": "Just For Men",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 1,
+      "DE": 0,
+      "IT": 0,
+      "ES": 3
+     },
+     "total": 5
+    },
+    {
+     "brand": "Neutrogena",
+     "counts": {
+      "US": 2,
+      "UK": 1,
+      "FR": 0,
+      "DE": 0,
+      "IT": 0,
+      "ES": 2
+     },
+     "total": 5
+    },
+    {
+     "brand": "NIVEA",
+     "counts": {
+      "US": 0,
+      "UK": 3,
+      "FR": 1,
+      "DE": 1,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Paula's Choice",
+     "counts": {
+      "US": 1,
+      "UK": 1,
+      "FR": 1,
+      "DE": 1,
+      "IT": 1,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "Remington",
+     "counts": {
+      "US": 0,
+      "UK": 1,
+      "FR": 1,
+      "DE": 3,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    },
+    {
+     "brand": "UNA GELLA",
+     "counts": {
+      "US": 2,
+      "UK": 0,
+      "FR": 1,
+      "DE": 2,
+      "IT": 0,
+      "ES": 0
+     },
+     "total": 5
+    }
+   ]
+  }
+ ]
+}

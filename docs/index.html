@@ -112,6 +112,56 @@
   .tip { position: fixed; pointer-events: none; background: #0f1419; border: 1px solid var(--yellow);
          padding: 6px 10px; font-size: 17px; display: none; z-index: 10; white-space: nowrap; }
   footer { margin-top: 40px; font-size: 17px; border-top: 1px solid var(--line); padding-top: 12px; }
+
+  /* ---- 브랜드 랭킹 탭 (사용자 레퍼런스 구성) ---- */
+  #tab-brands { --box:#1b232c; --mut:#8b98a5; }
+  #tab-brands .eyebrow { color: var(--blue); font-size: 17px; font-weight: 800; margin: 0 0 8px; }
+  #tab-brands .meta { font-size: 17px; color: var(--mut); margin: 0 0 18px; }
+  #tab-brands .rule { height: 6px; background: var(--yellow); border: 0; margin: 0 0 24px; width: 170px; }
+  #tab-brands .subnav { position: sticky; top: 0; z-index: 30; background: #0f1419ee; border-bottom: 1px solid var(--line);
+                        backdrop-filter: blur(6px); padding: 9px 0; display: flex; gap: 7px; flex-wrap: wrap; margin-bottom: 20px; }
+  #tab-brands .subnav a { font-size: 17px; font-weight: 600; color: #c3ccd4; text-decoration: none; padding: 5px 12px;
+                          border: 1px solid var(--line); white-space: nowrap; }
+  #tab-brands .subnav a:hover { border-color: var(--blue); color: #fff; }
+  #tab-brands .subnav a.tot { border-color: var(--yellow); color: var(--yellow); }
+  #tab-brands section { margin: 0 0 66px; scroll-margin-top: 64px; }
+  #tab-brands h2 .n { color: var(--yellow); margin-right: 10px; }
+  #tab-brands .h2sub { font-size: 17px; color: var(--mut); margin: 0 0 20px; }
+  #tab-brands .bcard { background: var(--card); border: 1px solid var(--line); padding: 22px 20px; margin: 0 0 16px; }
+  #tab-brands .chart-title { font-size: 20px; font-weight: 800; margin: 0 0 4px; }
+  #tab-brands .chart-note { font-size: 17px; color: var(--mut); margin: 0 0 14px; }
+  #tab-brands .scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  #tab-brands table { border-collapse: collapse; font-size: 17px; line-height: 1.35; width: 100%; }
+  #tab-brands th, #tab-brands td { border: 1px solid var(--line); padding: 6px 8px; text-align: right; white-space: nowrap; }
+  #tab-brands th { background: #1d2732; color: #e3eaf0; font-weight: 800; font-size: 17px; text-align: center; position: sticky; top: 0; z-index: 2; }
+  #tab-brands th.cap { color: var(--mut); }
+  #tab-brands th.last { background: #ffffff; color: #0f1419; }
+  #tab-brands td.name, #tab-brands th.name { text-align: left; }
+  #tab-brands td.last { font-weight: 800; }
+  #tab-brands td.dim { color: #46525e; }
+  #tab-brands td.z { color: #5d6b78; }
+  #tab-brands td.mx { color: var(--mut); }
+  #tab-brands .gridtbl td { text-align: center; font-size: 17px; padding: 5px 4px; }
+  #tab-brands .gridtbl td.rk { background: #1d2732; color: var(--mut); font-weight: 800; }
+  #tab-brands .gridtbl small { display: block; font-size: 15px; opacity: .72; font-weight: 400; }
+  #tab-brands .cell, #tab-brands tr.brow { cursor: pointer; }
+  #tab-brands.hl .cell { opacity: .2; }
+  #tab-brands.hl tr.brow td { opacity: .2; }
+  #tab-brands .legend { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+  #tab-brands .legend button { font-size: 17px; font-weight: 800; padding: 5px 12px; border: 1px solid transparent; }
+  #tab-brands .legend button.off { background: var(--box); color: #9aa6b2; border-color: var(--line); font-weight: 600; }
+  #tab-brands .btns { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 22px; align-items: center; }
+  #tab-brands .btns > button { font-size: 17px; font-weight: 700; padding: 8px 15px; background: var(--box); color: #dfe6ec; border: 1px solid var(--line); }
+  #tab-brands .btns > button:hover { border-color: var(--yellow); color: var(--yellow); }
+  #tab-brands .mini { font-size: 15px; font-weight: 600; padding: 4px 10px; background: var(--box); color: #b9c4ce;
+                      border: 1px solid var(--line); float: right; margin-left: 10px; }
+  #tab-brands .mini:hover { border-color: var(--yellow); color: var(--yellow); }
+  #br-tip { position: fixed; z-index: 99; pointer-events: none; display: none; background: #0b1015; border: 1px solid #3a4652;
+            padding: 9px 12px; font-size: 17px; line-height: 1.45; box-shadow: 0 6px 22px #000a; max-width: 360px; }
+  #br-tip .sub { color: #8b98a5; font-size: 15px; }
+  #br-sel-card { display: none; }
+  #br-foot { font-size: 17px; color: #8b98a5; border-top: 1px solid var(--line); padding-top: 20px; margin-top: 46px; }
+  #br-foot p { margin: 0 0 6px; }
 </style>
 </head>
 <body>
@@ -125,12 +175,46 @@
   </header>
 
   <nav class="tabs" role="tablist">
-    <button role="tab" aria-selected="true" data-tab="today">K뷰티 오늘</button>
+    <button role="tab" aria-selected="true" data-tab="brands">브랜드 랭킹</button>
+    <button role="tab" aria-selected="false" data-tab="today">K뷰티 오늘</button>
     <button role="tab" aria-selected="false" data-tab="trend">K뷰티 추이</button>
     <button role="tab" aria-selected="false" data-tab="discover">이번 주 발굴</button>
   </nav>
 
-  <section class="tab on" id="tab-today"></section>
+  <section class="tab on" id="tab-brands">
+    <p class="eyebrow">AMAZON BESTSELLER · BRAND RANKING</p>
+    <h1 style="font-size:42px">아마존 뷰티 브랜드 랭킹 시계열</h1>
+    <p class="meta" id="br-meta">불러오는 중…</p>
+    <hr class="rule">
+    <div class="subnav" id="br-nav"></div>
+    <div class="legend" id="br-legend"></div>
+    <div class="btns">
+      <button type="button" id="br-dl-all">전체 데이터 CSV</button>
+      <button type="button" id="br-clear">하이라이트 해제</button>
+      <span class="seg" id="br-range" style="margin-left:8px">
+        <button type="button" data-range="0" aria-pressed="true">전체</button>
+        <button type="button" data-range="30" aria-pressed="false">최근 30시점</button>
+        <button type="button" data-range="14" aria-pressed="false">최근 14시점</button>
+      </span>
+    </div>
+    <div class="bcard" id="br-sel-card">
+      <p class="chart-title" id="br-sel-title"></p>
+      <p class="chart-note">국가별 추이 · 단위: 진입 개수</p>
+      <div id="br-lg-country" class="legend" style="margin-bottom:10px">
+        <span><i style="display:inline-block;width:14px;height:14px;background:#FFCB05"></i> 미국</span>
+        <span><i style="display:inline-block;width:14px;height:14px;background:#5B9BD5"></i> 영국</span>
+        <span><i style="display:inline-block;width:14px;height:14px;background:#ED7D31"></i> 프랑스</span>
+        <span><i style="display:inline-block;width:14px;height:14px;background:#FFFFFF"></i> 독일</span>
+        <span><i style="display:inline-block;width:14px;height:14px;background:#3f6f9e"></i> 이탈리아</span>
+        <span><i style="display:inline-block;width:14px;height:14px;background:#a4611d"></i> 스페인</span>
+      </div>
+      <div id="br-ch-sel"></div>
+    </div>
+    <div id="br-sections"></div>
+    <div id="br-foot"></div>
+  </section>
+
+  <section class="tab" id="tab-today"></section>
 
   <section class="tab" id="tab-trend">
     <div class="card yellow">
@@ -144,7 +228,7 @@
     </div>
     <div class="card orange" id="product-card">
       <h2 id="product-title">제품별 순위 추이</h2>
-      <p class="note" id="product-sub">제품 이름을 누르면 5개국 순위 추이가 여기에 나옵니다. 위쪽이 1위입니다.</p>
+      <p class="note" id="product-sub">제품 이름을 누르면 나라별 순위 추이가 여기에 나옵니다. 위쪽이 1위입니다.</p>
       <div class="controls"><span class="lbl">제품</span><select id="product-select"></select></div>
       <div class="smalls" id="product-charts"></div>
     </div>
@@ -164,12 +248,14 @@
   </section>
 
   <footer>
-    데이터: 아마존 베스트셀러 Beauty Top 100 (미국·영국·독일·프랑스·스페인). 매일 09:07 KST에 자동 수집.
+    데이터: 아마존 베스트셀러 Beauty Top 100 (미국·영국·프랑스·독일·이탈리아·스페인). 매일 09:07 KST에 자동 수집.
     한글 제품명은 자동으로 만든 초안이며, 이름이 없는 제품은 아마존 영문명으로 표시합니다.
     <span id="gen"></span>
   </footer>
 </div>
 <div class="tip" id="tip"></div>
+<div id="br-tip"></div>
+<script src="brand-ranking.js"></script>
 
 <script>
 "use strict";
@@ -229,7 +315,7 @@ function snapshotHTML(date, { withKpis }) {
   h += `<div class="card yellow"><h2>${esc(date)} 요약</h2><ul class="summary">${day.summary.map(s => `<li>${esc(s)}</li>`).join("")}</ul></div>`;
 
   if (withKpis) {
-    h += `<div class="kpis"><div class="kpi total"><div class="label">5개국 합계</div><div class="num">${day.grand_total}</div><div class="chg">전일 대비 ${delta(day.grand_total_delta)}</div></div>`;
+    h += `<div class="kpis"><div class="kpi total"><div class="label">전체 국가 합계</div><div class="num">${day.grand_total}</div><div class="chg">전일 대비 ${delta(day.grand_total_delta)}</div></div>`;
     for (const c of comps) {
       const d = day.company_totals_delta ? day.company_totals_delta[c.id] : null;
       h += `<div class="kpi"><div class="label">${esc(c.name)}</div><div class="num">${day.company_totals[c.id]}</div><div class="chg">전일 대비 ${delta(d)}</div></div>`;
@@ -302,7 +388,7 @@ function renderToday() {
 /* ---------- 탭 2 ---------- */
 function setupTrend() {
   const cSeg = $("#trend-country");
-  cSeg.innerHTML = [{ cc: "ALL", name: "5개국 합계" }, ...KB.countries]
+  cSeg.innerHTML = [{ cc: "ALL", name: "전체 국가 합계" }, ...KB.countries]
     .map(c => `<button type="button" data-v="${c.cc}" aria-pressed="${c.cc === state.trendCountry}">${esc(c.name)}</button>`).join("");
   cSeg.onclick = e => { const b = e.target.closest("button"); if (!b) return; state.trendCountry = b.dataset.v; pressed(cSeg, b); renderTrend(); };
   const rSeg = $("#trend-range");
@@ -342,7 +428,7 @@ function renderTrend() {
   const totalSeries = cc === "ALL"
     ? KB.dates.slice(from).map(d => KB.days[d].grand_total)
     : KB.series_total[cc].slice(from);
-  const name = cc === "ALL" ? "5개국 합계" : KB.countries.find(c => c.cc === cc).name;
+  const name = cc === "ALL" ? "전체 국가 합계" : KB.countries.find(c => c.cc === cc).name;
   $("#trend-total").innerHTML = `<p class="mini-title">K뷰티 전체 (${esc(name)})</p>`;
   $("#trend-total").appendChild(barChart(labels, totalSeries, { color: COLORS.blue, unit: "개", height: 300 }));
 

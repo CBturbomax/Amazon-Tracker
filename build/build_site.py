@@ -5,6 +5,7 @@
 만드는 파일
 - docs/data/meta.json     마지막 수집 시각, 국가별 수집 성공/실패
 - docs/data/kbeauty.json  탭 1·2용: 날짜별 회사×국가 제품 수, 증감, 신규/이탈, 제품별 순위 추이
+- docs/data/brands.json   브랜드 랭킹 탭: 시점·나라별 브랜드 진입 개수와 순위 (과거 캡처 + 자동 수집)
 
 모든 숫자는 여기서 원자료로 계산한다. 페이지는 고르고 그리기만 한다 (원칙 1·6).
 """
@@ -17,6 +18,8 @@ import re
 import sys
 from pathlib import Path
 
+from build.brands import BrandResolver, build_brands, load_imported
+from scraper.brand_lookup import load_cache as load_asin_brands
 from scraper.brands import load_companies, match_company
 from scraper.fetchers.base import now_kst
 from scraper.markets import MARKETS
@@ -228,7 +231,13 @@ def main(argv: list[str] | None = None) -> int:
     meta = build_meta(snaps)
     write_json(args.out / "kbeauty.json", {"generated_at": generated_at, **kb})
     write_json(args.out / "meta.json", {"generated_at": generated_at, **meta})
-    print(f"빌드 완료: {len(kb['dates'])}일, K뷰티 제품 {len(kb['products'])}개 → {args.out}")
+
+    aliases = json.loads((args.config_dir / "brand_aliases.json").read_text(encoding="utf-8"))
+    resolver = BrandResolver(aliases, load_asin_brands(args.data_dir))
+    br = build_brands(snaps, load_imported(args.data_dir), resolver)
+    write_json(args.out / "brands.json", {"generated_at": generated_at, **br})
+    print(f"빌드 완료: {len(kb['dates'])}일, K뷰티 제품 {len(kb['products'])}개, "
+          f"브랜드 랭킹 {len(br['points'])}개 시점·{len(br['series'])}개 브랜드 → {args.out}")
     return 0
 
 

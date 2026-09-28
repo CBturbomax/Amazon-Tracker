@@ -4,7 +4,9 @@
 (https://cbturbomax.github.io/amazon-tracker)로 변화를 보여준다.
 **알림 봇은 없다. 웹사이트가 유일한 출력이다.**
 
-- **레이어 1 (모니터링)**: K뷰티 회사별로 5개국 Beauty Top 100 안에 든 제품 수와 제품별 순위를 추적한다.
+- **레이어 1 (모니터링)**: 6개국 Beauty Top 100을 매일 수집해서
+  (a) **브랜드 랭킹** — 모든 브랜드의 Top 100 진입 개수·순위 시계열, K뷰티 브랜드를 색으로 강조 (사이트 첫 탭, 사용자 레퍼런스 디자인)
+  (b) **K뷰티 회사 모니터링** — 회사별 제품 수와 제품별 순위를 추적한다.
 - **레이어 2 (발굴)**: 미국 베스트셀러 여러 카테고리를 넓게 훑어서, 주간 단위로 순위가 급등하거나 평점 수가 급증한 소비재를 찾는다.
 
 ---
@@ -58,7 +60,8 @@ reports/                 로컬 실행 결과 (git 제외, data/와 섞지 않�
 
 ## 레이어 1: K뷰티 모니터링
 
-- **국가**: US(amazon.com), UK(amazon.co.uk), DE(amazon.de), FR(amazon.fr), ES(amazon.es)
+- **국가**: US(amazon.com), UK(amazon.co.uk), FR(amazon.fr), DE(amazon.de), IT(amazon.it), ES(amazon.es)
+  (IT는 사용자 레퍼런스가 6개국이라 2026-09-28에 추가)
 - **페이지**: `/gp/bestsellers/beauty`, `pg=1`과 `pg=2` (페이지당 50개, 합계 100개)
 - **스크롤 주의**: 첫 로딩에는 30개만 렌더된다. 스크롤(또는 lazy-load 요청)로 50개를 전부 불러와야 한다.
   파싱 결과가 페이지당 50개가 아니면 실패/부분 수집으로 기록한다.
@@ -79,6 +82,18 @@ reports/                 로컬 실행 결과 (git 제외, data/와 섞지 않�
   - 실제로는 5개국이 대부분 같은 ASIN을 쓴다 (예: 제로모공패드 `B09V7Z4TJG`). products.json에 없는 제품은 ASIN 단위로 묶고 영문명을 보여준다.
   - 첫 수집에서 가격은 UK·DE도 USD로 나왔다 (러너가 미국 IP). 레이어 1은 가격을 쓰지 않지만, 레이어 2에서 쓸 때 주의.
   - 사람이 없으므로 한글명 초안은 Claude(이 세션 또는 API)가 쓰고 `needs_review: true`로 둔다.
+
+### 브랜드 랭킹 (사이트 첫 탭 "브랜드 랭킹")
+- 사용자가 준 레퍼런스(`아마존 뷰티 브랜드 랭킹 시계열 · 6개국`)의 구성과 색을 그대로 따른다:
+  섹션(총합계 + 6개국) × [순위 격자(시점별 상위 12 브랜드) → 추이 차트(K뷰티 색, 나머지 회색) → 브랜드×시점 표],
+  마우스 오버 하이라이트 / 클릭 고정, 선택 브랜드의 나라별 추이, CSV 다운로드. 코드: `docs/brand-ranking.js`, 데이터: `docs/data/brands.json`.
+- 브랜드 = 제품 상세 페이지의 공식 표기 (`scraper/brand_lookup.py`, ASIN당 한 번만 조회, `data/asin_brands.json`에 누적).
+  아직 조회 전이면 제품명 앞부분이 알려진 브랜드일 때만 쓰고, 모르면 집계에서 빼고 개수를 표시한다.
+- 표기 통일·K뷰티 브랜드 목록·색: `config/brand_aliases.json` (K뷰티 8개: Medicube, BIODANCE, d'alba, celimax, ANUA, COSRX, Beauty of Joseon, Dr.Althea).
+- 과거 12개 시점(2026-06-24 ~ 09-21)은 사용자 제공 캡처 집계표를 `data/imported/`에 원본 그대로 옮겼다.
+  캡처는 상위 25~35 브랜드만 있어 "없음 = 기록 없음(null)", 자동 수집은 Top 100 전체라 "없음 = 0". 화면에서 구분한다.
+  원본에 나라별 합 ≠ 총합계인 줄이 4개 있다 (`total_mismatches`). 값은 고치지 않았다.
+- 이 탭의 글자 크기·보조 회색(#8b98a5)은 레퍼런스를 따른다 (위 "디자인 (고정)"보다 레퍼런스가 우선).
 
 ## 레이어 2: 미국 발굴 스캔
 
@@ -189,6 +204,7 @@ python -m pytest                               # 테스트 (네트워크 불필�
 python -m tools.block_test --label local       # 차단 테스트 (실제 amazon.com 요청)
 python -m tools.block_test_report reports/block_test/*/results.json   # 결과 합치기
 python -m scraper.collect_kbeauty              # 5개국 Beauty Top 100 → data/kbeauty/
+python -m scraper.brand_lookup --max 300       # 새 ASIN의 브랜드를 상세 페이지에서 확인
 python -m build.build_site                     # data/ → docs/data/*.json
 ```
 
