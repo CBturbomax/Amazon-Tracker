@@ -8,13 +8,13 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
+# build/ 는 이 프로젝트의 빌드 스크립트 폴더라서 무시하지 않는다.
 develop-eggs/
 dist/
 downloads/
 eggs/
 .eggs/
-lib/
+/lib/
 lib64/
 parts/
 sdist/
@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# amazon-tracker: 차단 테스트 등 로컬 실행 결과물
+reports/

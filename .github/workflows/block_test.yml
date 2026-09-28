@@ -1,0 +1,107 @@
+# 1단계 차단 테스트 (수동 실행).
+# 방식마다 별도 job으로 돌린다 → 러너(IP)가 달라서 한 방식의 차단이 다른 방식 결과에 섞이지 않는다.
+name: block-test
+
+on:
+  workflow_dispatch:
+    inputs:
+      methods:
+        description: "수집 방식 (쉼표 구분)"
+        default: "requests,curl_cffi,playwright"
+        required: true
+      limit:
+        description: "방식마다 요청할 페이지 수"
+        default: "20"
+        required: true
+      delay_min:
+        description: "요청 간 최소 딜레이(초)"
+        default: "3"
+        required: true
+      delay_max:
+        description: "요청 간 최대 딜레이(초)"
+        default: "8"
+        required: true
+      stop_after:
+        description: "연속 차단 몇 번이면 멈출지 (0 = 끝까지)"
+        default: "3"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - id: m
+        env:
+          METHODS: ${{ inputs.methods }}
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_OUTPUT"
+          import json, os, sys
+          allowed = {"requests", "curl_cffi", "playwright"}
+          ms = [m.strip() for m in os.environ["METHODS"].split(",") if m.strip()]
+          bad = [m for m in ms if m not in allowed]
+          if bad or not ms:
+              sys.exit(f"잘못된 방식: {bad or ms}")
+          print("matrix=" + json.dumps(ms))
+          EOF
+
+  test:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        method: ${{ fromJSON(needs.prepare.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - if: matrix.method == 'playwright'
+        run: python -m playwright install --with-deps chromium
+      - name: Run block test
+        env:
+          LIMIT: ${{ inputs.limit }}
+          DELAY_MIN: ${{ inputs.delay_min }}
+          DELAY_MAX: ${{ inputs.delay_max }}
+          STOP_AFTER: ${{ inputs.stop_after }}
+        run: |
+          python -m tools.block_test \
+            --methods "${{ matrix.method }}" \
+            --label actions \
+            --limit "$LIMIT" \
+            --delay-min "$DELAY_MIN" --delay-max "$DELAY_MAX" \
+            --stop-after "$STOP_AFTER" \
+            --cooldown 0
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: block-test-${{ matrix.method }}
+          path: reports/block_test/
+          retention-days: 14
+
+  summarize:
+    needs: test
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: block-test-*
+          path: artifacts
+      - name: Combined table
+        run: |
+          files=$(find artifacts -name results.json)
+          if [ -z "$files" ]; then echo "결과 파일 없음"; exit 1; fi
+          python -m tools.block_test_report $files --step-summary

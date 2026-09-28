@@ -1,0 +1,125 @@
+{
+  "description": "1단계 차단 테스트용 미국 베스트셀러 20페이지 (10개 카테고리 x pg=1,2)",
+  "pages": [
+    {
+      "id": "beauty_p1",
+      "category": "Beauty & Personal Care",
+      "page": 1,
+      "url": "https://www.amazon.com/gp/bestsellers/beauty"
+    },
+    {
+      "id": "beauty_p2",
+      "category": "Beauty & Personal Care",
+      "page": 2,
+      "url": "https://www.amazon.com/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2"
+    },
+    {
+      "id": "hpc_p1",
+      "category": "Health & Household",
+      "page": 1,
+      "url": "https://www.amazon.com/gp/bestsellers/hpc"
+    },
+    {
+      "id": "hpc_p2",
+      "category": "Health & Household",
+      "page": 2,
+      "url": "https://www.amazon.com/gp/bestsellers/hpc/ref=zg_bs_pg_2_hpc?ie=UTF8&pg=2"
+    },
+    {
+      "id": "home-garden_p1",
+      "category": "Home & Kitchen",
+      "page": 1,
+      "url": "https://www.amazon.com/gp/bestsellers/home-garden"
+    },
+    {
+      "id": "home-garden_p2",
+      "category": "Home & Kitchen",
+      "page": 2,
+      "url": "https://www.amazon.com/gp/bestsellers/home-garden/ref=zg_bs_pg_2_home-garden?ie=UTF8&pg=2"
+    },
+    {
+      "id": "kitchen_p1",
+      "category": "Kitchen & Dining",
+      "page": 1,
+      "url": "https://www.amazon.com/gp/bestsellers/kitchen"
+    },
+    {
+      "id": "kitchen_p2",
+      "category": "Kitchen & Dining",
+      "page": 2,
+      "url": "https://www.amazon.com/gp/bestsellers/kitchen/ref=zg_bs_pg_2_kitchen?ie=UTF8&pg=2"
+    },
+    {
+      "id": "toys-and-games_p1",
+      "category": "Toys & Games",
+      "page": 1,
+      "url": "https://www.amazon.com/gp/bestsellers/toys-and-games"
+    },
+    {
+      "id": "toys-and-games_p2",
+      "category": "Toys & Games",
+      "page": 2,
+      "url": "https://www.amazon.com/gp/bestsellers/toys-and-games/ref=zg_bs_pg_2_toys-and-games?ie=UTF8&pg=2"
+    },
+    {
+      "id": "pet-supplies_p1",
+      "category": "Pet Supplies",
+      "page": 1,
+      "url": "https://www.amazon.com/gp/bestsellers/pet-supplies"
+    },
+    {
+      "id": "pet-supplies_p2",
+      "category": "Pet Supplies",
+      "page": 2,
+      "url": "https://www.amazon.com/gp/bestsellers/pet-supplies/ref=zg_bs_pg_2_pet-supplies?ie=UTF8&pg=2"
+    },
+    {
+      "id": "sporting-goods_p1",
+      "category": "Sports & Outdoors",
+      "page": 1,
+      "url": "https://www.amazon.com/gp/bestsellers/sporting-goods"
+    },
+    {
+      "id": "sporting-goods_p2",
+      "category": "Sports & Outdoors",
+      "page": 2,
+      "url": "https://www.amazon.com/gp/bestsellers/sporting-goods/ref=zg_bs_pg_2_sporting-goods?ie=UTF8&pg=2"
+    },
+    {
+      "id": "electronics_p1",
+      "category": "Electronics",
+      "page": 1,
+      "url": "https://www.amazon.com/gp/bestsellers/electronics"
+    },
+    {
+      "id": "electronics_p2",
+      "category": "Electronics",
+      "page": 2,
+      "url": "https://www.amazon.com/gp/bestsellers/electronics/ref=zg_bs_pg_2_electronics?ie=UTF8&pg=2"
+    },
+    {
+      "id": "baby-products_p1",
+      "category": "Baby",
+      "page": 1,
+      "url": "https://www.amazon.com/gp/bestsellers/baby-products"
+    },
+    {
+      "id": "baby-products_p2",
+      "category": "Baby",
+      "page": 2,
+      "url": "https://www.amazon.com/gp/bestsellers/baby-products/ref=zg_bs_pg_2_baby-products?ie=UTF8&pg=2"
+    },
+    {
+      "id": "grocery_p1",
+      "category": "Grocery & Gourmet Food",
+      "page": 1,
+      "url": "https://www.amazon.com/gp/bestsellers/grocery"
+    },
+    {
+      "id": "grocery_p2",
+      "category": "Grocery & Gourmet Food",
+      "page": 2,
+      "url": "https://www.amazon.com/gp/bestsellers/grocery/ref=zg_bs_pg_2_grocery?ie=UTF8&pg=2"
+    }
+  ]
+}

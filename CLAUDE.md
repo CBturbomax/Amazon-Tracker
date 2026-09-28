@@ -46,8 +46,13 @@ build/                   원자료 → docs/data/*.json 생성
 docs/                    GitHub Pages 루트 (index.html + data/)
 ```
 
-> ⚠️ 현재 `.gitignore`의 Python 템플릿이 `build/`와 `lib/`를 무시한다.
-> 우리 `build/` 폴더가 커밋되지 않으므로, 코드를 넣기 전에 `.gitignore`에서 `build/`를 빼거나 `/build/`처럼 범위를 좁혀야 한다.
+```
+tools/                   일회성·진단 스크립트 (block_test.py 등)
+tests/                   pytest (fake_amazon.py = 가짜 베스트셀러 HTML)
+reports/                 로컬 실행 결과 (git 제외, data/와 섞지 않음)
+```
+
+> `.gitignore`의 Python 템플릿 중 `build/` 줄은 지웠다. 우리 `build/` 폴더는 커밋 대상이다.
 
 ---
 
@@ -161,6 +166,21 @@ docs/                    GitHub Pages 루트 (index.html + data/)
 5. 레이어 2: 수집 → 주간 분석 → 상세 페이지 → Claude API 선정 → 탭 3
 
 ---
+
+## 명령어
+
+```bash
+pip install -r requirements-dev.txt            # 의존성 + pytest
+python -m playwright install chromium          # Playwright 브라우저
+python -m pytest                               # 테스트 (네트워크 불필요)
+python -m tools.block_test --label local       # 차단 테스트 (실제 amazon.com 요청)
+python -m tools.block_test_report reports/block_test/*/results.json   # 결과 합치기
+```
+
+- 모듈은 항상 레포 루트에서 `python -m ...`으로 실행한다.
+- 설치된 Chromium을 쓰려면 `CHROMIUM_PATH` 환경변수로 실행 파일 경로를 준다.
+- Claude Code 클라우드 세션은 네트워크 정책상 amazon.com에 접속하지 못할 수 있다.
+  그때는 `tests/fake_amazon.py`로 만든 가짜 페이지(로컬 HTTP 서버)로 검증하고, 실제 테스트는 로컬/Actions에서 한다.
 
 ## 작업 규칙
 
