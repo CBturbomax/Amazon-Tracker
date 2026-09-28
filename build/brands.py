@@ -43,6 +43,12 @@ class BrandResolver:
         self.kbeauty = aliases_doc.get("kbeauty", [])
         self.asin_brands = asin_brands
         self.spellings: dict[str, Counter] = defaultdict(Counter)  # 별칭 없는 브랜드의 표기
+        # 상세 페이지로 확인한 브랜드명도 제품명 앞부분 매칭에 쓴다 (별칭이 우선)
+        self.learned: dict[str, str] = {}
+        for rec in asin_brands.values():
+            b = rec.get("brand")
+            if b and len(norm_key(b)) >= 3 and norm_key(b) not in self.map:
+                self.learned[norm_key(b)] = self.canonical(b)
 
     def canonical(self, raw: str) -> str:
         key = norm_key(raw)
@@ -58,6 +64,8 @@ class BrandResolver:
             key = "".join(toks[:k])
             if key in self.map:
                 return self.map[key]
+            if key in self.learned:
+                return self.learned[key]
         return None
 
     def for_item(self, item: dict) -> str | None:

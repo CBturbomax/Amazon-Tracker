@@ -53,7 +53,7 @@ jobs:
         if: env.DO_COLLECT == 'true'
         continue-on-error: true
         timeout-minutes: 45
-        run: python -m scraper.brand_lookup --max 300
+        run: python -m scraper.brand_lookup --max 60
 
       - name: Build site data
         run: python -m build.build_site

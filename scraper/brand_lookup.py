@@ -89,11 +89,12 @@ def main(argv: list[str] | None = None) -> int:
     except (AttributeError, ValueError):
         pass
     ap = argparse.ArgumentParser(description="ASIN → 브랜드 (상세 페이지 1회 조회)")
-    ap.add_argument("--max", type=int, default=250, help="이번 실행에서 조회할 최대 ASIN 수")
+    ap.add_argument("--max", type=int, default=60, help="이번 실행에서 조회할 최대 ASIN 수")
     ap.add_argument("--method", default="curl_cffi", choices=METHODS)
-    ap.add_argument("--delay-min", type=float, default=3.0)
-    ap.add_argument("--delay-max", type=float, default=8.0)
-    ap.add_argument("--stop-after", type=int, default=3, help="연속 차단 횟수에서 중단")
+    # 상세 페이지는 목록보다 쉽게 막힌다 (2026-09-28: 100개/5개 만에 CAPTCHA) → 천천히, 조금씩
+    ap.add_argument("--delay-min", type=float, default=10.0)
+    ap.add_argument("--delay-max", type=float, default=20.0)
+    ap.add_argument("--stop-after", type=int, default=2, help="연속 차단 횟수에서 중단")
     ap.add_argument("--data-dir", type=Path, default=DATA_DIR)
     args = ap.parse_args(argv)
 
@@ -130,6 +131,10 @@ def main(argv: list[str] | None = None) -> int:
                         "method": methods[mi], "checked_at": fr.fetched_at}
             entry = {"error": f"status={fr.status}" if fr.status != 200 else "no_brand",
                      "checked_at": fr.fetched_at}
+            if fr.status == 200:  # 원인 파악용: 페이지 제목과 크기
+                t = BeautifulSoup(fr.html, "lxml").title
+                print(f"    no_brand {market} title={(t.get_text(strip=True) if t else '')[:80]!r} "
+                      f"bytes={len(fr.html)} byline={'bylineInfo' in fr.html}", flush=True)
         return entry
 
     blocks = 0

@@ -20,7 +20,8 @@ def test_title_prefix_fallback():
     assert r.from_title("La Roche-Posay Effaclar Duo+") == "La Roche-Posay"
     assert r.from_title("e.l.f. Instant Lift Brow Pencil") == "e.l.f."
     assert r.from_title("Dr.Althea 345 Relief Cream") == "Dr.Althea"
-    assert r.from_title("Effaclar Duo+M") is None
+    assert r.from_title("Effaclar Duo+M") == "La Roche-Posay"  # 브랜드 없는 제품 라인명
+    assert r.from_title("Mystery Serum 30ml") is None
 
 
 def test_unknown_brand_uses_most_common_spelling():
@@ -52,3 +53,9 @@ def test_build_counts_zero_vs_null_and_capture():
     assert out["unresolved"][0]["by_country"] == {"US": 1, "UK": 0}
     assert out["ranks"]["total"][1][0] == {"b": "Medicube", "v": 2}
     assert out["series"]["Medicube"]["ranks"]["total"] == [1, 1]
+
+
+def test_learned_brand_names_match_title_prefix():
+    r = BrandResolver(ALIASES, {"X1": {"brand": "Zyxwell"}})
+    assert r.from_title("Zyxwell Anti-Dandruff Shampoo") == "key:zyxwell"
+    assert r.display("key:zyxwell") == "Zyxwell"

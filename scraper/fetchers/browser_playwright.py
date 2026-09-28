@@ -13,6 +13,32 @@ from scraper.fetchers.base import DEFAULT_ACCEPT_LANGUAGE, FetchResult, now_kst
 
 ITEM_SELECTOR = "#gridItemRoot"
 
+# 같은 스레드에서 sync_playwright()는 하나만 띄울 수 있다 → 브라우저를 공유하고 fetcher마다 context만 따로 둔다.
+_shared: dict = {"pw": None, "browser": None, "refs": 0}
+
+
+def _acquire_browser(headless: bool):
+    if _shared["browser"] is None:
+        _shared["pw"] = sync_playwright().start()
+        launch_kwargs: dict = {"headless": headless}
+        # 설치된 Chromium을 직접 지정하고 싶을 때 (예: 사내 PC)
+        if os.environ.get("CHROMIUM_PATH"):
+            launch_kwargs["executable_path"] = os.environ["CHROMIUM_PATH"]
+        _shared["browser"] = _shared["pw"].chromium.launch(**launch_kwargs)
+    _shared["refs"] += 1
+    return _shared["browser"]
+
+
+def _release_browser() -> None:
+    _shared["refs"] -= 1
+    if _shared["refs"] <= 0 and _shared["browser"] is not None:
+        for closer in (_shared["browser"].close, _shared["pw"].stop):
+            try:
+                closer()
+            except Exception:
+                pass
+        _shared.update(pw=None, browser=None, refs=0)
+
 
 class PlaywrightFetcher:
     name = "playwright"
@@ -22,12 +48,7 @@ class PlaywrightFetcher:
         self.timeout_ms = int(timeout * 1000)
         self.target_items = target_items
         self.scroll = scroll  # 상세 페이지처럼 목록이 아니면 False
-        self._pw = sync_playwright().start()
-        launch_kwargs: dict = {"headless": headless}
-        # 설치된 Chromium을 직접 지정하고 싶을 때 (예: 사내 PC)
-        if os.environ.get("CHROMIUM_PATH"):
-            launch_kwargs["executable_path"] = os.environ["CHROMIUM_PATH"]
-        self._browser = self._pw.chromium.launch(**launch_kwargs)
+        self._browser = _acquire_browser(headless)
         # 헤드리스 기본 UA에는 "HeadlessChrome"이 들어가므로 실제 엔진 버전으로 일반 UA를 만든다.
         major = self._browser.version.split(".")[0]
         ua = (f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -101,8 +122,8 @@ class PlaywrightFetcher:
         return page.locator(ITEM_SELECTOR).count() >= target
 
     def close(self) -> None:
-        for closer in (self._context.close, self._browser.close, self._pw.stop):
-            try:
-                closer()
-            except Exception:
-                pass
+        try:
+            self._context.close()
+        except Exception:
+            pass
+        _release_browser()
