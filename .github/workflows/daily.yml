@@ -62,13 +62,16 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data docs/data
+          # 원자료(data/)만 main에 올린다. docs/data는 빌드 결과라 gh-pages에만 배포한다.
+          git add data
           if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
-          git commit -m "data: $(TZ=Asia/Seoul date +%F) 수집·빌드 [skip ci]"
+          git commit -m "data: $(TZ=Asia/Seoul date +%F) 수집 [skip ci]"
           for i in 1 2 3; do
-            git pull --rebase origin main && git push origin HEAD:main && break
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
             sleep 5
           done
+          echo "::error::main에 원자료를 올리지 못했습니다"; exit 1
 
       - name: Deploy docs/ to gh-pages
         run: |
