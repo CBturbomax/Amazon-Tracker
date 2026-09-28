@@ -1,0 +1,4 @@
+{
+  "description": "제품 묶음과 한글 제품명. asins에는 국가별로 다른 ASIN을 모두 넣는다. needs_review=true는 자동 초안(사람 확인 전).",
+  "products": []
+}

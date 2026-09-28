@@ -46,7 +46,12 @@ class PlaywrightFetcher:
         try:
             resp = page.goto(url, wait_until="domcontentloaded", timeout=self.timeout_ms)
             status = resp.status if resp else None
-            self._scroll_until_loaded()
+            self._dismiss_cookie_banner()
+            if not self._scroll_until_loaded():
+                # 가끔 lazy-load가 안 붙는다. 맨 위로 갔다가 한 번 더 천천히 내린다 (새 요청 아님).
+                page.evaluate("window.scrollTo(0, 0)")
+                page.wait_for_timeout(1000)
+                self._scroll_until_loaded(step=(600, 900), wait=(1200, 1800))
             html = page.content()
         except PlaywrightError as e:
             return FetchResult(url, self.name, fetched_at, elapsed_s=round(time.monotonic() - t0, 2),
@@ -54,23 +59,45 @@ class PlaywrightFetcher:
         return FetchResult(url, self.name, fetched_at, status=status, final_url=page.url,
                            elapsed_s=round(time.monotonic() - t0, 2), html=html)
 
-    def _scroll_until_loaded(self, max_rounds: int = 25, stable_rounds: int = 3) -> None:
-        """제품 카드가 target_items개가 되거나, 몇 번 스크롤해도 늘지 않으면 멈춘다."""
+    def _dismiss_cookie_banner(self) -> None:
+        """유럽 사이트의 쿠키 동의 배너를 닫는다 (없으면 그냥 넘어간다)."""
+        btn = self._page.locator("#sp-cc-accept")
+        try:
+            if btn.count() and btn.first.is_visible():
+                btn.first.click(timeout=3000)
+                self._page.wait_for_timeout(500)
+        except PlaywrightError:
+            pass
+
+    def _expected_items(self) -> int:
+        """페이지에 들어 있는 ASIN 목록 수 (49개인 카테고리도 있다). 못 찾으면 target_items."""
+        n = self._page.evaluate(
+            """() => { const el = document.querySelector('[data-client-recs-list]');
+                       try { return el ? JSON.parse(el.getAttribute('data-client-recs-list')).length : 0; }
+                       catch (e) { return 0; } }""")
+        return min(n, self.target_items) if n else self.target_items
+
+    def _scroll_until_loaded(self, max_rounds: int = 25, stable_rounds: int = 3,
+                             step: tuple[int, int] = (1200, 1800),
+                             wait: tuple[int, int] = (600, 1200)) -> bool:
+        """제품 카드가 다 나오면 True. 몇 번 스크롤해도 늘지 않으면 False."""
         page = self._page
+        target = self._expected_items()
         last, stable = -1, 0
         for _ in range(max_rounds):
             count = page.locator(ITEM_SELECTOR).count()
-            if count >= self.target_items:
-                return
+            if count >= target:
+                return True
             if count == last:
                 stable += 1
                 if stable >= stable_rounds:
-                    return
+                    return False
             else:
                 stable = 0
             last = count
-            page.mouse.wheel(0, random.randint(1200, 1800))
-            page.wait_for_timeout(random.randint(600, 1200))
+            page.evaluate(f"window.scrollBy(0, {random.randint(*step)})")
+            page.wait_for_timeout(random.randint(*wait))
+        return page.locator(ITEM_SELECTOR).count() >= target
 
     def close(self) -> None:
         for closer in (self._context.close, self._browser.close, self._pw.stop):

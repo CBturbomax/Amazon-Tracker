@@ -76,6 +76,8 @@ reports/                 로컬 실행 결과 (git 제외, data/와 섞지 않�
 - **한글 제품명** (`config/products.json`): ASIN → 한글명.
   - 미등록 ASIN은 Claude API로 초안을 만들고 `needs_review: true`를 붙인다. 사람이 확인하면 `false`로 바꾼다.
   - 같은 제품도 국가마다 ASIN이 다를 수 있다. 여러 ASIN이 같은 한글명(제품)으로 묶일 수 있게 설계한다.
+  - products.json에 없는 제품은 build가 "회사 + 제품명 앞부분"으로 자동으로 묶는다 (`auto:` 키). 잘못 묶이면 products.json에 등록한다.
+  - 사람이 없으므로 한글명 초안은 Claude(이 세션 또는 API)가 쓰고 `needs_review: true`로 둔다.
 
 ## 레이어 2: 미국 발굴 스캔
 
@@ -140,7 +142,17 @@ reports/                 로컬 실행 결과 (git 제외, data/와 섞지 않�
 
 ---
 
-## 실행 환경 (1단계 테스트 후 결정)
+## 실행 환경 — **A로 결정** (2026-09-28 차단 테스트)
+
+Actions 러너에서 requests / curl_cffi / Playwright 모두 20/20 성공, CAPTCHA·503 0회.
+requests·curl_cffi는 카드 30개만 받고, Playwright만 스크롤로 50개를 받는다 → **수집은 Actions + Playwright**.
+
+- `.github/workflows/daily.yml`: 매일 **09:07 KST**(00:07 UTC) 수집 → `build/` → `data/`·`docs/data/`를 main에 커밋 → `docs/`를 `gh-pages` 브랜치로 배포.
+  main에 `docs/index.html`·`build/`·`config/`가 바뀌면 수집 없이 빌드·배포만 한다.
+- 사이트 주소: https://cbturbomax.github.io/Amazon-Tracker/ (Pages 소스 = `gh-pages` 브랜치 루트)
+- 수집 원본 HTML은 git에 넣지 않는다 (하루 수십 MB). 불완전 수집 페이지만 Actions artifact(`collect-html`, 14일)로 남는다.
+
+처음 비교했던 선택지:
 
 | 옵션 | 내용 |
 |---|---|
@@ -156,13 +168,13 @@ reports/                 로컬 실행 결과 (git 제외, data/와 섞지 않�
 
 ## 개발 순서
 
-1. **차단 테스트** ← 현재 단계
+1. **차단 테스트** — 완료 (결과: A, Playwright)
    미국 베스트셀러 20개 페이지를 requests / curl_cffi(chrome 임퍼소네이션) / Playwright 세 방식으로 수집.
    요청 간 3~8초 랜덤 딜레이. 방식별 성공·CAPTCHA·503 비율과 페이지당 파싱 제품 수를 표로 출력.
    로컬 실행용 + GitHub Actions `workflow_dispatch`용 둘 다 만든다.
 2. 결과로 실행 환경(A/B/C) 결정
-3. 레이어 1: US 한 국가로 안정화 → 5개국 확장
-4. 웹사이트 탭 1·2 + GitHub Pages 배포
+3. 레이어 1: 5개국 수집 (`scraper/collect_kbeauty.py`) ← 현재 단계
+4. 웹사이트 탭 1·2 + GitHub Pages 배포 (`docs/index.html`, `build/build_site.py`) ← 현재 단계
 5. 레이어 2: 수집 → 주간 분석 → 상세 페이지 → Claude API 선정 → 탭 3
 
 ---
@@ -175,6 +187,8 @@ python -m playwright install chromium          # Playwright 브라우저
 python -m pytest                               # 테스트 (네트워크 불필요)
 python -m tools.block_test --label local       # 차단 테스트 (실제 amazon.com 요청)
 python -m tools.block_test_report reports/block_test/*/results.json   # 결과 합치기
+python -m scraper.collect_kbeauty              # 5개국 Beauty Top 100 → data/kbeauty/
+python -m build.build_site                     # data/ → docs/data/*.json
 ```
 
 - 모듈은 항상 레포 루트에서 `python -m ...`으로 실행한다.
