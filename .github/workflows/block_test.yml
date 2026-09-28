@@ -1,8 +1,16 @@
-# 1단계 차단 테스트 (수동 실행).
+# 1단계 차단 테스트.
+# 작업 브랜치(claude/**)에 관련 파일이 푸시되면 기본값으로 자동 실행된다.
 # 방식마다 별도 job으로 돌린다 → 러너(IP)가 달라서 한 방식의 차단이 다른 방식 결과에 섞이지 않는다.
 name: block-test
 
 on:
+  push:
+    branches: ["claude/**"]
+    paths:
+      - "scraper/**"
+      - "tools/block_test*.py"
+      - "config/block_test_urls.json"
+      - ".github/workflows/block_test.yml"
   workflow_dispatch:
     inputs:
       methods:
@@ -37,7 +45,7 @@ jobs:
     steps:
       - id: m
         env:
-          METHODS: ${{ inputs.methods }}
+          METHODS: ${{ inputs.methods || 'requests,curl_cffi,playwright' }}
         run: |
           python3 - <<'EOF' >> "$GITHUB_OUTPUT"
           import json, os, sys
@@ -68,10 +76,10 @@ jobs:
         run: python -m playwright install --with-deps chromium
       - name: Run block test
         env:
-          LIMIT: ${{ inputs.limit }}
-          DELAY_MIN: ${{ inputs.delay_min }}
-          DELAY_MAX: ${{ inputs.delay_max }}
-          STOP_AFTER: ${{ inputs.stop_after }}
+          LIMIT: ${{ inputs.limit || '20' }}
+          DELAY_MIN: ${{ inputs.delay_min || '3' }}
+          DELAY_MAX: ${{ inputs.delay_max || '8' }}
+          STOP_AFTER: ${{ inputs.stop_after || '3' }}
         run: |
           python -m tools.block_test \
             --methods "${{ matrix.method }}" \
