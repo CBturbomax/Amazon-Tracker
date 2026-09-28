@@ -1,0 +1,749 @@
+{
+ "B000H3I2JG": {
+  "brand": "REVLON",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:34:33+09:00",
+  "tries": 1
+ },
+ "B000NG46QU": {
+  "brand": "OPI",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:44:37+09:00",
+  "tries": 1
+ },
+ "B000YACKO0": {
+  "error": "no_brand",
+  "checked_at": "2026-09-28T10:41:59+09:00",
+  "tries": 1
+ },
+ "B0011291MO": {
+  "brand": "wet n wild",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:45:33+09:00",
+  "tries": 1
+ },
+ "B001ET7IQK": {
+  "brand": "Dove",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:41:23+09:00",
+  "tries": 1
+ },
+ "B001ETUD5I": {
+  "error": "captcha",
+  "checked_at": "2026-09-28T10:46:07+09:00",
+  "tries": 1
+ },
+ "B002MSN3QQ": {
+  "error": "no_brand",
+  "checked_at": "2026-09-28T10:38:26+09:00",
+  "tries": 1
+ },
+ "B00365DABC": {
+  "brand": "CeraVe",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:39:18+09:00",
+  "tries": 1
+ },
+ "B0039LMTAQ": {
+  "brand": "Gillette Venus",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:41:53+09:00",
+  "tries": 1
+ },
+ "B003QXZWYW": {
+  "brand": "La Roche-Posay",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:41:14+09:00",
+  "tries": 1
+ },
+ "B004BD107O": {
+  "brand": "L'Oreal Paris",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:42:19+09:00",
+  "tries": 1
+ },
+ "B004INIW1Y": {
+  "brand": "L'Oreal Paris",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:40:17+09:00",
+  "tries": 1
+ },
+ "B004Y9GTOO": {
+  "brand": "MAYBELLINE",
+  "source": "byline",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:42:56+09:00",
+  "tries": 1
+ },
+ "B0054LHI5A": {
+  "brand": "Burt's Bees",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:43:39+09:00",
+  "tries": 1
+ },
+ "B0060OUV5Y": {
+  "brand": "La Roche-Posay",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:37:48+09:00",
+  "tries": 1
+ },
+ "B00949CTQQ": {
+  "brand": "Paula's Choice",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:39:41+09:00",
+  "tries": 1
+ },
+ "B00AINMFAC": {
+  "brand": "Nizoral",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:34:08+09:00",
+  "tries": 1
+ },
+ "B00F1U0YB4": {
+  "brand": "Mrs. MEYER'S",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:32:37+09:00",
+  "tries": 1
+ },
+ "B00HF3XSO0": {
+  "brand": "Secret",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:40:29+09:00",
+  "tries": 1
+ },
+ "B00IDCV49I": {
+  "brand": "Just for Men",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:40:10+09:00",
+  "tries": 1
+ },
+ "B00IGJ1XOO": {
+  "brand": "GOODY",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:43:30+09:00",
+  "tries": 1
+ },
+ "B00J4YYFYA": {
+  "brand": "Q-tips",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:35:02+09:00",
+  "tries": 1
+ },
+ "B00MEDOY2G": {
+  "brand": "Dove",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:36:04+09:00",
+  "tries": 1
+ },
+ "B00SK71SAG": {
+  "brand": "Dove",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:38:09+09:00",
+  "tries": 1
+ },
+ "B00SNPCSUY": {
+  "brand": "CeraVe",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:42:29+09:00",
+  "tries": 1
+ },
+ "B00T0C9XRK": {
+  "brand": "Essence Cosmetics",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:34:52+09:00",
+  "tries": 1
+ },
+ "B00TPRG5D0": {
+  "brand": "Degree",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:45:24+09:00",
+  "tries": 1
+ },
+ "B00TTD9BRC": {
+  "brand": "CeraVe",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:37:32+09:00",
+  "tries": 1
+ },
+ "B00U2VQZDS": {
+  "brand": "Neutrogena",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:32:57+09:00",
+  "tries": 1
+ },
+ "B00UYJGYCK": {
+  "brand": "Rimmel",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:46:16+09:00",
+  "tries": 1
+ },
+ "B00WAJAKOU": {
+  "brand": "e.l.f.",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:35:54+09:00",
+  "tries": 1
+ },
+ "B00WZQTCS8": {
+  "brand": "NYX PROFESSIONAL MAKEUP",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:44:16+09:00",
+  "tries": 1
+ },
+ "B0107QPFBU": {
+  "brand": "Aquaphor",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:44:59+09:00",
+  "tries": 1
+ },
+ "B014E2D6BY": {
+  "brand": "grace & stella",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:35:38+09:00",
+  "tries": 1
+ },
+ "B0176G84D0": {
+  "brand": "NIVEA",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "checked_at": "2026-09-28T10:45:49+09:00",
+  "tries": 1
+ },
+ "B017PCGABI": {
+  "brand": "Garnier",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:38:37+09:00",
+  "tries": 1
+ },
+ "B01M6UUOY2": {
+  "brand": "Garnier",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:46:11+09:00",
+  "tries": 1
+ },
+ "B01MDTVZTZ": {
+  "error": "no_brand",
+  "checked_at": "2026-09-28T10:35:47+09:00",
+  "tries": 1
+ },
+ "B01MSSDEPK": {
+  "brand": "CeraVe",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:42:10+09:00",
+  "tries": 1
+ },
+ "B01MYEZPC8": {
+  "error": "no_brand",
+  "checked_at": "2026-09-28T10:36:33+09:00",
+  "tries": 1
+ },
+ "B01N1LL62W": {
+  "brand": "CeraVe",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:37:08+09:00",
+  "tries": 1
+ },
+ "B01N34XW93": {
+  "brand": "La Roche-Posay",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:34:15+09:00",
+  "tries": 1
+ },
+ "B01N7T7JKJ": {
+  "brand": "La Roche-Posay",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:38:45+09:00",
+  "tries": 1
+ },
+ "B01N9SPQHQ": {
+  "brand": "La Roche-Posay",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:33:15+09:00",
+  "tries": 1
+ },
+ "B06WD5J8KY": {
+  "brand": "The Ordinary",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:39:03+09:00",
+  "tries": 1
+ },
+ "B071914GGL": {
+  "brand": "The Ordinary",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:33:42+09:00",
+  "tries": 1
+ },
+ "B075JRT85B": {
+  "brand": "Degree",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:36:52+09:00",
+  "tries": 1
+ },
+ "B0787GLBMV": {
+  "brand": "Schick Hydro Silk",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:43:14+09:00",
+  "tries": 1
+ },
+ "B078PPV6SZ": {
+  "brand": "KERACOLOR",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:43:06+09:00",
+  "tries": 1
+ },
+ "B07C5R51Q9": {
+  "brand": "CeraVe",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:46:22+09:00",
+  "tries": 1
+ },
+ "B07GB3NVN1": {
+  "brand": "Native",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:34:23+09:00",
+  "tries": 1
+ },
+ "B07GKVBQDG": {
+  "brand": "Neutrogena",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:39:34+09:00",
+  "tries": 1
+ },
+ "B07L1PHSY9": {
+  "brand": "Differin",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:36:18+09:00",
+  "tries": 1
+ },
+ "B07PBXXNCY": {
+  "brand": "CLEAN SKIN CLUB",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:32:30+09:00",
+  "tries": 1
+ },
+ "B07QZ5CTTF": {
+  "brand": "Nutrafol",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:37:42+09:00",
+  "tries": 1
+ },
+ "B07RK4HST7": {
+  "brand": "CeraVe",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:37:00+09:00",
+  "tries": 1
+ },
+ "B081FFRGZB": {
+  "brand": "Softsoap",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:36:10+09:00",
+  "tries": 1
+ },
+ "B081KL2QYJ": {
+  "brand": "PanOxyl",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:33:55+09:00",
+  "tries": 1
+ },
+ "B08BW46XXK": {
+  "brand": "Vanicream",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:34:42+09:00",
+  "tries": 1
+ },
+ "B08H3JPH74": {
+  "brand": "MAYBELLINE",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:33:33+09:00",
+  "tries": 1
+ },
+ "B08KT2Z93D": {
+  "brand": "eos",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:32:11+09:00",
+  "tries": 1
+ },
+ "B08SNSSTPZ": {
+  "brand": "L3",
+  "source": "byline",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:41:43+09:00",
+  "tries": 1
+ },
+ "B08V3JGB1F": {
+  "brand": "Kitsch",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:40:58+09:00",
+  "tries": 1
+ },
+ "B08WR5CPNB": {
+  "brand": "Maybelline",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "checked_at": "2026-09-28T10:45:57+09:00",
+  "tries": 1
+ },
+ "B08WYXNVQ7": {
+  "brand": "Salt & Stone",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:37:23+09:00",
+  "tries": 1
+ },
+ "B091NJQ29P": {
+  "brand": "Good Molecules",
+  "source": "byline",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:44:43+09:00",
+  "tries": 1
+ },
+ "B09541P9WH": {
+  "brand": "Amazon Essentials",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:32:48+09:00",
+  "tries": 1
+ },
+ "B09542G9ZN": {
+  "brand": "Amazon Essentials",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:33:05+09:00",
+  "tries": 1
+ },
+ "B098NSHBQK": {
+  "brand": "ZORAMI",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:42:49+09:00",
+  "tries": 1
+ },
+ "B09DDD6YGJ": {
+  "brand": "Dove",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:42:38+09:00",
+  "tries": 1
+ },
+ "B09HHDHXWX": {
+  "brand": "Amazon Basics",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:37:55+09:00",
+  "tries": 1
+ },
+ "B09M7SPFSJ": {
+  "brand": "IVORY",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:41:34+09:00",
+  "tries": 1
+ },
+ "B09SP2XHKT": {
+  "brand": "NYX PROFESSIONAL MAKEUP",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:45:09+09:00",
+  "tries": 1
+ },
+ "B09V7Z4TJG": {
+  "brand": "medicube",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:32:21+09:00",
+  "tries": 1
+ },
+ "B0B1PDDLGZ": {
+  "brand": "Naturium",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:38:16+09:00",
+  "tries": 1
+ },
+ "B0B2RM68G2": {
+  "brand": "BIODANCE",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:33:49+09:00",
+  "tries": 1
+ },
+ "B0B7RQ46LD": {
+  "error": "captcha",
+  "checked_at": "2026-09-28T10:46:35+09:00",
+  "tries": 1
+ },
+ "B0B854YTCF": {
+  "brand": "UNA GELLA",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:43:21+09:00",
+  "tries": 1
+ },
+ "B0B9CHS3LR": {
+  "brand": "Native",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:44:50+09:00",
+  "tries": 1
+ },
+ "B0BRMYHMS5": {
+  "brand": "medicube",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:36:43+09:00",
+  "tries": 1
+ },
+ "B0BVPNQW1C": {
+  "brand": "Sacheu",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:45:41+09:00",
+  "tries": 1
+ },
+ "B0BX2TZZWG": {
+  "brand": "Tree Hut",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:43:47+09:00",
+  "tries": 1
+ },
+ "B0BXTS6L35": {
+  "brand": "Amazon Essentials",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:40:04+09:00",
+  "tries": 1
+ },
+ "B0CBR7J4TV": {
+  "brand": "Double Rhythm",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:44:26+09:00",
+  "tries": 1
+ },
+ "B0CM2PPNMW": {
+  "brand": "medicube",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:44:01+09:00",
+  "tries": 1
+ },
+ "B0CMYR1CNK": {
+  "brand": "e.l.f.",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:35:10+09:00",
+  "tries": 1
+ },
+ "B0CS62LY6P": {
+  "error": "captcha",
+  "checked_at": "2026-09-28T10:46:40+09:00",
+  "tries": 1
+ },
+ "B0CZF2T7CK": {
+  "brand": "L'Oreal Paris",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:38:02+09:00",
+  "tries": 1
+ },
+ "B0D2Z3GGCY": {
+  "brand": "medicube",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:35:33+09:00",
+  "tries": 1
+ },
+ "B0DBF65JYY": {
+  "brand": "medicube",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:39:09+09:00",
+  "tries": 1
+ },
+ "B0DCL275RK": {
+  "brand": "Carpe",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:44:08+09:00",
+  "tries": 1
+ },
+ "B0DG1DQ2S7": {
+  "brand": "ANUA",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:38:53+09:00",
+  "tries": 1
+ },
+ "B0DG4WXBCF": {
+  "brand": "MEDITHERAPY",
+  "source": "byline",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:40:39+09:00",
+  "tries": 1
+ },
+ "B0DGTMR754": {
+  "brand": "medicube",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:35:24+09:00",
+  "tries": 1
+ },
+ "B0DK4Y2YP3": {
+  "brand": "celimax",
+  "source": "byline",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:40:22+09:00",
+  "tries": 1
+ },
+ "B0DK8DCVK7": {
+  "brand": "Goddvenus",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:39:27+09:00",
+  "tries": 1
+ },
+ "B0DNR8RF83": {
+  "brand": "Mighty Patch",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:33:25+09:00",
+  "tries": 1
+ },
+ "B0DPHQRLJC": {
+  "brand": "eos",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:34:02+09:00",
+  "tries": 1
+ },
+ "B0DWFLY18Y": {
+  "brand": "ANUA",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:36:27+09:00",
+  "tries": 1
+ },
+ "B0DYTQ5GYQ": {
+  "brand": "medicube",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:35:19+09:00",
+  "tries": 1
+ },
+ "B0F3J6W5KW": {
+  "brand": "e.l.f.",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:45:17+09:00",
+  "tries": 1
+ },
+ "B0FRFMNKYZ": {
+  "brand": "UNA GELLA",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:41:08+09:00",
+  "tries": 1
+ },
+ "B0FVT77ZLL": {
+  "brand": "ANUA",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:43:55+09:00",
+  "tries": 1
+ },
+ "B0G1VBDXYF": {
+  "brand": "Luxe Cosmetics",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:37:13+09:00",
+  "tries": 1
+ },
+ "B0G35QMQ82": {
+  "error": "captcha",
+  "checked_at": "2026-09-28T10:46:31+09:00",
+  "tries": 1
+ },
+ "B0G643D8ZG": {
+  "brand": "Dr.Althea",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:40:49+09:00",
+  "tries": 1
+ },
+ "B0GD6R7CFJ": {
+  "brand": "BIODANCE",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:39:52+09:00",
+  "tries": 1
+ },
+ "B0GHMZXX8Y": {
+  "brand": "medicube",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:39:59+09:00",
+  "tries": 1
+ },
+ "B0H72GFKJQ": {
+  "brand": "eos",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "checked_at": "2026-09-28T10:43:01+09:00",
+  "tries": 1
+ }
+}
