@@ -28,7 +28,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 90
     env:
       DO_COLLECT: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.collect) }}
     steps:
@@ -45,9 +45,15 @@ jobs:
         if: env.DO_COLLECT == 'true'
         run: python -m playwright install --with-deps chromium
 
-      - name: Collect K-beauty Top 100 (5 countries)
+      - name: Collect Beauty Top 100 (6 countries)
         if: env.DO_COLLECT == 'true'
         run: python -m scraper.collect_kbeauty --method playwright
+
+      - name: Look up brands of new ASINs (once per ASIN)
+        if: env.DO_COLLECT == 'true'
+        continue-on-error: true
+        timeout-minutes: 45
+        run: python -m scraper.brand_lookup --max 300
 
       - name: Build site data
         run: python -m build.build_site

@@ -50,7 +50,7 @@ def test_counts_deltas_new_out(tmp_path):
 
     meta = build_meta(load_snapshots(tmp_path))
     st = {c["cc"]: c["status"] for c in meta["countries"]}
-    assert st == {"US": "ok", "UK": "ok", "DE": "failed", "FR": "missing", "ES": "missing"}
+    assert st == {"US": "ok", "UK": "ok", "DE": "failed", "FR": "missing", "IT": "missing", "ES": "missing"}
 
 
 def test_products_json_groups_asins_and_names(tmp_path):

@@ -7,6 +7,7 @@ MARKETS: dict[str, dict] = {
     "UK": {"name": "영국", "domain": "www.amazon.co.uk", "accept_language": "en-GB,en;q=0.9"},
     "DE": {"name": "독일", "domain": "www.amazon.de", "accept_language": "de-DE,de;q=0.9,en;q=0.8"},
     "FR": {"name": "프랑스", "domain": "www.amazon.fr", "accept_language": "fr-FR,fr;q=0.9,en;q=0.8"},
+    "IT": {"name": "이탈리아", "domain": "www.amazon.it", "accept_language": "it-IT,it;q=0.9,en;q=0.8"},
     "ES": {"name": "스페인", "domain": "www.amazon.es", "accept_language": "es-ES,es;q=0.9,en;q=0.8"},
 }
 
