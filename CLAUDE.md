@@ -76,7 +76,8 @@ reports/                 로컬 실행 결과 (git 제외, data/와 섞지 않�
 - **한글 제품명** (`config/products.json`): ASIN → 한글명.
   - 미등록 ASIN은 Claude API로 초안을 만들고 `needs_review: true`를 붙인다. 사람이 확인하면 `false`로 바꾼다.
   - 같은 제품도 국가마다 ASIN이 다를 수 있다. 여러 ASIN이 같은 한글명(제품)으로 묶일 수 있게 설계한다.
-  - products.json에 없는 제품은 build가 "회사 + 제품명 앞부분"으로 자동으로 묶는다 (`auto:` 키). 잘못 묶이면 products.json에 등록한다.
+  - 실제로는 5개국이 대부분 같은 ASIN을 쓴다 (예: 제로모공패드 `B09V7Z4TJG`). products.json에 없는 제품은 ASIN 단위로 묶고 영문명을 보여준다.
+  - 첫 수집에서 가격은 UK·DE도 USD로 나왔다 (러너가 미국 IP). 레이어 1은 가격을 쓰지 않지만, 레이어 2에서 쓸 때 주의.
   - 사람이 없으므로 한글명 초안은 Claude(이 세션 또는 API)가 쓰고 `needs_review: true`로 둔다.
 
 ## 레이어 2: 미국 발굴 스캔

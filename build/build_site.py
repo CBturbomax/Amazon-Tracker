@@ -81,7 +81,7 @@ def build_kbeauty(snaps: dict[str, dict[str, dict]], companies, products_by_asin
                 if cid is None or it.get("rank") is None:
                     continue
                 counts[cid] += 1
-                key = prod["id"] if prod else auto_key(cid, it.get("title"), it["asin"])
+                key = prod["id"] if prod else it["asin"]  # 5개국이 대부분 같은 ASIN을 쓴다
                 info = products.setdefault(key, {
                     "name": (prod or {}).get("name_ko") or it.get("title") or it["asin"],
                     "name_en": it.get("title"),
@@ -183,18 +183,6 @@ def _summary(d: dict, company_by_id: dict) -> list[str]:
     if any(e["prev_date"] for e in usable.values()):
         lines.append(f"새로 들어온 제품 {new}개, 빠진 제품 {out}개.")
     return lines
-
-
-def auto_key(company_id: str, title: str | None, asin: str) -> str:
-    """products.json에 없는 제품의 묶음 키.
-
-    국가별 ASIN이 달라도 제품명 앞부분이 같으면 같은 제품으로 본다.
-    잘못 묶이면 products.json에 등록해서 바로잡는다.
-    """
-    if not title:
-        return asin
-    norm = re.sub(r"[^0-9a-z]+", "-", short_title(title).lower().replace("’", "'")).strip("-")
-    return f"auto:{company_id}:{norm}" if norm else asin
 
 
 def short_title(title: str, limit: int = 60) -> str:

@@ -1,4 +1,247 @@
 {
   "description": "제품 묶음과 한글 제품명. asins에는 국가별로 다른 ASIN을 모두 넣는다. needs_review=true는 자동 초안(사람 확인 전).",
-  "products": []
+  "products": [
+    {
+      "id": "medicube-zero-pore-pad",
+      "name_ko": "제로모공패드 2.0",
+      "company": "apr",
+      "asins": [
+        "B09V7Z4TJG"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "medicube-pdrn-pink-peptide-serum",
+      "name_ko": "PDRN 핑크 펩타이드 세럼",
+      "company": "apr",
+      "asins": [
+        "B0DBF65JYY"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "medicube-deep-vitac-capsule-cream",
+      "name_ko": "딥 비타C 캡슐 크림",
+      "company": "apr",
+      "asins": [
+        "B0D2Z3GGCY"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "medicube-collagen-jelly-cream",
+      "name_ko": "콜라겐 젤리 크림",
+      "company": "apr",
+      "asins": [
+        "B0DGPSZVW3",
+        "B0CM2PPNMW"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "medicube-pdrn-eye-serum",
+      "name_ko": "PDRN 핑크 펩타이드 아이세럼",
+      "company": "apr",
+      "asins": [
+        "B0DWMSM6Y9"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "medicube-nad-egf-serum",
+      "name_ko": "NAD EGF 탄력 세럼",
+      "company": "apr",
+      "asins": [
+        "B0GCC2JV65"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "medicube-pdrn-jelly-gel-mask",
+      "name_ko": "PDRN 핑크 콜라겐 젤리 겔 마스크",
+      "company": "apr",
+      "asins": [
+        "B0DGTMR754"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "medicube-collagen-wrapping-mask",
+      "name_ko": "콜라겐 랩핑 마스크",
+      "company": "apr",
+      "asins": [
+        "B0BRMYHMS5"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "medicube-pdrn-multi-balm-stick",
+      "name_ko": "PDRN 핑크 콜라겐 볼륨 멀티밤",
+      "company": "apr",
+      "asins": [
+        "B0GHMZXX8Y"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "medicube-zero-pore-mud-mask",
+      "name_ko": "제로모공 블랙헤드 머드 마스크",
+      "company": "apr",
+      "asins": [
+        "B0D1G7XF9X"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "medicube-body-peel-shot",
+      "name_ko": "바디 필 샷",
+      "company": "apr",
+      "asins": [
+        "B0FPCC599C"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "medicube-zero-pore-foam-cleanser",
+      "name_ko": "제로모공 캡슐 폼 클렌저",
+      "company": "apr",
+      "asins": [
+        "B0DYTQ5GYQ"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "anua-pdrn-glow-serum-spray",
+      "name_ko": "PDRN 콜라겐 글로우 세럼 미스트",
+      "company": "anua",
+      "asins": [
+        "B0FVT77ZLL"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "anua-azelaic-acid-serum",
+      "name_ko": "아젤라익애씨드 10 히알루론 수딩 세럼",
+      "company": "anua",
+      "asins": [
+        "B0DX122DHW",
+        "B0DG1DQ2S7"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "anua-pdrn-ha-cream",
+      "name_ko": "PDRN 히알루론산 100 수분크림",
+      "company": "anua",
+      "asins": [
+        "B0DWFLY18Y"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "cosrx-pink-peptide-eye-patch",
+      "name_ko": "핑크 펩타이드 콜라겐 아이패치",
+      "company": "cosrx",
+      "asins": [
+        "B0DLKCCPYZ"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "dalba-first-spray-serum",
+      "name_ko": "화이트 트러플 퍼스트 스프레이 세럼",
+      "company": "dalba",
+      "asins": [
+        "B0BFQ9RD5B"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "dalba-double-serum-multi-balm",
+      "name_ko": "화이트 트러플 더블 세럼 멀티밤",
+      "company": "dalba",
+      "asins": [
+        "B09SZ5JX2Y"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "dalba-eye-patch",
+      "name_ko": "화이트 트러플 인텐시브 아이패치",
+      "company": "dalba",
+      "asins": [
+        "B0FJLNLKSJ"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "dalba-waterfull-tone-up-sun",
+      "name_ko": "워터풀 톤업 선크림",
+      "company": "dalba",
+      "asins": [
+        "B09D7QJP1M"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "dalba-double-serum-cream",
+      "name_ko": "화이트 트러플 더블 세럼 앤 크림",
+      "company": "dalba",
+      "asins": [
+        "B09NN88V83"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "joseon-relief-sun",
+      "name_ko": "맑은쌀 선크림",
+      "company": "joseon",
+      "asins": [
+        "B09JVNZVH3"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "joseon-relief-sun-aqua-fresh",
+      "name_ko": "맑은쌀 아쿠아 프레시 선크림",
+      "company": "joseon",
+      "asins": [
+        "B0DFMGBZ9Z"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    },
+    {
+      "id": "joseon-revive-eye-serum",
+      "name_ko": "인삼 레티날 아이세럼",
+      "company": "joseon",
+      "asins": [
+        "B0B45LL4DD"
+      ],
+      "needs_review": true,
+      "draft_by": "claude"
+    }
+  ]
 }

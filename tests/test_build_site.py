@@ -1,6 +1,6 @@
 import json
 
-from build.build_site import auto_key, build_kbeauty, build_meta, load_snapshots
+from build.build_site import build_kbeauty, build_meta, load_snapshots
 from scraper.brands import load_companies
 
 C = load_companies()
@@ -22,7 +22,7 @@ def test_counts_deltas_new_out(tmp_path):
                                                (9, "X", "CeraVe Cream")]))
     write(tmp_path, snap("US", "2026-09-28", [(2, "A1", "medicube Zero Pore Pad"), (7, "A3", "Anua Toner"),
                                                (8, "A4", "medicube Collagen")]))
-    write(tmp_path, snap("UK", "2026-09-28", [(1, "B1", "medicube Zero Pore Pad")]))
+    write(tmp_path, snap("UK", "2026-09-28", [(1, "A1", "medicube Zero Pore Pad")]))
     # 실패 기록 파일은 무시돼야 한다
     (tmp_path / "kbeauty" / "UK" / "2026-09-28.attempt-090000.json").write_text("{}")
     write(tmp_path, snap("DE", "2026-09-28", [], status="failed"))
@@ -33,9 +33,9 @@ def test_counts_deltas_new_out(tmp_path):
     assert us["counts"] == {"apr": 2, "dalba": 0, "cosrx": 0, "anua": 1, "joseon": 0}
     assert us["delta"]["apr"] == 1 and us["delta"]["cosrx"] == -1
     assert us["total"] == 3 and us["total_delta"] == 1
-    pad = auto_key("apr", "medicube Zero Pore Pad", "A1")
-    assert us["new"] == [auto_key("anua", "Anua Toner", "A3"), auto_key("apr", "medicube Collagen", "A4")]
-    assert us["out"] == [{"key": auto_key("cosrx", "COSRX Snail", "A2"), "prev_rank": 5}]
+    pad = "A1"
+    assert us["new"] == ["A3", "A4"]
+    assert us["out"] == [{"key": "A2", "prev_rank": 5}]
     assert us["prev_ranks"] == {pad: 1}
     uk = kb["days"]["2026-09-28"]["countries"]["UK"]
     assert uk["delta"] is None and uk["new"] == []  # 전날 데이터 없음
@@ -43,10 +43,10 @@ def test_counts_deltas_new_out(tmp_path):
     assert kb["days"]["2026-09-28"]["company_totals"]["apr"] == 3
     assert kb["series"]["US"]["apr"] == [1, 2]
     assert kb["series"]["UK"]["apr"] == [None, 1]
-    # 국가별 ASIN이 달라도 같은 이름이면 한 제품으로 묶인다
+    # 같은 ASIN이면 국가가 달라도 한 제품
     assert kb["products"][pad]["ranks"]["US"] == [1, 2]
     assert kb["products"][pad]["ranks"]["UK"] == [None, 1]
-    assert kb["products"][pad]["asins"] == {"US": "A1", "UK": "B1"}
+    assert kb["products"][pad]["asins"] == {"US": "A1", "UK": "A1"}
 
     meta = build_meta(load_snapshots(tmp_path))
     st = {c["cc"]: c["status"] for c in meta["countries"]}

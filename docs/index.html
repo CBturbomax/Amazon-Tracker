@@ -164,7 +164,8 @@
   </section>
 
   <footer>
-    데이터: 아마존 베스트셀러 Beauty Top 100 (미국·영국·독일·프랑스·스페인). 매일 같은 시각(KST)에 자동 수집.
+    데이터: 아마존 베스트셀러 Beauty Top 100 (미국·영국·독일·프랑스·스페인). 매일 09:07 KST에 자동 수집.
+    한글 제품명은 자동으로 만든 초안이며, 이름이 없는 제품은 아마존 영문명으로 표시합니다.
     <span id="gen"></span>
   </footer>
 </div>
@@ -291,8 +292,7 @@ function snapshotHTML(date, { withKpis }) {
 
 function productButton(key) {
   const p = KB.products[key];
-  const review = p && p.needs_review && p.registered ? '<span class="tag review">이름 확인 전</span>' : "";
-  return `${review}<button type="button" data-product="${esc(key)}" title="${esc(p ? p.name_en : key)}">${esc(p ? p.short : key)}</button>`;
+  return `<button type="button" data-product="${esc(key)}" title="${esc(p ? p.name_en : key)}">${esc(p ? p.short : key)}</button>`;
 }
 
 function renderToday() {
