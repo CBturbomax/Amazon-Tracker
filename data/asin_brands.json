@@ -256,8 +256,8 @@
   "tries": 1
  },
  "B01MDTVZTZ": {
-  "error": "no_brand",
-  "checked_at": "2026-09-28T10:50:50+09:00",
+  "error": "captcha",
+  "checked_at": "2026-09-29T14:38:17+09:00",
   "tries": 2
  },
  "B01MSSDEPK": {
@@ -268,8 +268,8 @@
   "tries": 1
  },
  "B01MYEZPC8": {
-  "error": "no_brand",
-  "checked_at": "2026-09-28T10:50:55+09:00",
+  "error": "captcha",
+  "checked_at": "2026-09-29T14:38:30+09:00",
   "tries": 2
  },
  "B01N1LL62W": {
