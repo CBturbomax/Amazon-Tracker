@@ -750,6 +750,11 @@
   "checked_at": "2026-09-28T10:44:43+09:00",
   "tries": 1
  },
+ "B092RB7LQW": {
+  "error": "captcha",
+  "checked_at": "2026-10-01T14:43:19+09:00",
+  "tries": 0
+ },
  "B09541P9WH": {
   "brand": "Amazon Essentials",
   "source": "po-brand",
@@ -875,6 +880,11 @@
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:33:49+09:00",
   "tries": 1
+ },
+ "B0B6CMT476": {
+  "error": "captcha",
+  "checked_at": "2026-10-01T14:43:00+09:00",
+  "tries": 0
  },
  "B0B7RQ46LD": {
   "checked_at": "2026-09-30T14:30:07+09:00",
