@@ -138,6 +138,14 @@
   "checked_at": "2026-09-30T14:42:30+09:00",
   "tries": 1
  },
+ "B004BCTFVS": {
+  "brand": "L'Oreal Paris",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-02T14:29:45+09:00",
+  "tries": 1
+ },
  "B004BD107O": {
   "brand": "L'Oreal Paris",
   "source": "po-brand",
@@ -261,6 +269,14 @@
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:43:30+09:00",
+  "tries": 1
+ },
+ "B00IUY6IXQ": {
+  "brand": "TRESemmé",
+  "source": "byline",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-02T14:28:29+09:00",
   "tries": 1
  },
  "B00J4YYFYA": {
@@ -587,6 +603,14 @@
   "checked_at": "2026-09-30T14:32:24+09:00",
   "tries": 1
  },
+ "B07MWSXPT1": {
+  "brand": "e.l.f.",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-02T14:29:23+09:00",
+  "tries": 1
+ },
  "B07NBPSNC4": {
   "brand": "Just for Men",
   "source": "po-brand",
@@ -652,6 +676,14 @@
   "domain": "www.amazon.com",
   "method": "curl_cffi",
   "checked_at": "2026-09-30T14:41:20+09:00",
+  "tries": 1
+ },
+ "B0864QL8CM": {
+  "brand": "Amazon Brand - Solimo",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-02T14:28:51+09:00",
   "tries": 1
  },
  "B089QQBDPD": {
@@ -751,9 +783,12 @@
   "tries": 1
  },
  "B092RB7LQW": {
-  "error": "captcha",
-  "checked_at": "2026-10-01T14:43:19+09:00",
-  "tries": 0
+  "checked_at": "2026-10-02T14:28:14+09:00",
+  "tries": 1,
+  "brand": "Method",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright"
  },
  "B09541P9WH": {
   "brand": "Amazon Essentials",
@@ -882,9 +917,12 @@
   "tries": 1
  },
  "B0B6CMT476": {
-  "error": "captcha",
-  "checked_at": "2026-10-01T14:43:00+09:00",
-  "tries": 0
+  "checked_at": "2026-10-02T14:30:02+09:00",
+  "tries": 1,
+  "brand": "UNA GELLA",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright"
  },
  "B0B7RQ46LD": {
   "checked_at": "2026-09-30T14:30:07+09:00",
@@ -915,6 +953,11 @@
   "method": "curl_cffi",
   "checked_at": "2026-09-30T14:35:55+09:00",
   "tries": 1
+ },
+ "B0BBLZ2YBP": {
+  "error": "captcha",
+  "checked_at": "2026-10-02T14:30:16+09:00",
+  "tries": 0
  },
  "B0BJ74DJXG": {
   "brand": "BYOMA",
@@ -959,6 +1002,11 @@
   "method": "curl_cffi",
   "checked_at": "2026-09-30T14:38:27+09:00",
   "tries": 1
+ },
+ "B0C7N36SRY": {
+  "error": "captcha",
+  "checked_at": "2026-10-02T14:30:32+09:00",
+  "tries": 0
  },
  "B0C822Y5BY": {
   "brand": "HERO COSMETICS",
@@ -1026,6 +1074,14 @@
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:38:02+09:00",
+  "tries": 1
+ },
+ "B0D132F9FP": {
+  "brand": "Native",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-02T14:29:05+09:00",
   "tries": 1
  },
  "B0D2Z3GGCY": {
@@ -1134,6 +1190,11 @@
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:45:17+09:00",
   "tries": 1
+ },
+ "B0FKGJYFC8": {
+  "error": "captcha",
+  "checked_at": "2026-10-02T14:28:00+09:00",
+  "tries": 0
  },
  "B0FRFMNKYZ": {
   "brand": "UNA GELLA",
