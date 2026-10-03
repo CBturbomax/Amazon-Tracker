@@ -21,6 +21,11 @@
   "checked_at": "2026-09-30T14:30:57+09:00",
   "tries": 1
  },
+ "B000VOLKEA": {
+  "error": "captcha",
+  "checked_at": "2026-10-03T14:10:59+09:00",
+  "tries": 0
+ },
  "B000YACKO0": {
   "error": "no_brand",
   "checked_at": "2026-09-30T14:27:49+09:00",
@@ -1193,7 +1198,7 @@
  },
  "B0FKGJYFC8": {
   "error": "captcha",
-  "checked_at": "2026-10-02T14:28:00+09:00",
+  "checked_at": "2026-10-03T14:10:48+09:00",
   "tries": 0
  },
  "B0FRFMNKYZ": {

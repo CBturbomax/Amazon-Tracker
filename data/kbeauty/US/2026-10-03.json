@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "layer": "kbeauty",
+ "country": "US",
+ "domain": "www.amazon.com",
+ "category": "beauty",
+ "date": "2026-10-03",
+ "collected_at": "2026-10-03T14:08:50+09:00",
+ "method": "playwright",
+ "status": "failed",
+ "error": null,
+ "pages": [
+  {
+   "url": "https://www.amazon.com/gp/bestsellers/beauty",
+   "method": "playwright",
+   "fetched_at": "2026-10-03T14:08:51+09:00",
+   "status": 200,
+   "final_url": "https://www.amazon.com/gp/bestsellers/beauty",
+   "elapsed_s": 8.43,
+   "error": null,
+   "block": "captcha",
+   "html_bytes": 3495,
+   "page": 1,
+   "outcome": "captcha",
+   "complete": false,
+   "rendered_count": 0,
+   "recs_count": 0
+  }
+ ],
+ "items": [],
+ "recs": []
+}
