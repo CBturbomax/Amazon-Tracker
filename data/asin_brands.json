@@ -38,6 +38,11 @@
   "checked_at": "2026-09-28T10:45:33+09:00",
   "tries": 1
  },
+ "B00129XP8M": {
+  "error": "captcha",
+  "checked_at": "2026-10-04T14:46:52+09:00",
+  "tries": 0
+ },
  "B0013G35KW": {
   "brand": "Bio-Oil",
   "source": "po-brand",
@@ -218,6 +223,11 @@
   "checked_at": "2026-09-30T14:39:54+09:00",
   "tries": 1
  },
+ "B008BDSZFK": {
+  "error": "captcha",
+  "checked_at": "2026-10-04T14:47:07+09:00",
+  "tries": 0
+ },
  "B00949CTQQ": {
   "brand": "Paula's Choice",
   "source": "po-brand",
@@ -245,6 +255,14 @@
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:32:37+09:00",
+  "tries": 1
+ },
+ "B00FFEG7PI": {
+  "brand": "Calvin Klein",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-04T14:45:54+09:00",
   "tries": 1
  },
  "B00GY78YKQ": {
@@ -691,6 +709,14 @@
   "checked_at": "2026-10-02T14:28:51+09:00",
   "tries": 1
  },
+ "B087D6BC8S": {
+  "brand": "Dots for Spots",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-04T14:46:33+09:00",
+  "tries": 1
+ },
  "B089QQBDPD": {
   "brand": "Acnecide",
   "source": "po-brand",
@@ -742,6 +768,14 @@
   "domain": "www.amazon.com",
   "method": "curl_cffi",
   "checked_at": "2026-09-30T14:28:49+09:00",
+  "tries": 1
+ },
+ "B08QYD4D77": {
+  "brand": "KISS",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-04T14:45:34+09:00",
   "tries": 1
  },
  "B08SNSSTPZ": {
@@ -959,6 +993,14 @@
   "checked_at": "2026-09-30T14:35:55+09:00",
   "tries": 1
  },
+ "B0BBBSMV94": {
+  "brand": "Native",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-04T14:44:37+09:00",
+  "tries": 1
+ },
  "B0BBLZ2YBP": {
   "error": "captcha",
   "checked_at": "2026-10-02T14:30:16+09:00",
@@ -1010,7 +1052,7 @@
  },
  "B0C7N36SRY": {
   "error": "captcha",
-  "checked_at": "2026-10-02T14:30:32+09:00",
+  "checked_at": "2026-10-04T14:46:15+09:00",
   "tries": 0
  },
  "B0C822Y5BY": {
@@ -1146,11 +1188,27 @@
   "checked_at": "2026-09-28T10:40:22+09:00",
   "tries": 1
  },
+ "B0DK6W7RPS": {
+  "brand": "Bare Anatomy",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-04T14:44:59+09:00",
+  "tries": 1
+ },
  "B0DK8DCVK7": {
   "brand": "Goddvenus",
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:39:27+09:00",
+  "tries": 1
+ },
+ "B0DL7DKQ8W": {
+  "brand": "Carpe",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-04T14:45:17+09:00",
   "tries": 1
  },
  "B0DNR8RF83": {
@@ -1197,9 +1255,12 @@
   "tries": 1
  },
  "B0FKGJYFC8": {
-  "error": "captcha",
-  "checked_at": "2026-10-03T14:10:48+09:00",
-  "tries": 0
+  "checked_at": "2026-10-04T14:44:19+09:00",
+  "tries": 1,
+  "brand": "Dr.Althea",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright"
  },
  "B0FRFMNKYZ": {
   "brand": "UNA GELLA",
