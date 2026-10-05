@@ -40,7 +40,7 @@
  },
  "B00129XP8M": {
   "error": "captcha",
-  "checked_at": "2026-10-04T14:46:52+09:00",
+  "checked_at": "2026-10-05T14:29:37+09:00",
   "tries": 0
  },
  "B0013G35KW": {
@@ -49,6 +49,14 @@
   "domain": "www.amazon.co.uk",
   "method": "curl_cffi",
   "checked_at": "2026-09-30T14:36:27+09:00",
+  "tries": 1
+ },
+ "B00149RO2S": {
+  "brand": "OPI",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-10-05T14:28:26+09:00",
   "tries": 1
  },
  "B0014CZ16Q": {
@@ -1052,7 +1060,7 @@
  },
  "B0C7N36SRY": {
   "error": "captcha",
-  "checked_at": "2026-10-04T14:46:15+09:00",
+  "checked_at": "2026-10-05T14:29:25+09:00",
   "tries": 0
  },
  "B0C822Y5BY": {
@@ -1114,6 +1122,14 @@
   "domain": "www.amazon.co.uk",
   "method": "curl_cffi",
   "checked_at": "2026-09-30T14:41:55+09:00",
+  "tries": 1
+ },
+ "B0CWPKWPRJ": {
+  "brand": "Carpe",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-10-05T14:28:48+09:00",
   "tries": 1
  },
  "B0CZF2T7CK": {
