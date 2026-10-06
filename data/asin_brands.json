@@ -597,6 +597,11 @@
   "checked_at": "2026-09-30T14:39:08+09:00",
   "tries": 1
  },
+ "B07CKKGR83": {
+  "error": "captcha",
+  "checked_at": "2026-10-06T15:14:05+09:00",
+  "tries": 0
+ },
  "B07GB3NVN1": {
   "brand": "Native",
   "source": "po-brand",
@@ -1292,6 +1297,14 @@
   "checked_at": "2026-09-28T10:43:55+09:00",
   "tries": 1
  },
+ "B0FY7963T5": {
+  "brand": "Native",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-10-06T15:13:24+09:00",
+  "tries": 1
+ },
  "B0G1VBDXYF": {
   "brand": "Luxe Cosmetics",
   "source": "po-brand",
@@ -1327,6 +1340,11 @@
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:39:59+09:00",
   "tries": 1
+ },
+ "B0H2FR3KH1": {
+  "error": "captcha",
+  "checked_at": "2026-10-06T15:14:22+09:00",
+  "tries": 0
  },
  "B0H72GFKJQ": {
   "brand": "eos",
