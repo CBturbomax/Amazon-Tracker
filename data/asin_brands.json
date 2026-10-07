@@ -560,6 +560,14 @@
   "checked_at": "2026-09-28T10:36:52+09:00",
   "tries": 1
  },
+ "B077RTL1HJ": {
+  "brand": "Illiyoon",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-10-07T14:48:20+09:00",
+  "tries": 1
+ },
  "B0787GLBMV": {
   "brand": "Schick Hydro Silk",
   "source": "po-brand",
@@ -599,7 +607,7 @@
  },
  "B07CKKGR83": {
   "error": "captcha",
-  "checked_at": "2026-10-06T15:14:05+09:00",
+  "checked_at": "2026-10-07T14:48:56+09:00",
   "tries": 0
  },
  "B07GB3NVN1": {
@@ -1282,6 +1290,11 @@
   "source": "po-brand",
   "domain": "www.amazon.com",
   "method": "playwright"
+ },
+ "B0FM2CCBS1": {
+  "error": "captcha",
+  "checked_at": "2026-10-07T14:49:12+09:00",
+  "tries": 0
  },
  "B0FRFMNKYZ": {
   "brand": "UNA GELLA",

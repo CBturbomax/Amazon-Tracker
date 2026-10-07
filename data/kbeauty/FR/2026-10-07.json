@@ -1,0 +1,48 @@
+{
+ "schema": 1,
+ "layer": "kbeauty",
+ "country": "FR",
+ "domain": "www.amazon.fr",
+ "category": "beauty",
+ "date": "2026-10-07",
+ "collected_at": "2026-10-07T14:47:17+09:00",
+ "method": "playwright",
+ "status": "failed",
+ "error": null,
+ "pages": [
+  {
+   "url": "https://www.amazon.fr/gp/bestsellers/beauty",
+   "method": "playwright",
+   "fetched_at": "2026-10-07T14:47:18+09:00",
+   "status": 200,
+   "final_url": "https://www.amazon.fr/gp/bestsellers/beauty",
+   "elapsed_s": 8.36,
+   "error": null,
+   "block": null,
+   "html_bytes": 3538,
+   "page": 1,
+   "outcome": "parse_fail",
+   "complete": false,
+   "rendered_count": 0,
+   "recs_count": 0
+  },
+  {
+   "url": "https://www.amazon.fr/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+   "method": "playwright",
+   "fetched_at": "2026-10-07T14:47:30+09:00",
+   "status": 200,
+   "final_url": "https://www.amazon.fr/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+   "elapsed_s": 8.01,
+   "error": null,
+   "block": null,
+   "html_bytes": 3538,
+   "page": 2,
+   "outcome": "parse_fail",
+   "complete": false,
+   "rendered_count": 0,
+   "recs_count": 0
+  }
+ ],
+ "items": [],
+ "recs": []
+}
