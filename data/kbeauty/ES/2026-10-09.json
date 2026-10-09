@@ -1,0 +1,1750 @@
+{
+ "schema": 1,
+ "layer": "kbeauty",
+ "country": "ES",
+ "domain": "www.amazon.es",
+ "category": "beauty",
+ "date": "2026-10-09",
+ "collected_at": "2026-10-09T15:00:43+09:00",
+ "method": "playwright",
+ "status": "ok",
+ "error": null,
+ "pages": [
+  {
+   "url": "https://www.amazon.es/gp/bestsellers/beauty",
+   "method": "playwright",
+   "fetched_at": "2026-10-09T15:00:43+09:00",
+   "status": 200,
+   "final_url": "https://www.amazon.es/gp/bestsellers/beauty",
+   "elapsed_s": 5.03,
+   "error": null,
+   "block": null,
+   "html_bytes": 708294,
+   "page": 1,
+   "outcome": "ok",
+   "complete": true,
+   "rendered_count": 50,
+   "recs_count": 50
+  },
+  {
+   "url": "https://www.amazon.es/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+   "method": "playwright",
+   "fetched_at": "2026-10-09T15:00:51+09:00",
+   "status": 200,
+   "final_url": "https://www.amazon.es/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+   "elapsed_s": 5.22,
+   "error": null,
+   "block": null,
+   "html_bytes": 683944,
+   "page": 2,
+   "outcome": "ok",
+   "complete": true,
+   "rendered_count": 50,
+   "recs_count": 50
+  }
+ ],
+ "items": [
+  {
+   "rank": 1,
+   "asin": "B0DBF65JYY",
+   "title": "medicube PDRN Pink Peptide Serum with Salmon DNA | Sérum con Péptidos y Niacinamida para Hidratación y una Piel de Aspecto Más Firme, Mejora el Tono de la Piel, 30ml",
+   "price_text": "32,00 €",
+   "price": 32.0,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "25.094",
+   "rating_count": 25094,
+   "page": 1
+  },
+  {
+   "rank": 2,
+   "asin": "B09V7Z4TJG",
+   "title": "medicube Toner Pads Zero Pore Pad 2.0 | Discos Tónicos de Doble Textura para Exfoliación y Poros con AHA y BHA, Todo Tipo de Piel, Cosmética Coreana, 70 Discos",
+   "price_text": "34,00 €",
+   "price": 34.0,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "32.963",
+   "rating_count": 32963,
+   "page": 1
+  },
+  {
+   "rank": 3,
+   "asin": "B0DGPSZVW3",
+   "title": "medicube Collagen Jelly Cream | Crema Facial con Colágeno Hidrolizado, Hidratación y Glow 24 Horas, Piel Más Rellena y Firme, 50 ml",
+   "price_text": "24,95 €",
+   "price": 24.95,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "39.088",
+   "rating_count": 39088,
+   "page": 1
+  },
+  {
+   "rank": 4,
+   "asin": "B0B2RM68G2",
+   "title": "BIODANCE Bio-Collagen Real Deep Mask - Mascarilla Nocturna Hidratante, Minimiza Poros y Mejora la Elasticidad - Mascarilla Facial de Hidratación Profunda con Colágeno - 34g x 4 Unidades",
+   "price_text": "23,58 €",
+   "price": 23.58,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "46.489",
+   "rating_count": 46489,
+   "page": 1
+  },
+  {
+   "rank": 5,
+   "asin": "B0D2Z3GGCY",
+   "title": "medicube Capsule Cream with Deep Vitamin C | Crema con Cápsulas de Vitamina C, Luminosidad y Piel de Aspecto Más Uniforme, Textura Gel Hidratante, Cosmética Coreana, 55 g",
+   "price_text": "24,95 €",
+   "price": 24.95,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "28.601",
+   "rating_count": 28601,
+   "page": 1
+  },
+  {
+   "rank": 6,
+   "asin": "B0GHMZXX8Y",
+   "title": "medicube PDRN Pink Collagen Volume Multi Balm Stick | PDRN yColágeno, Bálsamo Multiusos en Barra para Rostro, Ojos y Cuello, Efecto Voluminizador y Reafirmante, Cosmética Coreana",
+   "price_text": "39,57 €",
+   "price": 39.57,
+   "rating_text": "3,8 de 5 estrellas",
+   "rating": 3.8,
+   "rating_count_text": "4.543",
+   "rating_count": 4543,
+   "page": 1
+  },
+  {
+   "rank": 7,
+   "asin": "B0GD6R7CFJ",
+   "title": "BIODANCE Parches de Ojos con Péptidos de Colágeno, Antiarrugas para Líneas de Expresión y Bolsas, Contorno de Ojos, Cuidado de la Piel Coreano (60 uds)",
+   "price_text": "36,31 €",
+   "price": 36.31,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "4.891",
+   "rating_count": 4891,
+   "page": 1
+  },
+  {
+   "rank": 8,
+   "asin": "B0DWMSM6Y9",
+   "title": "medicube Eye Serum with Salmon DNA PDRN & Pink Peptides | Retinol al 99% para Líneas Finas, PDRN y Niacinamida para el Tono de la Piel Irregular, Cosmética Coreana, 30 ml",
+   "price_text": "14,89 €",
+   "price": 14.89,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "7.043",
+   "rating_count": 7043,
+   "page": 1
+  },
+  {
+   "rank": 9,
+   "asin": "B0DGTMR754",
+   "title": "medicube Jelly Gel Mask with Salmon DNA PDRN Pink Collagen | Mascarilla Facial Nocturna Efecto Glass Skin, Hidratación y Efecto Reafirmante, Cosmética Coreana, 28 g x 4 Unidades",
+   "price_text": "29,95 €",
+   "price": 29.95,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "13.604",
+   "rating_count": 13604,
+   "page": 1
+  },
+  {
+   "rank": 10,
+   "asin": "B0DK4Y2YP3",
+   "title": "celimax The Vita A Retinal Shot Tightening Booster, 15ml | 0,1% Retinal, 3% Matryxyl, Retinoide de Alta Potencia, Anti-Edad, Minimizador de Poros, Líneas Finas, Firmeza de la Piel",
+   "price_text": "29,90 €",
+   "price": 29.9,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "27.320",
+   "rating_count": 27320,
+   "page": 1
+  },
+  {
+   "rank": 11,
+   "asin": "B0BRMYHMS5",
+   "title": "medicube Wrapping Mask Collagen Overnight Peel Off Facial Mask | Hidrata y Reafirma, Ayuda a Mejorar la Firmeza y Luminosidad de la Piel con Colágeno Hidrolizado, Cosmética Coreana, 75 ml",
+   "price_text": "24,87 €",
+   "price": 24.87,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "24.804",
+   "rating_count": 24804,
+   "page": 1
+  },
+  {
+   "rank": 12,
+   "asin": "B08P4YPB8Q",
+   "title": "Maybelline New York Lash Sensational Sky High Volumen y Longitud, Negro | Cepillo Flexible, Longitud sin Límites, Volumen Redefinido, Pestañas Definidas, Uso Diario, Lash Sensational Sky High",
+   "price_text": "6,47 €",
+   "price": 6.47,
+   "rating_text": "4,2 de 5 estrellas",
+   "rating": 4.2,
+   "rating_count_text": "36.617",
+   "rating_count": 36617,
+   "page": 1
+  },
+  {
+   "rank": 13,
+   "asin": "B0GCC2JV65",
+   "title": "medicube NAD EGF Firming Serum for Face & Neck | Sérum Antiedad con Péptidos y Colágeno, Reduce Signos de la Edad y Mejora la Elasticidad y los Poros, Cosmética Coreana, 30ml",
+   "price_text": "19,00 €",
+   "price": 19.0,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "3.334",
+   "rating_count": 3334,
+   "page": 1
+  },
+  {
+   "rank": 14,
+   "asin": "B09SZ5JX2Y",
+   "title": "d'alba Piedmont Trufa Blanca Double Serum All-in-one Multi Balm | Cuidado de la piel vegano, Tratamiento 3 en 1, Bálsamo para arrugas, Skincare coreano",
+   "price_text": "19,95 €",
+   "price": 19.95,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "9.820",
+   "rating_count": 9820,
+   "page": 1
+  },
+  {
+   "rank": 15,
+   "asin": "B0BFQ9RD5B",
+   "title": "d'alba Piedmont Trufa Blanca Italiana First Spray Serum (100ml) | Cuidado de la piel vegano, Bruma facial hidratante, Spray multifuncional, Para todo tipo de piel, Skincare coreano",
+   "price_text": "23,78 €",
+   "price": 23.78,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "35.391",
+   "rating_count": 35391,
+   "page": 1
+  },
+  {
+   "rank": 16,
+   "asin": "B0GMHCMVCP",
+   "title": "Philips OneBlade Original 360 cuchillas, compatibles con todos los mangos OneBlade y Pro, 5 unidades (modelo QP450/50)",
+   "price_text": "47,93 €",
+   "price": 47.93,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "23.094",
+   "rating_count": 23094,
+   "page": 1
+  },
+  {
+   "rank": 17,
+   "asin": "B08B21PRLM",
+   "title": "L'Oréal Paris Revitalift Filler Sérum Facial Ácido Hialurónico y PDRN vegano, 30ml",
+   "price_text": "13,26 €",
+   "price": 13.26,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "6.684",
+   "rating_count": 6684,
+   "page": 1
+  },
+  {
+   "rank": 18,
+   "asin": "B0DXLBZF4Q",
+   "title": "Philips OneBlade 360 Auténtico Barbero, afeitadora y recortadora eléctrica facial y corporal, 3x 360 cuchillas, 3x peine para barba incipiente (1,3,5mm), 1x kit corporal, QP2824/31",
+   "price_text": "49,58 €",
+   "price": 49.58,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "12.402",
+   "rating_count": 12402,
+   "page": 1
+  },
+  {
+   "rank": 19,
+   "asin": "B09BD7L35V",
+   "title": "Garnier Vitamina C Sérum AntiManchas Pieles Sensible, Nº1 del mundo, 30 ml | 4% Niacinamida, Vitamina C, Ácido Salicílico y Melasyl, Reduce el 70% de Manchas Oscuras, Unifica el Tono e Ilumina en 3 Días",
+   "price_text": "10,37 €",
+   "price": 10.37,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "26.039",
+   "rating_count": 26039,
+   "page": 1
+  },
+  {
+   "rank": 20,
+   "asin": "B0CNQ4DJRV",
+   "title": "L'Oréal Paris Infaillible Spray Fijador de Maquillaje hasta 36 Horas, 75ml | Fijación hasta 36 horas, ayuda a mantener el maquillaje, fórmula vegana, uso diario, Infaillible Setting Spray",
+   "price_text": "17,23 €",
+   "price": 17.23,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "9.821",
+   "rating_count": 9821,
+   "page": 1
+  },
+  {
+   "rank": 21,
+   "asin": "B094TYNC9T",
+   "title": "L'Oréal Paris Revitalift Filler Crema Hidratante Día Nº1 con SPF 50, 50ml | Ácido Hialurónico, Crema Hidratante con Protección Solar Facial, Rellena y Reduce Arrugas, Textura Ligera, Revitalift Filler",
+   "price_text": "14,00 €",
+   "price": 14.0,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "3.148",
+   "rating_count": 3148,
+   "page": 1
+  },
+  {
+   "rank": 22,
+   "asin": "B08R9NZ65K",
+   "title": "Axe Dark Temptation Desodorante - 150 ml - Pack de 6, El embalaje puede variar",
+   "price_text": "16,20 €",
+   "price": 16.2,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "2.261",
+   "rating_count": 2261,
+   "page": 1
+  },
+  {
+   "rank": 23,
+   "asin": "B01MDOJGDK",
+   "title": "Neutrogena Hydro Boost Limpiador Facial Gel de Agua, 200 ml | Con Ácido Hialurónico y Glicerina, Hidratante, No Comedogénico, Desmaquillante Suave, Para Todo Tipo de Piel, Uso Diario",
+   "price_text": "5,78 €",
+   "price": 5.78,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "15.360",
+   "rating_count": 15360,
+   "page": 1
+  },
+  {
+   "rank": 24,
+   "asin": "B09D7QJP1M",
+   "title": "d'alba Loción Solar Tonificante Waterfull SPF50+PA++++ de Trufa Blanca italiana, Crema Solar Teñida con Filtros UV Veganos, Loción Solar Brillante e iluminadora, Skincare Coreano",
+   "price_text": "25,77 €",
+   "price": 25.77,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "8.156",
+   "rating_count": 8156,
+   "page": 1
+  },
+  {
+   "rank": 25,
+   "asin": "B083JKPCFB",
+   "title": "Kérastase, Genesis, Sérum Anti-caída, Fortificante, Activador y Fortalecedor Diario, Para Pelo Débil o Frágil, Sérum Anti-Chute Fortifiant, 90 ml",
+   "price_text": "55,00 €",
+   "price": 55.0,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "9.222",
+   "rating_count": 9222,
+   "page": 1
+  },
+  {
+   "rank": 26,
+   "asin": "B07C5XYT19",
+   "title": "CeraVe, Cerave Loción Hidratante de Rostro, Crema hidratante noche, 52 ml | Hidrata y ayuda a restaurar la barrera protectora del rostro con textura ultra-ligera diseñada para reparar.",
+   "price_text": "11,05 €",
+   "price": 11.05,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "19.109",
+   "rating_count": 19109,
+   "page": 1
+  },
+  {
+   "rank": 27,
+   "asin": "B0FHBQB9R8",
+   "title": "Erborian - CC Crème con Centella Asiática - Crema Facial Iluminadora de Alta Definición y Maquillaje - Protección Solar SPF 30 - Cosmética Coreana",
+   "price_text": "33,99 €",
+   "price": 33.99,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "9.175",
+   "rating_count": 9175,
+   "page": 1
+  },
+  {
+   "rank": 28,
+   "asin": "B06XDS7J69",
+   "title": "L'Oréal Paris Revitalift Laser Crema SPF25 Nº1 AntiEdad y AntiManchas, 50ml | Pro Retinol, Ácido Hialurónico y Vitamina Cg, Ayuda a Reafirmar, Reduce Arrugas y Manchas Oscuras, Piel Radiante Triple Laser",
+   "price_text": "13,85 €",
+   "price": 13.85,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "5.563",
+   "rating_count": 5563,
+   "page": 1
+  },
+  {
+   "rank": 29,
+   "asin": "B0D2P1ZVZ8",
+   "title": "L'Oréal Paris Age Perfect Sérum Le Duo Antiarrugas Rejuvenecedor, 30ml | Péptidos de Colágeno, Vitaminas B3 y C, Efecto Reafirmante, Rejuvenecedor, Antiarrugas, Antiedad, Piel más Suave y Luminosa",
+   "price_text": "16,48 €",
+   "price": 16.48,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "1.263",
+   "rating_count": 1263,
+   "page": 1
+  },
+  {
+   "rank": 30,
+   "asin": "B0DQCLFJCB",
+   "title": "medicube Exosome Shot PDRN Pink Collagen 7,500 PPM Spicule Facial Serum | Booster Líquido con Exosomas y Espículas de ADN de Salmón, Mejora Poros y Textura de la Piel, Cosmética Coreana, 30 ml",
+   "price_text": "34,60 €",
+   "price": 34.6,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "8.848",
+   "rating_count": 8848,
+   "page": 1
+  },
+  {
+   "rank": 31,
+   "asin": "B01MF9YDQN",
+   "title": "Neutrogena Hydro Boost Gel de Agua Crema Hidratante Facial ligera, 50 ml | Con Ácido Hialurónico y Aminoácidos, 72h de Hidratación, Oil-Free, No Comedogénico, Piel Normal/ Mixta y Sensible",
+   "price_text": "8,25 €",
+   "price": 8.25,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "5.797",
+   "rating_count": 5797,
+   "page": 1
+  },
+  {
+   "rank": 32,
+   "asin": "B09C1B7BH5",
+   "title": "medicube Facial Cleanser Zero Foam Cleanser for Pore & Excess Oil Care | Limpiador Facial Suave, Control del Sebo, Hidratación y Minimización de los Poros, Cosmética Coreana, Piel Sensible, 120 g",
+   "price_text": "25,00 €",
+   "price": 25.0,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "4.614",
+   "rating_count": 4614,
+   "page": 1
+  },
+  {
+   "rank": 33,
+   "asin": "B00KLXFUW4",
+   "title": "Maybelline New York Instant Anti-Age Corrector de Ojeras, 01 Light | Corrector Multiusos, Cobertura Modulable, Enriquecida con Bayas de Goji y Haloxyl, Acabado e Hidratado, Instant Anti-Age",
+   "price_text": "7,43 €",
+   "price": 7.43,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "30.546",
+   "rating_count": 30546,
+   "page": 1
+  },
+  {
+   "rank": 34,
+   "asin": "B0GS97T2MV",
+   "title": "celimax The Vita-A Retinal Shot Tightening Dual Cream, 50ml | 0,05% Retinal, 3% Matryxyl, 5% Pantenol, Retinoide de Alta Potencia, Crema Anti-Edad y Calmante, Arrugas y Líneas Finas",
+   "price_text": "43,41 €",
+   "price": 43.41,
+   "rating_text": "4,3 de 5 estrellas",
+   "rating": 4.3,
+   "rating_count_text": "1.007",
+   "rating_count": 1007,
+   "page": 1
+  },
+  {
+   "rank": 35,
+   "asin": "B0DWFSJ9Y4",
+   "title": "L'Oréal Paris Elvive Growth Booster Serúm Tratamiento Anticaída, 100ml | Formulado con Aminexil-R™, Estimula el Crecimiento del Pelo, Fortalece y Incrementa Densidad Capilar, Clinicamente Testado",
+   "price_text": "10,95 €",
+   "price": 10.95,
+   "rating_text": "3,7 de 5 estrellas",
+   "rating": 3.7,
+   "rating_count_text": "58",
+   "rating_count": 58,
+   "page": 1
+  },
+  {
+   "rank": 36,
+   "asin": "B0GS8YKMN3",
+   "title": "medicube Booster Pro X2™ | Dispositivo Beauty 7 en 1 para Poros, Firmeza y Luminosidad, Modos Personalizados para Mascarillas, Cosmética Coreana, Rosa",
+   "price_text": "291,93 €",
+   "price": 291.93,
+   "rating_text": "4,2 de 5 estrellas",
+   "rating": 4.2,
+   "rating_count_text": "729",
+   "rating_count": 729,
+   "page": 1
+  },
+  {
+   "rank": 37,
+   "asin": "B004SBLR4U",
+   "title": "Vichy Champú Anticaída, Efecto Estimulante, Apto Para Todo Tipo de Cabello, Cuero Cabelludo Sano y Detoxificado, Con Aminexil, Energy+, Dercos Technique",
+   "price_text": "13,10 €",
+   "price": 13.1,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "9.575",
+   "rating_count": 9575,
+   "page": 1
+  },
+  {
+   "rank": 38,
+   "asin": "B00X9WCH9S",
+   "title": "L'Oréal Paris Elvive Aceite Extraordinario Sérum Nutritivo Multiusos, 100ml | Sérum Enriquecido Con Aceites de Camellia y Marula, para Pelo Seco, Aporta Brillo, Hidratación Profunda, Nutre sin Apelmazar",
+   "price_text": "18,70 €",
+   "price": 18.7,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "4.439",
+   "rating_count": 4439,
+   "page": 1
+  },
+  {
+   "rank": 39,
+   "asin": "B0DL92QM79",
+   "title": "ANUA Niacinamide 10 + TXA 4 Serum, Hyaluronic Acid, Tranexamic acid, Vitamin B12, Facial Serum for Glass Skin, Clarifying, Radiant Complexion with Natural Color, Korean Skin Care (30ml /1.01 fl.oz)",
+   "price_text": "45,39 €",
+   "price": 45.39,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "3.956",
+   "rating_count": 3956,
+   "page": 1
+  },
+  {
+   "rank": 40,
+   "asin": "B0FKGJYFC8",
+   "title": "Dr. Althea Crema de Alivio 345, Crema Hidratante en Gel con Niacinamida y Pantenol para Pieles Sensibles, 50 ml",
+   "price_text": "23,31 €",
+   "price": 23.31,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "22.340",
+   "rating_count": 22340,
+   "page": 1
+  },
+  {
+   "rank": 41,
+   "asin": "B00M9B66BU",
+   "title": "REVLON PROFESSIONAL UniqOne All in One Protector Térmico Pelo, Hidratación Profunda Cabello, Tratamiento en Spray sin Aclarado, Desenredante Pelo Mujer, Fragrancia Classic 150 ml",
+   "price_text": "23,61 €",
+   "price": 23.61,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "106.336",
+   "rating_count": 106336,
+   "page": 1
+  },
+  {
+   "rank": 42,
+   "asin": "B06Y2D2XVW",
+   "title": "Wella Professionals FUSION Mascarilla Capilar de Reparación Intensa | Tratamiento Hidratante - Brillo y anti roturas - Cabello Seco y Dañado",
+   "price_text": "26,63 €",
+   "price": 26.63,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "12.930",
+   "rating_count": 12930,
+   "page": 1
+  },
+  {
+   "rank": 43,
+   "asin": "B097WJSC59",
+   "title": "L'Oréal Paris Accord Parfait Sérum con Color, Light Medium (3-4), 30ml | Ácido Hialurónico*, Glicerina, Piel más Lisa y Luminosa, Acabado Natural, Accord Parfait Serúm",
+   "price_text": "20,70 €",
+   "price": 20.7,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "9.239",
+   "rating_count": 9239,
+   "page": 1
+  },
+  {
+   "rank": 44,
+   "asin": "B08J4NMBL2",
+   "title": "Braun Mini Depiladora Facial para Mujer FS1000, Blanco | con Luz Smartlight Incorporada, Rasuradora de Precisión, Depilación de Labio Superior, Barbilla Y Mejillas",
+   "price_text": "15,69 €",
+   "price": 15.69,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "38.125",
+   "rating_count": 38125,
+   "page": 1
+  },
+  {
+   "rank": 45,
+   "asin": "B07LGCGG6R",
+   "title": "Erborian - CC Red Correct Crema Tinte Antirojeces - Teint Tratamiento Facial Perfeccionador con Corrección Colorimétrica - Teint Uniforme - SPF 25 - Tratamiento Cosmético Coreano",
+   "price_text": "17,59 €",
+   "price": 17.59,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "9.191",
+   "rating_count": 9191,
+   "page": 1
+  },
+  {
+   "rank": 46,
+   "asin": "B0G52CKKMT",
+   "title": "Maybelline New York Lash Sensational Sky Tubes Máscara, Very Black | Manteca de Karité y Aceite de Ricino, Fórmula Vegana, Hasta 24H, Efecto Extensiones, Cepillo Tubing Extender, Sky Tubes",
+   "price_text": "7,69 €",
+   "price": 7.69,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "836",
+   "rating_count": 836,
+   "page": 1
+  },
+  {
+   "rank": 47,
+   "asin": "B0GF86QJK7",
+   "title": "BIODANCE Bruma Sérum Jelly con Péptidos de Colágeno, Bruma Facial Hidratante, Efecto Voluminizador y Antiedad, Hidrogel en Spray, Imprescindible de Viaje y Regalo de Autocuidado para Mujer, Cuidado de",
+   "price_text": "16,22 €",
+   "price": 16.22,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "5.314",
+   "rating_count": 5314,
+   "page": 1
+  },
+  {
+   "rank": 48,
+   "asin": "B0BPXT3GBN",
+   "title": "medicube Triple Collagen Cream | Crema Hidratante con Ácido Hialurónico, Manteca de Karité, Efecto Reafirmante , Cosmética Coreana, 50ml",
+   "price_text": "35,54 €",
+   "price": 35.54,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "11.407",
+   "rating_count": 11407,
+   "page": 1
+  },
+  {
+   "rank": 49,
+   "asin": "B077N513Z1",
+   "title": "Maybelline New York SuperStay Matte Ink de Larga Duración, 65 Seductres | Pintalabios, Color Altamente Pigmentado, Líquido Mate, Fórmula Vegana, Uso Diario, SuperStay Matte Ink",
+   "price_text": "12,76 €",
+   "price": 12.76,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "56.627",
+   "rating_count": 56627,
+   "page": 1
+  },
+  {
+   "rank": 50,
+   "asin": "B07QPB5PM8",
+   "title": "Rexona Advanced Protection Desodorante antitranspirante Aerosol para Mujer ALOE VERA 72h 200 ML 200 ml, Pack de 6 Unidades",
+   "price_text": "17,97 €",
+   "price": 17.97,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "2.487",
+   "rating_count": 2487,
+   "page": 1
+  },
+  {
+   "rank": 51,
+   "asin": "B09XN22JBT",
+   "title": "CeraVe, Loción Hidratante de Rostro SPF 50, Para Piel Normal a Seca, Hidratación y Alta Protección Contra los Rayos UVB/UVA, Enriquecida con Ceramidas, 52ml",
+   "price_text": "13,99 €",
+   "price": 13.99,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "10.457",
+   "rating_count": 10457,
+   "page": 2
+  },
+  {
+   "rank": 52,
+   "asin": "B0CHZ5WN26",
+   "title": "Philips OneBlade 360 con Bluetooth, Recortadora para Barba y Cuerpo, Afeitadora Eléctrica Hombre, Depilación masculina, 2 Cuchillas, 5 Longitudes, 60 minutos de uso con 1 hora de carga, QP4631/30",
+   "price_text": "39,00 €",
+   "price": 39.0,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "5.493",
+   "rating_count": 5493,
+   "page": 2
+  },
+  {
+   "rank": 53,
+   "asin": "B0FPFDSC7X",
+   "title": "medicube Retinol Boosting Serum | Reafirmante y Voluminizador con Retinol y Péptidos, Afina los Poros para una Piel Lisa y Radiante, Cosmética Coreana, 30 ml",
+   "price_text": "16,60 €",
+   "price": 16.6,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "1.424",
+   "rating_count": 1424,
+   "page": 2
+  },
+  {
+   "rank": 54,
+   "asin": "B0B7RQ46LD",
+   "title": "CeraVe - Blemish Control, Gel Limpiador para Acné y Piel Grasa, Reduce el Acné, Puntos Negros y Mejora los Poros, Tratamiento en Gel con Ácido Salicílico, 473 ml",
+   "price_text": "11,17 €",
+   "price": 11.17,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "37.083",
+   "rating_count": 37083,
+   "page": 2
+  },
+  {
+   "rank": 55,
+   "asin": "B07QL8WW2G",
+   "title": "Rexona Invisible Desodorante Aerosol Antitranspirante para hombre Ice 200ml - Pack de 6, El embalaje puede variar",
+   "price_text": "14,10 €",
+   "price": 14.1,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "4.155",
+   "rating_count": 4155,
+   "page": 2
+  },
+  {
+   "rank": 56,
+   "asin": "B0D1GK2ZKB",
+   "title": "Neutrogena Fórmula Noruega Crema Corporal CICA, 750 ml, 2 uds | Reparación Intensa, Con Centella Asiática y Glicerina, 72 h de Hidratación, Textura no Grasa, Para Piel Muy Seca",
+   "price_text": "14,83 €",
+   "price": 14.83,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "1.282",
+   "rating_count": 1282,
+   "page": 2
+  },
+  {
+   "rank": 57,
+   "asin": "B07C5T3DKW",
+   "title": "CeraVe Crema Reparadora Contorno de Ojos 14 ml | Reduce visiblemente bolsas y ojeras mientras hidrata, aporta luminosidad y restaura la barrera protectora.",
+   "price_text": "12,38 €",
+   "price": 12.38,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "45.965",
+   "rating_count": 45965,
+   "page": 2
+  },
+  {
+   "rank": 58,
+   "asin": "B0DX122DHW",
+   "title": "Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum, Facial Serum for Sensitive skin, Hyaluronic Acid, Niacinamide, Spot Care, Natural Color, Vegan, Korean Skincare (30ml/ 1.01 fl oz.)",
+   "price_text": "45,39 €",
+   "price": 45.39,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "2.314",
+   "rating_count": 2314,
+   "page": 2
+  },
+  {
+   "rank": 59,
+   "asin": "B0D1G7XF9X",
+   "title": "medicube Zero Pore Blackhead Mud Facial Mask | Mascarilla de Barro Coreana Refrescante, Reafirma los Poros, Fórmula Rápida de 3 Minutos con AHA, BHA, PHA y Arcilla, 100 g",
+   "price_text": "33,66 €",
+   "price": 33.66,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "7.698",
+   "rating_count": 7698,
+   "page": 2
+  },
+  {
+   "rank": 60,
+   "asin": "B07FTXBNVL",
+   "title": "Real Techniques Kit de esponjas de maquillaje Everyday Essentials, brochas de maquillaje y esponja mezcladora de maquillaje, para base, colorete, bronceador, juego de 5 piezas",
+   "price_text": "13,21 €",
+   "price": 13.21,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "55.302",
+   "rating_count": 55302,
+   "page": 2
+  },
+  {
+   "rank": 61,
+   "asin": "B00ST2GSRK",
+   "title": "La Roche-Posay, Cicaplast Baume B5+, Bálsamo Calmante Reparador, 40 ml | Bálsamo ultrarreparador, pieles irritadas o fragilizadas; con Madecassoside,agente calmante derivado de la Centella Asiática",
+   "price_text": "17,93 €",
+   "price": 17.93,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "18.612",
+   "rating_count": 18612,
+   "page": 2
+  },
+  {
+   "rank": 62,
+   "asin": "B0CRHL62XJ",
+   "title": "H&S Classic Champú Anticaspa, Todo Tipo de Pelo y Cuero Cabelludo, 2x1L | Con Dispensador, Hasta 100% de Protección contra la Caspa, Sensación de Frescor, Clínicamente Probado, Apto para Uso Diario",
+   "price_text": "19,90 €",
+   "price": 19.9,
+   "rating_text": "4,8 de 5 estrellas",
+   "rating": 4.8,
+   "rating_count_text": "1.170",
+   "rating_count": 1170,
+   "page": 2
+  },
+  {
+   "rank": 63,
+   "asin": "B0DLKCCPYZ",
+   "title": "COSRX Pink Peptide Collagen Hydrogel Eye Patch, 60 parches contra arrugas para ojos hinchados, ojeras, hinchazón, arrugas y líneas finas, máscaras reafirmantes y descremadas",
+   "price_text": "16,80 €",
+   "price": 16.8,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "83.719",
+   "rating_count": 83719,
+   "page": 2
+  },
+  {
+   "rank": 64,
+   "asin": "B0FJLNLKSJ",
+   "title": "d’Alba Parches Ojos Bolsas y Ojeras – White Truffle Intensive Eye Patch 90 g (68 unidades), Mascarillas Contorno de Ojos Antiedad, Hidratantes e Iluminadoras – Korean Skincare",
+   "price_text": "25,99 €",
+   "price": 25.99,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "495",
+   "rating_count": 495,
+   "page": 2
+  },
+  {
+   "rank": 65,
+   "asin": "B0CWS16Y87",
+   "title": "Maybelline New York Super Lock Gel Fijador de Cejas Acabado Transparente | Acabado Transparente, Sin Sensación Pegajosa, Cejas Peinadas al Instante, Cepillo Incorporado, Sin Grumos, Super Lock",
+   "price_text": "5,16 €",
+   "price": 5.16,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "2.923",
+   "rating_count": 2923,
+   "page": 2
+  },
+  {
+   "rank": 66,
+   "asin": "B0D4Y6MNTF",
+   "title": "PURITO Crema con Pantenol 10% para Piel Sensible, 100 ml | Barrera Cutánea, Hidratante Facial, Piel con Imperfecciones, No Comedogénica, Vegana, Cosmética Coreana",
+   "price_text": "17,36 €",
+   "price": 17.36,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "7.174",
+   "rating_count": 7174,
+   "page": 2
+  },
+  {
+   "rank": 67,
+   "asin": "B08HLSL2FV",
+   "title": "Maybelline New York, Brillo de labios Lifter Gloss, Hidratación Intensa y Labios Rellenos Sin Retoques, Fórmula con Ácido Hialurónico",
+   "price_text": "4,91 €",
+   "price": 4.91,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "30.466",
+   "rating_count": 30466,
+   "page": 2
+  },
+  {
+   "rank": 68,
+   "asin": "B071914GGL",
+   "title": "The Ordinary Glycolic Acid 7% Exfoliating Toner, Tónico Exfoliante con Ácido Glicólico, Tónico diario iluminador y suavizante para un tono de piel más uniforme",
+   "price_text": "13,23 €",
+   "price": 13.23,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "64.738",
+   "rating_count": 64738,
+   "page": 2
+  },
+  {
+   "rank": 69,
+   "asin": "B0C8ZN274P",
+   "title": "Trofolastin Crema Antiestrías Centella asiática Piel flexible 400ml | Previene y reduce estrías, apto para el embarazo, potencia elasticidad, sin parabenos, hipoalergénica",
+   "price_text": "30,27 €",
+   "price": 30.27,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "1.107",
+   "rating_count": 1107,
+   "page": 2
+  },
+  {
+   "rank": 70,
+   "asin": "B07ZHKTQL3",
+   "title": "OLAPLEX No. 7 Aceite Reparador De Enlaces Capilares, Aloe, 30 Mililitro | Heat Protection Up to 450°F/232°C, Use on Wet or Dry Hair, Vitamin E and Sunflower Seed Oil",
+   "price_text": "18,89 €",
+   "price": 18.89,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "16.622",
+   "rating_count": 16622,
+   "page": 2
+  },
+  {
+   "rank": 71,
+   "asin": "B0FVT77ZLL",
+   "title": "Anua PDRN Collagen Glow Facial Serum Spray, bruma facial hidratante de colágeno PDRN, mist facial, ácido hialurónico, efecto relleno, skincare coreano, 100 ml",
+   "price_text": "33,67 €",
+   "price": 33.67,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "7.793",
+   "rating_count": 7793,
+   "page": 2
+  },
+  {
+   "rank": 72,
+   "asin": "B0FPQGLYK9",
+   "title": "medicube Sunscreen No Cast Just Glow Collagen | Protector Solar Facial SPF 50, Fórmula Ligera, Calmante y No Pegajosa con Péptidos y Centella Asiática, Cosmética Coreana",
+   "price_text": "18,90 €",
+   "price": 18.9,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "3.390",
+   "rating_count": 3390,
+   "page": 2
+  },
+  {
+   "rank": 73,
+   "asin": "B087R9HVRR",
+   "title": "Alpecin Caffeine Shampoo C1 2x 375ml | Champu anticaida hombre y con cafeina | Tratamiento para la caida del cabello | Alpecin Shampoo Anti Hair Loss Treatment Men",
+   "price_text": "21,99 €",
+   "price": 21.99,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "8.484",
+   "rating_count": 8484,
+   "page": 2
+  },
+  {
+   "rank": 74,
+   "asin": "B0DGGB6NY1",
+   "title": "Pantene Pro-V Repara y Protege Champú para Pelo Seco y Dañado, 2x1L | Limpia los Enlaces Capilares, Sin Siliconas, Tecnología Active Nutri-Plex",
+   "price_text": "19,90 €",
+   "price": 19.9,
+   "rating_text": "4,8 de 5 estrellas",
+   "rating": 4.8,
+   "rating_count_text": "1.881",
+   "rating_count": 1881,
+   "page": 2
+  },
+  {
+   "rank": 75,
+   "asin": "B0F83N244B",
+   "title": "medicube PDRN Jelly to Foam Cleanser, Gentle Low pH Hydrating Cleanser | Limpiador Facial Hidratante Diario con PDRN, Colágeno y LHA para Todo Tipo de Piel, Cosmética Coreana, 200 ml",
+   "price_text": "38,80 €",
+   "price": 38.8,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "2.768",
+   "rating_count": 2768,
+   "page": 2
+  },
+  {
+   "rank": 76,
+   "asin": "B0CCYPDLCQ",
+   "title": "ghd Gold - Plancha de Pelo Profesional Para un Cabello Liso y Brillante - Para Todo Tipo de Cabello",
+   "price_text": "108,26 €",
+   "price": 108.26,
+   "rating_text": "4,3 de 5 estrellas",
+   "rating": 4.3,
+   "rating_count_text": "6.276",
+   "rating_count": 6276,
+   "page": 2
+  },
+  {
+   "rank": 77,
+   "asin": "B000C1Z29Q",
+   "title": "Cacharel",
+   "price_text": "34,95 €",
+   "price": 34.95,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "14.024",
+   "rating_count": 14024,
+   "page": 2
+  },
+  {
+   "rank": 78,
+   "asin": "B07M8J529S",
+   "title": "Philips Quitapelusas Eléctrico, Cuchilla 8800RPM, 3 Tamaños de Malla, Negro | Para todo tipo de prendas, 3 cuchillas, quita bolas eléctrico compacto, depósito fácil de vaciar, 2 pilas AA (GC026/80)",
+   "price_text": "10,24 €",
+   "price": 10.24,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "151.733",
+   "rating_count": 151733,
+   "page": 2
+  },
+  {
+   "rank": 79,
+   "asin": "B000VOLKEA",
+   "title": "Calvin Klein CKIN2U para él Eau de Toilette",
+   "price_text": "15,76 €",
+   "price": 15.76,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "17.983",
+   "rating_count": 17983,
+   "page": 2
+  },
+  {
+   "rank": 80,
+   "asin": "B0FPLQR5XW",
+   "title": "Pantene Grow Abundant Sérum Anticaída para Un Pelo más Largo y Grueso, 60ml | Complejo Pro-Vitamina 3000 y Niacinamida, Resultados Visibles en 8 Semanas",
+   "price_text": "13,98 €",
+   "price": 13.98,
+   "rating_text": "3,8 de 5 estrellas",
+   "rating": 3.8,
+   "rating_count_text": "189",
+   "rating_count": 189,
+   "page": 2
+  },
+  {
+   "rank": 81,
+   "asin": "B0BRXR2ZJJ",
+   "title": "Erborian - BB Crème au Ginseng 5-en-1 - Cuidado con Color Perfeccionador Efecto Piel de Bebe",
+   "price_text": "17,49 €",
+   "price": 17.49,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "5.019",
+   "rating_count": 5019,
+   "page": 2
+  },
+  {
+   "rank": 82,
+   "asin": "B07Q8F9TZK",
+   "title": "Eucerin Anti-Pigment Dual Serum (30 ml), sérum facial concentrado antimanchas para una piel uniforme y suave, tratamiento con Ácido Hialurónico y Thiamidol, para todo tipo de pieles",
+   "price_text": "34,15 €",
+   "price": 34.15,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "1.307",
+   "rating_count": 1307,
+   "page": 2
+  },
+  {
+   "rank": 83,
+   "asin": "B0007506U2",
+   "title": "Catwalk by TIGI Curls Rock Amplifier, Crema de Peinado, 150ml | Definidor hidratante antiencrespamiento para cabello rizado y ondulado natural, potencia brillo y cuerpo",
+   "price_text": "6,53 €",
+   "price": 6.53,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "35.857",
+   "rating_count": 35857,
+   "page": 2
+  },
+  {
+   "rank": 84,
+   "asin": "B09NN88V83",
+   "title": "d'alba Piedmont Trufa Blanca Italiana Doble Sérum y Crema (70g) | Crema vegana, Cuidado 2 en 1, Elasticidad y nutrición, Para todo tipo de piel, Skincare coreano",
+   "price_text": "23,80 €",
+   "price": 23.8,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "5.674",
+   "rating_count": 5674,
+   "page": 2
+  },
+  {
+   "rank": 85,
+   "asin": "B0DGG9F59B",
+   "title": "Pantene Pro-V Repara y Protege Mascarilla de Pelo Protectora de Keratina, Tratamiento Hidratante Cabello, 3x300ml",
+   "price_text": "12,39 €",
+   "price": 12.39,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "1.406",
+   "rating_count": 1406,
+   "page": 2
+  },
+  {
+   "rank": 86,
+   "asin": "B0DY7GDRV7",
+   "title": "medicube PDRN Toner Salmon DNA Milky Toner | Tónico lechoso hidratante para piel seca, Ceramidas y péptidos para fortalecer la barrera cutánea, Cosmética coreana, 150ml",
+   "price_text": "34,90 €",
+   "price": 34.9,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "4.954",
+   "rating_count": 4954,
+   "page": 2
+  },
+  {
+   "rank": 87,
+   "asin": "B08SS5TRP4",
+   "title": "L'Oréal Paris Revitalift Laser Serúm de Noche Nº1 con Retinol Puro, 30ml | Retinol Puro Aprobado por Dermatólogos, Reduce Manchas y Arrugas Profundas, Piel más Lisa e Iluminada, Sérum Revitalift Laser",
+   "price_text": "15,69 €",
+   "price": 15.69,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "2.347",
+   "rating_count": 2347,
+   "page": 2
+  },
+  {
+   "rank": 88,
+   "asin": "B0D9NL89YN",
+   "title": "Neutrogena Hydro Boost Fluido Hidratante SPF 50, Crema Solar Facial, 50 ml | Con Ácido Hialurónico y Niacinamida, Sin Fragancia, No Comedogénica, Protección UVA/UVB, No Grasa, Para Todo Tipo de Piel",
+   "price_text": "11,16 €",
+   "price": 11.16,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "1.222",
+   "rating_count": 1222,
+   "page": 2
+  },
+  {
+   "rank": 89,
+   "asin": "B0DHS9NX45",
+   "title": "La Roche-Posay, Pure Vitamin C12 Sérum Antiarrugas e Iluminador, 30 ml | Sérum con 12% de vitamina C pura, antioxidante e iluminador. Potencia la luminosidad y unifica el tono de la piel.",
+   "price_text": "32,89 €",
+   "price": 32.89,
+   "rating_text": "4,4 de 5 estrellas",
+   "rating": 4.4,
+   "rating_count_text": "949",
+   "rating_count": 949,
+   "page": 2
+  },
+  {
+   "rank": 90,
+   "asin": "B0DKNP4TL6",
+   "title": "medicube Salmon DNA PDRN Pink Hyaluronic Moisturizing Cream | Hidratante, tez uniforme, elasticidad, cuidado de los poros, cuidado de la piel coreano, 50 ml",
+   "price_text": "32,90 €",
+   "price": 32.9,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "2.154",
+   "rating_count": 2154,
+   "page": 2
+  },
+  {
+   "rank": 91,
+   "asin": "B0BQ3ZX2VV",
+   "title": "L'Oréal Paris Men Expert Power Age Crema Facial Reafirmante, 100ml | Ácido Hialurónico*, Hidratación Intensa, Ayuda a Combatir Signos de Edad, Rutina Masculina, Men Expert Power Age",
+   "price_text": "18,10 €",
+   "price": 18.1,
+   "rating_text": "4,5 de 5 estrellas",
+   "rating": 4.5,
+   "rating_count_text": "5.890",
+   "rating_count": 5890,
+   "page": 2
+  },
+  {
+   "rank": 92,
+   "asin": "B0DT47D1B5",
+   "title": "Gillette Fusion5 Maquinilla de Afeitar para Hombre con 12 Recambios | 1 Mango + 12 Cuchillas de Afeitar con 5 Hojas, Banda de Gel Lubricante Y Recortadora de Precisión, Afeitado Apurado",
+   "price_text": "41,31 €",
+   "price": 41.31,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "1.411",
+   "rating_count": 1411,
+   "page": 2
+  },
+  {
+   "rank": 93,
+   "asin": "B0FFF3757L",
+   "title": "medicube Multi Silicone Jelly Brush, Pore Brush & Face Mask Applicator | Brocha de Silicona 4 en 1 para Limpieza de Poros, Aplicación de Mascarillas y Masaje Facial, Accesorio K-Beauty, 1 Unidad",
+   "price_text": "7,90 €",
+   "price": 7.9,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "1.796",
+   "rating_count": 1796,
+   "page": 2
+  },
+  {
+   "rank": 94,
+   "asin": "B0DVLG7GD1",
+   "title": "CeraVe Gel Limpiador Espumoso, Para Piel Normal a Grasa, Elimina el Exceso de Grasa y Suciedad, Enriquecido Con Ceramidas Esenciales, Niacinamida y Ácido Hialurónico, Apto para Rostro y Cuerpo",
+   "price_text": "9,30 €",
+   "price": 9.3,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "45.596",
+   "rating_count": 45596,
+   "page": 2
+  },
+  {
+   "rank": 95,
+   "asin": "B0BPLYHDPG",
+   "title": "medicube Toner Pads Deep Vita C Toner Pad Rigeneranti | Discos Tónicos con 3 Tipos de Vitaminas, Hidratación Profunda y Efecto Renovador, Cosmética Coreana, 70 Discos (1 Paquete)",
+   "price_text": "33,59 €",
+   "price": 33.59,
+   "rating_text": "4,7 de 5 estrellas",
+   "rating": 4.7,
+   "rating_count_text": "5.560",
+   "rating_count": 5560,
+   "page": 2
+  },
+  {
+   "rank": 96,
+   "asin": "B0CJ5GW8RY",
+   "title": "L'Oréal Paris Panorama Máscara de Pestañas Voluminizadora, Black | Cepillo Panorámico para un Volumen de 360º, para Todo Tipo de Pestañas, Hasta 24 Horas de Duración, Volume Million Lashes",
+   "price_text": "9,04 €",
+   "price": 9.04,
+   "rating_text": "4,3 de 5 estrellas",
+   "rating": 4.3,
+   "rating_count_text": "13.201",
+   "rating_count": 13201,
+   "page": 2
+  },
+  {
+   "rank": 97,
+   "asin": "B0FPX87BRC",
+   "title": "L'Oréal Paris Máscara de Pestañas Telescopic Extensionist, Negro | Cepillo de Precisión, Alarga y Separa las Pestañas, Efecto Extensión Hasta +5 mm, Telescopic Extensionist",
+   "price_text": "29,12 €",
+   "price": 29.12,
+   "rating_text": "4,2 de 5 estrellas",
+   "rating": 4.2,
+   "rating_count_text": "1.759",
+   "rating_count": 1759,
+   "page": 2
+  },
+  {
+   "rank": 98,
+   "asin": "B0CCYNPK3L",
+   "title": "ghd Platinum+ - Plancha de Pelo Profesional Inteligente, Cabello Más Fuerte | Más brillo y protección del color - Para todo tipo de cabello - (Enchufe Europeo)",
+   "price_text": "157,84 €",
+   "price": 157.84,
+   "rating_text": "4,3 de 5 estrellas",
+   "rating": 4.3,
+   "rating_count_text": "2.375",
+   "rating_count": 2375,
+   "page": 2
+  },
+  {
+   "rank": 99,
+   "asin": "B0CCJ3SRB9",
+   "title": "COSRX Tónico Sérum de 6X Peptidos Collagen Booster, Niacinamida y Ácido Hialurónico, Esencia Facial Potenciadora de Renovación Cutánea, para Todo Tipo de Piel, Libre de Parabenos, Korean Skincare",
+   "price_text": "17,95 €",
+   "price": 17.95,
+   "rating_text": "4,6 de 5 estrellas",
+   "rating": 4.6,
+   "rating_count_text": "13.064",
+   "rating_count": 13064,
+   "page": 2
+  },
+  {
+   "rank": 100,
+   "asin": "B0B2912ZZ5",
+   "title": "Iroha Nature - Parches para Granos con Ácido Salicílico, Árbol de Té y Centella Asiática, reduce los granos en 8h. Parches para acné (18 unidades).",
+   "price_text": "3,94 €",
+   "price": 3.94,
+   "rating_text": "4,3 de 5 estrellas",
+   "rating": 4.3,
+   "rating_count_text": "2.152",
+   "rating_count": 2152,
+   "page": 2
+  }
+ ],
+ "recs": [
+  {
+   "asin": "B0DBF65JYY",
+   "rank": 1,
+   "page": 1
+  },
+  {
+   "asin": "B09V7Z4TJG",
+   "rank": 2,
+   "page": 1
+  },
+  {
+   "asin": "B0DGPSZVW3",
+   "rank": 3,
+   "page": 1
+  },
+  {
+   "asin": "B0B2RM68G2",
+   "rank": 4,
+   "page": 1
+  },
+  {
+   "asin": "B0D2Z3GGCY",
+   "rank": 5,
+   "page": 1
+  },
+  {
+   "asin": "B0GHMZXX8Y",
+   "rank": 6,
+   "page": 1
+  },
+  {
+   "asin": "B0GD6R7CFJ",
+   "rank": 7,
+   "page": 1
+  },
+  {
+   "asin": "B0DWMSM6Y9",
+   "rank": 8,
+   "page": 1
+  },
+  {
+   "asin": "B0DGTMR754",
+   "rank": 9,
+   "page": 1
+  },
+  {
+   "asin": "B0DK4Y2YP3",
+   "rank": 10,
+   "page": 1
+  },
+  {
+   "asin": "B0BRMYHMS5",
+   "rank": 11,
+   "page": 1
+  },
+  {
+   "asin": "B08P4YPB8Q",
+   "rank": 12,
+   "page": 1
+  },
+  {
+   "asin": "B0GCC2JV65",
+   "rank": 13,
+   "page": 1
+  },
+  {
+   "asin": "B09SZ5JX2Y",
+   "rank": 14,
+   "page": 1
+  },
+  {
+   "asin": "B0BFQ9RD5B",
+   "rank": 15,
+   "page": 1
+  },
+  {
+   "asin": "B0GMHCMVCP",
+   "rank": 16,
+   "page": 1
+  },
+  {
+   "asin": "B08B21PRLM",
+   "rank": 17,
+   "page": 1
+  },
+  {
+   "asin": "B0DXLBZF4Q",
+   "rank": 18,
+   "page": 1
+  },
+  {
+   "asin": "B09BD7L35V",
+   "rank": 19,
+   "page": 1
+  },
+  {
+   "asin": "B0CNQ4DJRV",
+   "rank": 20,
+   "page": 1
+  },
+  {
+   "asin": "B094TYNC9T",
+   "rank": 21,
+   "page": 1
+  },
+  {
+   "asin": "B08R9NZ65K",
+   "rank": 22,
+   "page": 1
+  },
+  {
+   "asin": "B01MDOJGDK",
+   "rank": 23,
+   "page": 1
+  },
+  {
+   "asin": "B09D7QJP1M",
+   "rank": 24,
+   "page": 1
+  },
+  {
+   "asin": "B083JKPCFB",
+   "rank": 25,
+   "page": 1
+  },
+  {
+   "asin": "B07C5XYT19",
+   "rank": 26,
+   "page": 1
+  },
+  {
+   "asin": "B0FHBQB9R8",
+   "rank": 27,
+   "page": 1
+  },
+  {
+   "asin": "B06XDS7J69",
+   "rank": 28,
+   "page": 1
+  },
+  {
+   "asin": "B0D2P1ZVZ8",
+   "rank": 29,
+   "page": 1
+  },
+  {
+   "asin": "B0DQCLFJCB",
+   "rank": 30,
+   "page": 1
+  },
+  {
+   "asin": "B01MF9YDQN",
+   "rank": 31,
+   "page": 1
+  },
+  {
+   "asin": "B09C1B7BH5",
+   "rank": 32,
+   "page": 1
+  },
+  {
+   "asin": "B00KLXFUW4",
+   "rank": 33,
+   "page": 1
+  },
+  {
+   "asin": "B0GS97T2MV",
+   "rank": 34,
+   "page": 1
+  },
+  {
+   "asin": "B0DWFSJ9Y4",
+   "rank": 35,
+   "page": 1
+  },
+  {
+   "asin": "B0GS8YKMN3",
+   "rank": 36,
+   "page": 1
+  },
+  {
+   "asin": "B004SBLR4U",
+   "rank": 37,
+   "page": 1
+  },
+  {
+   "asin": "B00X9WCH9S",
+   "rank": 38,
+   "page": 1
+  },
+  {
+   "asin": "B0DL92QM79",
+   "rank": 39,
+   "page": 1
+  },
+  {
+   "asin": "B0FKGJYFC8",
+   "rank": 40,
+   "page": 1
+  },
+  {
+   "asin": "B00M9B66BU",
+   "rank": 41,
+   "page": 1
+  },
+  {
+   "asin": "B06Y2D2XVW",
+   "rank": 42,
+   "page": 1
+  },
+  {
+   "asin": "B097WJSC59",
+   "rank": 43,
+   "page": 1
+  },
+  {
+   "asin": "B08J4NMBL2",
+   "rank": 44,
+   "page": 1
+  },
+  {
+   "asin": "B07LGCGG6R",
+   "rank": 45,
+   "page": 1
+  },
+  {
+   "asin": "B0G52CKKMT",
+   "rank": 46,
+   "page": 1
+  },
+  {
+   "asin": "B0GF86QJK7",
+   "rank": 47,
+   "page": 1
+  },
+  {
+   "asin": "B0BPXT3GBN",
+   "rank": 48,
+   "page": 1
+  },
+  {
+   "asin": "B077N513Z1",
+   "rank": 49,
+   "page": 1
+  },
+  {
+   "asin": "B07QPB5PM8",
+   "rank": 50,
+   "page": 1
+  },
+  {
+   "asin": "B09XN22JBT",
+   "rank": 51,
+   "page": 2
+  },
+  {
+   "asin": "B0CHZ5WN26",
+   "rank": 52,
+   "page": 2
+  },
+  {
+   "asin": "B0FPFDSC7X",
+   "rank": 53,
+   "page": 2
+  },
+  {
+   "asin": "B0B7RQ46LD",
+   "rank": 54,
+   "page": 2
+  },
+  {
+   "asin": "B07QL8WW2G",
+   "rank": 55,
+   "page": 2
+  },
+  {
+   "asin": "B0D1GK2ZKB",
+   "rank": 56,
+   "page": 2
+  },
+  {
+   "asin": "B07C5T3DKW",
+   "rank": 57,
+   "page": 2
+  },
+  {
+   "asin": "B0DX122DHW",
+   "rank": 58,
+   "page": 2
+  },
+  {
+   "asin": "B0D1G7XF9X",
+   "rank": 59,
+   "page": 2
+  },
+  {
+   "asin": "B07FTXBNVL",
+   "rank": 60,
+   "page": 2
+  },
+  {
+   "asin": "B00ST2GSRK",
+   "rank": 61,
+   "page": 2
+  },
+  {
+   "asin": "B0CRHL62XJ",
+   "rank": 62,
+   "page": 2
+  },
+  {
+   "asin": "B0DLKCCPYZ",
+   "rank": 63,
+   "page": 2
+  },
+  {
+   "asin": "B0FJLNLKSJ",
+   "rank": 64,
+   "page": 2
+  },
+  {
+   "asin": "B0CWS16Y87",
+   "rank": 65,
+   "page": 2
+  },
+  {
+   "asin": "B0D4Y6MNTF",
+   "rank": 66,
+   "page": 2
+  },
+  {
+   "asin": "B08HLSL2FV",
+   "rank": 67,
+   "page": 2
+  },
+  {
+   "asin": "B071914GGL",
+   "rank": 68,
+   "page": 2
+  },
+  {
+   "asin": "B0C8ZN274P",
+   "rank": 69,
+   "page": 2
+  },
+  {
+   "asin": "B07ZHKTQL3",
+   "rank": 70,
+   "page": 2
+  },
+  {
+   "asin": "B0FVT77ZLL",
+   "rank": 71,
+   "page": 2
+  },
+  {
+   "asin": "B0FPQGLYK9",
+   "rank": 72,
+   "page": 2
+  },
+  {
+   "asin": "B087R9HVRR",
+   "rank": 73,
+   "page": 2
+  },
+  {
+   "asin": "B0DGGB6NY1",
+   "rank": 74,
+   "page": 2
+  },
+  {
+   "asin": "B0F83N244B",
+   "rank": 75,
+   "page": 2
+  },
+  {
+   "asin": "B0CCYPDLCQ",
+   "rank": 76,
+   "page": 2
+  },
+  {
+   "asin": "B000C1Z29Q",
+   "rank": 77,
+   "page": 2
+  },
+  {
+   "asin": "B07M8J529S",
+   "rank": 78,
+   "page": 2
+  },
+  {
+   "asin": "B000VOLKEA",
+   "rank": 79,
+   "page": 2
+  },
+  {
+   "asin": "B0FPLQR5XW",
+   "rank": 80,
+   "page": 2
+  },
+  {
+   "asin": "B0BRXR2ZJJ",
+   "rank": 81,
+   "page": 2
+  },
+  {
+   "asin": "B07Q8F9TZK",
+   "rank": 82,
+   "page": 2
+  },
+  {
+   "asin": "B0007506U2",
+   "rank": 83,
+   "page": 2
+  },
+  {
+   "asin": "B09NN88V83",
+   "rank": 84,
+   "page": 2
+  },
+  {
+   "asin": "B0DGG9F59B",
+   "rank": 85,
+   "page": 2
+  },
+  {
+   "asin": "B0DY7GDRV7",
+   "rank": 86,
+   "page": 2
+  },
+  {
+   "asin": "B08SS5TRP4",
+   "rank": 87,
+   "page": 2
+  },
+  {
+   "asin": "B0D9NL89YN",
+   "rank": 88,
+   "page": 2
+  },
+  {
+   "asin": "B0DHS9NX45",
+   "rank": 89,
+   "page": 2
+  },
+  {
+   "asin": "B0DKNP4TL6",
+   "rank": 90,
+   "page": 2
+  },
+  {
+   "asin": "B0BQ3ZX2VV",
+   "rank": 91,
+   "page": 2
+  },
+  {
+   "asin": "B0DT47D1B5",
+   "rank": 92,
+   "page": 2
+  },
+  {
+   "asin": "B0FFF3757L",
+   "rank": 93,
+   "page": 2
+  },
+  {
+   "asin": "B0DVLG7GD1",
+   "rank": 94,
+   "page": 2
+  },
+  {
+   "asin": "B0BPLYHDPG",
+   "rank": 95,
+   "page": 2
+  },
+  {
+   "asin": "B0CJ5GW8RY",
+   "rank": 96,
+   "page": 2
+  },
+  {
+   "asin": "B0FPX87BRC",
+   "rank": 97,
+   "page": 2
+  },
+  {
+   "asin": "B0CCYNPK3L",
+   "rank": 98,
+   "page": 2
+  },
+  {
+   "asin": "B0CCJ3SRB9",
+   "rank": 99,
+   "page": 2
+  },
+  {
+   "asin": "B0B2912ZZ5",
+   "rank": 100,
+   "page": 2
+  }
+ ]
+}
