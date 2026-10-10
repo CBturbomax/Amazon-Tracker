@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>아마존 K뷰티 트래커</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0f1419;
+    --card: #161d25;
+    --line: #2a3542;
+    --text: #FFFFFF;
+    --yellow: #FFCB05;
+    --blue: #5B9BD5;
+    --orange: #ED7D31;
+  }
+  * { box-sizing: border-box; font-family: inherit; color: inherit; }
+  html, body { margin: 0; background: #0f1419; color: #FFFFFF; }
+  button { background: none; border: 0; padding: 0; font-size: inherit; color: #FFFFFF; cursor: pointer; }
+  body { font-family: "42dot Sans", sans-serif; font-size: 20px; line-height: 1.5; }
+  .wrap { max-width: 1280px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 48px; font-weight: 800; margin: 0; letter-spacing: -0.02em; line-height: 1.15; }
+  h2 { font-size: 32px; font-weight: 800; margin: 0 0 12px; line-height: 1.2; }
+  h3 { font-size: 24px; font-weight: 700; margin: 0 0 8px; }
+  .note { font-size: 17px; }
+  header { border-bottom: 2px solid var(--line); padding-bottom: 16px; margin-bottom: 16px; }
+  .title-row { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  .title-row .accent { width: 14px; height: 40px; background: var(--yellow); align-self: center; }
+  .status-row { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 12px; align-items: center; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; font-size: 17px; border: 1px solid var(--line);
+          padding: 2px 10px; }
+  .chip .ico { font-weight: 800; }
+  .chip.ok .ico { color: var(--yellow); }
+  .chip.partial .ico { color: var(--orange); }
+  .chip.failed .ico, .chip.missing .ico { color: var(--orange); }
+
+  nav.tabs { display: flex; gap: 0; border-bottom: 2px solid var(--line); margin: 8px 0 24px; flex-wrap: wrap; }
+  nav.tabs button { background: none; border: 0; border-bottom: 4px solid transparent; padding: 12px 20px;
+                    font-size: 22px; font-weight: 700; cursor: pointer; margin-bottom: -2px; color: #FFFFFF; }
+  nav.tabs button[aria-selected="true"] { border-bottom-color: var(--yellow); }
+  .tab { display: none; }
+  .tab.on { display: block; }
+
+  .card { background: var(--card); border: 1px solid var(--line); border-top: 3px solid var(--blue);
+          padding: 20px; margin-bottom: 20px; }
+  .card.yellow { border-top-color: var(--yellow); }
+  .card.orange { border-top-color: var(--orange); }
+  .summary { margin: 0; padding: 0; list-style: none; }
+  .summary li { padding-left: 18px; position: relative; }
+  .summary li::before { content: ""; position: absolute; left: 0; top: 0.6em; width: 8px; height: 8px;
+                        background: var(--yellow); }
+
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-bottom: 20px; }
+  .kpi { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--blue); padding: 14px 16px; }
+  .kpi.total { border-left-color: var(--yellow); }
+  .kpi .label { font-size: 18px; font-weight: 700; }
+  .kpi .num { font-size: 54px; font-weight: 800; line-height: 1.1; }
+  .kpi .chg { font-size: 18px; }
+
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 19px; }
+  th, td { border-bottom: 1px solid var(--line); padding: 10px 12px; text-align: right; white-space: nowrap; }
+  th { font-weight: 800; border-bottom: 2px solid var(--line); }
+  th:first-child, td:first-child { text-align: left; }
+  tr.sum td { font-weight: 800; border-top: 2px solid var(--line); }
+  td .d { font-size: 17px; margin-left: 6px; }
+  .up { color: var(--orange); font-weight: 800; }
+  .down { color: var(--blue); font-weight: 800; }
+  .na { font-size: 17px; }
+
+  .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 20px; }
+  @media (max-width: 520px) { .grid2 { grid-template-columns: 1fr; } h1 { font-size: 36px; } }
+  .plist { list-style: none; margin: 0; padding: 0; }
+  .plist li { border-bottom: 1px solid var(--line); padding: 10px 0; }
+  .plist li:last-child { border-bottom: 0; }
+  .plist .pname { font-weight: 700; }
+  .plist button[data-product] { font-size: 20px; font-weight: 700; text-align: left; text-decoration: underline; text-decoration-color: var(--line);
+                         text-underline-offset: 4px; color: #FFFFFF; }
+  .plist .ranks { font-size: 19px; display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 2px; }
+  .tag { display: inline-block; font-size: 17px; font-weight: 700; padding: 0 8px; margin-right: 8px;
+         border: 1px solid var(--line); }
+  .tag.new { border-color: var(--yellow); }
+  .tag.out { border-color: var(--orange); }
+  .tag.review { border-color: var(--blue); }
+  .empty { font-size: 19px; }
+
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 16px; }
+  .controls .lbl { font-size: 18px; font-weight: 700; margin-right: 4px; }
+  .seg button, select { background: var(--card); border: 1px solid var(--line); padding: 8px 14px;
+                        font-size: 18px; cursor: pointer; color: #FFFFFF; }
+  .seg { display: inline-flex; flex-wrap: wrap; }
+  .seg button + button { border-left: 0; }
+  .seg button[aria-pressed="true"] { border-color: var(--yellow); box-shadow: inset 0 -4px 0 var(--yellow);
+                                     font-weight: 800; position: relative; z-index: 1; }
+  select { font-size: 19px; max-width: 100%; }
+
+  .chart { width: 100%; }
+  .chart svg { display: block; }
+  .chart .axis text { font-size: 18px; fill: #FFFFFF; }
+  .chart .lab { font-size: 26px; font-weight: 800; fill: #FFFFFF; }
+  .chart .grid line { stroke: var(--line); stroke-width: 1; }
+  .chart .base { stroke: #FFFFFF; stroke-width: 1; opacity: 0.5; }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 18px; margin: 4px 0 8px; }
+  .legend .sw { display: inline-block; width: 14px; height: 14px; margin-right: 6px; vertical-align: -1px; }
+  .mini-title { font-size: 20px; font-weight: 800; margin: 0 0 4px; }
+  .smalls { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 16px; }
+  @media (max-width: 420px) { .smalls { grid-template-columns: 1fr; } }
+  .small { border: 1px solid var(--line); padding: 12px; }
+  .tip { position: fixed; pointer-events: none; background: #0f1419; border: 1px solid var(--yellow);
+         padding: 6px 10px; font-size: 17px; display: none; z-index: 10; white-space: nowrap; }
+  footer { margin-top: 40px; font-size: 17px; border-top: 1px solid var(--line); padding-top: 12px; }
+
+  /* ---- 브랜드 랭킹 탭 (사용자 레퍼런스 구성) ---- */
+  #tab-brands { --box:#1b232c; --mut:#8b98a5; }
+  #tab-brands .eyebrow { color: var(--blue); font-size: 17px; font-weight: 800; margin: 0 0 8px; }
+  #tab-brands .meta { font-size: 17px; color: var(--mut); margin: 0 0 18px; }
+  #tab-brands .rule { height: 6px; background: var(--yellow); border: 0; margin: 0 0 24px; width: 170px; }
+  #tab-brands .subnav { position: sticky; top: 0; z-index: 30; background: #0f1419ee; border-bottom: 1px solid var(--line);
+                        backdrop-filter: blur(6px); padding: 9px 0; display: flex; gap: 7px; flex-wrap: wrap; margin-bottom: 20px; }
+  #tab-brands .subnav a { font-size: 17px; font-weight: 600; color: #c3ccd4; text-decoration: none; padding: 5px 12px;
+                          border: 1px solid var(--line); white-space: nowrap; }
+  #tab-brands .subnav a:hover { border-color: var(--blue); color: #fff; }
+  #tab-brands .subnav a.tot { border-color: var(--yellow); color: var(--yellow); }
+  #tab-brands section { margin: 0 0 66px; scroll-margin-top: 64px; }
+  #tab-brands h2 .n { color: var(--yellow); margin-right: 10px; }
+  #tab-brands .h2sub { font-size: 17px; color: var(--mut); margin: 0 0 20px; }
+  #tab-brands .bcard { background: var(--card); border: 1px solid var(--line); padding: 22px 20px; margin: 0 0 16px; }
+  #tab-brands .chart-title { font-size: 20px; font-weight: 800; margin: 0 0 4px; }
+  #tab-brands .chart-note { font-size: 17px; color: var(--mut); margin: 0 0 14px; }
+  #tab-brands .scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  #tab-brands table { border-collapse: collapse; font-size: 17px; line-height: 1.35; width: 100%; }
+  #tab-brands th, #tab-brands td { border: 1px solid var(--line); padding: 6px 8px; text-align: right; white-space: nowrap; }
+  #tab-brands th { background: #1d2732; color: #e3eaf0; font-weight: 800; font-size: 17px; text-align: center; position: sticky; top: 0; z-index: 2; }
+  #tab-brands th.cap { color: var(--mut); }
+  #tab-brands th.last { background: #ffffff; color: #0f1419; }
+  #tab-brands td.name, #tab-brands th.name { text-align: left; }
+  #tab-brands td.last { font-weight: 800; }
+  #tab-brands td.dim { color: #46525e; }
+  #tab-brands td.z { color: #5d6b78; }
+  #tab-brands td.mx { color: var(--mut); }
+  #tab-brands .gridtbl td { text-align: center; font-size: 17px; padding: 5px 4px; }
+  #tab-brands .gridtbl td.rk { background: #1d2732; color: var(--mut); font-weight: 800; }
+  #tab-brands .gridtbl small { display: block; font-size: 15px; opacity: .72; font-weight: 400; }
+  #tab-brands .cell, #tab-brands tr.brow { cursor: pointer; }
+  #tab-brands.hl .cell { opacity: .2; }
+  #tab-brands.hl tr.brow td { opacity: .2; }
+  #tab-brands .legend { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+  #tab-brands .legend button { font-size: 17px; font-weight: 800; padding: 5px 12px; border: 1px solid transparent; }
+  #tab-brands .legend button.off { background: var(--box); color: #9aa6b2; border-color: var(--line); font-weight: 600; }
+  #tab-brands .btns { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 22px; align-items: center; }
+  #tab-brands .btns > button { font-size: 17px; font-weight: 700; padding: 8px 15px; background: var(--box); color: #dfe6ec; border: 1px solid var(--line); }
+  #tab-brands .btns > button:hover { border-color: var(--yellow); color: var(--yellow); }
+  #tab-brands .mini { font-size: 15px; font-weight: 600; padding: 4px 10px; background: var(--box); color: #b9c4ce;
+                      border: 1px solid var(--line); float: right; margin-left: 10px; }
+  #tab-brands .mini:hover { border-color: var(--yellow); color: var(--yellow); }
+  #br-tip { position: fixed; z-index: 99; pointer-events: none; display: none; background: #0b1015; border: 1px solid #3a4652;
+            padding: 9px 12px; font-size: 17px; line-height: 1.45; box-shadow: 0 6px 22px #000a; max-width: 360px; }
+  #br-tip .sub { color: #8b98a5; font-size: 15px; }
+  #br-sel-card { display: none; }
+  #br-foot { font-size: 17px; color: #8b98a5; border-top: 1px solid var(--line); padding-top: 20px; margin-top: 46px; }
+  #br-foot p { margin: 0 0 6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="title-row">
+      <span class="accent" aria-hidden="true"></span>
+      <h1>아마존 K뷰티 트래커</h1>
+    </div>
+    <div class="status-row" id="status">불러오는 중…</div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-tab="brands">브랜드 랭킹</button>
+    <button role="tab" aria-selected="false" data-tab="today">K뷰티 오늘</button>
+    <button role="tab" aria-selected="false" data-tab="trend">K뷰티 추이</button>
+    <button role="tab" aria-selected="false" data-tab="discover">이번 주 발굴</button>
+  </nav>
+
+  <section class="tab on" id="tab-brands">
+    <p class="eyebrow">AMAZON BESTSELLER · BRAND RANKING</p>
+    <h1 style="font-size:42px">아마존 뷰티 브랜드 랭킹 시계열</h1>
+    <p class="meta" id="br-meta">불러오는 중…</p>
+    <hr class="rule">
+    <div class="subnav" id="br-nav"></div>
+    <div class="legend" id="br-legend"></div>
+    <div class="btns">
+      <button type="button" id="br-dl-all">전체 데이터 CSV</button>
+      <button type="button" id="br-clear">하이라이트 해제</button>
+      <span class="seg" id="br-range" style="margin-left:8px">
+        <button type="button" data-range="0" aria-pressed="true">전체</button>
+        <button type="button" data-range="30" aria-pressed="false">최근 30시점</button>
+        <button type="button" data-range="14" aria-pressed="false">최근 14시점</button>
+      </span>
+    </div>
+    <div class="bcard" id="br-sel-card">
+      <p class="chart-title" id="br-sel-title"></p>
+      <p class="chart-note">국가별 추이 · 단위: 진입 개수</p>
+      <div id="br-lg-country" class="legend" style="margin-bottom:10px">
+        <span><i style="display:inline-block;width:14px;height:14px;background:#FFCB05"></i> 미국</span>
+        <span><i style="display:inline-block;width:14px;height:14px;background:#5B9BD5"></i> 영국</span>
+        <span><i style="display:inline-block;width:14px;height:14px;background:#ED7D31"></i> 프랑스</span>
+        <span><i style="display:inline-block;width:14px;height:14px;background:#FFFFFF"></i> 독일</span>
+        <span><i style="display:inline-block;width:14px;height:14px;background:#3f6f9e"></i> 이탈리아</span>
+        <span><i style="display:inline-block;width:14px;height:14px;background:#a4611d"></i> 스페인</span>
+      </div>
+      <div id="br-ch-sel"></div>
+    </div>
+    <div id="br-sections"></div>
+    <div id="br-foot"></div>
+  </section>
+
+  <section class="tab" id="tab-today"></section>
+
+  <section class="tab" id="tab-trend">
+    <div class="card yellow">
+      <h2>회사별 Top 100 제품 수</h2>
+      <div class="controls">
+        <span class="lbl">국가</span><span class="seg" id="trend-country"></span>
+        <span class="lbl" style="margin-left:12px">기간</span><span class="seg" id="trend-range"></span>
+      </div>
+      <div id="trend-total"></div>
+      <div class="smalls" id="trend-companies"></div>
+    </div>
+    <div class="card orange" id="product-card">
+      <h2 id="product-title">제품별 순위 추이</h2>
+      <p class="note" id="product-sub">제품 이름을 누르면 나라별 순위 추이가 여기에 나옵니다. 위쪽이 1위입니다.</p>
+      <div class="controls"><span class="lbl">제품</span><select id="product-select"></select></div>
+      <div class="smalls" id="product-charts"></div>
+    </div>
+    <div class="card">
+      <h2>과거 날짜 보기</h2>
+      <div class="controls"><span class="lbl">날짜</span><select id="date-select"></select></div>
+      <div id="past"></div>
+    </div>
+  </section>
+
+  <section class="tab" id="tab-discover">
+    <div class="card yellow">
+      <h2>이번 주 발굴</h2>
+      <p>미국 여러 카테고리에서 순위·평점이 빠르게 오르는 제품을 매주 월요일에 골라 보여줄 예정입니다.</p>
+      <p class="note">지금은 K뷰티 모니터링(탭 1·2)을 먼저 운영하고 있습니다.</p>
+    </div>
+  </section>
+
+  <footer>
+    데이터: 아마존 베스트셀러 Beauty Top 100 (미국·영국·프랑스·독일·이탈리아·스페인). 매일 09:07 KST에 자동 수집.
+    한글 제품명은 자동으로 만든 초안이며, 이름이 없는 제품은 아마존 영문명으로 표시합니다.
+    <span id="gen"></span>
+  </footer>
+</div>
+<div class="tip" id="tip"></div>
+<div id="br-tip"></div>
+<script src="brand-ranking.js"></script>
+
+<script>
+"use strict";
+const COLORS = { yellow: "#FFCB05", blue: "#5B9BD5", orange: "#ED7D31" };
+const STATUS_LABEL = { ok: ["✓", "정상"], partial: ["△", "일부만"], failed: ["✕", "실패"], missing: ["–", "없음"] };
+let KB = null, META = null;
+const state = { trendCountry: "ALL", trendRange: 30, product: null };
+
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmtKST = iso => iso ? iso.slice(0, 10) + " " + iso.slice(11, 16) + " KST" : "-";
+const mmdd = d => d.slice(5).replace("-", "/");
+
+function delta(n, { unit = "" } = {}) {
+  if (n === null || n === undefined) return '<span class="na">–</span>';
+  if (n === 0) return '<span class="na">0</span>';
+  return n > 0 ? `<span class="up">▲${n}${unit}</span>` : `<span class="down">▼${-n}${unit}</span>`;
+}
+// 순위 변화: 숫자가 작아지면 오른 것
+function rankMove(now, prev) {
+  if (prev === undefined || prev === null) return "";
+  const m = prev - now;
+  if (m === 0) return "";
+  return m > 0 ? ` <span class="up">▲${m}</span>` : ` <span class="down">▼${-m}</span>`;
+}
+
+async function load() {
+  const [kb, meta] = await Promise.all([
+    fetch("data/kbeauty.json", { cache: "no-cache" }).then(r => r.json()),
+    fetch("data/meta.json", { cache: "no-cache" }).then(r => r.json()),
+  ]);
+  KB = kb; META = meta;
+  renderStatus();
+  if (!KB.latest_date) {
+    $("#tab-today").innerHTML = '<div class="card"><p>아직 수집된 데이터가 없습니다. 첫 수집이 끝나면 여기에 표시됩니다.</p></div>';
+    return;
+  }
+  renderToday();
+  setupTrend();
+  $("#gen").textContent = " · 페이지 데이터 생성 " + fmtKST(KB.generated_at);
+}
+
+function renderStatus() {
+  const chips = META.countries.map(c => {
+    const [ico, lbl] = STATUS_LABEL[c.status] || STATUS_LABEL.missing;
+    return `<span class="chip ${c.status}" title="${esc(fmtKST(c.collected_at))}"><span class="ico">${ico}</span>${esc(c.name)} ${lbl}</span>`;
+  }).join("");
+  $("#status").innerHTML = `<span><b>마지막 수집</b> ${esc(fmtKST(META.last_collected_at))}</span>${chips}`;
+}
+
+/* ---------- 탭 1 / 과거 날짜 공용 ---------- */
+function snapshotHTML(date, { withKpis }) {
+  const day = KB.days[date];
+  const countries = KB.countries;
+  const comps = KB.companies;
+  let h = "";
+  h += `<div class="card yellow"><h2>${esc(date)} 요약</h2><ul class="summary">${day.summary.map(s => `<li>${esc(s)}</li>`).join("")}</ul></div>`;
+
+  if (withKpis) {
+    h += `<div class="kpis"><div class="kpi total"><div class="label">전체 국가 합계</div><div class="num">${day.grand_total}</div><div class="chg">전일 대비 ${delta(day.grand_total_delta)}</div></div>`;
+    for (const c of comps) {
+      const d = day.company_totals_delta ? day.company_totals_delta[c.id] : null;
+      h += `<div class="kpi"><div class="label">${esc(c.name)}</div><div class="num">${day.company_totals[c.id]}</div><div class="chg">전일 대비 ${delta(d)}</div></div>`;
+    }
+    h += `</div>`;
+  }
+
+  // 회사 × 국가 표
+  h += `<div class="card"><h2>회사 × 국가 제품 수</h2><div class="table-wrap"><table><thead><tr><th>회사</th>`;
+  for (const cc of countries) h += `<th>${esc(cc.name)}</th>`;
+  h += `<th>합계</th></tr></thead><tbody>`;
+  for (const c of comps) {
+    h += `<tr><td>${esc(c.name)}</td>`;
+    for (const cc of countries) {
+      const e = day.countries[cc.cc];
+      if (!e || !e.counts) { h += `<td class="na">${e ? STATUS_LABEL[e.status][1] : "–"}</td>`; continue; }
+      h += `<td>${e.counts[c.id]}<span class="d">${delta(e.delta ? e.delta[c.id] : null)}</span></td>`;
+    }
+    const td = day.company_totals_delta ? day.company_totals_delta[c.id] : null;
+    h += `<td><b>${day.company_totals[c.id]}</b><span class="d">${delta(td)}</span></td></tr>`;
+  }
+  h += `<tr class="sum"><td>합계</td>`;
+  for (const cc of countries) {
+    const e = day.countries[cc.cc];
+    h += e && e.counts ? `<td>${e.total}<span class="d">${delta(e.total_delta)}</span></td>` : `<td class="na">–</td>`;
+  }
+  h += `<td>${day.grand_total}<span class="d">${delta(day.grand_total_delta)}</span></td></tr></tbody></table></div>`;
+  h += `<p class="note">괄호 없는 숫자는 Top 100 안 제품 수, ▲▼는 그 나라 직전 수집일 대비 증감입니다.</p></div>`;
+
+  // 신규 / 이탈
+  const news = [], outs = [];
+  for (const cc of countries) {
+    const e = day.countries[cc.cc];
+    if (!e || !e.counts) continue;
+    for (const k of e.new) news.push({ k, cc, rank: e.ranks[k] });
+    for (const o of e.out) outs.push({ k: o.key, cc, rank: o.prev_rank });
+  }
+  news.sort((a, b) => a.rank - b.rank); outs.sort((a, b) => a.rank - b.rank);
+  const row = (x, kind) => `<li><span class="tag ${kind}">${kind === "new" ? "신규" : "이탈"}</span>${productButton(x.k)}<div class="ranks">${esc(x.cc.name)} ${kind === "new" ? x.rank + "위로 진입" : "직전 " + x.rank + "위"}</div></li>`;
+  h += `<div class="grid2"><div class="card yellow"><h2>신규 진입</h2>${news.length ? `<ul class="plist">${news.map(x => row(x, "new")).join("")}</ul>` : '<p class="empty">없음</p>'}</div>`;
+  h += `<div class="card orange"><h2>이탈</h2>${outs.length ? `<ul class="plist">${outs.map(x => row(x, "out")).join("")}</ul>` : '<p class="empty">없음</p>'}</div></div>`;
+
+  // 회사별 제품 순위
+  h += `<h2 style="margin-top:8px">회사별 제품 순위</h2><div class="grid2">`;
+  for (const c of comps) {
+    const list = day.company_products[c.id] || [];
+    h += `<div class="card"><h3>${esc(c.name)} <span class="note">${list.length}개 제품</span></h3>`;
+    if (!list.length) { h += `<p class="empty">Top 100 안에 없음</p></div>`; continue; }
+    h += `<ul class="plist">`;
+    for (const r of list) {
+      const ranks = countries.filter(cc => r.ranks[cc.cc] !== undefined)
+        .map(cc => `<span>${esc(cc.name)} <b>${r.ranks[cc.cc]}위</b>${rankMove(r.ranks[cc.cc], r.prev[cc.cc])}</span>`).join("");
+      h += `<li><div class="pname">${productButton(r.key)}</div><div class="ranks">${ranks}</div></li>`;
+    }
+    h += `</ul></div>`;
+  }
+  h += `</div>`;
+  return h;
+}
+
+function productButton(key) {
+  const p = KB.products[key];
+  return `<button type="button" data-product="${esc(key)}" title="${esc(p ? p.name_en : key)}">${esc(p ? p.short : key)}</button>`;
+}
+
+function renderToday() {
+  $("#tab-today").innerHTML = snapshotHTML(KB.latest_date, { withKpis: true });
+}
+
+/* ---------- 탭 2 ---------- */
+function setupTrend() {
+  const cSeg = $("#trend-country");
+  cSeg.innerHTML = [{ cc: "ALL", name: "전체 국가 합계" }, ...KB.countries]
+    .map(c => `<button type="button" data-v="${c.cc}" aria-pressed="${c.cc === state.trendCountry}">${esc(c.name)}</button>`).join("");
+  cSeg.onclick = e => { const b = e.target.closest("button"); if (!b) return; state.trendCountry = b.dataset.v; pressed(cSeg, b); renderTrend(); };
+  const rSeg = $("#trend-range");
+  rSeg.innerHTML = [[14, "14일"], [30, "30일"], [0, "전체"]]
+    .map(([v, l]) => `<button type="button" data-v="${v}" aria-pressed="${v === state.trendRange}">${l}</button>`).join("");
+  rSeg.onclick = e => { const b = e.target.closest("button"); if (!b) return; state.trendRange = +b.dataset.v; pressed(rSeg, b); renderTrend(); };
+
+  const sel = $("#product-select");
+  const keys = Object.keys(KB.products).sort((a, b) =>
+    KB.products[a].company.localeCompare(KB.products[b].company) || KB.products[a].short.localeCompare(KB.products[b].short));
+  const compName = Object.fromEntries(KB.companies.map(c => [c.id, c.name]));
+  sel.innerHTML = keys.map(k => `<option value="${esc(k)}">${esc(compName[KB.products[k].company])} · ${esc(KB.products[k].short)}</option>`).join("");
+  sel.onchange = () => { state.product = sel.value; renderProduct(); };
+
+  const ds = $("#date-select");
+  ds.innerHTML = [...KB.dates].reverse().map(d => `<option value="${d}">${d}</option>`).join("");
+  ds.onchange = () => { $("#past").innerHTML = snapshotHTML(ds.value, { withKpis: false }); };
+  $("#past").innerHTML = snapshotHTML(KB.dates[KB.dates.length - 1], { withKpis: false });
+
+  // 첫 제품: 오늘 가장 순위가 좋은 제품
+  const firstComp = KB.companies.map(c => (KB.days[KB.latest_date].company_products[c.id] || [])[0]).filter(Boolean)
+    .sort((a, b) => a.best - b.best)[0];
+  state.product = firstComp ? firstComp.key : keys[0];
+  renderTrend();
+}
+function pressed(seg, b) { seg.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b)); }
+
+function rangeIdx() {
+  const n = KB.dates.length;
+  return state.trendRange ? Math.max(0, n - state.trendRange) : 0;
+}
+
+function renderTrend() {
+  const from = rangeIdx();
+  const labels = KB.dates.slice(from).map(mmdd);
+  const cc = state.trendCountry;
+  const totalSeries = cc === "ALL"
+    ? KB.dates.slice(from).map(d => KB.days[d].grand_total)
+    : KB.series_total[cc].slice(from);
+  const name = cc === "ALL" ? "전체 국가 합계" : KB.countries.find(c => c.cc === cc).name;
+  $("#trend-total").innerHTML = `<p class="mini-title">K뷰티 전체 (${esc(name)})</p>`;
+  $("#trend-total").appendChild(barChart(labels, totalSeries, { color: COLORS.blue, unit: "개", height: 300 }));
+
+  const box = $("#trend-companies");
+  box.innerHTML = "";
+  for (const c of KB.companies) {
+    const vals = cc === "ALL"
+      ? KB.dates.slice(from).map(d => KB.days[d].company_totals[c.id])
+      : KB.series[cc][c.id].slice(from);
+    const div = document.createElement("div");
+    div.className = "small";
+    div.innerHTML = `<p class="mini-title">${esc(c.name)}</p>`;
+    div.appendChild(lineChart(labels, vals, { color: COLORS.yellow, unit: "개", height: 240 }));
+    box.appendChild(div);
+  }
+  renderProduct();
+}
+
+function renderProduct() {
+  const key = state.product;
+  const p = KB.products[key];
+  if (!p) return;
+  $("#product-select").value = key;
+  $("#product-title").textContent = p.short + " 순위 추이";
+  $("#product-sub").textContent = (p.name_en || "") + " — 위쪽이 1위입니다. 점이 없는 날은 Top 100 밖이거나 수집 실패.";
+  const from = rangeIdx();
+  const labels = KB.dates.slice(from).map(mmdd);
+  const box = $("#product-charts");
+  box.innerHTML = "";
+  for (const c of KB.countries) {
+    const vals = p.ranks[c.cc].slice(from);
+    const div = document.createElement("div");
+    div.className = "small";
+    const inAny = vals.some(v => v !== null);
+    div.innerHTML = `<p class="mini-title">${esc(c.name)}</p>`;
+    if (!inAny) div.innerHTML += `<p class="empty">이 기간 Top 100 밖</p>`;
+    else div.appendChild(lineChart(labels, vals, { color: COLORS.orange, unit: "위", height: 240, reversed: true, min: 1, max: 100 }));
+    box.appendChild(div);
+  }
+}
+
+/* ---------- SVG 차트 ---------- */
+const NS = "http://www.w3.org/2000/svg";
+function el(tag, attrs = {}, text) {
+  const e = document.createElementNS(NS, tag);
+  for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
+  if (text !== undefined) e.textContent = text;
+  return e;
+}
+function niceMax(v) { if (v <= 5) return 5; const p = Math.pow(10, Math.floor(Math.log10(v))); return Math.ceil(v / p * 2) / 2 * p; }
+// 라벨이 겹치지 않게 몇 개마다 하나씩 보일지
+function labelEvery(n, w, min = 44) { return Math.max(1, Math.ceil(n / Math.max(1, Math.floor(w / min)))); }
+
+function frame(labels, height, container) {
+  const width = Math.max(280, (container && container.clientWidth) || 600);
+  const m = { l: 48, r: 16, t: 36, b: 36 };
+  return { width, height, m, iw: width - m.l - m.r, ih: height - m.t - m.b };
+}
+
+function axisX(svg, f, labels, x) {
+  const g = el("g", { class: "axis" });
+  const every = labelEvery(labels.length, f.iw, 64);
+  labels.forEach((l, i) => {
+    if ((labels.length - 1 - i) % every) return;
+    g.appendChild(el("text", { x: x(i), y: f.height - 8, "text-anchor": "middle" }, l));
+  });
+  svg.appendChild(g);
+}
+function axisY(svg, f, ticks, y, unit) {
+  const g = el("g", { class: "grid" });
+  const ga = el("g", { class: "axis" });
+  for (const t of ticks) {
+    g.appendChild(el("line", { x1: f.m.l, x2: f.width - f.m.r, y1: y(t), y2: y(t) }));
+    ga.appendChild(el("text", { x: f.m.l - 8, y: y(t) + 6, "text-anchor": "end" }, t));
+  }
+  svg.appendChild(g); svg.appendChild(ga);
+}
+
+function wrapChart(build) {
+  const holder = document.createElement("div");
+  holder.className = "chart";
+  const draw = () => { holder.innerHTML = ""; holder.appendChild(build(holder)); };
+  requestAnimationFrame(draw);
+  new ResizeObserver(() => { if (holder.isConnected) draw(); }).observe(holder);
+  return holder;
+}
+
+function barChart(labels, values, { color, unit, height }) {
+  return wrapChart(holder => {
+    const f = frame(labels, height, holder);
+    const svg = el("svg", { width: f.width, height: f.height, role: "img" });
+    const max = niceMax(Math.max(1, ...values.filter(v => v !== null)));
+    const y = v => f.m.t + f.ih - (v / max) * f.ih;
+    const band = f.iw / labels.length;
+    const x = i => f.m.l + band * i + band / 2;
+    axisY(svg, f, [0, max / 2, max].map(Math.round), y, unit);
+    const bw = Math.max(4, Math.min(48, band * 0.62));
+    const every = labelEvery(labels.length, f.iw, 40);
+    values.forEach((v, i) => {
+      if (v === null) return;
+      const h = Math.max(0, f.m.t + f.ih - y(v));
+      const r = el("rect", { x: x(i) - bw / 2, y: y(v), width: bw, height: h, fill: color });
+      hover(r, `${labels[i]} · ${v}${unit}`);
+      svg.appendChild(r);
+      const last = i === values.length - 1;
+      if (last || (values.length - 1 - i) % every === 0)
+        svg.appendChild(el("text", { class: "lab", x: x(i), y: y(v) - 8, "text-anchor": "middle" }, v));
+    });
+    svg.appendChild(el("line", { class: "base", x1: f.m.l, x2: f.width - f.m.r, y1: f.m.t + f.ih, y2: f.m.t + f.ih }));
+    axisX(svg, f, labels, x);
+    return svg;
+  });
+}
+
+function lineChart(labels, values, { color, unit, height, reversed = false, min, max }) {
+  return wrapChart(holder => {
+    const f = frame(labels, height, holder);
+    const svg = el("svg", { width: f.width, height: f.height, role: "img" });
+    const vals = values.filter(v => v !== null);
+    let lo = min ?? 0, hi = max ?? niceMax(Math.max(1, ...vals));
+    if (reversed) { // 순위: 보이는 범위만 확대
+      lo = 1; hi = Math.min(100, Math.max(10, Math.ceil(Math.max(...vals) / 10) * 10));
+    }
+    const y = v => reversed ? f.m.t + ((v - lo) / (hi - lo)) * f.ih : f.m.t + f.ih - ((v - lo) / (hi - lo)) * f.ih;
+    const band = f.iw / labels.length;
+    const x = i => f.m.l + band * i + band / 2;
+    const ticks = reversed ? [1, Math.round((1 + hi) / 2), hi] : [lo, Math.round((lo + hi) / 2), hi];
+    axisY(svg, f, ticks, y, unit);
+    // 끊긴 구간은 선을 잇지 않는다
+    let d = "", pen = false;
+    values.forEach((v, i) => {
+      if (v === null) { pen = false; return; }
+      d += (pen ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1);
+      pen = true;
+    });
+    svg.appendChild(el("path", { d, fill: "none", stroke: color, "stroke-width": 3, "stroke-linejoin": "round" }));
+    const every = labelEvery(labels.length, f.iw, 44);
+    values.forEach((v, i) => {
+      if (v === null) return;
+      const c = el("circle", { cx: x(i), cy: y(v), r: 5, fill: color, stroke: "#0f1419", "stroke-width": 2 });
+      hover(c, `${labels[i]} · ${v}${unit}`);
+      svg.appendChild(c);
+      const last = i === values.length - 1;
+      if (last || (values.length - 1 - i) % every === 0) {
+        const above = reversed ? y(v) - 12 > f.m.t + 10 : true;
+        svg.appendChild(el("text", { class: "lab", x: x(i), y: above ? y(v) - 12 : y(v) + 30, "text-anchor": "middle" }, v));
+      }
+    });
+    axisX(svg, f, labels, x);
+    return svg;
+  });
+}
+
+const tip = $("#tip");
+function hover(node, text) {
+  node.style.cursor = "default";
+  node.addEventListener("mousemove", e => { tip.textContent = text; tip.style.display = "block"; tip.style.left = e.clientX + 14 + "px"; tip.style.top = e.clientY - 34 + "px"; });
+  node.addEventListener("mouseleave", () => { tip.style.display = "none"; });
+  node.appendChild(el("title", {}, text));
+}
+
+/* ---------- 이벤트 ---------- */
+document.querySelector("nav.tabs").addEventListener("click", e => {
+  const b = e.target.closest("button[data-tab]"); if (!b) return;
+  showTab(b.dataset.tab);
+});
+function showTab(name) {
+  document.querySelectorAll("nav.tabs button").forEach(x => x.setAttribute("aria-selected", x.dataset.tab === name));
+  document.querySelectorAll(".tab").forEach(x => x.classList.toggle("on", x.id === "tab-" + name));
+  if (name === "trend" && KB && KB.latest_date) renderTrend();
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest("button[data-product]"); if (!b) return;
+  state.product = b.dataset.product;
+  showTab("trend");
+  $("#product-card").scrollIntoView({ behavior: "smooth", block: "start" });
+});
+
+load().catch(err => {
+  $("#status").textContent = "데이터를 불러오지 못했습니다.";
+  console.error(err);
+});
+</script>
+</body>
+</html>
