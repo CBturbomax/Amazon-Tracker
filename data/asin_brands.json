@@ -381,8 +381,8 @@
   "tries": 1
  },
  "B00S5VHGQ2": {
-  "error": "no_brand",
-  "checked_at": "2026-10-08T14:58:14+09:00",
+  "error": "captcha",
+  "checked_at": "2026-10-10T14:43:55+09:00",
   "tries": 1
  },
  "B00SK71SAG": {
@@ -718,9 +718,9 @@
   "tries": 1
  },
  "B07HLD2HC4": {
-  "error": "captcha",
-  "checked_at": "2026-10-09T15:01:11+09:00",
-  "tries": 1
+  "error": "no_brand",
+  "checked_at": "2026-10-10T14:43:20+09:00",
+  "tries": 2
  },
  "B07JYCFMVQ": {
   "brand": "Got2B",
@@ -1380,9 +1380,12 @@
   "tries": 1
  },
  "B0D8CHGC5B": {
-  "error": "captcha",
-  "checked_at": "2026-10-09T15:00:58+09:00",
-  "tries": 0
+  "checked_at": "2026-10-10T14:43:07+09:00",
+  "tries": 1,
+  "brand": "tarte",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi"
  },
  "B0DBF65JYY": {
   "brand": "medicube",
@@ -1405,6 +1408,11 @@
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:44:08+09:00",
   "tries": 1
+ },
+ "B0DFY92NDB": {
+  "error": "captcha",
+  "checked_at": "2026-10-10T14:44:11+09:00",
+  "tries": 0
  },
  "B0DG1DQ2S7": {
   "brand": "ANUA",

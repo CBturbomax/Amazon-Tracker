@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "layer": "kbeauty",
+ "country": "UK",
+ "domain": "www.amazon.co.uk",
+ "category": "beauty",
+ "date": "2026-10-10",
+ "collected_at": "2026-10-10T14:41:22+09:00",
+ "method": "playwright",
+ "status": "failed",
+ "error": null,
+ "pages": [
+  {
+   "url": "https://www.amazon.co.uk/gp/bestsellers/beauty",
+   "method": "playwright",
+   "fetched_at": "2026-10-10T14:41:23+09:00",
+   "status": 200,
+   "final_url": "https://www.amazon.co.uk/gp/bestsellers/beauty",
+   "elapsed_s": 8.56,
+   "error": null,
+   "block": "captcha",
+   "html_bytes": 3519,
+   "page": 1,
+   "outcome": "captcha",
+   "complete": false,
+   "rendered_count": 0,
+   "recs_count": 0
+  }
+ ],
+ "items": [],
+ "recs": []
+}
