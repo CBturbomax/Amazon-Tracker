@@ -20,7 +20,7 @@ from scraper.markets import MARKETS
 # 레퍼런스(캡처 표)와 같은 나라 순서
 COUNTRY_ORDER = ["US", "UK", "FR", "DE", "IT", "ES"]
 TOTAL = "total"
-USABLE = ("ok", "partial")
+USABLE = ("ok",)
 MAX_PREFIX_TOKENS = 4
 
 
@@ -121,8 +121,8 @@ def build_brands(snaps: dict[str, dict[str, dict]], imported: list[dict], resolv
         for b in v:
             for cc in usable:
                 v[b].setdefault(cc, 0)  # Top 100 전체를 봤으므로 없으면 0
-            v[b][TOTAL] = sum(v[b][cc] for cc in usable)
-        points.append({"date": date, "source": "auto", "status": status})
+            v[b][TOTAL] = sum(v[b][cc] for cc in usable) if len(usable) == len(COUNTRY_ORDER) else None
+        points.append({"date": date, "source": "auto", "status": status, "coverage": {"complete": len(usable) == len(COUNTRY_ORDER), "ok_count": len(usable), "incomplete": [cc for cc in COUNTRY_ORDER if cc not in usable]}})
         values.append(dict(v))
         unresolved.append({"date": date, "by_country": n_unres})
 

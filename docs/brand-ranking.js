@@ -70,7 +70,7 @@
   function drawLine(F, n, k, color, width, labels, W, R) {
     var prev = null, last = null, s = "", N = VIEW.n;
     for (var i = 0; i < N; i++) {
-      var v = val(n, i, k); if (v == null) continue;
+      var v = val(n, i, k); if (v == null) { prev = null; continue; }
       if (prev) {
         var dash = (i - prev.i > 1) ? ' stroke-dasharray="4 4" opacity=".5"' : "";
         s += '<line x1="' + F.X(prev.i) + '" y1="' + F.Y(prev.v) + '" x2="' + F.X(i) + '" y2="' + F.Y(v) + '" stroke="' + color + '" stroke-width="' + width + '"' + dash + "/>";
@@ -106,7 +106,7 @@
     BR.countries.forEach(function (c, ci) {
       var prev = null, last = null;
       for (var i = 0; i < VIEW.n; i++) {
-        var v = val(brand, i, c.cc); if (v == null) continue;
+        var v = val(brand, i, c.cc); if (v == null) { prev = null; continue; }
         if (prev) {
           var dash = (i - prev.i > 1) ? ' stroke-dasharray="4 4" opacity=".5"' : "";
           o += '<line x1="' + F.X(prev.i) + '" y1="' + F.Y(prev.v) + '" x2="' + F.X(i) + '" y2="' + F.Y(v) + '" stroke="' + CCOL[ci] + '" stroke-width="2.6"' + dash + "/>";
@@ -125,15 +125,21 @@
   }
 
   /* ---- 표 ---- */
-  function dateHead() {
+  function coverage(p, k) {
+    if (p.source === "capture") return "캡처 · 수집 범위 미검증";
+    var selected = k && k !== "total" ? BR.countries.filter(function(c){return c.cc === k;}) : BR.countries;
+    var bad = selected.filter(function(c){return p.status[c.cc] !== "ok";});
+    return bad.length ? bad.map(function(c){return c.name + (p.status[c.cc] === "partial" ? " 일부 수집" : " 누락");}).join(" · ") + " · 비교 제외" : selected.length + "/" + selected.length + "개국 정상";
+  }
+  function dateHead(k) {
     return VIEW.labels.map(function (d, i) {
       var p = VIEW.pts[i], cls = (i === VIEW.n - 1 ? "last" : "") + (p.source === "capture" ? " cap" : "");
-      return '<th class="' + cls + '" title="' + (p.source === "capture" ? "캡처 집계표" : "자동 수집") + '">' + d + "</th>";
+      return '<th class="' + cls + '" title="' + esc(coverage(p,k)) + '">' + d + '<span style="display:block;font-size:17px;white-space:normal;min-width:130px">' + esc(coverage(p,k)) + "</span></th>";
     }).join("");
   }
   function rankGrid(k) {
     var rk = VIEW.ranks[k], RN = 12;
-    var h = "<tr><th>순위</th>" + dateHead() + "</tr>";
+    var h = "<tr><th>순위</th>" + dateHead(k) + "</tr>";
     for (var r = 0; r < RN; r++) {
       h += '<tr><td class="rk">' + (r + 1) + "</td>";
       for (var t = 0; t < VIEW.n; t++) {
@@ -160,7 +166,7 @@
   }
   function valTable(k) {
     var N = VIEW.n;
-    var h = '<thead><tr><th class="name">브랜드</th>' + dateHead() + "<th>최대</th></tr></thead><tbody>";
+    var h = '<thead><tr><th class="name">브랜드</th>' + dateHead(k) + "<th>최대</th></tr></thead><tbody>";
     namesFor(k).forEach(function (n) {
       var mx = 0; for (var t = 0; t < N; t++) mx = Math.max(mx, val(n, t, k) || 0);
       var st = isKB(n) ? ' style="background:' + BC[n].bg + ";color:" + BC[n].fg + ';font-weight:800"' : "";
@@ -183,7 +189,7 @@
     makeView();
     var out = "";
     secs().forEach(function (s, si) {
-      var unit = s.k === "total" ? "6개국 합계" : s.name;
+      var unit = s.k === "total" ? "6개국 모두 정상인 날만 합산" : s.name;
       out += '<section id="' + s.id + '">' +
         '<h2><span class="n">0' + (si + 1) + "</span>" + esc(s.name) + "</h2>" +
         '<p class="h2sub">브랜드 랭킹 → 추이 차트 → 브랜드별 값</p>' +
@@ -191,11 +197,11 @@
         '<p class="chart-note">단위: ' + unit + " 진입 개수 · 칸 아래 작은 숫자가 값 · 색칠된 칸 = K뷰티</p>" +
         '<div class="scroll"><table class="gridtbl">' + rankGrid(s.k) + "</table></div></div>" +
         '<div class="bcard"><p class="chart-title">' + (s.k === "total" ? "6개국 합계" : esc(s.name)) + " 추이</p>" +
-        '<p class="chart-note">K뷰티만 색으로 표시 · 회색 = 기타 브랜드 · 점 위 숫자는 실제 값 · 점선 구간은 그 시점 표 밖</p>' +
+        '<p class="chart-note">K뷰티만 색으로 표시 · 회색 = 기타 브랜드 · 점 위 숫자는 실제 값 · 미수집 구간은 선을 연결하지 않음</p>' +
         '<div id="ch-' + s.id + '"></div></div>' +
         '<div class="bcard"><button type="button" class="mini" data-csv="' + s.k + '">이 표 CSV</button>' +
         '<p class="chart-title">브랜드 × 시점</p>' +
-        '<p class="chart-note">단위: ' + unit + " 진입 개수 · · = 그 시점 기록 없음 · 줄을 누르면 하이라이트 고정</p>" +
+        '<p class="chart-note">단위: ' + unit + " 진입 개수 · · = 기록 없음 또는 수집 불완전으로 비교 제외 · 줄을 누르면 하이라이트 고정</p>" +
         '<div class="scroll" style="max-height:62vh"><table class="vtbl">' + valTable(s.k) + "</table></div></div>" +
         "</section>";
     });
@@ -275,19 +281,19 @@
   function qq(s) { return '"' + String(s).replace(/"/g, '""') + '"'; }
   function csvAll() {
     var cn = BR.countries.map(function (c) { return c.name; });
-    var rows = ["시점,출처,브랜드," + cn.join(",") + ",총합계,총합계순위"];
+    var rows = ["시점,출처,수집상태,브랜드," + cn.join(",") + ",총합계,총합계순위"];
     BR.points.forEach(function (p, t) {
       Object.keys(BR.series).forEach(function (b) {
         var s = BR.series[b], tot = s.values.total[t];
-        if (tot == null) return;
-        rows.push([p.date, p.source === "capture" ? "캡처" : "자동", qq(b)].concat(BR.countries.map(function (c) { var v = s.values[c.cc][t]; return v == null ? "" : v; }))
-          .concat([tot, s.ranks.total[t] || ""]).join(","));
+
+        rows.push([p.date, p.source === "capture" ? "캡처" : "자동", qq(coverage(p,"total")), qq(b)].concat(BR.countries.map(function (c) { var v = s.values[c.cc][t]; return v == null ? "" : v; }))
+          .concat([tot == null ? "" : tot, s.ranks.total[t] || ""]).join(","));
       });
     });
     return rows.join("\n");
   }
   function csvSection(k) {
-    var rows = ["브랜드," + VIEW.pts.map(function (p) { return p.date; }).join(",")];
+    var rows = ["브랜드," + VIEW.pts.map(function (p) { return p.date; }).join(","), "수집 상태," + VIEW.pts.map(function(p){return qq(coverage(p,k));}).join(",")];
     namesFor(k).forEach(function (n) {
       rows.push([qq(n)].concat(VIEW.pts.map(function (_, t) { var v = val(n, t, k); return v == null ? "" : v; })).join(","));
     });

@@ -11,6 +11,7 @@
 """
 
 from __future__ import annotations
+from datetime import date as calendar_date, timedelta
 
 import argparse
 import json
@@ -26,7 +27,7 @@ from scraper.markets import MARKETS
 
 ROOT = Path(__file__).resolve().parents[1]
 SNAPSHOT_RE = re.compile(r"^\d{4}-\d{2}-\d{2}\.json$")  # .attempt-*.json(실패 기록)은 제외
-USABLE = ("ok", "partial")
+USABLE = ("ok",)
 
 
 def load_snapshots(data_dir: Path) -> dict[str, dict[str, dict]]:
@@ -99,6 +100,8 @@ def build_kbeauty(snaps: dict[str, dict[str, dict]], companies, products_by_asin
                 ranks[key] = min(ranks.get(key, 10**6), it["rank"])
 
             prev = prev_by_cc.get(cc)
+            if prev and prev["date"] != (calendar_date.fromisoformat(date) - timedelta(days=1)).isoformat():
+                prev = None
             total = sum(counts.values())
             entry.update({
                 "counts": counts,
@@ -115,15 +118,19 @@ def build_kbeauty(snaps: dict[str, dict[str, dict]], companies, products_by_asin
             prev_by_cc[cc] = {"date": date, "counts": counts, "total": total, "ranks": ranks}
             day[cc] = entry
 
-        # 국가 합계 (사용 가능한 국가만)
+        # Only compare the identical complete six-country basket.
         usable = [e for e in day.values() if "counts" in e]
-        day_totals = {cid: sum(e["counts"][cid] for e in usable) for cid in company_ids}
-        deltas = [e["delta"] for e in usable if e["delta"] is not None]
-        totals_delta = {cid: sum(d[cid] for d in deltas) for cid in company_ids} if deltas else None
+        complete = len(usable) == len(MARKETS)
+        day_totals = {cid: sum(e["counts"][cid] for e in usable) if complete else None for cid in company_ids}
+        previous_date = (calendar_date.fromisoformat(date) - timedelta(days=1)).isoformat()
+        previous = days.get(previous_date)
+        totals_delta = ({cid: day_totals[cid] - previous["company_totals"][cid] for cid in company_ids}
+                        if complete and previous and previous["grand_total"] is not None else None)
         days[date] = {
             "countries": day,
             "company_totals": day_totals,
-            "grand_total": sum(day_totals.values()),
+            "grand_total": sum(day_totals.values()) if complete else None,
+            "coverage": {"complete": complete, "ok_count": len(usable), "incomplete": [cc for cc in MARKETS if day.get(cc, {}).get("status") != "ok"]},
             "company_totals_delta": totals_delta,
             "grand_total_delta": sum(totals_delta.values()) if totals_delta else None,
             "company_products": _company_products(day, products, company_ids),
@@ -173,6 +180,9 @@ def _summary(d: dict, company_by_id: dict) -> list[str]:
     usable = {cc: e for cc, e in d["countries"].items() if "counts" in e}
     if not usable:
         return ["수집된 국가가 없습니다."]
+    if d["grand_total"] is None:
+        missing = " · ".join(MARKETS[cc]["name"] + (" 일부 수집" if d["countries"].get(cc, {}).get("status") == "partial" else " 누락") for cc in d["coverage"]["incomplete"])
+        return [f"{len(usable)}/{len(MARKETS)}개국 정상 · {missing}", "비교 기준이 달라 전체 합계·순위·전일 증감을 계산하지 않습니다. 정상 수집된 국가만 개별 비교할 수 있습니다."]
     n = len(usable)
     total = d["grand_total"]
     delta = d["grand_total_delta"]

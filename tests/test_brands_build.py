@@ -46,13 +46,13 @@ def test_build_counts_zero_vs_null_and_capture():
     assert [p["date"] for p in out["points"]] == ["2026-09-21", "2026-09-28"]
     assert [p["source"] for p in out["points"]] == ["capture", "auto"]
     med = out["series"]["Medicube"]["values"]
-    assert med["total"] == [64, 2] and med["US"] == [6, 1] and med["DE"] == [6, None]
+    assert med["total"] == [64, None] and med["US"] == [6, 1] and med["DE"] == [6, None]
     cv = out["series"]["CeraVe"]["values"]
     assert cv["US"] == [None, 1] and cv["UK"] == [None, 0]  # 수집한 나라에서 없으면 0, 캡처에 없으면 null
     assert out["series"]["L'Oréal Paris"]["values"]["total"][0] == 31  # 표기가 다른 이름은 합친다
     assert out["unresolved"][0]["by_country"] == {"US": 1, "UK": 0}
-    assert out["ranks"]["total"][1][0] == {"b": "Medicube", "v": 2}
-    assert out["series"]["Medicube"]["ranks"]["total"] == [1, 1]
+    assert out["ranks"]["total"][1] == []
+    assert out["series"]["Medicube"]["ranks"]["total"] == [1, None]
 
 
 def test_learned_brand_names_match_title_prefix():

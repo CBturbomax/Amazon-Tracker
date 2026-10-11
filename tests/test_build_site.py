@@ -40,7 +40,7 @@ def test_counts_deltas_new_out(tmp_path):
     uk = kb["days"]["2026-09-28"]["countries"]["UK"]
     assert uk["delta"] is None and uk["new"] == []  # 전날 데이터 없음
     assert "counts" not in kb["days"]["2026-09-28"]["countries"]["DE"]
-    assert kb["days"]["2026-09-28"]["company_totals"]["apr"] == 3
+    assert kb["days"]["2026-09-28"]["company_totals"]["apr"] is None
     assert kb["series"]["US"]["apr"] == [1, 2]
     assert kb["series"]["UK"]["apr"] == [None, 1]
     # 같은 ASIN이면 국가가 달라도 한 제품

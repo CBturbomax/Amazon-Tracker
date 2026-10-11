@@ -315,10 +315,10 @@ function snapshotHTML(date, { withKpis }) {
   h += `<div class="card yellow"><h2>${esc(date)} 요약</h2><ul class="summary">${day.summary.map(s => `<li>${esc(s)}</li>`).join("")}</ul></div>`;
 
   if (withKpis) {
-    h += `<div class="kpis"><div class="kpi total"><div class="label">전체 국가 합계</div><div class="num">${day.grand_total}</div><div class="chg">전일 대비 ${delta(day.grand_total_delta)}</div></div>`;
+    h += `<div class="kpis"><div class="kpi total"><div class="label">전체 국가 합계</div><div class="num">${day.grand_total == null ? "—" : day.grand_total}</div><div class="chg">전일 대비 ${delta(day.grand_total_delta)}</div></div>`;
     for (const c of comps) {
       const d = day.company_totals_delta ? day.company_totals_delta[c.id] : null;
-      h += `<div class="kpi"><div class="label">${esc(c.name)}</div><div class="num">${day.company_totals[c.id]}</div><div class="chg">전일 대비 ${delta(d)}</div></div>`;
+      h += `<div class="kpi"><div class="label">${esc(c.name)}</div><div class="num">${day.company_totals[c.id] == null ? "—" : day.company_totals[c.id]}</div><div class="chg">전일 대비 ${delta(d)}</div></div>`;
     }
     h += `</div>`;
   }
@@ -335,14 +335,14 @@ function snapshotHTML(date, { withKpis }) {
       h += `<td>${e.counts[c.id]}<span class="d">${delta(e.delta ? e.delta[c.id] : null)}</span></td>`;
     }
     const td = day.company_totals_delta ? day.company_totals_delta[c.id] : null;
-    h += `<td><b>${day.company_totals[c.id]}</b><span class="d">${delta(td)}</span></td></tr>`;
+    h += `<td><b>${day.company_totals[c.id] == null ? "—" : day.company_totals[c.id]}</b><span class="d">${delta(td)}</span></td></tr>`;
   }
   h += `<tr class="sum"><td>합계</td>`;
   for (const cc of countries) {
     const e = day.countries[cc.cc];
     h += e && e.counts ? `<td>${e.total}<span class="d">${delta(e.total_delta)}</span></td>` : `<td class="na">–</td>`;
   }
-  h += `<td>${day.grand_total}<span class="d">${delta(day.grand_total_delta)}</span></td></tr></tbody></table></div>`;
+  h += `<td>${day.grand_total == null ? "—" : day.grand_total}<span class="d">${delta(day.grand_total_delta)}</span></td></tr></tbody></table></div>`;
   h += `<p class="note">괄호 없는 숫자는 Top 100 안 제품 수, ▲▼는 그 나라 직전 수집일 대비 증감입니다.</p></div>`;
 
   // 신규 / 이탈
@@ -429,7 +429,7 @@ function renderTrend() {
     ? KB.dates.slice(from).map(d => KB.days[d].grand_total)
     : KB.series_total[cc].slice(from);
   const name = cc === "ALL" ? "전체 국가 합계" : KB.countries.find(c => c.cc === cc).name;
-  $("#trend-total").innerHTML = `<p class="mini-title">K뷰티 전체 (${esc(name)})</p>`;
+  $("#trend-total").innerHTML = `<p class="mini-title">K뷰티 전체 (${esc(name)})</p><p class="muted">6개국 모두 정상인 날만 합계 비교 · 수집 불완전 날짜는 공란</p>`;
   $("#trend-total").appendChild(barChart(labels, totalSeries, { color: COLORS.blue, unit: "개", height: 300 }));
 
   const box = $("#trend-companies");
