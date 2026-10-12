@@ -158,8 +158,8 @@
  },
  "B00464EC1E": {
   "error": "no_brand",
-  "checked_at": "2026-10-11T14:39:45+09:00",
-  "tries": 1
+  "checked_at": "2026-10-12T14:50:09+09:00",
+  "tries": 2
  },
  "B00469YJT4": {
   "brand": "Cussons Carex",
@@ -387,8 +387,8 @@
  },
  "B00S5VHGQ2": {
   "error": "no_brand",
-  "checked_at": "2026-10-11T14:38:31+09:00",
-  "tries": 2
+  "checked_at": "2026-10-12T14:49:02+09:00",
+  "tries": 3
  },
  "B00SK71SAG": {
   "brand": "Dove",
@@ -637,8 +637,8 @@
  },
  "B072PCY6R8": {
   "error": "no_brand",
-  "checked_at": "2026-10-11T14:39:09+09:00",
-  "tries": 2
+  "checked_at": "2026-10-12T14:49:52+09:00",
+  "tries": 3
  },
  "B073CWSQ51": {
   "brand": "COLOR WOW",
@@ -809,6 +809,14 @@
   "domain": "www.amazon.com",
   "method": "curl_cffi",
   "checked_at": "2026-09-30T14:32:55+09:00",
+  "tries": 1
+ },
+ "B07TJG79HP": {
+  "brand": "Mrs. MEYER'S",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-12T14:48:43+09:00",
   "tries": 1
  },
  "B07VRLPNY1": {
@@ -1008,8 +1016,8 @@
  },
  "B093W7CDWD": {
   "error": "no_brand",
-  "checked_at": "2026-10-11T14:40:25+09:00",
-  "tries": 2
+  "checked_at": "2026-10-12T14:50:31+09:00",
+  "tries": 3
  },
  "B09541P9WH": {
   "brand": "Amazon Essentials",
@@ -1106,6 +1114,14 @@
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:45:09+09:00",
+  "tries": 1
+ },
+ "B09V1CPTR1": {
+  "brand": "Catrice Cosmetics",
+  "source": "byline",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-12T14:49:20+09:00",
   "tries": 1
  },
  "B09V7Z4TJG": {
@@ -1346,6 +1362,14 @@
   "checked_at": "2026-09-28T10:35:10+09:00",
   "tries": 1
  },
+ "B0CNL19TQG": {
+  "brand": "DOVE MEN + CARE",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-12T14:49:34+09:00",
+  "tries": 1
+ },
  "B0CNQ4DJRV": {
   "brand": "L'Oreal Paris",
   "source": "po-brand",
@@ -1364,7 +1388,7 @@
  },
  "B0CS66CFB8": {
   "error": "captcha",
-  "checked_at": "2026-10-11T14:41:51+09:00",
+  "checked_at": "2026-10-12T14:50:49+09:00",
   "tries": 0
  },
  "B0CS6FFLSS": {
@@ -1611,7 +1635,7 @@
  },
  "B0FGJ9P8L9": {
   "error": "captcha",
-  "checked_at": "2026-10-11T14:42:10+09:00",
+  "checked_at": "2026-10-12T14:51:04+09:00",
   "tries": 0
  },
  "B0FGQ3J31K": {
