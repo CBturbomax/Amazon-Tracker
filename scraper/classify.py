@@ -5,6 +5,7 @@ from __future__ import annotations
 # 아마존 로봇 확인 페이지에 나오는 표식들 (소문자로 비교).
 CAPTCHA_MARKERS = (
     "/errors/validatecaptcha",
+    "/errors_page/validatecaptcha",
     "type the characters you see in this image",
     "enter the characters you see below",
     "sorry, we just need to make sure you're not a robot",
@@ -46,3 +47,4 @@ def classify(status: int | None, block: str | None, error: str | None, parsed_co
     if parsed_count == 0:
         return "parse_fail"
     return "ok"
+
