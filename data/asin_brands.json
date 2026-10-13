@@ -158,8 +158,8 @@
  },
  "B00464EC1E": {
   "error": "no_brand",
-  "checked_at": "2026-10-12T14:50:09+09:00",
-  "tries": 2
+  "checked_at": "2026-10-13T15:43:24+09:00",
+  "tries": 3
  },
  "B00469YJT4": {
   "brand": "Cussons Carex",
@@ -678,6 +678,11 @@
   "checked_at": "2026-09-28T10:43:14+09:00",
   "tries": 1
  },
+ "B07895R49B": {
+  "error": "captcha",
+  "checked_at": "2026-10-13T15:43:58+09:00",
+  "tries": 0
+ },
  "B078PPV6SZ": {
   "brand": "KERACOLOR",
   "source": "po-brand",
@@ -1139,6 +1144,14 @@
   "checked_at": "2026-09-30T14:29:47+09:00",
   "tries": 1
  },
+ "B09XBTM36J": {
+  "brand": "tarte",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-13T15:43:04+09:00",
+  "tries": 1
+ },
  "B09XBVNHHB": {
   "brand": "tarte",
   "source": "po-brand",
@@ -1388,7 +1401,7 @@
  },
  "B0CS66CFB8": {
   "error": "captcha",
-  "checked_at": "2026-10-12T14:50:49+09:00",
+  "checked_at": "2026-10-13T15:43:39+09:00",
   "tries": 0
  },
  "B0CS6FFLSS": {
