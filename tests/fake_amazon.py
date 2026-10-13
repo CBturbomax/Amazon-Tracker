@@ -44,14 +44,15 @@ def item_html(rank: int) -> str:
 </div>"""
 
 
-def bestseller_page(n_rendered: int = 30, n_total: int = 50, lazy: bool = False) -> str:
+def bestseller_page(n_rendered: int = 30, n_total: int = 50, lazy: bool = False,
+                    start_rank: int = 1) -> str:
     recs = [{"id": asin(i), "metadataMap": {"render.zg.rank": str(i), "render.zg.bsms.percentageChange": ""},
-             "linkParameters": {}} for i in range(1, n_total + 1)]
+             "linkParameters": {}} for i in range(start_rank, start_rank + n_total)]
     recs_attr = json.dumps(recs).replace('"', "&quot;")
-    first = "".join(item_html(i) for i in range(1, n_rendered + 1))
+    first = "".join(item_html(i) for i in range(start_rank, start_rank + n_rendered))
     script = ""
     if lazy:
-        rest = json.dumps([item_html(i) for i in range(n_rendered + 1, n_total + 1)])
+        rest = json.dumps([item_html(i) for i in range(start_rank + n_rendered, start_rank + n_total)])
         script = f"""
 <script>
   const rest = {rest};
@@ -84,3 +85,4 @@ CAPTCHA_PAGE = """<!doctype html><html><head><title>Amazon.com</title></head><bo
 DOG_503_PAGE = """<!doctype html><html><head><title>Sorry! Something went wrong!</title></head><body>
 <a href="/ref=cs_503_logo"><img alt="Amazon.com"></a>
 <b>Sorry! Something went wrong on our end.</b></body></html>"""
+
