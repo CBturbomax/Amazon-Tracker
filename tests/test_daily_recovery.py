@@ -9,7 +9,7 @@ from scraper.snapshot import write_snapshot
 
 def test_german_first_request_uses_explicit_page_one():
     assert bestseller_url('DE', 'beauty', 1) == (
-        'https://www.amazon.de/gp/bestsellers/beauty/ref=zg_bs_pg_1_beauty?ie=UTF8&pg=1')
+        'https://www.amazon.de/-/en/gp/bestsellers/beauty/ref=zg_bs_pg_1_beauty?ie=UTF8&pg=1')
 
 
 def test_other_markets_keep_working_first_page_route():
@@ -66,3 +66,8 @@ def test_repeated_attempt_timestamp_does_not_overwrite_archive(tmp_path):
     archives = list(tmp_path.glob('*.attempt-*.json'))
     assert len(archives) == 2
     assert {json.loads(p.read_text())['n'] for p in archives} == {1, 2}
+
+
+def test_german_second_page_uses_same_official_language_route():
+    assert bestseller_url('DE', 'beauty', 2) == (
+        'https://www.amazon.de/-/en/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2')
