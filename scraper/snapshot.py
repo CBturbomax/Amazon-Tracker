@@ -22,6 +22,12 @@ def write_snapshot(path: Path, doc: dict) -> str:
         if old.get("status") == "ok":
             return "kept_existing"
         stamp = (old.get("collected_at") or "unknown")[11:19].replace(":", "")
-        path.rename(path.with_name(f"{path.stem}.attempt-{stamp}.json"))
+        archive = path.with_name(f"{path.stem}.attempt-{stamp}.json")
+        suffix = 1
+        while archive.exists():
+            archive = path.with_name(f"{path.stem}.attempt-{stamp}-{suffix}.json")
+            suffix += 1
+        path.rename(archive)
     path.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     return "written"
+

@@ -14,6 +14,7 @@ MARKETS: dict[str, dict] = {
 
 def bestseller_url(country: str, slug: str, page: int) -> str:
     domain = MARKETS[country]["domain"]
-    if page == 1:
+    if page == 1 and country != "DE":
         return f"https://{domain}/gp/bestsellers/{slug}"
     return f"https://{domain}/gp/bestsellers/{slug}/ref=zg_bs_pg_{page}_{slug}?ie=UTF8&pg={page}"
+
