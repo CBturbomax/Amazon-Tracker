@@ -13,6 +13,14 @@
   "checked_at": "2026-09-28T10:44:37+09:00",
   "tries": 1
  },
+ "B000ORV3NC": {
+  "brand": "Weleda",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:50:59+09:00",
+  "tries": 1
+ },
  "B000SDQ224": {
   "brand": "Eylure",
   "source": "po-brand",
@@ -39,9 +47,12 @@
   "tries": 1
  },
  "B00129XP8M": {
-  "error": "captcha",
-  "checked_at": "2026-10-05T14:29:37+09:00",
-  "tries": 0
+  "checked_at": "2026-10-14T13:57:04+09:00",
+  "tries": 1,
+  "brand": "Bio-Oil",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright"
  },
  "B0013G35KW": {
   "brand": "Bio-Oil",
@@ -98,6 +109,14 @@
   "checked_at": "2026-09-30T14:40:06+09:00",
   "tries": 1
  },
+ "B001V9LB9I": {
+  "brand": "Rimmel",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:53:58+09:00",
+  "tries": 1
+ },
  "B002CB56SG": {
   "brand": "Got2B",
   "source": "byline",
@@ -148,6 +167,14 @@
   "checked_at": "2026-09-28T10:41:14+09:00",
   "tries": 1
  },
+ "B003VN3I7K": {
+  "brand": "FAITH IN NATURE",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:52:15+09:00",
+  "tries": 1
+ },
  "B004345SP6": {
   "brand": "Vaseline",
   "source": "po-brand",
@@ -167,6 +194,14 @@
   "domain": "www.amazon.com",
   "method": "curl_cffi",
   "checked_at": "2026-09-30T14:42:30+09:00",
+  "tries": 1
+ },
+ "B0046U7MNI": {
+  "brand": "Garnier",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:58:10+09:00",
   "tries": 1
  },
  "B004BCTFVS": {
@@ -199,6 +234,14 @@
   "checked_at": "2026-09-30T14:33:38+09:00",
   "tries": 1
  },
+ "B004S9WHUU": {
+  "brand": "Got2B",
+  "source": "byline",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:46:12+09:00",
+  "tries": 1
+ },
  "B004Y9GTOO": {
   "brand": "MAYBELLINE",
   "source": "byline",
@@ -219,6 +262,14 @@
   "domain": "www.amazon.com",
   "method": "curl_cffi",
   "checked_at": "2026-09-30T14:34:11+09:00",
+  "tries": 1
+ },
+ "B005SQQF4Q": {
+  "brand": "Hugo Boss",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:58:27+09:00",
   "tries": 1
  },
  "B0060OUV5Y": {
@@ -252,10 +303,21 @@
   "checked_at": "2026-09-30T14:39:54+09:00",
   "tries": 1
  },
+ "B0083H8ASG": {
+  "brand": "L'Oreal Paris",
+  "source": "byline",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:49:47+09:00",
+  "tries": 1
+ },
  "B008BDSZFK": {
-  "error": "captcha",
-  "checked_at": "2026-10-04T14:47:07+09:00",
-  "tries": 0
+  "checked_at": "2026-10-14T13:49:26+09:00",
+  "tries": 1,
+  "brand": "Remington",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright"
  },
  "B00949CTQQ": {
   "brand": "Paula's Choice",
@@ -269,6 +331,14 @@
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:34:08+09:00",
+  "tries": 1
+ },
+ "B00AYXV5W0": {
+  "brand": "Bed Head",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:57:35+09:00",
   "tries": 1
  },
  "B00DWVMQ42": {
@@ -385,6 +455,14 @@
   "checked_at": "2026-09-30T14:33:16+09:00",
   "tries": 1
  },
+ "B00QPROY9U": {
+  "brand": "Head & Shoulders",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:54:36+09:00",
+  "tries": 1
+ },
  "B00S5VHGQ2": {
   "error": "no_brand",
   "checked_at": "2026-10-12T14:49:02+09:00",
@@ -395,6 +473,14 @@
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:38:09+09:00",
+  "tries": 1
+ },
+ "B00SNOAZM8": {
+  "brand": "L'Oreal Paris",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T14:01:13+09:00",
   "tries": 1
  },
  "B00SNPCSUY": {
@@ -469,6 +555,14 @@
   "checked_at": "2026-10-14T08:59:29+09:00",
   "tries": 1
  },
+ "B00YT1IZTO": {
+  "brand": "CeraVe",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:45:36+09:00",
+  "tries": 1
+ },
  "B0107QPFBU": {
   "brand": "Aquaphor",
   "source": "po-brand",
@@ -476,11 +570,35 @@
   "checked_at": "2026-09-28T10:44:59+09:00",
   "tries": 1
  },
+ "B0138MFOEI": {
+  "brand": "L'Oreal Paris",
+  "source": "byline",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:52:53+09:00",
+  "tries": 1
+ },
  "B014E2D6BY": {
   "brand": "grace & stella",
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:35:38+09:00",
+  "tries": 1
+ },
+ "B014G2ZCWS": {
+  "brand": "Dove",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:47:04+09:00",
+  "tries": 1
+ },
+ "B0155N6RYE": {
+  "brand": "Regaine",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:53:23+09:00",
   "tries": 1
  },
  "B0176G84D0": {
@@ -535,6 +653,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-14T08:58:52+09:00",
+  "tries": 1
+ },
+ "B01LEJ5MSK": {
+  "brand": "COSRX",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:51:30+09:00",
   "tries": 1
  },
  "B01LW1983J": {
@@ -636,6 +762,14 @@
   "checked_at": "2026-10-08T15:03:39+09:00",
   "tries": 1
  },
+ "B06XZNJWZL": {
+  "brand": "Slick Gorilla",
+  "source": "byline",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:53:07+09:00",
+  "tries": 1
+ },
  "B071914GGL": {
   "brand": "The Ordinary",
   "source": "po-brand",
@@ -649,6 +783,14 @@
   "domain": "www.amazon.co.uk",
   "method": "curl_cffi",
   "checked_at": "2026-09-30T14:39:39+09:00",
+  "tries": 1
+ },
+ "B072BHZ41J": {
+  "brand": "LANEIGE",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T14:00:37+09:00",
   "tries": 1
  },
  "B072PCY6R8": {
@@ -687,6 +829,14 @@
   "checked_at": "2026-10-07T14:48:20+09:00",
   "tries": 1
  },
+ "B078216MC9": {
+  "brand": "Clairol",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:50:05+09:00",
+  "tries": 1
+ },
  "B0787GLBMV": {
   "brand": "Schick Hydro Silk",
   "source": "po-brand",
@@ -695,15 +845,34 @@
   "tries": 1
  },
  "B07895R49B": {
-  "error": "captcha",
-  "checked_at": "2026-10-14T09:37:24+09:00",
-  "tries": 0
+  "checked_at": "2026-10-14T13:44:19+09:00",
+  "tries": 1,
+  "brand": "Clairol",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright"
  },
  "B078PPV6SZ": {
   "brand": "KERACOLOR",
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:43:06+09:00",
+  "tries": 1
+ },
+ "B079VPLX8D": {
+  "brand": "FAITH IN NATURE",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:48:21+09:00",
+  "tries": 1
+ },
+ "B07BN1ZNBL": {
+  "brand": "Salt Of the Earth",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:50:24+09:00",
   "tries": 1
  },
  "B07C5R51Q9": {
@@ -719,6 +888,14 @@
   "domain": "www.amazon.co.uk",
   "method": "curl_cffi",
   "checked_at": "2026-09-30T14:35:21+09:00",
+  "tries": 1
+ },
+ "B07C5XYT19": {
+  "brand": "CeraVe",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:52:35+09:00",
   "tries": 1
  },
  "B07CHPWFXK": {
@@ -787,6 +964,14 @@
   "checked_at": "2026-09-30T14:32:24+09:00",
   "tries": 1
  },
+ "B07L5WH74Y": {
+  "brand": "Garnier",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:57:48+09:00",
+  "tries": 1
+ },
  "B07MWSXPT1": {
   "brand": "e.l.f.",
   "source": "po-brand",
@@ -840,6 +1025,14 @@
   "checked_at": "2026-10-12T14:48:43+09:00",
   "tries": 1
  },
+ "B07VR1NDSQ": {
+  "brand": "OLAPLEX",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:58:44+09:00",
+  "tries": 1
+ },
  "B07VRLPNY1": {
   "brand": "Revolution Beauty London",
   "source": "po-brand",
@@ -886,6 +1079,14 @@
   "checked_at": "2026-09-30T14:41:20+09:00",
   "tries": 1
  },
+ "B083JKPCFB": {
+  "brand": "KÉRASTASE",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:56:24+09:00",
+  "tries": 1
+ },
  "B0864QL8CM": {
   "brand": "Amazon Brand - Solimo",
   "source": "po-brand",
@@ -918,9 +1119,12 @@
   "tries": 1
  },
  "B08CCM3Q2T": {
-  "error": "captcha",
-  "checked_at": "2026-10-08T15:10:10+09:00",
-  "tries": 0
+  "checked_at": "2026-10-14T13:48:51+09:00",
+  "tries": 1,
+  "brand": "L'Oreal Men Expert",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright"
  },
  "B08CFSS35N": {
   "brand": "Rimmel",
@@ -945,6 +1149,14 @@
   "checked_at": "2026-09-28T10:33:33+09:00",
   "tries": 1
  },
+ "B08JL5B792": {
+  "brand": "Aveeno",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:54:19+09:00",
+  "tries": 1
+ },
  "B08JL9KYBV": {
   "brand": "Aveeno",
   "source": "po-brand",
@@ -960,12 +1172,28 @@
   "checked_at": "2026-09-28T10:32:11+09:00",
   "tries": 1
  },
+ "B08MJZYW8P": {
+  "brand": "ELEMIS",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:56:42+09:00",
+  "tries": 1
+ },
  "B08NYHVJ5N": {
   "brand": "Old Spice",
   "source": "po-brand",
   "domain": "www.amazon.com",
   "method": "curl_cffi",
   "checked_at": "2026-09-30T14:28:49+09:00",
+  "tries": 1
+ },
+ "B08PDPK4B1": {
+  "brand": "Rimmel",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:49:06+09:00",
   "tries": 1
  },
  "B08QYD4D77": {
@@ -996,6 +1224,14 @@
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:40:58+09:00",
+  "tries": 1
+ },
+ "B08WJQ3XJD": {
+  "brand": "Beauty of Joseon",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:59:22+09:00",
   "tries": 1
  },
  "B08WR5CPNB": {
@@ -1077,11 +1313,35 @@
   "checked_at": "2026-09-30T14:43:16+09:00",
   "tries": 1
  },
+ "B09BD7L35V": {
+  "brand": "Garnier",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:55:46+09:00",
+  "tries": 1
+ },
+ "B09C1B7BH5": {
+  "brand": "medicube",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:57:19+09:00",
+  "tries": 1
+ },
  "B09DDD6YGJ": {
   "brand": "Dove",
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:42:38+09:00",
+  "tries": 1
+ },
+ "B09FTBMDBS": {
+  "brand": "Aveeno",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:50:43+09:00",
   "tries": 1
  },
  "B09G2S1KZ2": {
@@ -1090,6 +1350,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-08T14:59:30+09:00",
+  "tries": 1
+ },
+ "B09GNST3CY": {
+  "brand": "Aveeno",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:46:27+09:00",
   "tries": 1
  },
  "B09HHDHXWX": {
@@ -1174,6 +1442,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-08T14:56:12+09:00",
+  "tries": 1
+ },
+ "B09XMYFTB7": {
+  "brand": "e.l.f.",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:59:35+09:00",
   "tries": 1
  },
  "B09XN22JBT": {
@@ -1269,9 +1545,12 @@
   "tries": 1
  },
  "B0BBLZ2YBP": {
-  "error": "captcha",
-  "checked_at": "2026-10-02T14:30:16+09:00",
-  "tries": 0
+  "checked_at": "2026-10-14T13:54:56+09:00",
+  "tries": 1,
+  "brand": "The Ordinary",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright"
  },
  "B0BFQ9RD5B": {
   "brand": "d'alba Piedmont",
@@ -1313,11 +1592,27 @@
   "checked_at": "2026-10-08T15:09:24+09:00",
   "tries": 1
  },
+ "B0BQTMHNW9": {
+  "brand": "Aveeno",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:47:20+09:00",
+  "tries": 1
+ },
  "B0BRMYHMS5": {
   "brand": "medicube",
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:36:43+09:00",
+  "tries": 1
+ },
+ "B0BSR2ZBK1": {
+  "brand": "Wonderskin",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:51:53+09:00",
   "tries": 1
  },
  "B0BVPNQW1C": {
@@ -1350,9 +1645,12 @@
   "tries": 1
  },
  "B0C7N36SRY": {
-  "error": "captcha",
-  "checked_at": "2026-10-05T14:29:25+09:00",
-  "tries": 0
+  "checked_at": "2026-10-14T13:46:44+09:00",
+  "tries": 1,
+  "brand": "Rimmel",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright"
  },
  "B0C822Y5BY": {
   "brand": "HERO COSMETICS",
@@ -1423,6 +1721,22 @@
   "checked_at": "2026-09-30T14:32:41+09:00",
   "tries": 1
  },
+ "B0CQ2ZJMP5": {
+  "brand": "L'Oreal Men Expert",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:47:40+09:00",
+  "tries": 1
+ },
+ "B0CRZWWFKJ": {
+  "brand": "COLOR WOW",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T14:01:33+09:00",
+  "tries": 1
+ },
  "B0CS62LY6P": {
   "checked_at": "2026-09-30T14:31:48+09:00",
   "tries": 2,
@@ -1432,9 +1746,12 @@
   "method": "curl_cffi"
  },
  "B0CS66CFB8": {
-  "error": "captcha",
-  "checked_at": "2026-10-14T09:37:11+09:00",
-  "tries": 0
+  "checked_at": "2026-10-14T13:44:04+09:00",
+  "tries": 1,
+  "brand": "by Amazon",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright"
  },
  "B0CS6FFLSS": {
   "brand": "by Amazon",
@@ -1450,6 +1767,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-08T15:05:14+09:00",
+  "tries": 1
+ },
+ "B0CV5VCL8F": {
+  "brand": "Dove",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:45:14+09:00",
   "tries": 1
  },
  "B0CWPKWPRJ": {
@@ -1481,6 +1806,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-08T14:59:14+09:00",
+  "tries": 1
+ },
+ "B0D1G7XF9X": {
+  "brand": "medicube",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:51:15+09:00",
   "tries": 1
  },
  "B0D2Z3GGCY": {
@@ -1558,6 +1891,14 @@
   "checked_at": "2026-09-30T14:32:04+09:00",
   "tries": 1
  },
+ "B0DGQB458Y": {
+  "brand": "L'Oreal Paris",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T14:00:21+09:00",
+  "tries": 1
+ },
  "B0DGTMR754": {
   "brand": "medicube",
   "source": "po-brand",
@@ -1595,6 +1936,14 @@
   "checked_at": "2026-09-28T10:39:27+09:00",
   "tries": 1
  },
+ "B0DK9YWKBF": {
+  "brand": "by Amazon",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:53:40+09:00",
+  "tries": 1
+ },
  "B0DL7DKQ8W": {
   "brand": "Carpe",
   "source": "po-brand",
@@ -1626,11 +1975,43 @@
   "checked_at": "2026-09-28T10:33:25+09:00",
   "tries": 1
  },
+ "B0DNT5HBHB": {
+  "brand": "Maybelline",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:59:58+09:00",
+  "tries": 1
+ },
+ "B0DNZPVRP6": {
+  "brand": "TRESemmé",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:45:56+09:00",
+  "tries": 1
+ },
  "B0DPHQRLJC": {
   "brand": "eos",
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:34:02+09:00",
+  "tries": 1
+ },
+ "B0DQV8G9HR": {
+  "brand": "Nizoral",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:44:42+09:00",
+  "tries": 1
+ },
+ "B0DSGCJSZF": {
+  "brand": "Neutrogena",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:44:59+09:00",
   "tries": 1
  },
  "B0DSLXS4G9": {
@@ -1654,6 +2035,14 @@
   "domain": "www.amazon.com",
   "method": "curl_cffi",
   "checked_at": "2026-09-30T14:42:44+09:00",
+  "tries": 1
+ },
+ "B0DX122DHW": {
+  "brand": "ANUA",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:48:03+09:00",
   "tries": 1
  },
  "B0DYTQ5GYQ": {
@@ -1686,10 +2075,21 @@
   "checked_at": "2026-10-08T15:09:01+09:00",
   "tries": 1
  },
+ "B0F9DYCLL8": {
+  "brand": "Makartt",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:55:16+09:00",
+  "tries": 1
+ },
  "B0FGJ9P8L9": {
-  "error": "captcha",
-  "checked_at": "2026-10-12T14:51:04+09:00",
-  "tries": 0
+  "checked_at": "2026-10-14T13:55:29+09:00",
+  "tries": 1,
+  "brand": "L'Oreal Paris",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright"
  },
  "B0FGQ3J31K": {
   "brand": "EQQUALBERRY",
@@ -1697,6 +2097,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-08T15:04:44+09:00",
+  "tries": 1
+ },
+ "B0FHBX6XS7": {
+  "brand": "Erborian",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T14:00:52+09:00",
   "tries": 1
  },
  "B0FJG5WLT2": {
@@ -1753,12 +2161,28 @@
   "checked_at": "2026-10-08T15:01:35+09:00",
   "tries": 1
  },
+ "B0FXLX85D7": {
+  "brand": "L'Oreal Paris",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:56:03+09:00",
+  "tries": 1
+ },
  "B0FY7963T5": {
   "brand": "Native",
   "source": "po-brand",
   "domain": "www.amazon.com",
   "method": "curl_cffi",
   "checked_at": "2026-10-06T15:13:24+09:00",
+  "tries": 1
+ },
+ "B0G11L8F7C": {
+  "brand": "medicube",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T14:01:52+09:00",
   "tries": 1
  },
  "B0G1VBDXYF": {
@@ -1790,6 +2214,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-08T15:08:43+09:00",
+  "tries": 1
+ },
+ "B0G52CKKMT": {
+  "brand": "Maybelline",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:59:04+09:00",
   "tries": 1
  },
  "B0G643D8ZG": {
@@ -1866,6 +2298,14 @@
   "domain": "www.amazon.com",
   "method": "curl_cffi",
   "checked_at": "2026-10-11T14:39:58+09:00",
+  "tries": 1
+ },
+ "B0HDZMW9BS": {
+  "brand": "MYLEE",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "playwright",
+  "checked_at": "2026-10-14T13:48:37+09:00",
   "tries": 1
  }
 }
