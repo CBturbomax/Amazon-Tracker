@@ -461,6 +461,14 @@
   "checked_at": "2026-09-28T10:44:16+09:00",
   "tries": 1
  },
+ "B00YFQ3Q9W": {
+  "brand": "wet n wild",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T08:59:29+09:00",
+  "tries": 1
+ },
  "B0107QPFBU": {
   "brand": "Aquaphor",
   "source": "po-brand",
@@ -519,6 +527,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-08T14:57:29+09:00",
+  "tries": 1
+ },
+ "B01J1A3TFW": {
+  "brand": "REVLON",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T08:58:52+09:00",
   "tries": 1
  },
  "B01LW1983J": {
@@ -680,7 +696,7 @@
  },
  "B07895R49B": {
   "error": "captcha",
-  "checked_at": "2026-10-13T15:43:58+09:00",
+  "checked_at": "2026-10-14T09:00:40+09:00",
   "tries": 0
  },
  "B078PPV6SZ": {
@@ -1281,6 +1297,14 @@
   "checked_at": "2026-10-08T15:09:39+09:00",
   "tries": 1
  },
+ "B0BP8BXZ8M": {
+  "brand": "Nizoral",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T09:00:07+09:00",
+  "tries": 1
+ },
  "B0BPXT3GBN": {
   "brand": "medicube",
   "source": "po-brand",
@@ -1353,6 +1377,14 @@
   "checked_at": "2026-09-30T14:28:06+09:00",
   "tries": 1
  },
+ "B0CLDN4BRM": {
+  "brand": "SWCANDY",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T08:59:11+09:00",
+  "tries": 1
+ },
  "B0CLLV2T1P": {
   "brand": "ANUA",
   "source": "byline",
@@ -1401,7 +1433,7 @@
  },
  "B0CS66CFB8": {
   "error": "captcha",
-  "checked_at": "2026-10-13T15:43:39+09:00",
+  "checked_at": "2026-10-14T09:00:23+09:00",
   "tries": 0
  },
  "B0CS6FFLSS": {
@@ -1577,6 +1609,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-08T15:01:18+09:00",
+  "tries": 1
+ },
+ "B0DMZT3JT2": {
+  "brand": "Wet Brush",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-14T08:59:48+09:00",
   "tries": 1
  },
  "B0DNR8RF83": {
