@@ -5,6 +5,9 @@ name: daily
 on:
   schedule:
     - cron: "7 0 * * *"
+    # 09:37 / 10:07 KST: collect only countries still incomplete today.
+    - cron: "37 0 * * *"
+    - cron: "7 1 * * *"
   workflow_dispatch:
     inputs:
       collect:
@@ -50,7 +53,7 @@ jobs:
         run: python -m scraper.collect_kbeauty --method playwright
 
       - name: Look up brands of new ASINs (once per ASIN)
-        if: env.DO_COLLECT == 'true'
+        if: env.DO_COLLECT == 'true' && (github.event_name != 'schedule' || github.event.schedule == '7 0 * * *')
         continue-on-error: true
         timeout-minutes: 45
         run: python -m scraper.brand_lookup --max 60
@@ -92,3 +95,4 @@ jobs:
           path: reports/
           if-no-files-found: ignore
           retention-days: 14
+

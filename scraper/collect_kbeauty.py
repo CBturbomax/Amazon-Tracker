@@ -55,7 +55,7 @@ def collect_country(country: str, method: str, delay: tuple[float, float], rng: 
                     # Back off without changing session/IP or bypassing a challenge.
                     time.sleep(rng.uniform(*delay) * (2 ** (attempt - 2)))
                 url = bestseller_url(country, SLUG, pg)
-                if pg == 1 and attempt == max_attempts and attempt > 1:
+                if pg == 1 and attempt == max_attempts and attempt > 1 and "/ref=" not in url:
                     url += "/ref=zg_bs_pg_1_beauty?ie=UTF8&pg=1"
                 fr = fetcher.fetch(url)
                 parsed = parse_bestseller_page(fr.html) if fr.status == 200 and fr.html and not fr.block and not fr.error else ParseResult()
@@ -151,9 +151,20 @@ def main(argv: list[str] | None = None) -> int:
 
     rng = random.Random()
     summary = []
-    for j, cc in enumerate(countries):
-        if j > 0:
+    attempted = 0
+    for cc in countries:
+        # A recovery run only requests missing/incomplete countries for TODAY.
+        # Never refresh a complete country or backfill a historical date.
+        existing_path = args.data_dir / "kbeauty" / cc / f"{now_kst().date().isoformat()}.json"
+        if existing_path.exists():
+            existing = json.loads(existing_path.read_text(encoding="utf-8"))
+            if existing.get("status") == "ok":
+                summary.append((cc, "ok", len(existing.get("items", [])), "kept_existing"))
+                print(f"[{cc}] 오늘 정상 스냅샷 유지 → 요청 생략", flush=True)
+                continue
+        if attempted > 0:
             time.sleep(rng.uniform(args.delay_min, args.delay_max))
+        attempted += 1
         doc = collect_country(cc, args.method, (args.delay_min, args.delay_max), rng, args.html_dir,
                               max_attempts=args.max_attempts)
         path = args.data_dir / "kbeauty" / cc / f"{doc['date']}.json"
