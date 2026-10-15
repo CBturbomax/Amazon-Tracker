@@ -326,6 +326,14 @@
   "checked_at": "2026-09-28T10:39:41+09:00",
   "tries": 1
  },
+ "B009S7401Q": {
+  "brand": "Olia",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-15T13:30:25+09:00",
+  "tries": 1
+ },
  "B00AINMFAC": {
   "brand": "Nizoral",
   "source": "po-brand",
@@ -615,6 +623,14 @@
   "checked_at": "2026-09-28T10:38:37+09:00",
   "tries": 1
  },
+ "B01BMMOAFU": {
+  "brand": "KISS",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-15T13:29:48+09:00",
+  "tries": 1
+ },
  "B01C2EFBZU": {
   "brand": "BABE ORIGINAL",
   "source": "po-brand",
@@ -828,6 +844,11 @@
   "method": "curl_cffi",
   "checked_at": "2026-10-07T14:48:20+09:00",
   "tries": 1
+ },
+ "B078214KD7": {
+  "error": "captcha",
+  "checked_at": "2026-10-15T13:30:04+09:00",
+  "tries": 0
  },
  "B078216MC9": {
   "brand": "Clairol",
@@ -1087,6 +1108,14 @@
   "checked_at": "2026-10-14T13:56:24+09:00",
   "tries": 1
  },
+ "B085WR175L": {
+  "brand": "wet n wild",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-10-15T13:29:03+09:00",
+  "tries": 1
+ },
  "B0864QL8CM": {
   "brand": "Amazon Brand - Solimo",
   "source": "po-brand",
@@ -1140,6 +1169,19 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-08T15:05:34+09:00",
+  "tries": 1
+ },
+ "B08DDSTMCC": {
+  "error": "captcha",
+  "checked_at": "2026-10-15T13:30:46+09:00",
+  "tries": 0
+ },
+ "B08FC4JZFC": {
+  "brand": "MAYBELLINE",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-10-15T13:29:19+09:00",
   "tries": 1
  },
  "B08H3JPH74": {
@@ -2082,6 +2124,11 @@
   "method": "playwright",
   "checked_at": "2026-10-14T13:55:16+09:00",
   "tries": 1
+ },
+ "B0FC62VSMQ": {
+  "error": "captcha",
+  "checked_at": "2026-10-15T13:31:04+09:00",
+  "tries": 0
  },
  "B0FGJ9P8L9": {
   "checked_at": "2026-10-14T13:55:29+09:00",
