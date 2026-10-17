@@ -770,6 +770,14 @@
   "checked_at": "2026-10-08T14:57:29+09:00",
   "tries": 1
  },
+ "B01I70RA8E": {
+  "brand": "NYK1",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-17T13:16:24+09:00",
+  "tries": 1
+ },
  "B01J1A3TFW": {
   "brand": "REVLON",
   "source": "po-brand",
@@ -975,7 +983,7 @@
  },
  "B078214KD7": {
   "error": "captcha",
-  "checked_at": "2026-10-16T13:24:38+09:00",
+  "checked_at": "2026-10-17T13:17:01+09:00",
   "tries": 0
  },
  "B078216MC9": {
@@ -1378,6 +1386,14 @@
   "checked_at": "2026-09-28T10:33:33+09:00",
   "tries": 1
  },
+ "B08HYW2MKG": {
+  "brand": "beetles Gel Polish",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-17T13:16:07+09:00",
+  "tries": 1
+ },
  "B08JL5B792": {
   "brand": "Aveeno",
   "source": "po-brand",
@@ -1743,6 +1759,14 @@
   "domain": "www.amazon.com",
   "method": "playwright"
  },
+ "B0B7GBBMBQ": {
+  "brand": "MEICOLY",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-17T13:16:44+09:00",
+  "tries": 1
+ },
  "B0B7RQ46LD": {
   "checked_at": "2026-09-30T14:30:07+09:00",
   "tries": 2,
@@ -1925,7 +1949,7 @@
  },
  "B0BWFQQXPV": {
   "error": "captcha",
-  "checked_at": "2026-10-16T13:25:04+09:00",
+  "checked_at": "2026-10-17T13:17:19+09:00",
   "tries": 0
  },
  "B0BX2TZZWG": {
@@ -2253,6 +2277,14 @@
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:44:08+09:00",
+  "tries": 1
+ },
+ "B0DDKCXN2N": {
+  "brand": "paminify",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-17T13:15:51+09:00",
   "tries": 1
  },
  "B0DDKDH3P8": {
@@ -2773,6 +2805,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-08T14:57:15+09:00",
+  "tries": 1
+ },
+ "B0GZJ52XVM": {
+  "brand": "Tree Hut",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-17T13:15:30+09:00",
   "tries": 1
  },
  "B0H2FR3KH1": {
