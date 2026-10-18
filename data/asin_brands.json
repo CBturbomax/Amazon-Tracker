@@ -1949,7 +1949,7 @@
  },
  "B0BWFQQXPV": {
   "error": "captcha",
-  "checked_at": "2026-10-17T13:17:19+09:00",
+  "checked_at": "2026-10-18T13:21:13+09:00",
   "tries": 0
  },
  "B0BX2TZZWG": {
@@ -2596,6 +2596,11 @@
   "source": "po-brand",
   "domain": "www.amazon.co.uk",
   "method": "playwright"
+ },
+ "B0FCYVWF7H": {
+  "error": "captcha",
+  "checked_at": "2026-10-18T13:21:25+09:00",
+  "tries": 0
  },
  "B0FDKZ5Z6Z": {
   "brand": "L'Oreal Paris",
