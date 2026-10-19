@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "layer": "kbeauty",
+ "country": "UK",
+ "domain": "www.amazon.co.uk",
+ "category": "beauty",
+ "date": "2026-10-19",
+ "collected_at": "2026-10-19T13:30:04+09:00",
+ "method": "playwright",
+ "status": "failed",
+ "error": null,
+ "pages": [
+  {
+   "url": "https://www.amazon.co.uk/gp/bestsellers/beauty",
+   "method": "playwright",
+   "fetched_at": "2026-10-19T13:30:05+09:00",
+   "status": 200,
+   "final_url": "https://www.amazon.co.uk/gp/bestsellers/beauty",
+   "elapsed_s": 8.09,
+   "error": null,
+   "block": "captcha",
+   "html_bytes": 3519,
+   "page": 1,
+   "attempt": 1,
+   "outcome": "captcha",
+   "complete": false,
+   "response_issue": null,
+   "rendered_count": 0,
+   "recs_count": 0,
+   "attempts": [
+    {
+     "url": "https://www.amazon.co.uk/gp/bestsellers/beauty",
+     "method": "playwright",
+     "fetched_at": "2026-10-19T13:30:05+09:00",
+     "status": 200,
+     "final_url": "https://www.amazon.co.uk/gp/bestsellers/beauty",
+     "elapsed_s": 8.09,
+     "error": null,
+     "block": "captcha",
+     "html_bytes": 3519,
+     "page": 1,
+     "attempt": 1,
+     "outcome": "captcha",
+     "complete": false,
+     "response_issue": null,
+     "rendered_count": 0,
+     "recs_count": 0
+    }
+   ]
+  }
+ ],
+ "items": [],
+ "recs": []
+}
