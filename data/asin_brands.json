@@ -983,7 +983,7 @@
  },
  "B078214KD7": {
   "error": "captcha",
-  "checked_at": "2026-10-17T13:17:01+09:00",
+  "checked_at": "2026-10-19T13:32:41+09:00",
   "tries": 0
  },
  "B078216MC9": {
@@ -1948,9 +1948,12 @@
   "tries": 1
  },
  "B0BWFQQXPV": {
-  "error": "captcha",
-  "checked_at": "2026-10-18T13:21:13+09:00",
-  "tries": 0
+  "checked_at": "2026-10-19T13:31:53+09:00",
+  "tries": 1,
+  "brand": "Dove",
+  "source": "po-brand",
+  "domain": "www.amazon.co.uk",
+  "method": "curl_cffi"
  },
  "B0BX2TZZWG": {
   "brand": "Tree Hut",
@@ -2270,6 +2273,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-08T15:02:11+09:00",
+  "tries": 1
+ },
+ "B0DC156Y5X": {
+  "brand": "JIYU",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-10-19T13:31:38+09:00",
   "tries": 1
  },
  "B0DCL275RK": {
@@ -2599,7 +2610,7 @@
  },
  "B0FCYVWF7H": {
   "error": "captcha",
-  "checked_at": "2026-10-18T13:21:25+09:00",
+  "checked_at": "2026-10-19T13:32:21+09:00",
   "tries": 0
  },
  "B0FDKZ5Z6Z": {
