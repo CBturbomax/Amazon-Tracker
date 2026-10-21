@@ -2504,6 +2504,11 @@
   "checked_at": "2026-10-08T14:56:56+09:00",
   "tries": 1
  },
+ "B0DTKCN3Z4": {
+  "error": "captcha",
+  "checked_at": "2026-10-21T13:34:47+09:00",
+  "tries": 0
+ },
  "B0DTKFZ662": {
   "brand": "TKTK",
   "source": "po-brand",
@@ -2722,7 +2727,7 @@
  },
  "B0FYKP3VF2": {
   "error": "captcha",
-  "checked_at": "2026-10-20T13:41:29+09:00",
+  "checked_at": "2026-10-21T13:34:59+09:00",
   "tries": 0
  },
  "B0G11L8F7C": {
