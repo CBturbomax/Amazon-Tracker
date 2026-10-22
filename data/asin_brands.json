@@ -7,6 +7,11 @@
   "checked_at": "2026-10-16T13:35:48+09:00",
   "tries": 1
  },
+ "B000H3EO34": {
+  "error": "captcha",
+  "checked_at": "2026-10-22T13:33:34+09:00",
+  "tries": 0
+ },
  "B000H3I2JG": {
   "brand": "REVLON",
   "source": "po-brand",
@@ -171,6 +176,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-08T15:06:36+09:00",
+  "tries": 1
+ },
+ "B0031QDHIW": {
+  "brand": "Punky",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-22T13:35:23+09:00",
   "tries": 1
  },
  "B00365DABC": {
@@ -555,9 +568,12 @@
   "tries": 1
  },
  "B00QY1XZ4W": {
-  "error": "captcha",
-  "checked_at": "2026-10-20T13:41:47+09:00",
-  "tries": 0
+  "checked_at": "2026-10-22T13:34:51+09:00",
+  "tries": 1,
+  "brand": "Vanicream",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright"
  },
  "B00S5VHGQ2": {
   "error": "no_brand",
@@ -682,6 +698,11 @@
   "checked_at": "2026-09-28T10:44:59+09:00",
   "tries": 1
  },
+ "B010FPYKU0": {
+  "error": "captcha",
+  "checked_at": "2026-10-22T13:37:31+09:00",
+  "tries": 0
+ },
  "B0138MFOEI": {
   "brand": "L'Oreal Paris",
   "source": "byline",
@@ -711,6 +732,14 @@
   "domain": "www.amazon.co.uk",
   "method": "playwright",
   "checked_at": "2026-10-14T13:53:23+09:00",
+  "tries": 1
+ },
+ "B015NF9YD0": {
+  "brand": "Moon Terror",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-22T13:37:09+09:00",
   "tries": 1
  },
  "B0176G84D0": {
@@ -1182,6 +1211,14 @@
   "checked_at": "2026-09-30T14:31:11+09:00",
   "tries": 1
  },
+ "B07PBQZ3KF": {
+  "brand": "e.l.f.",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-22T13:33:47+09:00",
+  "tries": 1
+ },
  "B07PBXXNCY": {
   "brand": "CLEAN SKIN CLUB",
   "source": "po-brand",
@@ -1209,6 +1246,14 @@
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:37:00+09:00",
+  "tries": 1
+ },
+ "B07SRRLVQ1": {
+  "brand": "Aquaphor",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-22T13:36:18+09:00",
   "tries": 1
  },
  "B07SST3DHJ": {
@@ -1686,6 +1731,14 @@
   "checked_at": "2026-09-28T10:32:21+09:00",
   "tries": 1
  },
+ "B09VFKGL92": {
+  "brand": "MEICOLY",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-22T13:36:00+09:00",
+  "tries": 1
+ },
  "B09W18N3GT": {
   "brand": "Sol de Janeiro",
   "source": "po-brand",
@@ -1770,6 +1823,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-17T13:16:44+09:00",
+  "tries": 1
+ },
+ "B0B7GCFB26": {
+  "brand": "MEICOLY",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-22T13:34:30+09:00",
   "tries": 1
  },
  "B0B7RQ46LD": {
@@ -1980,6 +2041,14 @@
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:40:04+09:00",
+  "tries": 1
+ },
+ "B0C3H3NF1J": {
+  "brand": "Go Ho",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-22T13:35:07+09:00",
   "tries": 1
  },
  "B0C3PCJ6SD": {
@@ -2505,9 +2574,12 @@
   "tries": 1
  },
  "B0DTKCN3Z4": {
-  "error": "captcha",
-  "checked_at": "2026-10-21T13:34:47+09:00",
-  "tries": 0
+  "checked_at": "2026-10-22T13:34:07+09:00",
+  "tries": 1,
+  "brand": "medicube",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright"
  },
  "B0DTKFZ662": {
   "brand": "TKTK",
@@ -2620,7 +2692,7 @@
  },
  "B0FCYVWF7H": {
   "error": "captcha",
-  "checked_at": "2026-10-19T13:32:21+09:00",
+  "checked_at": "2026-10-22T13:37:49+09:00",
   "tries": 0
  },
  "B0FDKZ5Z6Z": {
@@ -2726,9 +2798,12 @@
   "tries": 1
  },
  "B0FYKP3VF2": {
-  "error": "captcha",
-  "checked_at": "2026-10-21T13:34:59+09:00",
-  "tries": 0
+  "checked_at": "2026-10-22T13:36:38+09:00",
+  "tries": 1,
+  "brand": "Aquaphor",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright"
  },
  "B0G11L8F7C": {
   "brand": "medicube",
@@ -2807,6 +2882,14 @@
   "checked_at": "2026-09-28T10:39:52+09:00",
   "tries": 1
  },
+ "B0GF9QF3SK": {
+  "brand": "DOVE MEN + CARE",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "playwright",
+  "checked_at": "2026-10-22T13:35:44+09:00",
+  "tries": 1
+ },
  "B0GGY912ZK": {
   "brand": "Sacheu",
   "source": "po-brand",
@@ -2837,6 +2920,11 @@
   "method": "playwright",
   "checked_at": "2026-10-08T14:57:15+09:00",
   "tries": 1
+ },
+ "B0GXT198GP": {
+  "error": "captcha",
+  "checked_at": "2026-10-22T13:36:54+09:00",
+  "tries": 0
  },
  "B0GZJ52XVM": {
   "brand": "Tree Hut",
