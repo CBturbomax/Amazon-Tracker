@@ -9,7 +9,7 @@
  },
  "B000H3EO34": {
   "error": "captcha",
-  "checked_at": "2026-10-23T13:38:37+09:00",
+  "checked_at": "2026-10-24T13:28:11+09:00",
   "tries": 0
  },
  "B000H3I2JG": {
@@ -2924,6 +2924,11 @@
  "B0GXT198GP": {
   "error": "captcha",
   "checked_at": "2026-10-23T13:38:56+09:00",
+  "tries": 0
+ },
+ "B0GZJ2Y85L": {
+  "error": "captcha",
+  "checked_at": "2026-10-24T13:28:22+09:00",
   "tries": 0
  },
  "B0GZJ52XVM": {
