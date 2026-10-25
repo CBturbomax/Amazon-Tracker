@@ -9,7 +9,7 @@
  },
  "B000H3EO34": {
   "error": "captcha",
-  "checked_at": "2026-10-24T13:28:11+09:00",
+  "checked_at": "2026-10-25T13:32:15+09:00",
   "tries": 0
  },
  "B000H3I2JG": {
@@ -674,6 +674,11 @@
   "method": "playwright",
   "checked_at": "2026-10-16T13:38:36+09:00",
   "tries": 1
+ },
+ "B00YFPYLQU": {
+  "error": "captcha",
+  "checked_at": "2026-10-25T13:32:33+09:00",
+  "tries": 0
  },
  "B00YFQ3Q9W": {
   "brand": "wet n wild",
