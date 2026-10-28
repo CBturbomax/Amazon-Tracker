@@ -1,0 +1,54 @@
+{
+ "schema": 1,
+ "layer": "kbeauty",
+ "country": "IT",
+ "domain": "www.amazon.it",
+ "category": "beauty",
+ "date": "2026-10-28",
+ "collected_at": "2026-10-28T14:28:54+09:00",
+ "method": "playwright",
+ "status": "failed",
+ "error": null,
+ "pages": [
+  {
+   "url": "https://www.amazon.it/gp/bestsellers/beauty",
+   "method": "playwright",
+   "fetched_at": "2026-10-28T14:28:54+09:00",
+   "status": 200,
+   "final_url": "https://www.amazon.it/gp/bestsellers/beauty",
+   "elapsed_s": 8.84,
+   "error": null,
+   "block": "captcha",
+   "html_bytes": 3696,
+   "page": 1,
+   "attempt": 1,
+   "outcome": "captcha",
+   "complete": false,
+   "response_issue": null,
+   "rendered_count": 0,
+   "recs_count": 0,
+   "attempts": [
+    {
+     "url": "https://www.amazon.it/gp/bestsellers/beauty",
+     "method": "playwright",
+     "fetched_at": "2026-10-28T14:28:54+09:00",
+     "status": 200,
+     "final_url": "https://www.amazon.it/gp/bestsellers/beauty",
+     "elapsed_s": 8.84,
+     "error": null,
+     "block": "captcha",
+     "html_bytes": 3696,
+     "page": 1,
+     "attempt": 1,
+     "outcome": "captcha",
+     "complete": false,
+     "response_issue": null,
+     "rendered_count": 0,
+     "recs_count": 0
+    }
+   ]
+  }
+ ],
+ "items": [],
+ "recs": []
+}
