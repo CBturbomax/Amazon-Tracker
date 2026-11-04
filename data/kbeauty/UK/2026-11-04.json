@@ -1,0 +1,1794 @@
+{
+ "schema": 1,
+ "layer": "kbeauty",
+ "country": "UK",
+ "domain": "www.amazon.co.uk",
+ "category": "beauty",
+ "date": "2026-11-04",
+ "collected_at": "2026-11-04T15:03:16+09:00",
+ "method": "playwright",
+ "status": "ok",
+ "error": null,
+ "pages": [
+  {
+   "url": "https://www.amazon.co.uk/gp/bestsellers/beauty",
+   "method": "playwright",
+   "fetched_at": "2026-11-04T15:03:16+09:00",
+   "status": 200,
+   "final_url": "https://www.amazon.co.uk/gp/bestsellers/beauty",
+   "elapsed_s": 4.33,
+   "error": null,
+   "block": null,
+   "html_bytes": 754831,
+   "page": 1,
+   "attempt": 1,
+   "outcome": "ok",
+   "complete": true,
+   "response_issue": null,
+   "rendered_count": 50,
+   "recs_count": 50,
+   "attempts": [
+    {
+     "url": "https://www.amazon.co.uk/gp/bestsellers/beauty",
+     "method": "playwright",
+     "fetched_at": "2026-11-04T15:03:16+09:00",
+     "status": 200,
+     "final_url": "https://www.amazon.co.uk/gp/bestsellers/beauty",
+     "elapsed_s": 4.33,
+     "error": null,
+     "block": null,
+     "html_bytes": 754831,
+     "page": 1,
+     "attempt": 1,
+     "outcome": "ok",
+     "complete": true,
+     "response_issue": null,
+     "rendered_count": 50,
+     "recs_count": 50
+    }
+   ]
+  },
+  {
+   "url": "https://www.amazon.co.uk/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+   "method": "playwright",
+   "fetched_at": "2026-11-04T15:03:25+09:00",
+   "status": 200,
+   "final_url": "https://www.amazon.co.uk/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+   "elapsed_s": 4.36,
+   "error": null,
+   "block": null,
+   "html_bytes": 751430,
+   "page": 2,
+   "attempt": 1,
+   "outcome": "ok",
+   "complete": true,
+   "response_issue": null,
+   "rendered_count": 50,
+   "recs_count": 50,
+   "attempts": [
+    {
+     "url": "https://www.amazon.co.uk/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+     "method": "playwright",
+     "fetched_at": "2026-11-04T15:03:25+09:00",
+     "status": 200,
+     "final_url": "https://www.amazon.co.uk/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+     "elapsed_s": 4.36,
+     "error": null,
+     "block": null,
+     "html_bytes": 751430,
+     "page": 2,
+     "attempt": 1,
+     "outcome": "ok",
+     "complete": true,
+     "response_issue": null,
+     "rendered_count": 50,
+     "recs_count": 50
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "rank": 1,
+   "asin": "B09V7Z4TJG",
+   "title": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack",
+   "price_text": "£1699",
+   "price": 1699.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "35,338",
+   "rating_count": 35338,
+   "page": 1
+  },
+  {
+   "rank": 2,
+   "asin": "B08WR5CPNB",
+   "title": "Maybelline Mascara, Lash Sensational Sky High Volumizing Thickening, Black | With Bamboo Extract, Eyelash Lengthening, Flake-Free Formula, Washable Mascara, Full Volume",
+   "price_text": "£8.03",
+   "price": 8.03,
+   "rating_text": "4.3 out of 5 stars",
+   "rating": 4.3,
+   "rating_count_text": "120,276",
+   "rating_count": 120276,
+   "page": 1
+  },
+  {
+   "rank": 3,
+   "asin": "B01M6UUOY2",
+   "title": "Garnier Micellar Water 700ml, All-in-One Face Cleanser & Makeup Remover | Sensitive Skin Gentle Face and Eye Makeup Remover, Soothing Formula, Dermatologically Tested, Suitable for All Skin Types",
+   "price_text": "£5.41",
+   "price": 5.41,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "22,219",
+   "rating_count": 22219,
+   "page": 1
+  },
+  {
+   "rank": 4,
+   "asin": "B0DGTMR754",
+   "title": "medicube Jelly Gel Mask with Salmon DNA PDRN Pink Collagen, 4EA | Overnight Face Mask for Glass Glow Skin - Elasticity, Hydrating, Firming and Moisturizing, Korean Skincare, 28g x 4ea",
+   "price_text": "£1499",
+   "price": 1499.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "14,408",
+   "rating_count": 14408,
+   "page": 1
+  },
+  {
+   "rank": 5,
+   "asin": "B0FPDB8ZGS",
+   "title": "by Amazon Cotton Buds, 100% Cotton, 200 Units",
+   "price_text": "£0.75",
+   "price": 0.75,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "3,263",
+   "rating_count": 3263,
+   "page": 1
+  },
+  {
+   "rank": 6,
+   "asin": "B07C5R51Q9",
+   "title": "CeraVe Hydrating Cleanser, for normal to dry skin, contains Hyaluronic Acid and 3 essential ceramides, facial cleanser for sensitive skin, Cerave skin care face wash",
+   "price_text": "£1043",
+   "price": 1043.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "58,621",
+   "rating_count": 58621,
+   "page": 1
+  },
+  {
+   "rank": 7,
+   "asin": "B00JR76TKW",
+   "title": "Maybelline Concealer Instant Anti Age Eraser Eye, For Dark Circles 01 Light | Ultra Blendable Formula, Dermatologist Tested, Suitable For Sensitive Skin, Dark Circles & Blemish Concealer, Anti Age",
+   "price_text": "£5.74",
+   "price": 5.74,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "71,230",
+   "rating_count": 71230,
+   "page": 1
+  },
+  {
+   "rank": 8,
+   "asin": "B07895R49B",
+   "title": "Clairol Nice'n Easy Crème Natural Looking Oil Permanent Hair Dye Infused",
+   "price_text": "£5.77",
+   "price": 5.77,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "25,380",
+   "rating_count": 25380,
+   "page": 1
+  },
+  {
+   "rank": 9,
+   "asin": "B001ETUD5I",
+   "title": "Nizoral Anti-Dandruff Treatment Shampoo with Ketoconazole, 1 x 60ml | Treats and prevents dandruff, clinically proven to control itchy & flaky scalps, soothes infammation",
+   "price_text": "£859",
+   "price": 859.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "31,982",
+   "rating_count": 31982,
+   "page": 1
+  },
+  {
+   "rank": 10,
+   "asin": "B0CS62LY6P",
+   "title": "by Amazon Milk & Honey Hand Soap Refill, 2 x 1000ml",
+   "price_text": "£1.89",
+   "price": 1.89,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "7,223",
+   "rating_count": 7223,
+   "page": 1
+  },
+  {
+   "rank": 11,
+   "asin": "B0B7RQ46LD",
+   "title": "CeraVe Blemish Control Cleanser for Blemish-Prone Oily Skin, 236ml | Exfoliating Gel-to-Foam Face Wash with 3 Essential Ceramides, Reduces Blackheads & Breakouts, Oil-Absorbing",
+   "price_text": "£1417",
+   "price": 1417.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "36,588",
+   "rating_count": 36588,
+   "page": 1
+  },
+  {
+   "rank": 12,
+   "asin": "B0977D6R6W",
+   "title": "Sanex Expert Skin Health Moisturising Shower Gel 570ml",
+   "price_text": "£2.49",
+   "price": 2.49,
+   "rating_text": "4.8 out of 5 stars",
+   "rating": 4.8,
+   "rating_count_text": "2,884",
+   "rating_count": 2884,
+   "page": 1
+  },
+  {
+   "rank": 13,
+   "asin": "B07NBPSNC4",
+   "title": "Just for men Moustache & Beard Dark Brown Dye M45 | Eliminates grey for a thicker & fuller look, made with coconut oil & aloe vera",
+   "price_text": "£1340",
+   "price": 1340.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "30,600",
+   "rating_count": 30600,
+   "page": 1
+  },
+  {
+   "rank": 14,
+   "asin": "B0B2RM68G2",
+   "title": "BIODANCE Bio-Collagen Hydrogel Overnight Face Mask. 4 PCs | [Original Korean Hydrogel Face Mask] - Pore Minimizing, Elasticity Improvement | Korean Face Mask for Glass Skin",
+   "price_text": "£1390",
+   "price": 1390.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "48,417",
+   "rating_count": 48417,
+   "page": 1
+  },
+  {
+   "rank": 15,
+   "asin": "B000SDQ224",
+   "title": "Eylure DYBROW Eyebrow Dye Kit, Dark Brown",
+   "price_text": "£875",
+   "price": 875.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "57,601",
+   "rating_count": 57601,
+   "page": 1
+  },
+  {
+   "rank": 16,
+   "asin": "B0CNQ4DJRV",
+   "title": "L'Oréal Paris Setting Spray, Infallible 3-Second Makeup Mist for Face, 75ml | Upto To 36 Hour Makeup Wear, Waterproof and Sweatproof, Transfer-Proof, Non-Sticky Mist, Travel Friendly Makeup Fixing Spray",
+   "price_text": "£1749",
+   "price": 1749.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "9,314",
+   "rating_count": 9314,
+   "page": 1
+  },
+  {
+   "rank": 17,
+   "asin": "B0DGPSZVW3",
+   "title": "medicube Jelly Cream with Collagen & Niacinamide, 1.69 fl.oz | Freeze-Dried Hydrolyzed Collagen for Skin Barrier Hydration, 24H Glow & Lifted Look, Korean skincare, 1.69 fl.oz",
+   "price_text": "£1999",
+   "price": 1999.0,
+   "rating_text": "4.3 out of 5 stars",
+   "rating": 4.3,
+   "rating_count_text": "18,672",
+   "rating_count": 18672,
+   "page": 1
+  },
+  {
+   "rank": 18,
+   "asin": "B089QQBDPD",
+   "title": "Acnecide Face Gel 5% Benzoyl Peroxide 15g | For Mild Acne and Spot-Prone Skin, Topical Face Gel, Fights Bacteria, Unblocks Pores, with Glycerin",
+   "price_text": "£930",
+   "price": 930.0,
+   "rating_text": "4.3 out of 5 stars",
+   "rating": 4.3,
+   "rating_count_text": "8,356",
+   "rating_count": 8356,
+   "page": 1
+  },
+  {
+   "rank": 19,
+   "asin": "B07VRLPNY1",
+   "title": "Revolution Precise Brow Pencil, Dark Brown, 0.05g | Dual-Sided, Ultra-Fine Pencil Tool, Includes Spoolie Brush, Vegan & Cruelty-Free",
+   "price_text": "£3.22",
+   "price": 3.22,
+   "rating_text": "4.3 out of 5 stars",
+   "rating": 4.3,
+   "rating_count_text": "6,500",
+   "rating_count": 6500,
+   "page": 1
+  },
+  {
+   "rank": 20,
+   "asin": "B01MDTVZTZ",
+   "title": "The Ordinary Niacinamide 10% + Zinc 1%, Brightening & Smoothing Serum for Blemish-Prone Skin, 30ml",
+   "price_text": "£400",
+   "price": 400.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "68,494",
+   "rating_count": 68494,
+   "page": 1
+  },
+  {
+   "rank": 21,
+   "asin": "B006L68VDU",
+   "title": "Garnier Nutrisse Ultra Color Permanent Hair Dye, 4.15 Iced Coffee Brown | 100% Grey Coverage, Vibrant Long-Lasting 8-Week Colour, Up To 3x Shinier Hair, Up To 3x Stronger Hair, No-Ammonia",
+   "price_text": "£6.32",
+   "price": 6.32,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "45,947",
+   "rating_count": 45947,
+   "page": 1
+  },
+  {
+   "rank": 22,
+   "asin": "B0G35QMQ82",
+   "title": "Schwarzkopf LIVE Intense Colour Hair Dye, 099 Deep Black",
+   "price_text": "£650",
+   "price": 650.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "2,084",
+   "rating_count": 2084,
+   "page": 1
+  },
+  {
+   "rank": 23,
+   "asin": "B09P1Z8TKZ",
+   "title": "NIVEA Double Effect Waterproof Eye Make-Up Remover, 125 ml | Daily Use Face Cleanser with Cornflower Extract and Biotin, Regular and Waterproof Mascara Remover Cares for Eyelashes",
+   "price_text": "£955",
+   "price": 955.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "7,421",
+   "rating_count": 7421,
+   "page": 1
+  },
+  {
+   "rank": 24,
+   "asin": "B0BQJBFZT2",
+   "title": "Old Spice Captain Shower Gel & Shampoo 1000ml | Multi-Use 3-in-1, long-lasting freshness, perfume scent, deep cleansing",
+   "price_text": "£4.35",
+   "price": 4.35,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "9,315",
+   "rating_count": 9315,
+   "page": 1
+  },
+  {
+   "rank": 25,
+   "asin": "B07CHPWFXK",
+   "title": "CeraVe Feuchtigkeitscreme für Körper und Gesicht, Creme für trockene bis sehr trockene Haut, Mit Hyaluron und 3 essenziellen Ceramiden",
+   "price_text": "£1312",
+   "price": 1312.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "75,905",
+   "rating_count": 75905,
+   "page": 1
+  },
+  {
+   "rank": 26,
+   "asin": "B004M9L0WW",
+   "title": "RIMMEL LONDON - Stay Matte Pressed Powder - Lightweight, Oil Absorbing, Smooth Non-Powdery Texture, Lasting Up To 5hrs - For All Skin Types - Dermatologically Tested - Transparent - 14g",
+   "price_text": "£3.11",
+   "price": 3.11,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "55,744",
+   "rating_count": 55744,
+   "page": 1
+  },
+  {
+   "rank": 27,
+   "asin": "B07C5SKVL7",
+   "title": "CeraVe Foaming Cleanser for Normal to Oily Skin with Niacinamide & 3 Essential Ceramides, Developed with Dermatologists, Gently Cleanses & Removes Excess Oil, Fragrance-Free",
+   "price_text": "£1833",
+   "price": 1833.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "107,728",
+   "rating_count": 107728,
+   "page": 1
+  },
+  {
+   "rank": 28,
+   "asin": "B00PFCSXD4",
+   "title": "Maybelline Mascara, Lash Sensational Volumizing | Eyelash Lengthening & Volumizing, Flake Free Formula, Layer Reveal Brush, Defining Mascara",
+   "price_text": "£6.00",
+   "price": 6.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "74,365",
+   "rating_count": 74365,
+   "page": 1
+  },
+  {
+   "rank": 29,
+   "asin": "B087D6BC8S",
+   "title": "Dots for Spots Patches - Pack of 60 Translucent Hydrocolloid Spot Patch Spot Treatment Stickers for Face and Body - Fast-Acting, Vegan & Cruelty Free Skin Care",
+   "price_text": "£866",
+   "price": 866.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "41,795",
+   "rating_count": 41795,
+   "page": 1
+  },
+  {
+   "rank": 30,
+   "asin": "B09XN22JBT",
+   "title": "CeraVe AM Facial Moisturising Lotion SPF50 With 3 Essential Ceramides, Vitamin E, Niacinamide, MVE Technology, UVA UVB Protection, For Normal to Dry Skin, Lightweight, Non-Greasy, Allergy Tested, 52ml",
+   "price_text": "£1873",
+   "price": 1873.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "10,886",
+   "rating_count": 10886,
+   "page": 1
+  },
+  {
+   "rank": 31,
+   "asin": "B008BDSZFK",
+   "title": "Remington Shine Therapy Hair Straightener with Advanced Ceramic Coating Infused with Moroccan Argan Oil for Sleek & Smooth Glide, Floating Plates, Digital Display, 9 Settings 150°C–230°C, S8500",
+   "price_text": "£18.32",
+   "price": 18.32,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "36,110",
+   "rating_count": 36110,
+   "page": 1
+  },
+  {
+   "rank": 32,
+   "asin": "B001KYTULU",
+   "title": "Rimmel Soft Kohl Kajal Professional Eyeliner Pencil, Intense Long-Lasting Colour, Up to 12 Hours Wear, Smudge Proof, 1.2 grams, Jet Black",
+   "price_text": "£1.67",
+   "price": 1.67,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "43,229",
+   "rating_count": 43229,
+   "page": 1
+  },
+  {
+   "rank": 33,
+   "asin": "B0BJFLVCZK",
+   "title": "La Roche-Posay Cicaplast Baume B5+ for Irritated Sensitive Skin, 100ml | Ultra Repair Multi-Purpose Soothing Balm, Skin Barrier Repair Formula with Panthenol, Madecassoside, & Prebiotic Tribioma",
+   "price_text": "£2403",
+   "price": 2403.0,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "12,400",
+   "rating_count": 12400,
+   "page": 1
+  },
+  {
+   "rank": 34,
+   "asin": "B002CB56SG",
+   "title": "got2b Glued Blasting Freeze Hairspray 300 ml, Glued Hairspray for up to 72h Ultra Strong Hold, Hairspray got2b, For Extreme Hairstyles, Vegan Formula",
+   "price_text": "£781",
+   "price": 781.0,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "13,334",
+   "rating_count": 13334,
+   "page": 1
+  },
+  {
+   "rank": 35,
+   "asin": "B00UYJGYCK",
+   "title": "Rimmel 60 Seconds Super Shine Nail Polish, 740 Clear, Quick-Dry Nail Polish, Ultra-Shiny Finish, Easy to Apply, Vibrant Colour, Long-Wearing, Improved Formula, Vegan, 8ml",
+   "price_text": "£479",
+   "price": 479.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "80,723",
+   "rating_count": 80723,
+   "page": 1
+  },
+  {
+   "rank": 36,
+   "asin": "B09JVNZVH3",
+   "title": "Beauty of Joseon Relief Sun : Rice + Probiotics SPF 50+ PA++++ 50ml",
+   "price_text": "£9.30",
+   "price": 9.3,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "13,288",
+   "rating_count": 13288,
+   "page": 1
+  },
+  {
+   "rank": 37,
+   "asin": "B0C6Y5DYN1",
+   "title": "Aveeno Face Calm+Restore Oat Gel Moisturiser for Sensitive Skin (1x 50ml) | Instantly Soothe and Replenish the Skin's Moisture Barrier, Intensely Nourishing Day Cream with 24-Hour Moisturisation",
+   "price_text": "£9.37",
+   "price": 9.37,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "7,695",
+   "rating_count": 7695,
+   "page": 1
+  },
+  {
+   "rank": 38,
+   "asin": "B0DNZPVRP6",
+   "title": "TRESemme Care & Protect Heat Defence Spray 270 ml | Up to 230°C heat protection* for all hair types",
+   "price_text": "£3.32",
+   "price": 3.32,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "2,348",
+   "rating_count": 2348,
+   "page": 1
+  },
+  {
+   "rank": 39,
+   "asin": "B0C7N36SRY",
+   "title": "Rimmel Lasting Finish 35Hr Foundation 200 Soft Beige, Full Coverage, Hydrating, SPF20, Hyaluronic Acid, Vitamin E, 2% Niacinamide, All Day Wear, Vegan, Cruelty Free",
+   "price_text": "£6.16",
+   "price": 6.16,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "6,570",
+   "rating_count": 6570,
+   "page": 1
+  },
+  {
+   "rank": 40,
+   "asin": "B08CFSS35N",
+   "title": "Rimmel Lasting Finish 8HR Lip Liner, Cappuccino, Highly Pigmented Formula, Long-Wearing Creamy Colour, Precise Application and Seamless Blend, For Big & Plump Lips, Vegan & Cruelty Free, 1.2g",
+   "price_text": "£369",
+   "price": 369.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "21,534",
+   "rating_count": 21534,
+   "page": 1
+  },
+  {
+   "rank": 41,
+   "asin": "B071914GGL",
+   "title": "The Ordinary Glycolic Acid 7% Exfoliating Toner, Brightening and Smoothing Daily Toner for More Even-Looking Skin Tone",
+   "price_text": "£952",
+   "price": 952.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "67,441",
+   "rating_count": 67441,
+   "page": 1
+  },
+  {
+   "rank": 42,
+   "asin": "B00DWVMQ42",
+   "title": "Mitchum Women Triple Odor Defense 48HR Protection Deodorant Spray & Antiperspirant (200ml), Powder Fresh",
+   "price_text": "£540",
+   "price": 540.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "3,568",
+   "rating_count": 3568,
+   "page": 1
+  },
+  {
+   "rank": 43,
+   "asin": "B0DSGCJSZF",
+   "title": "Neutrogena T/Gel Scalp Relief, 250ml",
+   "price_text": "£6.56",
+   "price": 6.56,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "3,272",
+   "rating_count": 3272,
+   "page": 1
+  },
+  {
+   "rank": 44,
+   "asin": "B07L64MKRZ",
+   "title": "Garnier Hair Food Multi-use, 3-in-1 Hair Treatment Mask, Papaya, 400ml | Up to 94% Less Breakage*, 97% Natural Origin Ingredients, No Silicone for a natural feel, Vegan Formula",
+   "price_text": "£3.75",
+   "price": 3.75,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "45,766",
+   "rating_count": 45766,
+   "page": 1
+  },
+  {
+   "rank": 45,
+   "asin": "B0DQV8G9HR",
+   "title": "Nizoral Anti-Dandruff Treatment Shampoo, 1x100ml Bottle | For fast head flaking and scaling relief, active anti-fungal scalp care, soothing inflammation control.",
+   "price_text": "£1999",
+   "price": 1999.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "2,056",
+   "rating_count": 2056,
+   "page": 1
+  },
+  {
+   "rank": 46,
+   "asin": "B01MYEZPC8",
+   "title": "The Ordinary Hyaluronic Acid 2% + B5 (with Ceramides), Multi-Depth Hydration Serum for Plumper, Smoother Skin, 30ml",
+   "price_text": "£704",
+   "price": 704.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "42,637",
+   "rating_count": 42637,
+   "page": 1
+  },
+  {
+   "rank": 47,
+   "asin": "B0FCYVWF7H",
+   "title": "L'Oréal Paris Men Expert Shower Gel Barber Club Body Wash XXXL 1L Pump | With Cedarwood Oil, 3-In-1 Body Hair and Beard Grooming, Deep Cleanse, Active Moisturisation, XXL",
+   "price_text": "£695",
+   "price": 695.0,
+   "rating_text": "4.8 out of 5 stars",
+   "rating": 4.8,
+   "rating_count_text": "884",
+   "rating_count": 884,
+   "page": 1
+  },
+  {
+   "rank": 48,
+   "asin": "B014G2ZCWS",
+   "title": "Dove Original Beauty Bar 4x 90 g",
+   "price_text": "£2.62",
+   "price": 2.62,
+   "rating_text": "4.8 out of 5 stars",
+   "rating": 4.8,
+   "rating_count_text": "2,928",
+   "rating_count": 2928,
+   "page": 1
+  },
+  {
+   "rank": 49,
+   "asin": "B0026NC4A8",
+   "title": "Faith In Nature Natural Rosemary Shampoo, Stimulating for Normal Hair & Scalp, Vegan & Cruelty Free, No SLS, Silciones or Parabens, 400ml",
+   "price_text": "£3.50",
+   "price": 3.5,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "13,928",
+   "rating_count": 13928,
+   "page": 1
+  },
+  {
+   "rank": 50,
+   "asin": "B08PDPK4B1",
+   "title": "Rimmel London Scandaleyes Exaggerate Eye Definer, 001 Intense Black, 0.35g",
+   "price_text": "£3.32",
+   "price": 3.32,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "14,155",
+   "rating_count": 14155,
+   "page": 1
+  },
+  {
+   "rank": 51,
+   "asin": "B0DBF65JYY",
+   "title": "medicube PDRN Pink Peptide Serum with Salmon DNA | Pink Glow Serum - Peptides & Niacinamide for Hydration & Firm-Looking Skin, Uneven Tone Care, Korean Skincare, 1.01 fl. Oz",
+   "price_text": "£2283",
+   "price": 2283.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "26,134",
+   "rating_count": 26134,
+   "page": 2
+  },
+  {
+   "rank": 52,
+   "asin": "B0CV5VCL8F",
+   "title": "Dove Shower Gel Body Wash Nourishing Cleanser, Sulfate-Free, Vegan 720 ml",
+   "price_text": "£2.87",
+   "price": 2.87,
+   "rating_text": "4.8 out of 5 stars",
+   "rating": 4.8,
+   "rating_count_text": "1,831",
+   "rating_count": 1831,
+   "page": 2
+  },
+  {
+   "rank": 53,
+   "asin": "B0176G84D0",
+   "title": "NIVEA Cashmere and Cottonseed Oil Soft Care Shower Gel, 250 ml | Moisturising Body Wash with Cottonseed Oil, Skin Protecting Formula with Vitamins C and E, Delicate Orchid Scent, Gentle Care",
+   "price_text": "£1.00",
+   "price": 1.0,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "4,500",
+   "rating_count": 4500,
+   "page": 2
+  },
+  {
+   "rank": 54,
+   "asin": "B0DWMSM6Y9",
+   "title": "medicube Eye Cream with Salmon DNA PDRN & Pink Peptides | 99% Purity Retinol for Fine Lines - PDRN & Niacinamide for Uneven Skin Tone, Korean Skincare, 1.01 fl.oz",
+   "price_text": "£1299",
+   "price": 1299.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "7,794",
+   "rating_count": 7794,
+   "page": 2
+  },
+  {
+   "rank": 55,
+   "asin": "B0013G35KW",
+   "title": "Bio-Oil Skincare Oil for Scars and Stretch Marks, 125ml | Clinically proven to help improve scars and stretch marks, fast-absorbing, non-greasy formula with vitamins A and E",
+   "price_text": "£8.19",
+   "price": 8.19,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "54,684",
+   "rating_count": 54684,
+   "page": 2
+  },
+  {
+   "rank": 56,
+   "asin": "B071ZZ17DS",
+   "title": "Baylis & Harding Signature Luxury Hand Wash 500ml 3 pack | Jasmine & Apple Blossom, Vegan Friendly, Made in UK",
+   "price_text": "£4.00",
+   "price": 4.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "24,502",
+   "rating_count": 24502,
+   "page": 2
+  },
+  {
+   "rank": 57,
+   "asin": "B0C822Y5BY",
+   "title": "Hero Mighty Pimple Patches Original, Hydrocolloid Spot Patches, 36 Count | Medical grade hydrocolloid, Absorbs gunk in 6 hours, Protects skin from popping and picking, Dermatologically tested",
+   "price_text": "£7.32",
+   "price": 7.32,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "1,822",
+   "rating_count": 1822,
+   "page": 2
+  },
+  {
+   "rank": 58,
+   "asin": "B0078MF1PC",
+   "title": "L'Oréal Paris Black Mascara, Telescopic Original Mascara in shade Black | Up To +71% Lengthening Effect, Smudge-Resistant, Long-Wearing Formula, Up To 36H Wear, 8ml",
+   "price_text": "£6.77",
+   "price": 6.77,
+   "rating_text": "4.3 out of 5 stars",
+   "rating": 4.3,
+   "rating_count_text": "86,726",
+   "rating_count": 86726,
+   "page": 2
+  },
+  {
+   "rank": 59,
+   "asin": "B01LZUCVV5",
+   "title": "Neutrogena Hydro Boost Water Gel (1x 50ml), Oil-Free Face Cream with Hyaluronic Acid, Amino Acids and Electrolytes, Lightweight Face Care with 72 Hour Hydration, For Acne-Prone and Sensitive Skin",
+   "price_text": "£7.07",
+   "price": 7.07,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "13,584",
+   "rating_count": 13584,
+   "page": 2
+  },
+  {
+   "rank": 60,
+   "asin": "B00M9B66BU",
+   "title": "REVLON PROFESSIONAL UniqOne Hair Treatment | All-in-One Heat Moisturizing Leave-In with 10 Benefits, Repair for Damaged Hair, Frizz Control, for Women & All Hair Types",
+   "price_text": "£1100",
+   "price": 1100.0,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "101,345",
+   "rating_count": 101345,
+   "page": 2
+  },
+  {
+   "rank": 61,
+   "asin": "B0BQTMHNW9",
+   "title": "Aveeno Scalp Soothing Haircare Clarify, 300ml",
+   "price_text": "£4.57",
+   "price": 4.57,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "4,065",
+   "rating_count": 4065,
+   "page": 2
+  },
+  {
+   "rank": 62,
+   "asin": "B08JL9KYBV",
+   "title": "Aveeno Skin Relief Moisturising Lotion for Sensitive Skin (1 x 500ml) | With Soothing Triple Oat Complex and Shea Butter, 72-Hour Intense Hydration, Helps Relieve Very Dry and Tight Skin, Unscented",
+   "price_text": "£8.75",
+   "price": 8.75,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "21,870",
+   "rating_count": 21870,
+   "page": 2
+  },
+  {
+   "rank": 63,
+   "asin": "B0FH3SR2RG",
+   "title": "by Amazon Cotton Wool Pads, Dual Texture, 100% Cotton, 120 Pads",
+   "price_text": "£2.00",
+   "price": 2.0,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "2,546",
+   "rating_count": 2546,
+   "page": 2
+  },
+  {
+   "rank": 64,
+   "asin": "B003V9M2ZS",
+   "title": "Westlab Health Epsom Bath Salts 1kg (1 Pack) | Help Soothe Tired Muscles While Relieving Tension & Supporting Muscle Health, 100% Pure Mineral-rich Salt",
+   "price_text": "£2.50",
+   "price": 2.5,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "6,522",
+   "rating_count": 6522,
+   "page": 2
+  },
+  {
+   "rank": 65,
+   "asin": "B001GWWDJM",
+   "title": "Faith In Nature Natural Lavender and Geranium Body Wash, Relaxing Shower Gel, Vegan and Cruelty Free, No SLS or Parabens, 400 ml",
+   "price_text": "£3.87",
+   "price": 3.87,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "22,168",
+   "rating_count": 22168,
+   "page": 2
+  },
+  {
+   "rank": 66,
+   "asin": "B0GHMZXX8Y",
+   "title": "medicube PDRN Pink Collagen Volume Multi Balm Stick - Face & Body Balm | Volufiline, PDRN, NAD, Collagen - Under-Eyes, Neck, Forehead, Smile Lines, Lips, Plumping & Radiance for Line Care, K-Beauty",
+   "price_text": "£2990",
+   "price": 2990.0,
+   "rating_text": "4.0 out of 5 stars",
+   "rating": 4.0,
+   "rating_count_text": "6,199",
+   "rating_count": 6199,
+   "page": 2
+  },
+  {
+   "rank": 67,
+   "asin": "B014E2D6BY",
+   "title": "grace & stella Award Winning Under Eye Patches, Stocking Fillers for Women - Reduce Dark Circles, Puffy Eyes, Undereye Bags, Wrinkles - Under Eye Masks, Vegan Cruelty Free Self Care (24 Pairs, Gold)",
+   "price_text": "£1995",
+   "price": 1995.0,
+   "rating_text": "4.3 out of 5 stars",
+   "rating": 4.3,
+   "rating_count_text": "50,315",
+   "rating_count": 50315,
+   "page": 2
+  },
+  {
+   "rank": 68,
+   "asin": "B00KIY4JE6",
+   "title": "Mitchum Women Triple Odor Defense 48HR Protection Deodorant Stick & Antiperspirant (41g) Pure Fresh, Dermatologist Tested,41 g (Pack of 1)",
+   "price_text": "£2.90",
+   "price": 2.9,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "7,590",
+   "rating_count": 7590,
+   "page": 2
+  },
+  {
+   "rank": 69,
+   "asin": "B00GY89LP2",
+   "title": "Faith In Nature Natural Coconut Hand Soap Bar, Hydrating, Vegan & Cruelty Free, No SLS or Parabens, 100g",
+   "price_text": "£2.91",
+   "price": 2.91,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "13,860",
+   "rating_count": 13860,
+   "page": 2
+  },
+  {
+   "rank": 70,
+   "asin": "B004S9WHUU",
+   "title": "got2b POWDERful Volumising Styling Powder 10 g, Natural Hold, Powder Hair Styling, Volumising Styling Hair Powder, Instant Volume from the Roots, Vegan Formula",
+   "price_text": "£4.00",
+   "price": 4.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "12,545",
+   "rating_count": 12545,
+   "page": 2
+  },
+  {
+   "rank": 71,
+   "asin": "B07BN1ZNBL",
+   "title": "Salt of the Earth Natural Deodorant Roll On - Lavender & Vanilla - 75ml | Long-lasting Protection, 100% Natural Origin Ingredients, Unisex Vegan Formula, Made in the UK, Cruelty Free International",
+   "price_text": "£4.37",
+   "price": 4.37,
+   "rating_text": "4.3 out of 5 stars",
+   "rating": 4.3,
+   "rating_count_text": "13,342",
+   "rating_count": 13342,
+   "page": 2
+  },
+  {
+   "rank": 72,
+   "asin": "B001V9LB9I",
+   "title": "Rimmel Eyebrow Pencil, 1.4 g - Dark Brown",
+   "price_text": "£1.67",
+   "price": 1.67,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "27,083",
+   "rating_count": 27083,
+   "page": 2
+  },
+  {
+   "rank": 73,
+   "asin": "B0B9YHX8DX",
+   "title": "Wonderskin Lip Stain – Long Lasting, Waterproof, Lip Tint Peel Off Masque | Transfer-proof warm rose lip tint with comfortable all-day wear for natural-looking lips from day to night.",
+   "price_text": "£1756",
+   "price": 1756.0,
+   "rating_text": "3.8 out of 5 stars",
+   "rating": 3.8,
+   "rating_count_text": "34,100",
+   "rating_count": 34100,
+   "page": 2
+  },
+  {
+   "rank": 74,
+   "asin": "B0CRL76CCK",
+   "title": "Lil-Lets Baby Cotton Wool Oval Pads, Certified Organic, 100% Pure Cotton Wool, Soft and Absorbent, Gentle on Baby's Delicate Skin, Dermatologically Tested, Ideal for Newborns, Pack of 50 Oval Pads",
+   "price_text": "£1.33",
+   "price": 1.33,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "2,109",
+   "rating_count": 2109,
+   "page": 2
+  },
+  {
+   "rank": 75,
+   "asin": "B0GD6R7CFJ",
+   "title": "BIODANCE Collagen Peptide Hydrogel Under Eye Patches. 60 Counts | [Deep Absorption with Advanced Hydrogel] - Eye Masks for Dark Circles, Puffy Eyes and Fine Lines | Eye Bags & Wrinkles",
+   "price_text": "£2152",
+   "price": 2152.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "5,827",
+   "rating_count": 5827,
+   "page": 2
+  },
+  {
+   "rank": 76,
+   "asin": "B09FTBMDBS",
+   "title": "AVEENO Face CALM+RESTORE Nourishing Oat Cleanser (1x 200ml) | Non-Foaming, Gentle Cleanser with Prebiotic Oat and Calming Feverfew, Helps Preserve Skin's Barrier, For Sensitive Skin",
+   "price_text": "£5.81",
+   "price": 5.81,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "5,261",
+   "rating_count": 5261,
+   "page": 2
+  },
+  {
+   "rank": 77,
+   "asin": "B000ORV3NC",
+   "title": "Weleda Skin Food, Dry Skin Moisturiser, Moisturising Cream & Primer, Face & Body, For Men & Women, Multiple Uses, 100% Certified Natural, Organic, 75ml",
+   "price_text": "£7.88",
+   "price": 7.88,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "40,445",
+   "rating_count": 40445,
+   "page": 2
+  },
+  {
+   "rank": 78,
+   "asin": "B0996HN6Q9",
+   "title": "by Amazon Vanilla & Coconut Shower Gel, 2 x 500ml",
+   "price_text": "£2.40",
+   "price": 2.4,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "6,287",
+   "rating_count": 6287,
+   "page": 2
+  },
+  {
+   "rank": 79,
+   "asin": "B0CRL57LG4",
+   "title": "Lil-Lets Cotton Wool Round Pads, 100 Count, Certified Organic, 100% Pure Cotton Wool, Soft and Absorbent, Gentle on Skin, Dermatologically Tested",
+   "price_text": "£1.18",
+   "price": 1.18,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "1,801",
+   "rating_count": 1801,
+   "page": 2
+  },
+  {
+   "rank": 80,
+   "asin": "B011KMZ2WW",
+   "title": "O'Keeffe's Working Hands Hand Cream, 80ml Tube | For Extremely Dry, Cracked Hands, Instantly Boosts Moisture Levels, Creates a Protective Layer, Prevents Moisture Loss",
+   "price_text": "£4.70",
+   "price": 4.7,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "47,349",
+   "rating_count": 47349,
+   "page": 2
+  },
+  {
+   "rank": 81,
+   "asin": "B0BBLZ2YBP",
+   "title": "The Ordinary Azelaic Acid Suspension 10%, Brightening Formula for Uneven and Blemish-Prone Skin",
+   "price_text": "£888",
+   "price": 888.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "3,709",
+   "rating_count": 3709,
+   "page": 2
+  },
+  {
+   "rank": 82,
+   "asin": "B0CS6FFLSS",
+   "title": "by Amazon Milk & Honey Hand Soap, 4 x 500ml",
+   "price_text": "£1.91",
+   "price": 1.91,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "3,877",
+   "rating_count": 3877,
+   "page": 2
+  },
+  {
+   "rank": 83,
+   "asin": "B0DK9YWKBF",
+   "title": "by Amazon Aloe Vera Face Cleansing Wipes, Make-Up Remover for Sensitive Skin, Fragrance Free, 25 Wipes",
+   "price_text": "£0.96",
+   "price": 0.96,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "1,333",
+   "rating_count": 1333,
+   "page": 2
+  },
+  {
+   "rank": 84,
+   "asin": "B00WAJAKOU",
+   "title": "e.l.f. Instant Lift Brow Pencil, Dual-Sided, Precise, Fine Tip, Shapes, Defines, Fills Brows, Contours, Combs, Tames, Natural Brown, 0.18 g (Pack of 1)",
+   "price_text": "£3.33",
+   "price": 3.33,
+   "rating_text": "4.3 out of 5 stars",
+   "rating": 4.3,
+   "rating_count_text": "71,334",
+   "rating_count": 71334,
+   "page": 2
+  },
+  {
+   "rank": 85,
+   "asin": "B078216MC9",
+   "title": "Clairol Root Touch-Up Permanent Hair Dye",
+   "price_text": "£5.42",
+   "price": 5.42,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "7,997",
+   "rating_count": 7997,
+   "page": 2
+  },
+  {
+   "rank": 86,
+   "asin": "B0BJ74DJXG",
+   "title": "BYOMA Moisturising Gel Cream, Lightweight Daily Moisturiser (50ml) | Barrier Repair Formula with Tri-Ceramide and Niacinamide - Hydrates and Improves Skin Texture, for All Skin Types",
+   "price_text": "£9.99",
+   "price": 9.99,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "6,047",
+   "rating_count": 6047,
+   "page": 2
+  },
+  {
+   "rank": 87,
+   "asin": "B06XZNJWZL",
+   "title": "Slick Gorilla Hair Styling Powder for Men, Texture Powder 20g | Matte texture powder for volume, root lift, no shine and lightweight hold",
+   "price_text": "£1195",
+   "price": 1195.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "33,353",
+   "rating_count": 33353,
+   "page": 2
+  },
+  {
+   "rank": 88,
+   "asin": "B00YT1IZTO",
+   "title": "CeraVe Moisturising Lotion with Ceramides for Normal to Dry Skin, 473ml | Lighweight Daily Hydrating Face & Body Moisturiser with Hyaluronic acid, MVE technology. Fragrance-Free.",
+   "price_text": "£1575",
+   "price": 1575.0,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "9,999",
+   "rating_count": 9999,
+   "page": 2
+  },
+  {
+   "rank": 89,
+   "asin": "B0D1G7XF9X",
+   "title": "medicube Zero Pore Blackhead Mud Mask - Pore Cleansing & Gentle Exfoliating | Blackhead-Removing Clay Mask with AHA BHA PHA, Pore Minimizing & Cooling Care, 3 Min Quick Dry, Korean Skincare 3.52 oz.",
+   "price_text": "£2290",
+   "price": 2290.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "8,339",
+   "rating_count": 8339,
+   "page": 2
+  },
+  {
+   "rank": 90,
+   "asin": "B0CPFX3LWD",
+   "title": "e.l.f. Instant Lift Waterproof Brow Pencil, Long-Lasting Eyebrow Pencil For Grooming & Shaping Brows, Vegan & Cruelty-Free, Neutral Brown",
+   "price_text": "£4.17",
+   "price": 4.17,
+   "rating_text": "4.3 out of 5 stars",
+   "rating": 4.3,
+   "rating_count_text": "13,072",
+   "rating_count": 13072,
+   "page": 2
+  },
+  {
+   "rank": 91,
+   "asin": "B00MAJQH24",
+   "title": "Batiste Blush Dry Shampoo, Floral Fragrance, 200ml | Instantly refreshes hair, adds volume and texture, rose and freesia fragrance, won't dry hair out, gently removes oil",
+   "price_text": "£200",
+   "price": 200.0,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "8,969",
+   "rating_count": 8969,
+   "page": 2
+  },
+  {
+   "rank": 92,
+   "asin": "B000LQX6XG",
+   "title": "Simple Hydrating Light Moisturiser, Pro-Vitamins B5 & E, 125ml | For daily hydration, lightweight moisture that leaves skin soft and refreshed.",
+   "price_text": "£1.92",
+   "price": 1.92,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "19,689",
+   "rating_count": 19689,
+   "page": 2
+  },
+  {
+   "rank": 93,
+   "asin": "B0G3X3837T",
+   "title": "Dove Scalp + Hair Therapy Density & Growth Shampoo, 400 ml",
+   "price_text": "£3.32",
+   "price": 3.32,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "435",
+   "rating_count": 435,
+   "page": 2
+  },
+  {
+   "rank": 94,
+   "asin": "B009S7401Q",
+   "title": "Garnier Olia Hair Dye, Permanent Lumious Hair Colour 5.0 Brown | 100% Grey Coverage, Oil-Powered Formula, Up To 8 Tones Lift, Long-Lasting Vibrant Colour, No-Ammonia, 3x Shinier Hair",
+   "price_text": "£7.48",
+   "price": 7.48,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "28,887",
+   "rating_count": 28887,
+   "page": 2
+  },
+  {
+   "rank": 95,
+   "asin": "B0DSLH4336",
+   "title": "Mylee Gel Nail Polish 8ml [Diva] - UV/LED Soak-Off Gel Polish | Professional Manicure, Pedicure & Nail Art, Long-Lasting Gel Nail Varnish for Salon & Home Use - Up to 21 Days Chip-Free",
+   "price_text": "£999",
+   "price": 999.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "5,689",
+   "rating_count": 5689,
+   "page": 2
+  },
+  {
+   "rank": 96,
+   "asin": "B0CQC9RZ51",
+   "title": "Linkax Shower Steamers Aromatherapy 8 Pcs, Christmas Gift for Women | Presents for Women, Mum Birthday Gifts, Stocking Stuffers Fillers for Teens Teenage Girls Her Grandma Wife Friend Teacher",
+   "price_text": "£594",
+   "price": 594.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "1,110",
+   "rating_count": 1110,
+   "page": 2
+  },
+  {
+   "rank": 97,
+   "asin": "B0725YPBPR",
+   "title": "LAURA GELLER Baked Balance-n-Brighten Colour Correcting Powder Foundation (Medium) Buildable Light to Medium Coverage Baked Foundation, Demi-Matte Finish",
+   "price_text": "£1699",
+   "price": 1699.0,
+   "rating_text": "4.2 out of 5 stars",
+   "rating": 4.2,
+   "rating_count_text": "73,214",
+   "rating_count": 73214,
+   "page": 2
+  },
+  {
+   "rank": 98,
+   "asin": "B07C5XYT19",
+   "title": "CeraVe – Feuchtigkeitsspendende Nachtcreme für normale bis trockene Haut",
+   "price_text": "£1590",
+   "price": 1590.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "20,945",
+   "rating_count": 20945,
+   "page": 2
+  },
+  {
+   "rank": 99,
+   "asin": "B081S18169",
+   "title": "Baylis & Harding Goodness Natural Hand Wash 500ml 3 pack | Oud, Cedar & Amber,98% Naturally Derived, Dermatologist Approved, Vegan Friendly, Made in UK",
+   "price_text": "£7.45",
+   "price": 7.45,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "5,332",
+   "rating_count": 5332,
+   "page": 2
+  },
+  {
+   "rank": 100,
+   "asin": "B08DDSTMCC",
+   "title": "Sure Women Maximum Protection Clean Scent, 45ml",
+   "price_text": "£4.17",
+   "price": 4.17,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "2,597",
+   "rating_count": 2597,
+   "page": 2
+  }
+ ],
+ "recs": [
+  {
+   "asin": "B09V7Z4TJG",
+   "rank": 1,
+   "page": 1
+  },
+  {
+   "asin": "B08WR5CPNB",
+   "rank": 2,
+   "page": 1
+  },
+  {
+   "asin": "B01M6UUOY2",
+   "rank": 3,
+   "page": 1
+  },
+  {
+   "asin": "B0DGTMR754",
+   "rank": 4,
+   "page": 1
+  },
+  {
+   "asin": "B0FPDB8ZGS",
+   "rank": 5,
+   "page": 1
+  },
+  {
+   "asin": "B07C5R51Q9",
+   "rank": 6,
+   "page": 1
+  },
+  {
+   "asin": "B00JR76TKW",
+   "rank": 7,
+   "page": 1
+  },
+  {
+   "asin": "B07895R49B",
+   "rank": 8,
+   "page": 1
+  },
+  {
+   "asin": "B001ETUD5I",
+   "rank": 9,
+   "page": 1
+  },
+  {
+   "asin": "B0CS62LY6P",
+   "rank": 10,
+   "page": 1
+  },
+  {
+   "asin": "B0B7RQ46LD",
+   "rank": 11,
+   "page": 1
+  },
+  {
+   "asin": "B0977D6R6W",
+   "rank": 12,
+   "page": 1
+  },
+  {
+   "asin": "B07NBPSNC4",
+   "rank": 13,
+   "page": 1
+  },
+  {
+   "asin": "B0B2RM68G2",
+   "rank": 14,
+   "page": 1
+  },
+  {
+   "asin": "B000SDQ224",
+   "rank": 15,
+   "page": 1
+  },
+  {
+   "asin": "B0CNQ4DJRV",
+   "rank": 16,
+   "page": 1
+  },
+  {
+   "asin": "B0DGPSZVW3",
+   "rank": 17,
+   "page": 1
+  },
+  {
+   "asin": "B089QQBDPD",
+   "rank": 18,
+   "page": 1
+  },
+  {
+   "asin": "B07VRLPNY1",
+   "rank": 19,
+   "page": 1
+  },
+  {
+   "asin": "B01MDTVZTZ",
+   "rank": 20,
+   "page": 1
+  },
+  {
+   "asin": "B006L68VDU",
+   "rank": 21,
+   "page": 1
+  },
+  {
+   "asin": "B0G35QMQ82",
+   "rank": 22,
+   "page": 1
+  },
+  {
+   "asin": "B09P1Z8TKZ",
+   "rank": 23,
+   "page": 1
+  },
+  {
+   "asin": "B0BQJBFZT2",
+   "rank": 24,
+   "page": 1
+  },
+  {
+   "asin": "B07CHPWFXK",
+   "rank": 25,
+   "page": 1
+  },
+  {
+   "asin": "B004M9L0WW",
+   "rank": 26,
+   "page": 1
+  },
+  {
+   "asin": "B07C5SKVL7",
+   "rank": 27,
+   "page": 1
+  },
+  {
+   "asin": "B00PFCSXD4",
+   "rank": 28,
+   "page": 1
+  },
+  {
+   "asin": "B087D6BC8S",
+   "rank": 29,
+   "page": 1
+  },
+  {
+   "asin": "B09XN22JBT",
+   "rank": 30,
+   "page": 1
+  },
+  {
+   "asin": "B008BDSZFK",
+   "rank": 31,
+   "page": 1
+  },
+  {
+   "asin": "B001KYTULU",
+   "rank": 32,
+   "page": 1
+  },
+  {
+   "asin": "B0BJFLVCZK",
+   "rank": 33,
+   "page": 1
+  },
+  {
+   "asin": "B002CB56SG",
+   "rank": 34,
+   "page": 1
+  },
+  {
+   "asin": "B00UYJGYCK",
+   "rank": 35,
+   "page": 1
+  },
+  {
+   "asin": "B09JVNZVH3",
+   "rank": 36,
+   "page": 1
+  },
+  {
+   "asin": "B0C6Y5DYN1",
+   "rank": 37,
+   "page": 1
+  },
+  {
+   "asin": "B0DNZPVRP6",
+   "rank": 38,
+   "page": 1
+  },
+  {
+   "asin": "B0C7N36SRY",
+   "rank": 39,
+   "page": 1
+  },
+  {
+   "asin": "B08CFSS35N",
+   "rank": 40,
+   "page": 1
+  },
+  {
+   "asin": "B071914GGL",
+   "rank": 41,
+   "page": 1
+  },
+  {
+   "asin": "B00DWVMQ42",
+   "rank": 42,
+   "page": 1
+  },
+  {
+   "asin": "B0DSGCJSZF",
+   "rank": 43,
+   "page": 1
+  },
+  {
+   "asin": "B07L64MKRZ",
+   "rank": 44,
+   "page": 1
+  },
+  {
+   "asin": "B0DQV8G9HR",
+   "rank": 45,
+   "page": 1
+  },
+  {
+   "asin": "B01MYEZPC8",
+   "rank": 46,
+   "page": 1
+  },
+  {
+   "asin": "B0FCYVWF7H",
+   "rank": 47,
+   "page": 1
+  },
+  {
+   "asin": "B014G2ZCWS",
+   "rank": 48,
+   "page": 1
+  },
+  {
+   "asin": "B0026NC4A8",
+   "rank": 49,
+   "page": 1
+  },
+  {
+   "asin": "B08PDPK4B1",
+   "rank": 50,
+   "page": 1
+  },
+  {
+   "asin": "B0DBF65JYY",
+   "rank": 51,
+   "page": 2
+  },
+  {
+   "asin": "B0CV5VCL8F",
+   "rank": 52,
+   "page": 2
+  },
+  {
+   "asin": "B0176G84D0",
+   "rank": 53,
+   "page": 2
+  },
+  {
+   "asin": "B0DWMSM6Y9",
+   "rank": 54,
+   "page": 2
+  },
+  {
+   "asin": "B0013G35KW",
+   "rank": 55,
+   "page": 2
+  },
+  {
+   "asin": "B071ZZ17DS",
+   "rank": 56,
+   "page": 2
+  },
+  {
+   "asin": "B0C822Y5BY",
+   "rank": 57,
+   "page": 2
+  },
+  {
+   "asin": "B0078MF1PC",
+   "rank": 58,
+   "page": 2
+  },
+  {
+   "asin": "B01LZUCVV5",
+   "rank": 59,
+   "page": 2
+  },
+  {
+   "asin": "B00M9B66BU",
+   "rank": 60,
+   "page": 2
+  },
+  {
+   "asin": "B0BQTMHNW9",
+   "rank": 61,
+   "page": 2
+  },
+  {
+   "asin": "B08JL9KYBV",
+   "rank": 62,
+   "page": 2
+  },
+  {
+   "asin": "B0FH3SR2RG",
+   "rank": 63,
+   "page": 2
+  },
+  {
+   "asin": "B003V9M2ZS",
+   "rank": 64,
+   "page": 2
+  },
+  {
+   "asin": "B001GWWDJM",
+   "rank": 65,
+   "page": 2
+  },
+  {
+   "asin": "B0GHMZXX8Y",
+   "rank": 66,
+   "page": 2
+  },
+  {
+   "asin": "B014E2D6BY",
+   "rank": 67,
+   "page": 2
+  },
+  {
+   "asin": "B00KIY4JE6",
+   "rank": 68,
+   "page": 2
+  },
+  {
+   "asin": "B00GY89LP2",
+   "rank": 69,
+   "page": 2
+  },
+  {
+   "asin": "B004S9WHUU",
+   "rank": 70,
+   "page": 2
+  },
+  {
+   "asin": "B07BN1ZNBL",
+   "rank": 71,
+   "page": 2
+  },
+  {
+   "asin": "B001V9LB9I",
+   "rank": 72,
+   "page": 2
+  },
+  {
+   "asin": "B0B9YHX8DX",
+   "rank": 73,
+   "page": 2
+  },
+  {
+   "asin": "B0CRL76CCK",
+   "rank": 74,
+   "page": 2
+  },
+  {
+   "asin": "B0GD6R7CFJ",
+   "rank": 75,
+   "page": 2
+  },
+  {
+   "asin": "B09FTBMDBS",
+   "rank": 76,
+   "page": 2
+  },
+  {
+   "asin": "B000ORV3NC",
+   "rank": 77,
+   "page": 2
+  },
+  {
+   "asin": "B0996HN6Q9",
+   "rank": 78,
+   "page": 2
+  },
+  {
+   "asin": "B0CRL57LG4",
+   "rank": 79,
+   "page": 2
+  },
+  {
+   "asin": "B011KMZ2WW",
+   "rank": 80,
+   "page": 2
+  },
+  {
+   "asin": "B0BBLZ2YBP",
+   "rank": 81,
+   "page": 2
+  },
+  {
+   "asin": "B0CS6FFLSS",
+   "rank": 82,
+   "page": 2
+  },
+  {
+   "asin": "B0DK9YWKBF",
+   "rank": 83,
+   "page": 2
+  },
+  {
+   "asin": "B00WAJAKOU",
+   "rank": 84,
+   "page": 2
+  },
+  {
+   "asin": "B078216MC9",
+   "rank": 85,
+   "page": 2
+  },
+  {
+   "asin": "B0BJ74DJXG",
+   "rank": 86,
+   "page": 2
+  },
+  {
+   "asin": "B06XZNJWZL",
+   "rank": 87,
+   "page": 2
+  },
+  {
+   "asin": "B00YT1IZTO",
+   "rank": 88,
+   "page": 2
+  },
+  {
+   "asin": "B0D1G7XF9X",
+   "rank": 89,
+   "page": 2
+  },
+  {
+   "asin": "B0CPFX3LWD",
+   "rank": 90,
+   "page": 2
+  },
+  {
+   "asin": "B00MAJQH24",
+   "rank": 91,
+   "page": 2
+  },
+  {
+   "asin": "B000LQX6XG",
+   "rank": 92,
+   "page": 2
+  },
+  {
+   "asin": "B0G3X3837T",
+   "rank": 93,
+   "page": 2
+  },
+  {
+   "asin": "B009S7401Q",
+   "rank": 94,
+   "page": 2
+  },
+  {
+   "asin": "B0DSLH4336",
+   "rank": 95,
+   "page": 2
+  },
+  {
+   "asin": "B0CQC9RZ51",
+   "rank": 96,
+   "page": 2
+  },
+  {
+   "asin": "B0725YPBPR",
+   "rank": 97,
+   "page": 2
+  },
+  {
+   "asin": "B07C5XYT19",
+   "rank": 98,
+   "page": 2
+  },
+  {
+   "asin": "B081S18169",
+   "rank": 99,
+   "page": 2
+  },
+  {
+   "asin": "B08DDSTMCC",
+   "rank": 100,
+   "page": 2
+  }
+ ]
+}
