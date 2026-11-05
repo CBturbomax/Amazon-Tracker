@@ -535,6 +535,11 @@
   "checked_at": "2026-09-28T10:36:04+09:00",
   "tries": 1
  },
+ "B00NKSTRAI": {
+  "error": "captcha",
+  "checked_at": "2026-11-05T15:33:42+09:00",
+  "tries": 0
+ },
  "B00NPXEEC4": {
   "brand": "Maybelline",
   "source": "po-brand",
@@ -2071,7 +2076,7 @@
  },
  "B0C4G1YZY4": {
   "error": "captcha",
-  "checked_at": "2026-11-04T15:05:28+09:00",
+  "checked_at": "2026-11-05T15:33:23+09:00",
   "tries": 0
  },
  "B0C4XZG2RY": {
@@ -2331,6 +2336,14 @@
   "domain": "www.amazon.com",
   "method": "curl_cffi",
   "checked_at": "2026-10-11T14:39:24+09:00",
+  "tries": 1
+ },
+ "B0D6ZPNZ4Z": {
+  "brand": "Sol de Janeiro",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-05T15:32:50+09:00",
   "tries": 1
  },
  "B0D73H447R": {
