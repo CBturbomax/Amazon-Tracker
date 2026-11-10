@@ -150,9 +150,12 @@
   "tries": 1
  },
  "B00262227E": {
-  "error": "captcha",
-  "checked_at": "2026-11-09T15:07:09+09:00",
-  "tries": 0
+  "checked_at": "2026-11-10T16:07:41+09:00",
+  "tries": 1,
+  "brand": "Mrs. MEYER'S",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi"
  },
  "B002CB56SG": {
   "brand": "Got2B",
@@ -542,7 +545,7 @@
  },
  "B00NKSTRAI": {
   "error": "captcha",
-  "checked_at": "2026-11-06T15:31:39+09:00",
+  "checked_at": "2026-11-10T16:08:30+09:00",
   "tries": 0
  },
  "B00NPXEEC4": {
@@ -2081,7 +2084,7 @@
  },
  "B0C4G1YZY4": {
   "error": "captcha",
-  "checked_at": "2026-11-09T15:07:26+09:00",
+  "checked_at": "2026-11-10T16:08:10+09:00",
   "tries": 0
  },
  "B0C4XZG2RY": {
