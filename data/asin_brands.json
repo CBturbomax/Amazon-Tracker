@@ -2084,7 +2084,7 @@
  },
  "B0C4G1YZY4": {
   "error": "captcha",
-  "checked_at": "2026-11-11T15:00:58+09:00",
+  "checked_at": "2026-11-12T16:02:38+09:00",
   "tries": 0
  },
  "B0C4XZG2RY": {
@@ -2982,6 +2982,11 @@
   "source": "po-brand",
   "domain": "www.amazon.com",
   "method": "playwright"
+ },
+ "B0H42QXXWG": {
+  "error": "captcha",
+  "checked_at": "2026-11-12T16:02:50+09:00",
+  "tries": 0
  },
  "B0H72GFKJQ": {
   "brand": "eos",
