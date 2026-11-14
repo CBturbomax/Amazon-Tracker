@@ -5,50 +5,1790 @@
  "domain": "www.amazon.fr",
  "category": "beauty",
  "date": "2026-11-14",
- "collected_at": "2026-11-14T16:00:10+09:00",
+ "collected_at": "2026-11-14T16:32:08+09:00",
  "method": "playwright",
- "status": "failed",
+ "status": "ok",
  "error": null,
  "pages": [
   {
    "url": "https://www.amazon.fr/gp/bestsellers/beauty",
    "method": "playwright",
-   "fetched_at": "2026-11-14T16:00:10+09:00",
+   "fetched_at": "2026-11-14T16:32:08+09:00",
    "status": 200,
    "final_url": "https://www.amazon.fr/gp/bestsellers/beauty",
-   "elapsed_s": 9.9,
+   "elapsed_s": 5.36,
    "error": null,
-   "block": "captcha",
-   "html_bytes": 3538,
+   "block": null,
+   "html_bytes": 769499,
    "page": 1,
    "attempt": 1,
-   "outcome": "captcha",
-   "complete": false,
+   "outcome": "ok",
+   "complete": true,
    "response_issue": null,
-   "rendered_count": 0,
-   "recs_count": 0,
+   "rendered_count": 50,
+   "recs_count": 50,
    "attempts": [
     {
      "url": "https://www.amazon.fr/gp/bestsellers/beauty",
      "method": "playwright",
-     "fetched_at": "2026-11-14T16:00:10+09:00",
+     "fetched_at": "2026-11-14T16:32:08+09:00",
      "status": 200,
      "final_url": "https://www.amazon.fr/gp/bestsellers/beauty",
-     "elapsed_s": 9.9,
+     "elapsed_s": 5.36,
      "error": null,
-     "block": "captcha",
-     "html_bytes": 3538,
+     "block": null,
+     "html_bytes": 769499,
      "page": 1,
      "attempt": 1,
-     "outcome": "captcha",
-     "complete": false,
+     "outcome": "ok",
+     "complete": true,
      "response_issue": null,
-     "rendered_count": 0,
-     "recs_count": 0
+     "rendered_count": 50,
+     "recs_count": 50
+    }
+   ]
+  },
+  {
+   "url": "https://www.amazon.fr/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+   "method": "playwright",
+   "fetched_at": "2026-11-14T16:32:20+09:00",
+   "status": 200,
+   "final_url": "https://www.amazon.fr/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+   "elapsed_s": 4.49,
+   "error": null,
+   "block": null,
+   "html_bytes": 749670,
+   "page": 2,
+   "attempt": 1,
+   "outcome": "ok",
+   "complete": true,
+   "response_issue": null,
+   "rendered_count": 50,
+   "recs_count": 50,
+   "attempts": [
+    {
+     "url": "https://www.amazon.fr/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+     "method": "playwright",
+     "fetched_at": "2026-11-14T16:32:20+09:00",
+     "status": 200,
+     "final_url": "https://www.amazon.fr/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+     "elapsed_s": 4.49,
+     "error": null,
+     "block": null,
+     "html_bytes": 749670,
+     "page": 2,
+     "attempt": 1,
+     "outcome": "ok",
+     "complete": true,
+     "response_issue": null,
+     "rendered_count": 50,
+     "recs_count": 50
     }
    ]
   }
  ],
- "items": [],
- "recs": []
+ "items": [
+  {
+   "rank": 1,
+   "asin": "B0B2RM68G2",
+   "title": "BIODANCE Bio-Collagen Real Deep, Masque Visage Hydrogel au Collagène, Masque de Nuit Hydratant, Soin des Pores et de l’Élasticité, K-Beauty Coréenne, 4 Masques",
+   "price_text": "2358€",
+   "price": 2358.0,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "49 229",
+   "rating_count": 49229,
+   "page": 1
+  },
+  {
+   "rank": 2,
+   "asin": "B08P4YPB8Q",
+   "title": "Maybelline New York Sky High Mascara Volume Intense Very Black 7,2ml | Extraits bambou et fibres, Brosse flexible capture chaque cil, Testé dermatologique, Yeux sensibles et lentilles",
+   "price_text": "7,67 €",
+   "price": 7.67,
+   "rating_text": "4,3 sur 5 étoiles",
+   "rating": 4.3,
+   "rating_count_text": "80 913",
+   "rating_count": 80913,
+   "page": 1
+  },
+  {
+   "rank": 3,
+   "asin": "B07P9TJL9V",
+   "title": "Lotus Coton-Tiges en Papier et Coton Bio - Sachet 160 Bâtonnets | Coton 100% bio - Multi-usages - Sachet refermable Minigrip - Tige en papier recyclable",
+   "price_text": "0,63 €",
+   "price": 0.63,
+   "rating_text": "4,8 sur 5 étoiles",
+   "rating": 4.8,
+   "rating_count_text": "3 565",
+   "rating_count": 3565,
+   "page": 1
+  },
+  {
+   "rank": 4,
+   "asin": "B0GHPFNC84",
+   "title": "Mixa Crème Cica Réparation Peaux Très Sèches Rugueuses Visage Corps 400ml | -90% rugosités, Action 100H, Actifs urée et acide aminé, Non grasse, Testé sur peaux sensibles, Mixa Cica Réparation",
+   "price_text": "4,99 €",
+   "price": 4.99,
+   "rating_text": "4,7 sur 5 étoiles",
+   "rating": 4.7,
+   "rating_count_text": "521",
+   "rating_count": 521,
+   "page": 1
+  },
+  {
+   "rank": 5,
+   "asin": "B00GSUCEJ6",
+   "title": "essence I LOVE EXTREME crazy volume mascara, longue durée, frisant (12ml) | Volume extrême, Recourbant, Allongeant, Longue tenue, Mascara",
+   "price_text": "2,17 €",
+   "price": 2.17,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "40 910",
+   "rating_count": 40910,
+   "page": 1
+  },
+  {
+   "rank": 6,
+   "asin": "B01MDTVZTZ",
+   "title": "The Ordinary Niacinamide 10% + Zinc 1%, Brightening & Smoothing Serum for Blemish-Prone Skin, 30ml",
+   "price_text": "575€",
+   "price": 575.0,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "67 511",
+   "rating_count": 67511,
+   "page": 1
+  },
+  {
+   "rank": 7,
+   "asin": "B0B7RQ46LD",
+   "title": "CeraVe - Gel Moussant Anti-Imperfections - Purifie la Peau en douceur et Réduit les Imperfections - Acide Salicylique, Argile Blanche, Céramides et Niacinamide - Peau à Tendance Acnéique",
+   "price_text": "859€",
+   "price": 859.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "37 986",
+   "rating_count": 37986,
+   "page": 1
+  },
+  {
+   "rank": 8,
+   "asin": "B00AI7COA4",
+   "title": "REXONA Maximum Protection Déodorant Femme Stick Clean Scent 45ml | Anti-Transpirant, 96h d'efficacité Anti-Transpiration & Anti-Odeurs,3x Plus Efficace, esté dermatologiquement,Texture crème",
+   "price_text": "3,12 €",
+   "price": 3.12,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "23 878",
+   "rating_count": 23878,
+   "page": 1
+  },
+  {
+   "rank": 9,
+   "asin": "B0F99M3N8L",
+   "title": "L'Oréal Paris Revitalift Laser Soin Contour Yeux Anti-Poches 15ml | Technologie gel-liftant, Résiste mouvements visage, Testé contrôle ophtalmologique, Tous types de peau",
+   "price_text": "3199€",
+   "price": 3199.0,
+   "rating_text": "3,6 sur 5 étoiles",
+   "rating": 3.6,
+   "rating_count_text": "1 001",
+   "rating_count": 1001,
+   "page": 1
+  },
+  {
+   "rank": 10,
+   "asin": "B0CQP9S97Y",
+   "title": "Franck Provost Soin 4-en-1 Sans Rinçage Protection Chaleur 230°C 190ml | Pro-Kératine et Céramide, +68% brillance, Action 24h anti-frizz, Sans alcool éthylique ni huile minérale",
+   "price_text": "1089€",
+   "price": 1089.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "3 757",
+   "rating_count": 3757,
+   "page": 1
+  },
+  {
+   "rank": 11,
+   "asin": "B0BLCZX6XP",
+   "title": "Maybelline New York - Instant Effaceur - Anti-cernes/Correcteur Fluide - Teinte : Beige Rosé (01) - 6,8 ml",
+   "price_text": "6,06 €",
+   "price": 6.06,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "41 909",
+   "rating_count": 41909,
+   "page": 1
+  },
+  {
+   "rank": 12,
+   "asin": "B07KGT94LB",
+   "title": "Maybelline New York Tattoo Liner Crayon Gel Yeux Waterproof 36h Deep Onyx | Effet tatouage longue tenue, Ultra saturé en pigments, Intensité colorielle 36h, Waterproof",
+   "price_text": "4,10 €",
+   "price": 4.1,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "28 945",
+   "rating_count": 28945,
+   "page": 1
+  },
+  {
+   "rank": 13,
+   "asin": "B0DK4Y2YP3",
+   "title": "celimax The Vita A Retinal Shot Tightening Booster, 15ml | 0,1% Rétinal, 3% Matryxyl, Rétinoïde Haute Puissance, Anti-Âge, Resserre les Pores, Ridules, Raffermissement de la Peau",
+   "price_text": "19,99 €",
+   "price": 19.99,
+   "rating_text": "4,3 sur 5 étoiles",
+   "rating": 4.3,
+   "rating_count_text": "31 172",
+   "rating_count": 31172,
+   "page": 1
+  },
+  {
+   "rank": 14,
+   "asin": "B09V7Z4TJG",
+   "title": "medicube Zero Pore Pad 2.0 Pads Exfoliants Soin des Pores | Pad double texture AHA 4,5% & BHA 0,45%, Acides lactique et salicylique, Exfoliation, Tous types de peau, 70 pcs",
+   "price_text": "3374€",
+   "price": 3374.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "35 811",
+   "rating_count": 35811,
+   "page": 1
+  },
+  {
+   "rank": 15,
+   "asin": "B0GD6R7CFJ",
+   "title": "BIODANCE Collagen Peptide Under Eye Patches, Patchs Yeux Hydrogel aux Peptides de Collagène, Pour Cernes, Poches et Ridules, K-Beauty Coréenne, 60 Patchs",
+   "price_text": "3512€",
+   "price": 3512.0,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "6 227",
+   "rating_count": 6227,
+   "page": 1
+  },
+  {
+   "rank": 16,
+   "asin": "B0CZ63J96Q",
+   "title": "NYX PROFESSIONAL MAKEUP - Blush en Poudre, enrichi en beurre de mangue, beurre d'amande & beure de karité - Texture Fondante - Formule Vegan - Buttermelt Blush, Teinte : Butta Together",
+   "price_text": "4,99 €",
+   "price": 4.99,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "14 453",
+   "rating_count": 14453,
+   "page": 1
+  },
+  {
+   "rank": 17,
+   "asin": "B0FHBJXX9M",
+   "title": "Erborian CC Crème Centella, Soin Correcteur Teinté | Cosmétique coréen, bonne mine et éclat, hydratation longue durée, unifie et illumine, fini naturel lumineux, texture légère",
+   "price_text": "1799€",
+   "price": 1799.0,
+   "rating_text": "4,7 sur 5 étoiles",
+   "rating": 4.7,
+   "rating_count_text": "9 662",
+   "rating_count": 9662,
+   "page": 1
+  },
+  {
+   "rank": 18,
+   "asin": "B071914GGL",
+   "title": "The Ordinary Tonique Exfoliant à l'Acide Glycolique 7%",
+   "price_text": "1369€",
+   "price": 1369.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "68 356",
+   "rating_count": 68356,
+   "page": 1
+  },
+  {
+   "rank": 19,
+   "asin": "B00JWVCL8C",
+   "title": "Garnier Olia Coloration Permanente Sans Ammoniaque Châtain Clair 5.0 | 60% huiles naturelles, Technologie ODS, Améliore qualité cheveu, Couleur longue tenue, Soin brillance inclus",
+   "price_text": "1997€",
+   "price": 1997.0,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "16 997",
+   "rating_count": 16997,
+   "page": 1
+  },
+  {
+   "rank": 20,
+   "asin": "B0F3P44LFH",
+   "title": "Garnier Good Coloration Permanente Châtain Cacao 4.0 Sans Ammoniaque | Coloration permanente 90% ingrédients d'origine naturelle*, Soin nourrissant beurre de karité, 100% couverture cheveux blancs",
+   "price_text": "2039€",
+   "price": 2039.0,
+   "rating_text": "4,3 sur 5 étoiles",
+   "rating": 4.3,
+   "rating_count_text": "4 170",
+   "rating_count": 4170,
+   "page": 1
+  },
+  {
+   "rank": 21,
+   "asin": "B0DTKCN3Z4",
+   "title": "medicube Crème Capsule PDRN Pink Collagène ADN de Saumon | Crème légère éclat, PDRN, Niacinamide, Hydratation, Soin du teint uniforme, Soin coréen, 55 g",
+   "price_text": "3340€",
+   "price": 3340.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "31 020",
+   "rating_count": 31020,
+   "page": 1
+  },
+  {
+   "rank": 22,
+   "asin": "B00M9B66BU",
+   "title": "Revlon Professional UniqOne Masque Spray 10 En 1 Sans Rinçage | Soin sans rinçage aux dix bienfaits qui protège de la chaleur et soigne tous types de cheveux, formule vegan",
+   "price_text": "986€",
+   "price": 986.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "122 810",
+   "rating_count": 122810,
+   "page": 1
+  },
+  {
+   "rank": 23,
+   "asin": "B0CGMBM6D4",
+   "title": "L'Oréal Paris Infaillible Spray Fixateur Maquillage Waterproof 36h 75ml | Sans transfert en 3 secondes, Formule légère non collante, Résistant sueur et eau, Tenue longue durée",
+   "price_text": "1566€",
+   "price": 1566.0,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "6 170",
+   "rating_count": 6170,
+   "page": 1
+  },
+  {
+   "rank": 24,
+   "asin": "B018B2YHUM",
+   "title": "L’Oréal Paris Magic Retouch Retouche Racines Instantané, Châtain Foncé | Camoufle les racines visibles et les cheveux blancs en 3 secondes jusqu’au prochain shampooing, avec un résultat naturel.",
+   "price_text": "1999€",
+   "price": 1999.0,
+   "rating_text": "4,3 sur 5 étoiles",
+   "rating": 4.3,
+   "rating_count_text": "53 589",
+   "rating_count": 53589,
+   "page": 1
+  },
+  {
+   "rank": 25,
+   "asin": "B083YFNLXW",
+   "title": "L'Oréal Paris Revitalift Filler Sérum Acide Hyaluronique & PDRN végan 30ml | Repulpe en 1h, -47% de rides en 6 semaines, 3 types molécules hydratantes, Inspiré de la science coréeene, Tous types peaux",
+   "price_text": "9,48 €",
+   "price": 9.48,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "3 953",
+   "rating_count": 3953,
+   "page": 1
+  },
+  {
+   "rank": 26,
+   "asin": "B0038E8OOO",
+   "title": "essence LONG-LASTING eye pencil crayon yeux longue tenue, pratique (0.28g) | Longue tenue, Regard mis en valeur, Eyeliner, Mécanisme rotatif, Regard intense",
+   "price_text": "1,57 €",
+   "price": 1.57,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "14 593",
+   "rating_count": 14593,
+   "page": 1
+  },
+  {
+   "rank": 27,
+   "asin": "B0B6CL1QHM",
+   "title": "UNA GELLA Capsule Americaine Ongle Amande Court, 216 Pièces 12 Tailles Capsules Ongles Pose Gel Préformées pour Extensions Acryliques Complètes DIY pour Salon à Domicile",
+   "price_text": "899€",
+   "price": 899.0,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "18 997",
+   "rating_count": 18997,
+   "page": 1
+  },
+  {
+   "rank": 28,
+   "asin": "B00QJQ7SDQ",
+   "title": "Maybelline New York Mascara Cil Sensational Volume Noir Very Black 9,4ml | Brosse 6 tailles picots, Enrichi huile de rose, Cils souples soyeux, Sans paquets ni effet cartonné",
+   "price_text": "5,52 €",
+   "price": 5.52,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "47 354",
+   "rating_count": 47354,
+   "page": 1
+  },
+  {
+   "rank": 29,
+   "asin": "B0F2TQW9QD",
+   "title": "BIONOBLE Huile de Romarin pour Cheveux Bio - Pousse, Anti-Chute - 50ml | 100% d'Origine Naturelle - Huile Pousse Cheveux, Huile Essentielle de Romarin, Rosemary Oil for Hair Growth - Flacon Verre",
+   "price_text": "11,65 €",
+   "price": 11.65,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "66 144",
+   "rating_count": 66144,
+   "page": 1
+  },
+  {
+   "rank": 30,
+   "asin": "B07RNH35K4",
+   "title": "L'Oréal Paris Magic CC Crème Anti-Rougeurs Peaux Sensibles Grasses 30ml | 5-en-1 unifie lisse illumine protège, Vitamines B5 et E, Hydratation 24H, Peau saine 2 semaines, Teinte universelle",
+   "price_text": "6,44 €",
+   "price": 6.44,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "14 150",
+   "rating_count": 14150,
+   "page": 1
+  },
+  {
+   "rank": 31,
+   "asin": "B0FVG27N2W",
+   "title": "Garnier Fructis Méthode Boucles Gelée 100H d'Hydratation & Définition 370ml | Gelée capillaire coiffante & hydratante, Acide Hyaluronique + Agent gainant, Fixe sans figer, Sans effet carton",
+   "price_text": "4,40 €",
+   "price": 4.4,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "466",
+   "rating_count": 466,
+   "page": 1
+  },
+  {
+   "rank": 32,
+   "asin": "B0C822Y5BY",
+   "title": "Hero Mighty Patch Original Patch Bouton Nuit Hydrocolloïde, 36 Patchs | Patch bouton nuit anti-acné, Absorbe les impuretés et réduit les boutons, Empêche de tripoter le bouton, Favorise la guérison",
+   "price_text": "745€",
+   "price": 745.0,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "1 845",
+   "rating_count": 1845,
+   "page": 1
+  },
+  {
+   "rank": 33,
+   "asin": "B0GS27Y6LK",
+   "title": "Pantene Pro-V Indiana Art Coffret Repair & Protect Cheveux Abîmés | Shampoing 250ml, Soin 220ml, Masque 300ml, Huile 100ml. Cheveux Secs et Abîmés.",
+   "price_text": "10,65 €",
+   "price": 10.65,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "44",
+   "rating_count": 44,
+   "page": 1
+  },
+  {
+   "rank": 34,
+   "asin": "B07PK2P2XB",
+   "title": "Dr. Althea 345 Relief Cream | Crème Hydratante Visage Réparatrice et Apaisante pour Peaux à Imperfections avec PDRN et Niacinamide | Soin Coréen Vegan (50ml, Pack of 1)",
+   "price_text": "2600€",
+   "price": 2600.0,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "24 009",
+   "rating_count": 24009,
+   "page": 1
+  },
+  {
+   "rank": 35,
+   "asin": "B09YRQ49PZ",
+   "title": "essence 8h MATTE comfort lipliner, longue durée, résultat instantané (0.3g) | Tenue 8 h, Résultat instantané, Crayon à lèvres, Fini mat",
+   "price_text": "598€",
+   "price": 598.0,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "3 639",
+   "rating_count": 3639,
+   "page": 1
+  },
+  {
+   "rank": 36,
+   "asin": "B0DQL9YY2B",
+   "title": "L'Oréal Paris Elseve Fiber Booster Sérum Anti-Chute Aminexil-R | Formule multi-brevetée, Renforce bulbe capillaire, +7000 nouveaux cheveux, Hommes & Femmes, Texture légère non grasse",
+   "price_text": "1999€",
+   "price": 1999.0,
+   "rating_text": "3,5 sur 5 étoiles",
+   "rating": 3.5,
+   "rating_count_text": "185",
+   "rating_count": 185,
+   "page": 1
+  },
+  {
+   "rank": 37,
+   "asin": "B07C5XYT19",
+   "title": "CeraVe - Crème Hydratante Visage, Peaux Normales à Sèches, Hydratation 24h et Protection Cutanée avec Technologie MVE, Acide Hyaluronique et Niacinamide, et Céramides.",
+   "price_text": "3400€",
+   "price": 3400.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "20 962",
+   "rating_count": 20962,
+   "page": 1
+  },
+  {
+   "rank": 38,
+   "asin": "B0BRMYHMS5",
+   "title": "medicube Masque Wrapping Collagène Peel Off Nuit 75 ml | Soin hydratation & élasticité avec collagène hydrolysé, Pour un teint éclatant, Soin coréen",
+   "price_text": "3123€",
+   "price": 3123.0,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "26 214",
+   "rating_count": 26214,
+   "page": 1
+  },
+  {
+   "rank": 39,
+   "asin": "B0D1VX25QB",
+   "title": "Taft Poudre Coiffante 2en1 10g Volume Instantané Matifiant Sans Residus | poudre coiffante,volume instantané,anti‑sébum,matifiant,sans résidus,ne colle pas,cheveux légers,application racines,styling",
+   "price_text": "4,15 €",
+   "price": 4.15,
+   "rating_text": "4,3 sur 5 étoiles",
+   "rating": 4.3,
+   "rating_count_text": "1 720",
+   "rating_count": 1720,
+   "page": 1
+  },
+  {
+   "rank": 40,
+   "asin": "B0GHMZXX8Y",
+   "title": "medicube Stick Baume Multi Volume PDRN Pink Collagène Visage & Corps | Volufiline, PDRN, NAD, Collagène, Soin yeux, cou, front & lèvres, Effet repulpant, Éclat, K-Beauty",
+   "price_text": "3690€",
+   "price": 3690.0,
+   "rating_text": "3,5 sur 5 étoiles",
+   "rating": 3.5,
+   "rating_count_text": "6 979",
+   "rating_count": 6979,
+   "page": 1
+  },
+  {
+   "rank": 41,
+   "asin": "B00SXKWB42",
+   "title": "L'Oréal Paris - Fond de Teint Fluide - Hydratation 24H - Formule à l'Acide Hyaluronique - Tous les Types de Peaux - Teinte : Beige Doré (3.D) - Accord Parfait - 30 ml",
+   "price_text": "6,66 €",
+   "price": 6.66,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "24 136",
+   "rating_count": 24136,
+   "page": 1
+  },
+  {
+   "rank": 42,
+   "asin": "B0F99L61JF",
+   "title": "DESSANGE Masque Reconstructeur Kératine Morphose Cheveux Abîmés 280ml | Enrichi acide hyaluronique, Répare & renforce fibre capillaire, Hydratation intense, Gamme Morphose",
+   "price_text": "5,22 €",
+   "price": 5.22,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "355",
+   "rating_count": 355,
+   "page": 1
+  },
+  {
+   "rank": 43,
+   "asin": "B0CM2PPNMW",
+   "title": "medicube Jelly Crème au Collagène & Niacinamide 110 ml | Collagène hydrolysé lyophilisé pour barrière cutanée & Glow 24H, Peau plus rebondie & ferme",
+   "price_text": "3521€",
+   "price": 3521.0,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "42 384",
+   "rating_count": 42384,
+   "page": 1
+  },
+  {
+   "rank": 44,
+   "asin": "B074Y8LM6T",
+   "title": "NYX Professional Makeup - Eyeliner Feutre - Waterproof - Tracé Précis - Couleur Intense Tenue Longue Durée - Embout Ultra-Précis - Formule Vegan - Epic Ink Liner - Teinte : Black (01)",
+   "price_text": "5,97 €",
+   "price": 5.97,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "104 975",
+   "rating_count": 104975,
+   "page": 1
+  },
+  {
+   "rank": 45,
+   "asin": "B0D1G7XF9X",
+   "title": "medicube Zero Pore Masque Argile Points Noirs Soin des Pores | Masque à l’argile AHA BHA PHA, Soin des pores, Points noirs, Effet frais, Séchage rapide 3 min, Soin coréen, 100 g",
+   "price_text": "2600€",
+   "price": 2600.0,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "8 642",
+   "rating_count": 8642,
+   "page": 1
+  },
+  {
+   "rank": 46,
+   "asin": "B0C8TNGR3V",
+   "title": "Le Petit Marseillais Recharge Berlingot Crème Lavante Mains Lait 250 ml | Recharge berlingot pour crème lavante mains Lait 250ml, Tous types de peaux, Avec 92 % d'ingrédients d'origine naturelle",
+   "price_text": "0,67 €",
+   "price": 0.67,
+   "rating_text": "4,7 sur 5 étoiles",
+   "rating": 4.7,
+   "rating_count_text": "1 405",
+   "rating_count": 1405,
+   "page": 1
+  },
+  {
+   "rank": 47,
+   "asin": "B00WN2BY7G",
+   "title": "Vichy Dercos Shampooing Anti-Pelliculaire DS Cheveux Normaux à Gras | Technologie microbiome Sélénium DS, Rééquilibre cuir chevelu, Anti-démangeaisons, Gamme Dercos",
+   "price_text": "1099€",
+   "price": 1099.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "12 580",
+   "rating_count": 12580,
+   "page": 1
+  },
+  {
+   "rank": 48,
+   "asin": "B0GTMZYTXC",
+   "title": "Maybelline New York Cils Sensationnel Mascara Body Brick Brown 9,75ml | Brosse incurvée double hélice, Tenue 24h sans transfert, Testé ophtalmologique yeux sensibles, 93% cils liftés",
+   "price_text": "1295€",
+   "price": 1295.0,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "2 182",
+   "rating_count": 2182,
+   "page": 1
+  },
+  {
+   "rank": 49,
+   "asin": "B09716YCGX",
+   "title": "L'OREAL PROFESSIONNEL - Masque Metal Detox - Cheveux Secs & Abîmés - 250 ml | Cheveux Lisses & Bouclés à Frisés, Naturels & Colorés - Hydratation 1000H - Casse -97% - Douceur +96% - Soin Protecteur",
+   "price_text": "2800€",
+   "price": 2800.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "8 464",
+   "rating_count": 8464,
+   "page": 1
+  },
+  {
+   "rank": 50,
+   "asin": "B00GEQON98",
+   "title": "L'Oréal Paris Elseve Huile Extraordinaire Soin Cheveux Secs 100ml | Huiles Marula & Camélia, Contrôle frisottis 96h, Protection chaleur 230°C, Multi-usages sans rinçage",
+   "price_text": "7,08 €",
+   "price": 7.08,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "2 373",
+   "rating_count": 2373,
+   "page": 1
+  },
+  {
+   "rank": 51,
+   "asin": "B0DXFVSWVJ",
+   "title": "CARRYBOO - 540 Coton Pads Bébé 100% Bio - Ultra Doux pour Peaux Sensibles | Hypoallergénique - Change & Toilette - Fabriqués en France",
+   "price_text": "11,62 €",
+   "price": 11.62,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "751",
+   "rating_count": 751,
+   "page": 2
+  },
+  {
+   "rank": 52,
+   "asin": "B0FK5KVL97",
+   "title": "essence CAMOUFLAGE+ MATT concealer correcteur mat, longue durée (8ml) | Haute couvrance, Longue tenue, Matifiant, Anti-cernes, Fini mat",
+   "price_text": "2,99 €",
+   "price": 2.99,
+   "rating_text": "4,3 sur 5 étoiles",
+   "rating": 4.3,
+   "rating_count_text": "6 756",
+   "rating_count": 6756,
+   "page": 2
+  },
+  {
+   "rank": 53,
+   "asin": "B0CVVNX9LC",
+   "title": "CANNI Vernis Gel Semi Permanent 6 Couleurs rouge pailleté 9ml | rouge pailleté gltter red Longue tenue Soak Off Gel Nail Polish DIY Manucure Nail Art",
+   "price_text": "2099€",
+   "price": 2099.0,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "2 883",
+   "rating_count": 2883,
+   "page": 2
+  },
+  {
+   "rank": 54,
+   "asin": "B01FTBDBJ6",
+   "title": "Revlon Professional Equave, Soin Démêlant Instantané sans Rinçage, Spray Hydronutritif, Nourrit & Protège les Cheveux, pour Cheveux Normaux à Secs",
+   "price_text": "1227€",
+   "price": 1227.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "26 428",
+   "rating_count": 26428,
+   "page": 2
+  },
+  {
+   "rank": 55,
+   "asin": "B07C9BDQWV",
+   "title": "L'Oréal Paris Lash Paradise Mascara Volume Waterproof Noir 6,4ml | Formule huile de ricin nourrissante, Tenue impeccable toute la journée, Yeux sensibles, Application facile rapide",
+   "price_text": "1190€",
+   "price": 1190.0,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "36 474",
+   "rating_count": 36474,
+   "page": 2
+  },
+  {
+   "rank": 56,
+   "asin": "B083JKPCFB",
+   "title": "KERASTASE Genesis - Serum Anti-Chute N°1 en France - 90 ml | -84% de Chute de Cheveux - -98% de Casse - Cheveux Cassants & Affaiblis - À l'Aminexil - Stress, Post-Partum - Sans Silicone",
+   "price_text": "3499€",
+   "price": 3499.0,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "9 451",
+   "rating_count": 9451,
+   "page": 2
+  },
+  {
+   "rank": 57,
+   "asin": "B08FSBDFLC",
+   "title": "Just For Men Barbe & Moustache M45 | Gel colorant pour barbe et moustache, sans ammoniaque, teinte châtain foncé - L’emballage peut différer de l’image",
+   "price_text": "6,67 €",
+   "price": 6.67,
+   "rating_text": "4,1 sur 5 étoiles",
+   "rating": 4.1,
+   "rating_count_text": "2 797",
+   "rating_count": 2797,
+   "page": 2
+  },
+  {
+   "rank": 58,
+   "asin": "B0GCC2JV65",
+   "title": "medicube Sérum Raffermissant NAD EGF Visage & Cou 30 ml | Sérum anti-âge, Peptide EGF, NAD, Collagène, pour l'élasticité de la peau, l'apparence des pores, les ridules, Soin coréen",
+   "price_text": "4449€",
+   "price": 4449.0,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "5 256",
+   "rating_count": 5256,
+   "page": 2
+  },
+  {
+   "rank": 59,
+   "asin": "B07YQFGNQQ",
+   "title": "Garnier Ultra Doux Crème Sans Rinçage Cheveux Bouclés Avocat Karité 200ml | 10x plus huile avocat, Définit boucles sans frisottis, Protection chaleur 230°C, Sans silicone",
+   "price_text": "2,37 €",
+   "price": 2.37,
+   "rating_text": "4,7 sur 5 étoiles",
+   "rating": 4.7,
+   "rating_count_text": "3 415",
+   "rating_count": 3415,
+   "page": 2
+  },
+  {
+   "rank": 60,
+   "asin": "B097YXF931",
+   "title": "Brosse à Cheveux Magique - Démêlante Instantanée - Poils de Sanglier & Nylon - Anti-Casse & Anti-Statique - Pour Cheveux Bouclés, Lisses, Épais ou Fins - Hommes, Femmes, Enfants",
+   "price_text": "799€",
+   "price": 799.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "7 759",
+   "rating_count": 7759,
+   "page": 2
+  },
+  {
+   "rank": 61,
+   "asin": "B00WZQTCS8",
+   "title": "NYX Professional Makeup Crayon à Sourcils Micro Brow Pencil, Crayon Ultra-Fin Double-Embout avec Mine Rétractable et Goupillon, Teinte : Espresso (07)",
+   "price_text": "4,83 €",
+   "price": 4.83,
+   "rating_text": "4,3 sur 5 étoiles",
+   "rating": 4.3,
+   "rating_count_text": "72 167",
+   "rating_count": 72167,
+   "page": 2
+  },
+  {
+   "rank": 62,
+   "asin": "B0CC1CTRHF",
+   "title": "CANNI Vernis à Ongles UV Gel Semi Permanent 9ml | Blanc White Longue tenue Soak Off Gel Nail Polish DIY Manucure Nail Art Naturel French",
+   "price_text": "7,59 €",
+   "price": 7.59,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "2 685",
+   "rating_count": 2685,
+   "page": 2
+  },
+  {
+   "rank": 63,
+   "asin": "B07DLX83JM",
+   "title": "LUXÉOL - Pousse Croissance & Fortification - Complément Alimentaire Cheveux | Roquette, Prêle Des Champs, Zinc, Cuivre, Sélénium, Vitamine B8 & B6 - Fabriqué En France - Programme 3 Mois - 90 Gélules",
+   "price_text": "5804€",
+   "price": 5804.0,
+   "rating_text": "4,3 sur 5 étoiles",
+   "rating": 4.3,
+   "rating_count_text": "11 837",
+   "rating_count": 11837,
+   "page": 2
+  },
+  {
+   "rank": 64,
+   "asin": "B0GHPF82QQ",
+   "title": "Mixa Crème Niacinamide Correction Éclat Anti-Taches Visage Corps 400ml | Beurre de karité et vitamine C, Hydratation 48h, Hypoallergénique,Soins corps anti taches",
+   "price_text": "4,99 €",
+   "price": 4.99,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "490",
+   "rating_count": 490,
+   "page": 2
+  },
+  {
+   "rank": 65,
+   "asin": "B07W4X74JC",
+   "title": "BaByliss Sèche-cheveux Turbo Smooth - Sèche-cheveux puissant de 2200W, Diffuseur large, Technologie ionique anti-frisottis, 3 réglages de température et 2 réglages de vitesse, noir, D572DE",
+   "price_text": "19,16 €",
+   "price": 19.16,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "10 921",
+   "rating_count": 10921,
+   "page": 2
+  },
+  {
+   "rank": 66,
+   "asin": "B091PWD9QP",
+   "title": "Batiste Shampooing Sec Original - Parfum Citronné - Grand Format | Shampoing sec qui apporte fraîcheur et volume - Formule à base d'amidon de riz pour absorber l'excès de sébum - 280ml",
+   "price_text": "365€",
+   "price": 365.0,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "961",
+   "rating_count": 961,
+   "page": 2
+  },
+  {
+   "rank": 67,
+   "asin": "B083DMY56L",
+   "title": "URAQT Lime à Ongles Professionnelle 16pcs, lime 100/180 Grain Lavable pour les ongles, Double Face - Salon de Coiffure, Animaux Domestiques (Blanc)",
+   "price_text": "699€",
+   "price": 699.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "24 396",
+   "rating_count": 24396,
+   "page": 2
+  },
+  {
+   "rank": 68,
+   "asin": "B0D5D2B1GZ",
+   "title": "L'Oréal Paris Age Perfect Sérum Anti-Âge 2en1 Vitamines B3 Cg 30ml | Booster de collagène, Double compartiment, Texture légère absorption rapide, Testé dermatologiquement",
+   "price_text": "11,18 €",
+   "price": 11.18,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "806",
+   "rating_count": 806,
+   "page": 2
+  },
+  {
+   "rank": 69,
+   "asin": "B06XZQCNS9",
+   "title": "PODERM - MYCOSE ONGLE TRAITEMENT 2en1 | Aux plantes exceptionnelles puissantes antifongiques et réparatrices | Soin professionnel pied/main | Facile & rapide | Swiss Made",
+   "price_text": "1699€",
+   "price": 1699.0,
+   "rating_text": "4,2 sur 5 étoiles",
+   "rating": 4.2,
+   "rating_count_text": "15 193",
+   "rating_count": 15193,
+   "page": 2
+  },
+  {
+   "rank": 70,
+   "asin": "B0FD3SSVRZ",
+   "title": "L'Oréal Paris Men Expert Barber Club Gel Douche 3-en-1 Homme 1L | Huile essentielle bois de cèdre, Nettoie et purifie, Flacon 100% plastique recyclé, Adoucit peau cheveux barbe",
+   "price_text": "6,37 €",
+   "price": 6.37,
+   "rating_text": "4,3 sur 5 étoiles",
+   "rating": 4.3,
+   "rating_count_text": "11 159",
+   "rating_count": 11159,
+   "page": 2
+  },
+  {
+   "rank": 71,
+   "asin": "B0CJ5GW8RY",
+   "title": "L'Oréal Paris Panorama Mascara Volume Cils Démultipliés Noir Regard Agrandi | Technologie Stretch-Flex, Brosse picots multi-niveaux, Regard 1,4x plus grand, Sans paquets",
+   "price_text": "9,42 €",
+   "price": 9.42,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "13 562",
+   "rating_count": 13562,
+   "page": 2
+  },
+  {
+   "rank": 72,
+   "asin": "B0FK5KFVV3",
+   "title": "essence Lash PRINCESS false lash effect mascara effet faux cils (12ml) | Volumateur, Effet faux cils, Allongeant, Regard mis en valeur, Mascara, Brosse conique en fibres",
+   "price_text": "3,49 €",
+   "price": 3.49,
+   "rating_text": "4,2 sur 5 étoiles",
+   "rating": 4.2,
+   "rating_count_text": "384 856",
+   "rating_count": 384856,
+   "page": 2
+  },
+  {
+   "rank": 73,
+   "asin": "B073ZG6J9N",
+   "title": "Remington Lisseur Cheveux [Soin Kératine & Huile d'amande] Protect (Soin des cheveux, Céramique, Ecran LCD, 10 réglages de Température 150-230°C, Voltage universel,pochette) Fer à lisser S8540",
+   "price_text": "19,16 €",
+   "price": 19.16,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "22 930",
+   "rating_count": 22930,
+   "page": 2
+  },
+  {
+   "rank": 74,
+   "asin": "B0DWMSM6Y9",
+   "title": "medicube Sérum Contour des Yeux PDRN ADN de Saumon & Pink Peptides | Rétinol 99%, PDRN, Niacinamide, Hydratation, Soin des ridules, Teint uniforme, Soin coréen, 30 ml",
+   "price_text": "2015€",
+   "price": 2015.0,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "8 056",
+   "rating_count": 8056,
+   "page": 2
+  },
+  {
+   "rank": 75,
+   "asin": "B0CW678P95",
+   "title": "Vishine 8ml Vernis à Ongles Gel Semi Permanent Dark Chocolate, Vernis Semi Permanent Soak Off UV LED Gel Polish Nail Art Manucure Salon DIY LM088",
+   "price_text": "499€",
+   "price": 499.0,
+   "rating_text": "4,3 sur 5 étoiles",
+   "rating": 4.3,
+   "rating_count_text": "3 380",
+   "rating_count": 3380,
+   "page": 2
+  },
+  {
+   "rank": 76,
+   "asin": "B0BRXS5Q15",
+   "title": "Erborian BB Crème au Ginseng, Crème Teintée SPF 20 | Cosmétique coréen, soin 5-en-1, effet peau de bébé, unifie et hydrate, floute les imperfections, fini naturel",
+   "price_text": "1750€",
+   "price": 1750.0,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "5 423",
+   "rating_count": 5423,
+   "page": 2
+  },
+  {
+   "rank": 77,
+   "asin": "B0FDWX8DN6",
+   "title": "L'Oréal Paris Infaillible Spray Fixateur Maquillage Waterproof 36h 150ml | Sans transfert en 3 secondes, Formule légère non collante, Résistant sueur et eau, Format XL",
+   "price_text": "761€",
+   "price": 761.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "900",
+   "rating_count": 900,
+   "page": 2
+  },
+  {
+   "rank": 78,
+   "asin": "B0B5RCXCT6",
+   "title": "essence baby got bronze bronzing stick bronzeur, naturel, pratique (5.5g) | Bronzeur, Texture crémeuse, Format stick",
+   "price_text": "2,91 €",
+   "price": 2.91,
+   "rating_text": "4,3 sur 5 étoiles",
+   "rating": 4.3,
+   "rating_count_text": "4 975",
+   "rating_count": 4975,
+   "page": 2
+  },
+  {
+   "rank": 79,
+   "asin": "B0F3P1MG43",
+   "title": "Savon Le Naturel Liquide Marseille Huiles Végétales Glycérine 1L | 96% ingrédients origine naturelle, Saponifié huiles végétales, Sans colorant sans sulfate, Flacon 100% plastique recyclé",
+   "price_text": "3,94 €",
+   "price": 3.94,
+   "rating_text": "4,7 sur 5 étoiles",
+   "rating": 4.7,
+   "rating_count_text": "1 312",
+   "rating_count": 1312,
+   "page": 2
+  },
+  {
+   "rank": 80,
+   "asin": "B01DIZK1PM",
+   "title": "Vishine Vernis à ongles 8ml Semi-permanent GelPolish Soak-off UV LED Manucure Vernis Gels Rouge foncé #1418",
+   "price_text": "499€",
+   "price": 499.0,
+   "rating_text": "4,1 sur 5 étoiles",
+   "rating": 4.1,
+   "rating_count_text": "26 237",
+   "rating_count": 26237,
+   "page": 2
+  },
+  {
+   "rank": 81,
+   "asin": "B07LGCGG6R",
+   "title": "Erborian - Crème Teintée Anti-Rougeur CC Red Correct | Soin du Visage Perfecteur Automatique de Teint avec Correction Colorielle - Teint Unifié - SPF 25 - Cosmétique Coréen",
+   "price_text": "1669€",
+   "price": 1669.0,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "9 623",
+   "rating_count": 9623,
+   "page": 2
+  },
+  {
+   "rank": 82,
+   "asin": "B0GNZL6QPG",
+   "title": "Pantene Pro-V Lisse & Soyeux Masque Keratin 72h Lissage 300ml | Pour Cheveux Frisés Secs. 72h cheveux lisses brillants. Formule Pro-V et technologie Active Nutri-Plex.",
+   "price_text": "2,95 €",
+   "price": 2.95,
+   "rating_text": "4,8 sur 5 étoiles",
+   "rating": 4.8,
+   "rating_count_text": "134",
+   "rating_count": 134,
+   "page": 2
+  },
+  {
+   "rank": 83,
+   "asin": "B0CS6MXF5Q",
+   "title": "L'OREAL PROFESSIONNEL - Metal Detox - Cheveux Secs et Abîmés, Raides à Bouclés, Naturels à Colorés - Sans Sulfate - Anti-Casse - +67% de Nutrition - 2x Plus de Brillance",
+   "price_text": "2599€",
+   "price": 2599.0,
+   "rating_text": "4,7 sur 5 étoiles",
+   "rating": 4.7,
+   "rating_count_text": "1 237",
+   "rating_count": 1237,
+   "page": 2
+  },
+  {
+   "rank": 84,
+   "asin": "B017KGU646",
+   "title": "Les Secrets de Loly Boost Curl Gelée coiffante 250 ml | Hydratation & définition des boucles, Cheveux ondulés, bouclés et frisés, 97% d'origine naturelle",
+   "price_text": "1749€",
+   "price": 1749.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "3 158",
+   "rating_count": 3158,
+   "page": 2
+  },
+  {
+   "rank": 85,
+   "asin": "B0CBCLCTCT",
+   "title": "Topicrem - Ultra-Hydratant, Huile de Douche Visage et Corps - 1L | Nettoie, Nourrit, Protège - Gel Douche pour Peaux Sensibles, Sèches, Bébés, Enfants et Adultes - Fabrication Française",
+   "price_text": "4,99 €",
+   "price": 4.99,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "638",
+   "rating_count": 638,
+   "page": 2
+  },
+  {
+   "rank": 86,
+   "asin": "B0BZT18Y7J",
+   "title": "KIKO Milano Long Lasting Eyeshadow Stick - Teinte 14 Rosy Brown | Format Stick | Crémeux | Huile d’Argan | Tenue 24 Heures | Sans Transfert",
+   "price_text": "7,96 €",
+   "price": 7.96,
+   "rating_text": "4,3 sur 5 étoiles",
+   "rating": 4.3,
+   "rating_count_text": "6 805",
+   "rating_count": 6805,
+   "page": 2
+  },
+  {
+   "rank": 87,
+   "asin": "B0GWTF1N7F",
+   "title": "Ensemble coupe-ongles 3 en 1 pour ongles incarnés inclinés à 45° | Coupe-ongles robuste et tranchant pour ongles des orteils et des doigts, grand pour ongles épais, petit pour les ongles",
+   "price_text": "549€",
+   "price": 549.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "712",
+   "rating_count": 712,
+   "page": 2
+  },
+  {
+   "rank": 88,
+   "asin": "B082VP1NRT",
+   "title": "GARNIER Skin Active - Solution Micellaire Tout-En-1 - Nettoie, Démaquille & Hydrate - Micelles & Glycérine Hydrantante - Sans Parfum - Visage, Yeux, Lèvres - Peaux Sèches & Sensibles - 400 ml",
+   "price_text": "2,51 €",
+   "price": 2.51,
+   "rating_text": "4,7 sur 5 étoiles",
+   "rating": 4.7,
+   "rating_count_text": "3 491",
+   "rating_count": 3491,
+   "page": 2
+  },
+  {
+   "rank": 89,
+   "asin": "B0CXJ5BQM6",
+   "title": "Sularpek 2Pcs Colle Faux Ongles, 8ml Colle à Ongles Extra Forte avec Brosse, Séchage Rapide Professionnel Colles pour Ongles Acrylique pour Faux Ongles Collés, Répare les Ongles Cassés",
+   "price_text": "469€",
+   "price": 469.0,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "1 565",
+   "rating_count": 1565,
+   "page": 2
+  },
+  {
+   "rank": 90,
+   "asin": "B0H37K91VN",
+   "title": "MAYBELLINE NEW YORK - Calendrier de l'Avent 2026 – 24 produits maquillage | Coffret Cadeau 24 Produits de Beauté Grand Format - Teint, Yeux, Lèvres & Ongles",
+   "price_text": "7590€",
+   "price": 7590.0,
+   "rating_text": "4,9 sur 5 étoiles",
+   "rating": 4.9,
+   "rating_count_text": "44",
+   "rating_count": 44,
+   "page": 2
+  },
+  {
+   "rank": 91,
+   "asin": "B0BNLFTQ6M",
+   "title": "LALILL Acétone Pure 500 ml - Dissolvant pour Vernis Semi Permanent | Acétone pure 99,9%, pour la dépose, application avec coton ou papillotes, usage à domicile ou en salon",
+   "price_text": "799€",
+   "price": 799.0,
+   "rating_text": "4,3 sur 5 étoiles",
+   "rating": 4.3,
+   "rating_count_text": "2 085",
+   "rating_count": 2085,
+   "page": 2
+  },
+  {
+   "rank": 92,
+   "asin": "B0B5RDHJLR",
+   "title": "essence baby got blush, résultat instantané, naturel, éclat naturel (5.5g) | Résultat instantané, Bronzeur, Texture crémeuse",
+   "price_text": "3,16 €",
+   "price": 3.16,
+   "rating_text": "4,3 sur 5 étoiles",
+   "rating": 4.3,
+   "rating_count_text": "9 502",
+   "rating_count": 9502,
+   "page": 2
+  },
+  {
+   "rank": 93,
+   "asin": "B08M58SWB1",
+   "title": "NYX Professional Makeup Colle Fixatrice à Sourcils Teintée, Tenue 16H, Formule Vegan, Fini Naturel, Applicateur Goupillon, The Brow Glue, Teinte : Transparent (01)",
+   "price_text": "4,99 €",
+   "price": 4.99,
+   "rating_text": "4,3 sur 5 étoiles",
+   "rating": 4.3,
+   "rating_count_text": "12 068",
+   "rating_count": 12068,
+   "page": 2
+  },
+  {
+   "rank": 94,
+   "asin": "B0D5FCN5QP",
+   "title": "Cerave - Gel-Crème Hydratant Oil Control Visage, Hydrate, Matifie, Régule l'Excès de Sébum, Technologie MVE, Niacinamide, Acide Hyaluronique, Crème Hydratante Visage Peau Mixte à Grasse",
+   "price_text": "1128€",
+   "price": 1128.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "1 764",
+   "rating_count": 1764,
+   "page": 2
+  },
+  {
+   "rank": 95,
+   "asin": "B06Y44SS12",
+   "title": "Maybelline New York Poudre Compacte Fit Me Matte Poreless 220 Beige 9g | Enrichie en perlite, Absorbe excès sébum, Estompe pores, Tenue 12h, Résultat ton sur ton, Peaux normales à grasses",
+   "price_text": "5,82 €",
+   "price": 5.82,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "14 155",
+   "rating_count": 14155,
+   "page": 2
+  },
+  {
+   "rank": 96,
+   "asin": "B004SBLR4U",
+   "title": "Dercos - Shampoing Anti Chute Cheveux Energisant - Réduit la Perte de Cheveux et la Casse - Niacinamide, AHA et Vitamine E - Testé sous Contrôle Dermatologique - Efficacité Cliniquement Prouvée",
+   "price_text": "1088€",
+   "price": 1088.0,
+   "rating_text": "4,5 sur 5 étoiles",
+   "rating": 4.5,
+   "rating_count_text": "9 605",
+   "rating_count": 9605,
+   "page": 2
+  },
+  {
+   "rank": 97,
+   "asin": "B0FZT1MWT8",
+   "title": "POFIBO Ponceuse pour Ongles Professionnelle Sans Fil , 12 en1 Kit Manucure | Lime a Ongle Electrique 35000 RPM Rechargeable, Silencieuse pour Gel Acrylique Ongle, Kit de Manucure Pédicure (Rose)",
+   "price_text": "1994€",
+   "price": 1994.0,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "2 315",
+   "rating_count": 2315,
+   "page": 2
+  },
+  {
+   "rank": 98,
+   "asin": "B0G52CKKMT",
+   "title": "Maybelline Sky Tubes Mascara Tubing Longueur Extrême Tenue 24H 7ml | Enrichie en beurre karité huile ricin, Résiste humidité, Démaquillage eau chaude, Brosse picots pyramidaux",
+   "price_text": "8,33 €",
+   "price": 8.33,
+   "rating_text": "4,6 sur 5 étoiles",
+   "rating": 4.6,
+   "rating_count_text": "1 193",
+   "rating_count": 1193,
+   "page": 2
+  },
+  {
+   "rank": 99,
+   "asin": "B003TZZSD2",
+   "title": "Neutrogena Shampoing T/Gel Fort Démangeaisons Sévères, flacon de 250 ml | Antipelliculaire, Shampooing apaisant contre les démangeaisons, Soin cheveux efficace dès le 1er lavage",
+   "price_text": "7,42 €",
+   "price": 7.42,
+   "rating_text": "4,4 sur 5 étoiles",
+   "rating": 4.4,
+   "rating_count_text": "5 188",
+   "rating_count": 5188,
+   "page": 2
+  },
+  {
+   "rank": 100,
+   "asin": "B0DXTLWVBL",
+   "title": "GRIFEMA pulvérisateur d'eau 200 ml blanc à brume fine | Spray réutilisable pour cheveux, visage, plantes et soins personnels",
+   "price_text": "5,82 €",
+   "price": 5.82,
+   "rating_text": "4,1 sur 5 étoiles",
+   "rating": 4.1,
+   "rating_count_text": "3 173",
+   "rating_count": 3173,
+   "page": 2
+  }
+ ],
+ "recs": [
+  {
+   "asin": "B0B2RM68G2",
+   "rank": 1,
+   "page": 1
+  },
+  {
+   "asin": "B08P4YPB8Q",
+   "rank": 2,
+   "page": 1
+  },
+  {
+   "asin": "B07P9TJL9V",
+   "rank": 3,
+   "page": 1
+  },
+  {
+   "asin": "B0GHPFNC84",
+   "rank": 4,
+   "page": 1
+  },
+  {
+   "asin": "B00GSUCEJ6",
+   "rank": 5,
+   "page": 1
+  },
+  {
+   "asin": "B01MDTVZTZ",
+   "rank": 6,
+   "page": 1
+  },
+  {
+   "asin": "B0B7RQ46LD",
+   "rank": 7,
+   "page": 1
+  },
+  {
+   "asin": "B00AI7COA4",
+   "rank": 8,
+   "page": 1
+  },
+  {
+   "asin": "B0F99M3N8L",
+   "rank": 9,
+   "page": 1
+  },
+  {
+   "asin": "B0CQP9S97Y",
+   "rank": 10,
+   "page": 1
+  },
+  {
+   "asin": "B0BLCZX6XP",
+   "rank": 11,
+   "page": 1
+  },
+  {
+   "asin": "B07KGT94LB",
+   "rank": 12,
+   "page": 1
+  },
+  {
+   "asin": "B0DK4Y2YP3",
+   "rank": 13,
+   "page": 1
+  },
+  {
+   "asin": "B09V7Z4TJG",
+   "rank": 14,
+   "page": 1
+  },
+  {
+   "asin": "B0GD6R7CFJ",
+   "rank": 15,
+   "page": 1
+  },
+  {
+   "asin": "B0CZ63J96Q",
+   "rank": 16,
+   "page": 1
+  },
+  {
+   "asin": "B0FHBJXX9M",
+   "rank": 17,
+   "page": 1
+  },
+  {
+   "asin": "B071914GGL",
+   "rank": 18,
+   "page": 1
+  },
+  {
+   "asin": "B00JWVCL8C",
+   "rank": 19,
+   "page": 1
+  },
+  {
+   "asin": "B0F3P44LFH",
+   "rank": 20,
+   "page": 1
+  },
+  {
+   "asin": "B0DTKCN3Z4",
+   "rank": 21,
+   "page": 1
+  },
+  {
+   "asin": "B00M9B66BU",
+   "rank": 22,
+   "page": 1
+  },
+  {
+   "asin": "B0CGMBM6D4",
+   "rank": 23,
+   "page": 1
+  },
+  {
+   "asin": "B018B2YHUM",
+   "rank": 24,
+   "page": 1
+  },
+  {
+   "asin": "B083YFNLXW",
+   "rank": 25,
+   "page": 1
+  },
+  {
+   "asin": "B0038E8OOO",
+   "rank": 26,
+   "page": 1
+  },
+  {
+   "asin": "B0B6CL1QHM",
+   "rank": 27,
+   "page": 1
+  },
+  {
+   "asin": "B00QJQ7SDQ",
+   "rank": 28,
+   "page": 1
+  },
+  {
+   "asin": "B0F2TQW9QD",
+   "rank": 29,
+   "page": 1
+  },
+  {
+   "asin": "B07RNH35K4",
+   "rank": 30,
+   "page": 1
+  },
+  {
+   "asin": "B0FVG27N2W",
+   "rank": 31,
+   "page": 1
+  },
+  {
+   "asin": "B0C822Y5BY",
+   "rank": 32,
+   "page": 1
+  },
+  {
+   "asin": "B0GS27Y6LK",
+   "rank": 33,
+   "page": 1
+  },
+  {
+   "asin": "B07PK2P2XB",
+   "rank": 34,
+   "page": 1
+  },
+  {
+   "asin": "B09YRQ49PZ",
+   "rank": 35,
+   "page": 1
+  },
+  {
+   "asin": "B0DQL9YY2B",
+   "rank": 36,
+   "page": 1
+  },
+  {
+   "asin": "B07C5XYT19",
+   "rank": 37,
+   "page": 1
+  },
+  {
+   "asin": "B0BRMYHMS5",
+   "rank": 38,
+   "page": 1
+  },
+  {
+   "asin": "B0D1VX25QB",
+   "rank": 39,
+   "page": 1
+  },
+  {
+   "asin": "B0GHMZXX8Y",
+   "rank": 40,
+   "page": 1
+  },
+  {
+   "asin": "B00SXKWB42",
+   "rank": 41,
+   "page": 1
+  },
+  {
+   "asin": "B0F99L61JF",
+   "rank": 42,
+   "page": 1
+  },
+  {
+   "asin": "B0CM2PPNMW",
+   "rank": 43,
+   "page": 1
+  },
+  {
+   "asin": "B074Y8LM6T",
+   "rank": 44,
+   "page": 1
+  },
+  {
+   "asin": "B0D1G7XF9X",
+   "rank": 45,
+   "page": 1
+  },
+  {
+   "asin": "B0C8TNGR3V",
+   "rank": 46,
+   "page": 1
+  },
+  {
+   "asin": "B00WN2BY7G",
+   "rank": 47,
+   "page": 1
+  },
+  {
+   "asin": "B0GTMZYTXC",
+   "rank": 48,
+   "page": 1
+  },
+  {
+   "asin": "B09716YCGX",
+   "rank": 49,
+   "page": 1
+  },
+  {
+   "asin": "B00GEQON98",
+   "rank": 50,
+   "page": 1
+  },
+  {
+   "asin": "B0DXFVSWVJ",
+   "rank": 51,
+   "page": 2
+  },
+  {
+   "asin": "B0FK5KVL97",
+   "rank": 52,
+   "page": 2
+  },
+  {
+   "asin": "B0CVVNX9LC",
+   "rank": 53,
+   "page": 2
+  },
+  {
+   "asin": "B01FTBDBJ6",
+   "rank": 54,
+   "page": 2
+  },
+  {
+   "asin": "B07C9BDQWV",
+   "rank": 55,
+   "page": 2
+  },
+  {
+   "asin": "B083JKPCFB",
+   "rank": 56,
+   "page": 2
+  },
+  {
+   "asin": "B08FSBDFLC",
+   "rank": 57,
+   "page": 2
+  },
+  {
+   "asin": "B0GCC2JV65",
+   "rank": 58,
+   "page": 2
+  },
+  {
+   "asin": "B07YQFGNQQ",
+   "rank": 59,
+   "page": 2
+  },
+  {
+   "asin": "B097YXF931",
+   "rank": 60,
+   "page": 2
+  },
+  {
+   "asin": "B00WZQTCS8",
+   "rank": 61,
+   "page": 2
+  },
+  {
+   "asin": "B0CC1CTRHF",
+   "rank": 62,
+   "page": 2
+  },
+  {
+   "asin": "B07DLX83JM",
+   "rank": 63,
+   "page": 2
+  },
+  {
+   "asin": "B0GHPF82QQ",
+   "rank": 64,
+   "page": 2
+  },
+  {
+   "asin": "B07W4X74JC",
+   "rank": 65,
+   "page": 2
+  },
+  {
+   "asin": "B091PWD9QP",
+   "rank": 66,
+   "page": 2
+  },
+  {
+   "asin": "B083DMY56L",
+   "rank": 67,
+   "page": 2
+  },
+  {
+   "asin": "B0D5D2B1GZ",
+   "rank": 68,
+   "page": 2
+  },
+  {
+   "asin": "B06XZQCNS9",
+   "rank": 69,
+   "page": 2
+  },
+  {
+   "asin": "B0FD3SSVRZ",
+   "rank": 70,
+   "page": 2
+  },
+  {
+   "asin": "B0CJ5GW8RY",
+   "rank": 71,
+   "page": 2
+  },
+  {
+   "asin": "B0FK5KFVV3",
+   "rank": 72,
+   "page": 2
+  },
+  {
+   "asin": "B073ZG6J9N",
+   "rank": 73,
+   "page": 2
+  },
+  {
+   "asin": "B0DWMSM6Y9",
+   "rank": 74,
+   "page": 2
+  },
+  {
+   "asin": "B0CW678P95",
+   "rank": 75,
+   "page": 2
+  },
+  {
+   "asin": "B0BRXS5Q15",
+   "rank": 76,
+   "page": 2
+  },
+  {
+   "asin": "B0FDWX8DN6",
+   "rank": 77,
+   "page": 2
+  },
+  {
+   "asin": "B0B5RCXCT6",
+   "rank": 78,
+   "page": 2
+  },
+  {
+   "asin": "B0F3P1MG43",
+   "rank": 79,
+   "page": 2
+  },
+  {
+   "asin": "B01DIZK1PM",
+   "rank": 80,
+   "page": 2
+  },
+  {
+   "asin": "B07LGCGG6R",
+   "rank": 81,
+   "page": 2
+  },
+  {
+   "asin": "B0GNZL6QPG",
+   "rank": 82,
+   "page": 2
+  },
+  {
+   "asin": "B0CS6MXF5Q",
+   "rank": 83,
+   "page": 2
+  },
+  {
+   "asin": "B017KGU646",
+   "rank": 84,
+   "page": 2
+  },
+  {
+   "asin": "B0CBCLCTCT",
+   "rank": 85,
+   "page": 2
+  },
+  {
+   "asin": "B0BZT18Y7J",
+   "rank": 86,
+   "page": 2
+  },
+  {
+   "asin": "B0GWTF1N7F",
+   "rank": 87,
+   "page": 2
+  },
+  {
+   "asin": "B082VP1NRT",
+   "rank": 88,
+   "page": 2
+  },
+  {
+   "asin": "B0CXJ5BQM6",
+   "rank": 89,
+   "page": 2
+  },
+  {
+   "asin": "B0H37K91VN",
+   "rank": 90,
+   "page": 2
+  },
+  {
+   "asin": "B0BNLFTQ6M",
+   "rank": 91,
+   "page": 2
+  },
+  {
+   "asin": "B0B5RDHJLR",
+   "rank": 92,
+   "page": 2
+  },
+  {
+   "asin": "B08M58SWB1",
+   "rank": 93,
+   "page": 2
+  },
+  {
+   "asin": "B0D5FCN5QP",
+   "rank": 94,
+   "page": 2
+  },
+  {
+   "asin": "B06Y44SS12",
+   "rank": 95,
+   "page": 2
+  },
+  {
+   "asin": "B004SBLR4U",
+   "rank": 96,
+   "page": 2
+  },
+  {
+   "asin": "B0FZT1MWT8",
+   "rank": 97,
+   "page": 2
+  },
+  {
+   "asin": "B0G52CKKMT",
+   "rank": 98,
+   "page": 2
+  },
+  {
+   "asin": "B003TZZSD2",
+   "rank": 99,
+   "page": 2
+  },
+  {
+   "asin": "B0DXTLWVBL",
+   "rank": 100,
+   "page": 2
+  }
+ ]
 }
