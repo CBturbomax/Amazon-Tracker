@@ -2556,6 +2556,11 @@
   "checked_at": "2026-09-28T10:38:02+09:00",
   "tries": 1
  },
+ "B0CZJMQXSY": {
+  "error": "captcha",
+  "checked_at": "2026-11-21T15:57:22+09:00",
+  "tries": 0
+ },
  "B0D132F9FP": {
   "brand": "Native",
   "source": "po-brand",
@@ -3308,6 +3313,11 @@
   "source": "byline",
   "domain": "www.amazon.com",
   "method": "playwright"
+ },
+ "B0H5W743CH": {
+  "error": "captcha",
+  "checked_at": "2026-11-21T15:57:39+09:00",
+  "tries": 0
  },
  "B0H72GFKJQ": {
   "brand": "eos",
