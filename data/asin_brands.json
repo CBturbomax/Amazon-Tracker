@@ -2558,7 +2558,7 @@
  },
  "B0CZJMQXSY": {
   "error": "captcha",
-  "checked_at": "2026-11-21T15:57:22+09:00",
+  "checked_at": "2026-11-22T15:34:30+09:00",
   "tries": 0
  },
  "B0D132F9FP": {
@@ -3217,6 +3217,11 @@
   "method": "playwright",
   "checked_at": "2026-10-08T15:00:25+09:00",
   "tries": 1
+ },
+ "B0GCQKBZMC": {
+  "error": "captcha",
+  "checked_at": "2026-11-22T15:34:46+09:00",
+  "tries": 0
  },
  "B0GD6R7CFJ": {
   "brand": "BIODANCE",
