@@ -69,6 +69,14 @@
   "checked_at": "2026-10-14T13:50:59+09:00",
   "tries": 1
  },
+ "B000P22TIY": {
+  "brand": "Nautica",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:46:28+09:00",
+  "tries": 1
+ },
  "B000SDQ224": {
   "brand": "Eylure",
   "source": "po-brand",
@@ -959,6 +967,11 @@
   "checked_at": "2026-10-14T13:51:30+09:00",
   "tries": 1
  },
+ "B01LMMZY6O": {
+  "error": "no_brand",
+  "checked_at": "2026-11-24T18:49:40+09:00",
+  "tries": 1
+ },
  "B01LW1983J": {
   "brand": "Julep",
   "source": "po-brand",
@@ -1221,6 +1234,14 @@
   "checked_at": "2026-10-16T13:30:28+09:00",
   "tries": 1
  },
+ "B07BKV4B6Q": {
+  "brand": "BABE ORIGINAL",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:49:03+09:00",
+  "tries": 1
+ },
  "B07BN1ZNBL": {
   "brand": "Salt Of the Earth",
   "source": "po-brand",
@@ -1324,6 +1345,14 @@
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:36:18+09:00",
+  "tries": 1
+ },
+ "B07L5QGF38": {
+  "brand": "CLEVERFY",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:46:42+09:00",
   "tries": 1
  },
  "B07L5WGS2X": {
@@ -1561,6 +1590,14 @@
   "checked_at": "2026-09-30T14:30:41+09:00",
   "tries": 1
  },
+ "B08BC88KG1": {
+  "brand": "Body Restore",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:49:56+09:00",
+  "tries": 1
+ },
  "B08BW46XXK": {
   "brand": "Vanicream",
   "source": "po-brand",
@@ -1652,6 +1689,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-14T13:56:42+09:00",
+  "tries": 1
+ },
+ "B08N1CWL7S": {
+  "brand": "Boldify",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:48:02+09:00",
   "tries": 1
  },
  "B08NYHVJ5N": {
@@ -1904,6 +1949,14 @@
   "checked_at": "2026-11-14T15:13:12+09:00",
   "tries": 1
  },
+ "B09SGLQNS5": {
+  "brand": "Harry's",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:51:10+09:00",
+  "tries": 1
+ },
  "B09SLF5ZH8": {
   "brand": "La Roche-Posay",
   "source": "po-brand",
@@ -1991,9 +2044,20 @@
   "tries": 1
  },
  "B09Y2JCYNK": {
-  "error": "captcha",
-  "checked_at": "2026-11-20T16:02:12+09:00",
-  "tries": 0
+  "checked_at": "2026-11-24T18:50:50+09:00",
+  "tries": 1,
+  "brand": "Vanicream",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi"
+ },
+ "B09YDCCJBJ": {
+  "brand": "AESTURA",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:48:31+09:00",
+  "tries": 1
  },
  "B09YT2H35S": {
   "brand": "Touchland",
@@ -2096,9 +2160,12 @@
   "tries": 1
  },
  "B0B9HPYZJH": {
-  "error": "captcha",
-  "checked_at": "2026-11-20T16:01:53+09:00",
-  "tries": 0
+  "checked_at": "2026-11-24T18:44:51+09:00",
+  "tries": 1,
+  "brand": "LANEIGE",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi"
  },
  "B0B9YHX8DX": {
   "brand": "Wonderskin",
@@ -2162,6 +2229,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-16T13:24:19+09:00",
+  "tries": 1
+ },
+ "B0BJYCRS51": {
+  "brand": "Body Restore",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:46:11+09:00",
   "tries": 1
  },
  "B0BLXZ4YBJ": {
@@ -2242,6 +2317,14 @@
   "checked_at": "2026-09-28T10:45:41+09:00",
   "tries": 1
  },
+ "B0BVV8BNYJ": {
+  "brand": "ANUA",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:48:14+09:00",
+  "tries": 1
+ },
  "B0BWFPD1L8": {
   "brand": "Dove",
   "source": "po-brand",
@@ -2294,6 +2377,14 @@
   "domain": "www.amazon.com",
   "method": "playwright",
   "checked_at": "2026-10-16T13:29:37+09:00",
+  "tries": 1
+ },
+ "B0C3SB2P5G": {
+  "brand": "Topicals",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:48:46+09:00",
   "tries": 1
  },
  "B0C4G1YZY4": {
@@ -2453,6 +2544,14 @@
   "checked_at": "2026-10-16T13:33:18+09:00",
   "tries": 1
  },
+ "B0CNCL35CH": {
+  "brand": "Dr.Melaxin",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:47:22+09:00",
+  "tries": 1
+ },
  "B0CNL19TQG": {
   "brand": "DOVE MEN + CARE",
   "source": "po-brand",
@@ -2557,9 +2656,12 @@
   "tries": 1
  },
  "B0CZJMQXSY": {
-  "error": "captcha",
-  "checked_at": "2026-11-23T16:24:08+09:00",
-  "tries": 0
+  "checked_at": "2026-11-24T18:45:07+09:00",
+  "tries": 1,
+  "brand": "NOONI",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi"
  },
  "B0D132F9FP": {
   "brand": "Native",
@@ -2646,6 +2748,11 @@
   "method": "playwright",
   "checked_at": "2026-11-14T15:11:09+09:00",
   "tries": 1
+ },
+ "B0DBZS6MHK": {
+  "error": "captcha",
+  "checked_at": "2026-11-24T18:52:19+09:00",
+  "tries": 0
  },
  "B0DC156Y5X": {
   "brand": "JIYU",
@@ -2840,6 +2947,14 @@
   "checked_at": "2026-10-14T13:45:56+09:00",
   "tries": 1
  },
+ "B0DP542W7G": {
+  "brand": "TYMO",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:45:53+09:00",
+  "tries": 1
+ },
  "B0DPHQRLJC": {
   "brand": "eos",
   "source": "po-brand",
@@ -2924,6 +3039,14 @@
   "domain": "www.amazon.co.uk",
   "method": "playwright",
   "checked_at": "2026-10-14T13:48:03+09:00",
+  "tries": 1
+ },
+ "B0DXWP12C8": {
+  "brand": "Kitsch",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:45:37+09:00",
   "tries": 1
  },
  "B0DYTQ5GYQ": {
@@ -3057,6 +3180,14 @@
   "checked_at": "2026-11-14T15:11:50+09:00",
   "tries": 1
  },
+ "B0FHX7ZZXW": {
+  "brand": "ChapStick",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:45:23+09:00",
+  "tries": 1
+ },
  "B0FJG5WLT2": {
   "brand": "Sol de Janeiro",
   "source": "po-brand",
@@ -3086,6 +3217,14 @@
   "checked_at": "2026-11-17T16:47:16+09:00",
   "tries": 0
  },
+ "B0FQBL8S3K": {
+  "brand": "EQQUALBERRY",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:47:41+09:00",
+  "tries": 1
+ },
  "B0FRFMNKYZ": {
   "brand": "UNA GELLA",
   "source": "po-brand",
@@ -3106,6 +3245,14 @@
   "source": "po-brand",
   "domain": "www.amazon.com",
   "checked_at": "2026-09-28T10:43:55+09:00",
+  "tries": 1
+ },
+ "B0FX418XT8": {
+  "brand": "ARENCIA",
+  "source": "byline",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:47:00+09:00",
   "tries": 1
  },
  "B0FXH5LHN8": {
@@ -3219,9 +3366,12 @@
   "tries": 1
  },
  "B0GCQKBZMC": {
-  "error": "captcha",
-  "checked_at": "2026-11-23T16:24:27+09:00",
-  "tries": 0
+  "checked_at": "2026-11-24T18:49:23+09:00",
+  "tries": 1,
+  "brand": "ChapStick",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi"
  },
  "B0GD6R7CFJ": {
   "brand": "BIODANCE",
@@ -3261,6 +3411,14 @@
   "checked_at": "2026-10-08T15:06:13+09:00",
   "tries": 1
  },
+ "B0GT1SC4KQ": {
+  "brand": "Moroccanoil",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:51:29+09:00",
+  "tries": 1
+ },
  "B0GVG4S4X9": {
   "brand": "e.l.f.",
   "source": "po-brand",
@@ -3282,6 +3440,14 @@
   "checked_at": "2026-10-23T13:38:56+09:00",
   "tries": 0
  },
+ "B0GYNK6PBB": {
+  "brand": "medicube",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi",
+  "checked_at": "2026-11-24T18:50:15+09:00",
+  "tries": 1
+ },
  "B0GZJ2Y85L": {
   "checked_at": "2026-11-14T15:20:59+09:00",
   "tries": 1,
@@ -3297,6 +3463,11 @@
   "method": "playwright",
   "checked_at": "2026-10-17T13:15:30+09:00",
   "tries": 1
+ },
+ "B0H29YJ7WQ": {
+  "error": "captcha",
+  "checked_at": "2026-11-24T18:52:09+09:00",
+  "tries": 0
  },
  "B0H2FR3KH1": {
   "checked_at": "2026-10-08T15:08:23+09:00",
@@ -3320,9 +3491,12 @@
   "method": "playwright"
  },
  "B0H5W743CH": {
-  "error": "captcha",
-  "checked_at": "2026-11-21T15:57:39+09:00",
-  "tries": 0
+  "checked_at": "2026-11-24T18:50:32+09:00",
+  "tries": 1,
+  "brand": "medicube",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi"
  },
  "B0H72GFKJQ": {
   "brand": "eos",
