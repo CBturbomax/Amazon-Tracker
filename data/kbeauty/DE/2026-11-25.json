@@ -5,50 +5,1790 @@
  "domain": "www.amazon.de",
  "category": "beauty",
  "date": "2026-11-25",
- "collected_at": "2026-11-25T17:17:58+09:00",
+ "collected_at": "2026-11-25T18:06:21+09:00",
  "method": "playwright",
- "status": "failed",
+ "status": "ok",
  "error": null,
  "pages": [
   {
    "url": "https://www.amazon.de/-/en/gp/bestsellers/beauty/ref=zg_bs_pg_1_beauty?ie=UTF8&pg=1",
    "method": "playwright",
-   "fetched_at": "2026-11-25T17:17:58+09:00",
+   "fetched_at": "2026-11-25T18:06:22+09:00",
    "status": 200,
    "final_url": "https://www.amazon.de/-/en/gp/bestsellers/beauty/ref=zg_bs_pg_1_beauty?ie=UTF8&pg=1",
-   "elapsed_s": 8.08,
+   "elapsed_s": 4.19,
    "error": null,
-   "block": "captcha",
-   "html_bytes": 3531,
+   "block": null,
+   "html_bytes": 771434,
    "page": 1,
    "attempt": 1,
-   "outcome": "captcha",
-   "complete": false,
+   "outcome": "ok",
+   "complete": true,
    "response_issue": null,
-   "rendered_count": 0,
-   "recs_count": 0,
+   "rendered_count": 50,
+   "recs_count": 50,
    "attempts": [
     {
      "url": "https://www.amazon.de/-/en/gp/bestsellers/beauty/ref=zg_bs_pg_1_beauty?ie=UTF8&pg=1",
      "method": "playwright",
-     "fetched_at": "2026-11-25T17:17:58+09:00",
+     "fetched_at": "2026-11-25T18:06:22+09:00",
      "status": 200,
      "final_url": "https://www.amazon.de/-/en/gp/bestsellers/beauty/ref=zg_bs_pg_1_beauty?ie=UTF8&pg=1",
-     "elapsed_s": 8.08,
+     "elapsed_s": 4.19,
      "error": null,
-     "block": "captcha",
-     "html_bytes": 3531,
+     "block": null,
+     "html_bytes": 771434,
      "page": 1,
      "attempt": 1,
-     "outcome": "captcha",
-     "complete": false,
+     "outcome": "ok",
+     "complete": true,
      "response_issue": null,
-     "rendered_count": 0,
-     "recs_count": 0
+     "rendered_count": 50,
+     "recs_count": 50
+    }
+   ]
+  },
+  {
+   "url": "https://www.amazon.de/-/en/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+   "method": "playwright",
+   "fetched_at": "2026-11-25T18:06:30+09:00",
+   "status": 200,
+   "final_url": "https://www.amazon.de/-/en/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+   "elapsed_s": 4.91,
+   "error": null,
+   "block": null,
+   "html_bytes": 743838,
+   "page": 2,
+   "attempt": 1,
+   "outcome": "ok",
+   "complete": true,
+   "response_issue": null,
+   "rendered_count": 50,
+   "recs_count": 50,
+   "attempts": [
+    {
+     "url": "https://www.amazon.de/-/en/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+     "method": "playwright",
+     "fetched_at": "2026-11-25T18:06:30+09:00",
+     "status": 200,
+     "final_url": "https://www.amazon.de/-/en/gp/bestsellers/beauty/ref=zg_bs_pg_2_beauty?ie=UTF8&pg=2",
+     "elapsed_s": 4.91,
+     "error": null,
+     "block": null,
+     "html_bytes": 743838,
+     "page": 2,
+     "attempt": 1,
+     "outcome": "ok",
+     "complete": true,
+     "response_issue": null,
+     "rendered_count": 50,
+     "recs_count": 50
     }
    ]
   }
  ],
- "items": [],
- "recs": []
+ "items": [
+  {
+   "rank": 1,
+   "asin": "B0B2RM68G2",
+   "title": "Biodance Bio-Collagen Real Deep Mask Pack of 4 - Face Masks, Face Mask, Women, Face Mask, Face Mask, Pore Refining, Wrinkle Treatment",
+   "price_text": "€1089",
+   "price": 1089.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "50,020",
+   "rating_count": 50020,
+   "page": 1
+  },
+  {
+   "rank": 2,
+   "asin": "B08P4YPB8Q",
+   "title": "Maybelline Lash Sensational Sky High Mascara, Very Black | Flexible brush, limitless length, full volume, bamboo extract and fibres, ophthalmologist tested, suitable for sensitive eyes",
+   "price_text": "€6.26",
+   "price": 6.26,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "83,448",
+   "rating_count": 83448,
+   "page": 1
+  },
+  {
+   "rank": 3,
+   "asin": "B09V8JNGD4",
+   "title": "Mixa Urea Cica Repair+ Cream for Dry and Rough Skin 400 ml | With 10% urea & amino acid, repairing body lotion, face cream and hand cream, highly compatible, for men and women",
+   "price_text": "€4.49",
+   "price": 4.49,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "8,621",
+   "rating_count": 8621,
+   "page": 1
+  },
+  {
+   "rank": 4,
+   "asin": "B09V7Z4TJG",
+   "title": "medicube Zero Pore Pad 2.0 Peeling Toner Pads for Pore Care | Double-sided face pad with 4.5% AHA & 0.45% BHA, lactic acid, salicylic acid, exfoliating care, for all skin types, 70 pieces",
+   "price_text": "€3059",
+   "price": 3059.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "36,970",
+   "rating_count": 36970,
+   "page": 1
+  },
+  {
+   "rank": 5,
+   "asin": "B0DK4Y2YP3",
+   "title": "celimax The Vita A Retinal Shot Tightening Booster | 0.1% retinal, 3% matryxyl, highly effective retinoid, anti-ageing, pore refinement, fine lines, skin tightening",
+   "price_text": "€1895",
+   "price": 1895.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "33,212",
+   "rating_count": 33212,
+   "page": 1
+  },
+  {
+   "rank": 6,
+   "asin": "B00CDO12Z8",
+   "title": "Maybelline New York Instant Anti-Age Effect Eraser Concealer Against Dark Circles & Wrinkles, with Goji Berry & Haloxyl, Micro Erase Applicator for Precise Covering, No. 01 Light, 6.8 ml",
+   "price_text": "€1370",
+   "price": 1370.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "16,622",
+   "rating_count": 16622,
+   "page": 1
+  },
+  {
+   "rank": 7,
+   "asin": "B0BFQ9RD5B",
+   "title": "d'alba Piedmont Italian White Truffle First Spray Serum (100 ml) | Moisturizing Facial Spray Radiant Skin Soothing Vegan Korean Skin Care",
+   "price_text": "€2139",
+   "price": 2139.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "37,413",
+   "rating_count": 37413,
+   "page": 1
+  },
+  {
+   "rank": 8,
+   "asin": "B08DJ18C85",
+   "title": "Remington D3198 Ionic Hair Dryer, 2200 W, Ion Care Ceramic Ring: Gentle Styling & Even Heat Distribution, 3 Heat Settings & 2 Separate Blower Settings + Cool Setting, 2 Attachments [Amazon Exclusive]",
+   "price_text": "€13.44",
+   "price": 13.44,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "38,596",
+   "rating_count": 38596,
+   "page": 1
+  },
+  {
+   "rank": 9,
+   "asin": "B01LEJ5MSK",
+   "title": "Cosrx Advanced Snail 92 All-in-One Creme 100 g",
+   "price_text": "€2029",
+   "price": 2029.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "63,212",
+   "rating_count": 63212,
+   "page": 1
+  },
+  {
+   "rank": 10,
+   "asin": "B00017Y63O",
+   "title": "Biotherm Lait Corporel L'Original Moisturising Body Lotion with Life Plankton for Smooth Skin, Gentle Body Care with Delicate Fragrance, Body Lotion for Hydrated Skin | Mit Life Plankton, feuchtigkeitsspendende Bodylotion, 48h Feuchtigkeit & Zitrus-Duft, für trockene Haut",
+   "price_text": "€1356",
+   "price": 1356.0,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "5,078",
+   "rating_count": 5078,
+   "page": 1
+  },
+  {
+   "rank": 11,
+   "asin": "B07FFJ2FZV",
+   "title": "Wella Professionals Koleston Perfect 5/00 Light Brown Natural Intensive (60 | Professional colouration with up to 100% grey coverage and Me+ colour technology - permanent hair colour - Pure Naturals",
+   "price_text": "€587",
+   "price": 587.0,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "10,306",
+   "rating_count": 10306,
+   "page": 1
+  },
+  {
+   "rank": 12,
+   "asin": "B0BJFLVCZK",
+   "title": "La Roche-Posay Cicaplast Baume B5+ Repairing Wound Care Balm 100ml | For damaged, irritated skin, SOS care without fragrances. With dexpanthenol and madecassoside, no. 1 pharmacy*",
+   "price_text": "€1918",
+   "price": 1918.0,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "6,046",
+   "rating_count": 6046,
+   "page": 1
+  },
+  {
+   "rank": 13,
+   "asin": "B000RPLZAM",
+   "title": "Boss Bottled Eau de Toilette für Männer",
+   "price_text": "€3838",
+   "price": 3838.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "37,170",
+   "rating_count": 37170,
+   "page": 1
+  },
+  {
+   "rank": 14,
+   "asin": "B09SZ5JX2Y",
+   "title": "d'alba Piedmont White Truffle Double Serum All-in-One Multi Balm | Vegan Skin Care, 3-in-1 Eye Care with White Truffle Against Wrinkles, Stick Eye Treatment Balm, Korean Skin Care",
+   "price_text": "€1195",
+   "price": 1195.0,
+   "rating_text": "4.3 out of 5 stars",
+   "rating": 4.3,
+   "rating_count_text": "11,314",
+   "rating_count": 11314,
+   "page": 1
+  },
+  {
+   "rank": 15,
+   "asin": "B0H4V2T69Z",
+   "title": "Kneipp Advent Calendar 2026 – High-Quality Advent Calendar with 24 Beauty Surprises for Your Wellness Moment – For Yourself or as a Gift",
+   "price_text": "€37.81",
+   "price": 37.81,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "42",
+   "rating_count": 42,
+   "page": 1
+  },
+  {
+   "rank": 16,
+   "asin": "B00CZCD63O",
+   "title": "REVLON PROFESSIONAL Equave Hydro Instant Detangling Conditioner, 200 ml, Detangling Leave in Spray Conditioner for Normal to Dry Hair, Hair Care with 2-Phase Formula & Heat Protection",
+   "price_text": "€1600",
+   "price": 1600.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "32,203",
+   "rating_count": 32203,
+   "page": 1
+  },
+  {
+   "rank": 17,
+   "asin": "B0DX122DHW",
+   "title": "Anua Azelaic Acid 10 Hyaluron Redness Soothing Serum, 30 ml | Facial Serum for Blemished & Sensitive Skin, Hydrating Skin Care for Impurities, Hyaluronic Serum, Korean Skincare",
+   "price_text": "€4021",
+   "price": 4021.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "2,787",
+   "rating_count": 2787,
+   "page": 1
+  },
+  {
+   "rank": 18,
+   "asin": "B06Y1YBBMV",
+   "title": "Wella Professionals Fusion Intense Repair Shampoo (1L) | Deep cleansing shampoo, hair shampoo for better combability, hair care - for broken hair",
+   "price_text": "€1447",
+   "price": 1447.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "17,187",
+   "rating_count": 17187,
+   "page": 1
+  },
+  {
+   "rank": 19,
+   "asin": "B07FFFDV8C",
+   "title": "Wella Professionals Koleston Perfect Me+ Rich Naturals 60 ml | Rich Naturals - Permanent Hair Colour - Professional Colouration with up to 100% Grey Coverage & Me+ Colour Technology",
+   "price_text": "€2168",
+   "price": 2168.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "10,619",
+   "rating_count": 10619,
+   "page": 1
+  },
+  {
+   "rank": 20,
+   "asin": "B01MDTVZTZ",
+   "title": "The Ordinary Niacinamide 10% + Zinc 1%, 30 ml",
+   "price_text": "€490",
+   "price": 490.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "68,518",
+   "rating_count": 68518,
+   "page": 1
+  },
+  {
+   "rank": 21,
+   "asin": "B0CJYCSGZP",
+   "title": "Garnier SkinActive Cloth Mask Set for All Skin Types, Pack of 7 | With hyaluronic acid, 7 effects for all skin types, nourishing, Hydra Bomb and Nutri Bomb, SkinActive",
+   "price_text": "€7.43",
+   "price": 7.43,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "905",
+   "rating_count": 905,
+   "page": 1
+  },
+  {
+   "rank": 22,
+   "asin": "B003JSEGNC",
+   "title": "Effaclar Schäumendes Reinigungsgel für zu Akne neigende Haut | Reinigungsgel gegen Pickel & Mitesser. Reguliert Talg, mattiert & verfeinert das Hautbild. Sanft & beruhigend",
+   "price_text": "€1816",
+   "price": 1816.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "52,146",
+   "rating_count": 52146,
+   "page": 1
+  },
+  {
+   "rank": 23,
+   "asin": "B09JVNZVH3",
+   "title": "Beauty of Joseon Rice Probiotics Sunscreen, SPF 50+, Sunscreen with Rice Extracts",
+   "price_text": "€929",
+   "price": 929.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "17,093",
+   "rating_count": 17093,
+   "page": 1
+  },
+  {
+   "rank": 24,
+   "asin": "B07FTXBNVL",
+   "title": "REAL TECHNIQUES Real Techniques Essentials Miracle Complexion Sponge | Brush set with make-up sponge for foundation, blush and eye shadow, suitable for all make-up formulas, cruelty free, vegan",
+   "price_text": "€9.24",
+   "price": 9.24,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "55,845",
+   "rating_count": 55845,
+   "page": 1
+  },
+  {
+   "rank": 25,
+   "asin": "B09RN8Q4CW",
+   "title": "Remington Professional Hair Straightener [Heat Protection Sensor to Reduce | For gentle styling, keratin ceramic coating with almond oil, 160-230 °C, digital display",
+   "price_text": "€20.92",
+   "price": 20.92,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "14,232",
+   "rating_count": 14232,
+   "page": 1
+  },
+  {
+   "rank": 26,
+   "asin": "B0GD6R7CFJ",
+   "title": "Biodance Collagen Peptide Eye Pads, Anti-Wrinkle Pads for Face and Laughter Wrinkles, Eye Mask for Fine Lines, Bags and Wrinkles, Korean Skin Care (Pack of 60)",
+   "price_text": "€3484",
+   "price": 3484.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "6,616",
+   "rating_count": 6616,
+   "page": 1
+  },
+  {
+   "rank": 27,
+   "asin": "B0GRW4XMYP",
+   "title": "M. Asam Magic Finish Make-Up Mousse Classic Special Edition (30 ml) | 4-in-1 primer, make-up, powder and concealer, concealed, balances, beautifies and perfected, for light to medium skin",
+   "price_text": "€2295",
+   "price": 2295.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "27,588",
+   "rating_count": 27588,
+   "page": 1
+  },
+  {
+   "rank": 28,
+   "asin": "B0DCZXV6HL",
+   "title": "Tangle Teezer Ultimate Detangler Hair Brush - Wet & Dry Hair - Detangling Brush for All Hair Types - Two-Stage Bristles Reduce Hair Breakage & Knots - Champagne Gold with Chrome Finish",
+   "price_text": "€10.33",
+   "price": 10.33,
+   "rating_text": "4.8 out of 5 stars",
+   "rating": 4.8,
+   "rating_count_text": "4,624",
+   "rating_count": 4624,
+   "page": 1
+  },
+  {
+   "rank": 29,
+   "asin": "B00M9B66BU",
+   "title": "UniqOne Hair Treatment Classic, 150 ml, Spray Treatment for More Volume, Smoothness & Easier Combing, Hair Care without Rinsing, Spray Helps Prevent Split Ends",
+   "price_text": "€986",
+   "price": 986.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "66,068",
+   "rating_count": 66068,
+   "page": 1
+  },
+  {
+   "rank": 30,
+   "asin": "B0FL19R14K",
+   "title": "MERODA Changing Foundation SPF 30 [Light to Medium Skin] - Foundation Colour Changing - Colour-Changing Foundation for Mature Skin - Make Up Skin Tone Matching - Foundation Face Make Up",
+   "price_text": "€2649",
+   "price": 2649.0,
+   "rating_text": "4.2 out of 5 stars",
+   "rating": 4.2,
+   "rating_count_text": "3,321",
+   "rating_count": 3321,
+   "page": 1
+  },
+  {
+   "rank": 31,
+   "asin": "B0DBF65JYY",
+   "title": "medicube PDRN Pink Peptide Serum with Salmon DNA 30 ml | Glow Serum, Peptides, Niacinamide, Moisture, Firming Care, Even Complexion, Korean Skin Care",
+   "price_text": "€1828",
+   "price": 1828.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "27,610",
+   "rating_count": 27610,
+   "page": 1
+  },
+  {
+   "rank": 32,
+   "asin": "B0F2TQW9QD",
+   "title": "BIONOBLE Rosemary Oil Hair Organic - Hair Oil Growth, Scalp Oil | 100% natural, hexane-free, rosemary oil, rosemary oil for hair growth, scalp oil, made in Germany, glass bottle, pipette",
+   "price_text": "€9.82",
+   "price": 9.82,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "67,044",
+   "rating_count": 67044,
+   "page": 1
+  },
+  {
+   "rank": 33,
+   "asin": "B0BPSWK6Y5",
+   "title": "Mixa Skin Soothing Panthenol Cream for Etopic Dermatitis 400 ml | Provides intensive moisture, supports the skin barrier, formula with panthenol, glycerine and omega 6 and 9",
+   "price_text": "€4.61",
+   "price": 4.61,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "2,825",
+   "rating_count": 2825,
+   "page": 1
+  },
+  {
+   "rank": 34,
+   "asin": "B0B7RQ46LD",
+   "title": "CeraVe Blemish Control Cleanser for Blemish-Prone Oily Skin, 236 ml | Exfoliating gel-to-foam, 3 essential ceramides, reduces blackheads and breakouts, oil-absorbing, dermatologically tested",
+   "price_text": "€1386",
+   "price": 1386.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "37,193",
+   "rating_count": 37193,
+   "page": 1
+  },
+  {
+   "rank": 35,
+   "asin": "B0DFY92NDB",
+   "title": "Centellian 24 Madeca Cream Time Reverse Teca Anti-Ageing Moisturiser | Korean Firming Facial Care with TECA and Centella for Elasticity, Deep Hydration and Skin Barrier Care 50ml",
+   "price_text": "€945",
+   "price": 945.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "9,664",
+   "rating_count": 9664,
+   "page": 1
+  },
+  {
+   "rank": 36,
+   "asin": "B0FVT77ZLL",
+   "title": "Anua PDRN Collagen Glow Facial Serum Spray, Feuchtigkeitsspendender Gesichtsspray, Mit Hyaluronsäure, Für Alle Hauttypen, Feuchtigkeit & aufpolsternde, Straffende Pflege, Korean Skincare, 100ml | Feuchtigkeitsspendender Gesichtsspray, mit Hyaluronsäure, für Alle Hauttypen, Feuchtigkeit & Aufpolsternde, Straffende Pflege",
+   "price_text": "€2799",
+   "price": 2799.0,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "9,597",
+   "rating_count": 9597,
+   "page": 1
+  },
+  {
+   "rank": 37,
+   "asin": "B0DWFLY18Y",
+   "title": "Anua PDRN Hyaluronic Acid 100 Moisturising Cream, 60 ml | Lightweight Moisturizing Face Cream with Salmon DNA for Glass Skin, Korean Skincare",
+   "price_text": "€1680",
+   "price": 1680.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "7,853",
+   "rating_count": 7853,
+   "page": 1
+  },
+  {
+   "rank": 38,
+   "asin": "B0GV4SG697",
+   "title": "Kneipp Duschglück Gift Set for a Special Shower Experience 3 x 75 ml",
+   "price_text": "€4.16",
+   "price": 4.16,
+   "rating_text": "4.8 out of 5 stars",
+   "rating": 4.8,
+   "rating_count_text": "57",
+   "rating_count": 57,
+   "page": 1
+  },
+  {
+   "rank": 39,
+   "asin": "B0BXDNXFZH",
+   "title": "Ninabella Hair Brush without Pulling - Detangler Brush, Detangler Brush & Curling Brush for Fine and Long Hair - Hair Brush Women Men Children - for Wet and Dry Hair - Petrol",
+   "price_text": "€999",
+   "price": 999.0,
+   "rating_text": "4.8 out of 5 stars",
+   "rating": 4.8,
+   "rating_count_text": "58,328",
+   "rating_count": 58328,
+   "page": 1
+  },
+  {
+   "rank": 40,
+   "asin": "B00PFCSXD4",
+   "title": "Maybelline Lash Sensational Lash Multiplying Mascara 9.5ml Intense Black | 2-in-1 eyelash defalter brush, sensational eyelash fan, volume without gluing, ophthalmologically tested",
+   "price_text": "€5.98",
+   "price": 5.98,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "110,731",
+   "rating_count": 110731,
+   "page": 1
+  },
+  {
+   "rank": 41,
+   "asin": "B0H38V8YHY",
+   "title": "Revolution Beauty Advent Calendar 2026, Makeup Gift Set, 24 Days | 10 original sizes, 8 minis & 6 accessories, gift set for her, vegan & cruelty free",
+   "price_text": "€27.69",
+   "price": 27.69,
+   "rating_text": "4.2 out of 5 stars",
+   "rating": 4.2,
+   "rating_count_text": "117",
+   "rating_count": 117,
+   "page": 1
+  },
+  {
+   "rank": 42,
+   "asin": "B0BQJBFZT2",
+   "title": "Old Spice Captain 3-in-1 Shower Gel & Shampoo for Men, 1L, Long-Lasting | Long-lasting freshness, fragrance in perfume quality, deep cleansing",
+   "price_text": "€5.57",
+   "price": 5.57,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "11,379",
+   "rating_count": 11379,
+   "page": 1
+  },
+  {
+   "rank": 43,
+   "asin": "B09BD7L35V",
+   "title": "Garnier Face Serum Vitamin C+ Glow Booster Serum Instant Glow 30 ml | With vitamin C, niacinamide and melasyl, reduces pigment spots, for all skin types, SkinActive Glow Booster",
+   "price_text": "€7.10",
+   "price": 7.1,
+   "rating_text": "4.2 out of 5 stars",
+   "rating": 4.2,
+   "rating_count_text": "26,657",
+   "rating_count": 26657,
+   "page": 1
+  },
+  {
+   "rank": 44,
+   "asin": "B0CCJ3SRB9",
+   "title": "COSRX 6 Peptide Collagen Serum with Copper Peptides, Anti-Ageing Toner | Toner Face for Skin Renewal & Firming, with Niacinamide & Hyaluronic Acid, Skin Care Booster, Korean Skincare 150 ml",
+   "price_text": "€1939",
+   "price": 1939.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "13,768",
+   "rating_count": 13768,
+   "page": 1
+  },
+  {
+   "rank": 45,
+   "asin": "B07C5XYT19",
+   "title": "CeraVe - Moisturising night cream for normal to dry skin",
+   "price_text": "€1189",
+   "price": 1189.0,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "21,106",
+   "rating_count": 21106,
+   "page": 1
+  },
+  {
+   "rank": 46,
+   "asin": "B01D4M09VA",
+   "title": "L'Oréal Paris Root Concealer Spray for Smooth and Natural Transitions, Conceals Roots Until Washed Out, Magic Retouch, Dark Brown to Black Brown, 1x 75 ml",
+   "price_text": "€531",
+   "price": 531.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "13,753",
+   "rating_count": 13753,
+   "page": 1
+  },
+  {
+   "rank": 47,
+   "asin": "B0CYTD3P4M",
+   "title": "DOONAILS Press On Nails - Mon Cheri Extra Short Square, 30-Piece Set | Soft Gel Salon Quality, Classic Red, Adhesive Stickers Included, HEMA-Free and Vegan, 15 Sizes 6-14 mm",
+   "price_text": "€1200",
+   "price": 1200.0,
+   "rating_text": "4.0 out of 5 stars",
+   "rating": 4.0,
+   "rating_count_text": "887",
+   "rating_count": 887,
+   "page": 1
+  },
+  {
+   "rank": 48,
+   "asin": "B08CCM3Q2T",
+   "title": "L'Oréal Men Expert XXL face cream for tired men's skin, 100 ml | With vitamin C and caffeine, up to 24H moisture, against 5 signs of fatigue, XXL Hydra Energy",
+   "price_text": "€8.39",
+   "price": 8.39,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "21,059",
+   "rating_count": 21059,
+   "page": 1
+  },
+  {
+   "rank": 49,
+   "asin": "B0BSHFDZK2",
+   "title": "Lip Smacker - Coca-Cola Collection - Lip Balm for Children with Fanta Orange Flavour - Fanta Orange Flavour - Sweet Gift for Your Friends",
+   "price_text": "€2.01",
+   "price": 2.01,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "4,391",
+   "rating_count": 4391,
+   "page": 1
+  },
+  {
+   "rank": 50,
+   "asin": "B01G3NW5UK",
+   "title": "Sagrotan No Touch Hand Soap Refill Aloe Vera 250 ml (Pack of 5)",
+   "price_text": "€1226",
+   "price": 1226.0,
+   "rating_text": "4.8 out of 5 stars",
+   "rating": 4.8,
+   "rating_count_text": "15,612",
+   "rating_count": 15612,
+   "page": 1
+  },
+  {
+   "rank": 51,
+   "asin": "B0DRCQ4PBG",
+   "title": "Wavytalk Thermal Round Brush, Blowout Boost, Sakura Pink | For Blowouts, Waves & Fringe, Ionic Technology Reduces Damage, 38 mm, 5 Temperature Settings, Dual Voltage",
+   "price_text": "€4017",
+   "price": 4017.0,
+   "rating_text": "4.3 out of 5 stars",
+   "rating": 4.3,
+   "rating_count_text": "8,048",
+   "rating_count": 8048,
+   "page": 2
+  },
+  {
+   "rank": 52,
+   "asin": "B083JKPCFB",
+   "title": "Kérastase Genesis Serum ml | Anti-Chute Fortifiant für geschwächtes Haar",
+   "price_text": "€3595",
+   "price": 3595.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "9,904",
+   "rating_count": 9904,
+   "page": 2
+  },
+  {
+   "rank": 53,
+   "asin": "B0FJLNLKSJ",
+   "title": "d'Alba White Truffle Intensive The Real Eye Patch (68 Patches) | Against bags and dark circles, anti-ageing, moisturising, brightening, Korean skin care",
+   "price_text": "€4825",
+   "price": 4825.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "707",
+   "rating_count": 707,
+   "page": 2
+  },
+  {
+   "rank": 54,
+   "asin": "B0H2Z86F3X",
+   "title": "essence Juicy Bomb Mini Shiny Lip Gloss Set, No. 01, Instant Result, Natural, Shiny, Shimmering, Acetone-Free, Vegan, No Microplastic Particles, No Parabens, Pack of 1 (6 ml) | Sofortiges Ergebnis, Mini-Lipgloss-Set mit Anhänger für glänzende Momente egal wo du bist",
+   "price_text": "€5.00",
+   "price": 5.0,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "76",
+   "rating_count": 76,
+   "page": 2
+  },
+  {
+   "rank": 55,
+   "asin": "B0B18RNMDZ",
+   "title": "Wella Professionals Shinefinity Glaze Haarschonende Tönung – demi-permanent | pH-neutral & ohne Ammoniak - Für natürlichen Glanz bis zu 20 Haarwäschen – vegan",
+   "price_text": "€1825",
+   "price": 1825.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "3,263",
+   "rating_count": 3263,
+   "page": 2
+  },
+  {
+   "rank": 56,
+   "asin": "B0FBMN2QLR",
+   "title": "Neutrogena Instant Absorbing Hand Cream 6 x 75ml | Light moisturiser for hands with glycerine + vitamin E for dry, cracked hands",
+   "price_text": "€8.60",
+   "price": 8.6,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "3,592",
+   "rating_count": 3592,
+   "page": 2
+  },
+  {
+   "rank": 57,
+   "asin": "B0GCC2JV65",
+   "title": "medicube NAD EGF Firming Serum for Face & Neck | Anti-Aging Serum, EGF Peptide, NAD, Collagen, Elasticity Care, Pore Care, Fine Line Care, 30 ml",
+   "price_text": "€4262",
+   "price": 4262.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "5,690",
+   "rating_count": 5690,
+   "page": 2
+  },
+  {
+   "rank": 58,
+   "asin": "B07D38HKCS",
+   "title": "Tangle Teezer Ultimate Detangler Midnight Black Hair Brush for Wet and Dry Hair, Ergonomic Handle, Painless Detangling, Ideal for Conditioner Distribution, Eco-Friendly",
+   "price_text": "€8.38",
+   "price": 8.38,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "67,844",
+   "rating_count": 67844,
+   "page": 2
+  },
+  {
+   "rank": 59,
+   "asin": "B0FTZ7XR8Z",
+   "title": "RITUALS The Ritual of Sakura Small Cherry Blossom Gift Set | Luxury Gift Set, Bath and Personal Care, Ready to Give as a Gift, Self-Care",
+   "price_text": "€3190",
+   "price": 3190.0,
+   "rating_text": "4.8 out of 5 stars",
+   "rating": 4.8,
+   "rating_count_text": "494",
+   "rating_count": 494,
+   "page": 2
+  },
+  {
+   "rank": 60,
+   "asin": "B086GHJFJY",
+   "title": "Remington Proluxe Midnight AC9140B Hair Dryer | 150 km/h air flow for quick drying, OPTIheat technology, ion care - anti-frizz, durable AC motor",
+   "price_text": "€19.92",
+   "price": 19.92,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "2,386",
+   "rating_count": 2386,
+   "page": 2
+  },
+  {
+   "rank": 61,
+   "asin": "B0CN4YS3PT",
+   "title": "Kneipp Aroma Shower Gel with Natural Extracts of Cornflower, Mallow and Naturally Nourishing Oil, Delicate and Smooth Skin Feeling, 200 ml",
+   "price_text": "€2.23",
+   "price": 2.23,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "6,171",
+   "rating_count": 6171,
+   "page": 2
+  },
+  {
+   "rank": 62,
+   "asin": "B093VK76NH",
+   "title": "KIKO Milano 3D Hydra Lip Gloss - Shade 32 Pearly Natural Rose | Moisturising | 3D volume effect | non sticky | flocked applicator | long-lasting",
+   "price_text": "€7.06",
+   "price": 7.06,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "33,917",
+   "rating_count": 33917,
+   "page": 2
+  },
+  {
+   "rank": 63,
+   "asin": "B0CB121J49",
+   "title": "Wella Professionals Welloxon Perfect Developer 6% (1L) | Hydrogen Peroxide for Hair Colour & Tint - Oxidant for Koleston, Illumina & Magma",
+   "price_text": "€677",
+   "price": 677.0,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "768",
+   "rating_count": 768,
+   "page": 2
+  },
+  {
+   "rank": 64,
+   "asin": "B0773R4X2R",
+   "title": "ILLUMINA COLOR Professionale 5- Castano Chiaro hair care products",
+   "price_text": "€652",
+   "price": 652.0,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "11,623",
+   "rating_count": 11623,
+   "page": 2
+  },
+  {
+   "rank": 65,
+   "asin": "B0CCYPDLCQ",
+   "title": "ghd gold Glätteisen: Haarglätter & Multistyler, Sleek & Anti Frizz Finish | Essential Glätteisen, zum Glätten, Locken & Wellen, für alle Haartypen, 26mm Platten, mehr Glanz, ohne extreme Hitzeschäden",
+   "price_text": "€100.83",
+   "price": 100.83,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "6,682",
+   "rating_count": 6682,
+   "page": 2
+  },
+  {
+   "rank": 66,
+   "asin": "B0CX9CW6B1",
+   "title": "Kneipp Gift Set Bubble Bath Favourites – Gift Pack with 3 Popular Bath Additives from Kneipp – Contains 2 x Aroma Care Foam Bath & 1 x Cream Bath 100 ml Each",
+   "price_text": "€3.77",
+   "price": 3.77,
+   "rating_text": "4.7 out of 5 stars",
+   "rating": 4.7,
+   "rating_count_text": "610",
+   "rating_count": 610,
+   "page": 2
+  },
+  {
+   "rank": 67,
+   "asin": "B0D9WDQ5SC",
+   "title": "Yeauty Energy Elixir Eye Pad Mask - Anti-Ageing Eye Pads with Vitamin C | Cooling eye mask against dark circles and swelling - with hyaluronic and grapefruit for radiant skin and intense moisture",
+   "price_text": "€0.75",
+   "price": 0.75,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "545",
+   "rating_count": 545,
+   "page": 2
+  },
+  {
+   "rank": 68,
+   "asin": "B0C466CNT2",
+   "title": "Lip Smacker, Coca Cola Tin Collection Lip Balm Set | 6 flavours of Coca-Cola, Fanta and Sprite in collector's box",
+   "price_text": "€8.39",
+   "price": 8.39,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "6,016",
+   "rating_count": 6016,
+   "page": 2
+  },
+  {
+   "rank": 69,
+   "asin": "B0CZ63J96Q",
+   "title": "NYX Professional Makeup Buttermelt Blush, Blush, Creamy Texture with Shea Butter, Almond Butter & Mango Butter, Easy to Blend for a Fresh Look, Colour: 02 Butta Together",
+   "price_text": "€5.78",
+   "price": 5.78,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "14,529",
+   "rating_count": 14529,
+   "page": 2
+  },
+  {
+   "rank": 70,
+   "asin": "B0B45LL4DD",
+   "title": "Beauty of Joseon Revive Eye Serum Ginseng + Retinal Daily Korean Skin Care for a Firmer Eye Area, Korean Eye Cream for Visible Signs of Ageing, 30 ml",
+   "price_text": "€1259",
+   "price": 1259.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "22,270",
+   "rating_count": 22270,
+   "page": 2
+  },
+  {
+   "rank": 71,
+   "asin": "B078VBX61T",
+   "title": "Jean & Len Rosemary & Ginger Paraben Free Hand Soap 250ml | Cleans stressed hands, for daily use, liquid soap in refillable pump dispenser, without silicone",
+   "price_text": "€3.19",
+   "price": 3.19,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "6,755",
+   "rating_count": 6755,
+   "page": 2
+  },
+  {
+   "rank": 72,
+   "asin": "B0FKGJYFC8",
+   "title": "Dr.Althea 345 Relief Cream | Tägliche Feuchtigkeitscreme für das Gesicht zur Beruhigung, Regeneration und Behandlung von Hautunreinheiten mit PDRN und Niacinamid, 50ml (Ver.2 – 1er-Pack)",
+   "price_text": "€1930",
+   "price": 1930.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "10,325",
+   "rating_count": 10325,
+   "page": 2
+  },
+  {
+   "rank": 73,
+   "asin": "B0H3PVFRWN",
+   "title": "L'Oréal Paris Revitalift Filler Hyaluron PDRN+ Plumping Serum 30 ml | Vegan PDRN+, Hyaluronic Acid, Anti-Ageing, Anti-Wrinkle, Glow & Moisture, All Skin Types",
+   "price_text": "€10.92",
+   "price": 10.92,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "117",
+   "rating_count": 117,
+   "page": 2
+  },
+  {
+   "rank": 74,
+   "asin": "B083JJHLT4",
+   "title": "Kérastase Genesis Bain Hydra-Fortifiant, Strengthening Shampoo for Hair Loss due to Breakage, Care for Brittle Hair",
+   "price_text": "€1735",
+   "price": 1735.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "10,822",
+   "rating_count": 10822,
+   "page": 2
+  },
+  {
+   "rank": 75,
+   "asin": "B0FWK57DL4",
+   "title": "COSRX PDRN Exosome Overnight Wrapping Mask, Face Mask for Glass Skin | Collagen mask with salmon DNA PDRN and exosomes, refines the complexion, glow up must haves, Korean skincare, 50 ml",
+   "price_text": "€3576",
+   "price": 3576.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "2,776",
+   "rating_count": 2776,
+   "page": 2
+  },
+  {
+   "rank": 76,
+   "asin": "B07PQSRXR6",
+   "title": "Paula's Choice 2% BHA Liquid Exfoliating Blackheads and Pores 118ml | Clinically proven face scrub with salicylic acid - for an even complexion and healthy glow - for oily skin",
+   "price_text": "€1190",
+   "price": 1190.0,
+   "rating_text": "4.3 out of 5 stars",
+   "rating": 4.3,
+   "rating_count_text": "28,779",
+   "rating_count": 28779,
+   "page": 2
+  },
+  {
+   "rank": 77,
+   "asin": "B0GX2DMTH1",
+   "title": "Yves Rocher Beauty Advent Calendar with 24 Surprises | Facial, Body and Hair Care, Makeup and Perfumes, Limited Edition, Christmas Gift for Women",
+   "price_text": "€12800",
+   "price": 12800.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "823",
+   "rating_count": 823,
+   "page": 2
+  },
+  {
+   "rank": 78,
+   "asin": "B08GBLSDCZ",
+   "title": "Nivea Creme Eau de Toilette (30 ml), Iconic Cream Fragrance | Citrus notes and lavender, rose essences and floral accents, wood and musk base notes, unisex fragrance",
+   "price_text": "€1423",
+   "price": 1423.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "9,035",
+   "rating_count": 9035,
+   "page": 2
+  },
+  {
+   "rank": 79,
+   "asin": "B0H9LCG7WF",
+   "title": "M. Asam asambeauty Advent Calendar 2026 (24 Pieces) | Advent Calendar Beauty with Care, Makeup & Hair Care, Skin Care for Advent Calendar Women",
+   "price_text": "€12800",
+   "price": 12800.0,
+   "rating_text": "5.0 out of 5 stars",
+   "rating": 5.0,
+   "rating_count_text": "19",
+   "rating_count": 19,
+   "page": 2
+  },
+  {
+   "rank": 80,
+   "asin": "B0B6G545PT",
+   "title": "L'Oréal Paris Anti-Ageing Day Cream SPF 25 with Triple Power for Women: Reduces Wrinkles & Tightens the Skin, with Pro-Retinol, Hyaluronic Acid and Vitamin C, RevitaLift Laser, 1 x 50 ml",
+   "price_text": "€11.02",
+   "price": 11.02,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "732",
+   "rating_count": 732,
+   "page": 2
+  },
+  {
+   "rank": 81,
+   "asin": "B0D4Y6MNTF",
+   "title": "PURITO Panthenol 10% Post-Acne Cream | Moisturizer for Blemish Marks, Barrier Repair | Silicone-Free, Non-Comedogenic, Fragrance-Free, Vegan & Cruelty-free | Korean Skincare, 100mL 3.38 fl.oz | Repariert die Hautbarriere, spendet Feuchtigkeit, für unreine Haut, nicht komedogen & vegan",
+   "price_text": "€1780",
+   "price": 1780.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "7,920",
+   "rating_count": 7920,
+   "page": 2
+  },
+  {
+   "rank": 82,
+   "asin": "B0GWNF7TTS",
+   "title": "Davidoff Cool Water Eau de Parfum für Herren",
+   "price_text": "€2241",
+   "price": 2241.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "216",
+   "rating_count": 216,
+   "page": 2
+  },
+  {
+   "rank": 83,
+   "asin": "B0CS68SFRB",
+   "title": "Sensitive Hand Soap Refill Pack, 2 x 1000 ml, by Amazon",
+   "price_text": "€250",
+   "price": 250.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "7,572",
+   "rating_count": 7572,
+   "page": 2
+  },
+  {
+   "rank": 84,
+   "asin": "B071914GGL",
+   "title": "The Ordinary Glycolic Acid 7% Exfoliating Toner, Aufhellender und glättender täglicher Toner für einen gleichmäßigeren Hautton",
+   "price_text": "€1150",
+   "price": 1150.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "69,541",
+   "rating_count": 69541,
+   "page": 2
+  },
+  {
+   "rank": 85,
+   "asin": "B085Z1SP6J",
+   "title": "Jean & Len Hand & Body Wash Rosemary and Ginger Refill Bag, 1.5 L | Cleans and nourishes the skin, spicy fresh fragrance, liquid soap in refill bag, without silicone and parabens",
+   "price_text": "€11.49",
+   "price": 11.49,
+   "rating_text": "4.8 out of 5 stars",
+   "rating": 4.8,
+   "rating_count_text": "3,565",
+   "rating_count": 3565,
+   "page": 2
+  },
+  {
+   "rank": 86,
+   "asin": "B09TFYBTKK",
+   "title": "Wella Professionals Fusion Intense Repair Deep Conditioner (200 ml) | Deep repairing hair conditioner with amino acids, smoothing conditioner against hair breakage, hair care - for broken hair",
+   "price_text": "€910",
+   "price": 910.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "4,575",
+   "rating_count": 4575,
+   "page": 2
+  },
+  {
+   "rank": 87,
+   "asin": "B0D1G7XF9X",
+   "title": "medicube Zero Pore Blackhead Mud Mask for Pore Cleansing | AHA BHA PHA Clay Mask, Pore & Blackhead Care, Cooling Skin Feeling, 3 Minutes Quick drying, Korean skin care",
+   "price_text": "€2024",
+   "price": 2024.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "9,007",
+   "rating_count": 9007,
+   "page": 2
+  },
+  {
+   "rank": 88,
+   "asin": "B0BWFLY91K",
+   "title": "L'Oréal Paris Elvital Hydra Hyaluronic Shampoo Moisture Boost 1000 ml | With hyaluronic acid, up to 72H moisture, for moisturising hair, Hydra Hyaluronic",
+   "price_text": "€5.92",
+   "price": 5.92,
+   "rating_text": "4.8 out of 5 stars",
+   "rating": 4.8,
+   "rating_count_text": "2,635",
+   "rating_count": 2635,
+   "page": 2
+  },
+  {
+   "rank": 89,
+   "asin": "B0849D9GB4",
+   "title": "Neutrogena Hydro Boost Aqua Gel Moisturising Cream 50 ml | Moisturising face cream, normal & combination skin, with hyaluronic acid, amino acids & electrolytes, fast absorbing",
+   "price_text": "€5.87",
+   "price": 5.87,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "4,810",
+   "rating_count": 4810,
+   "page": 2
+  },
+  {
+   "rank": 90,
+   "asin": "B0CWV72MHN",
+   "title": "bedrop Propolis Nail Serum for Nail Problems - 10 ml | High-dose treatment of the skin and nail, nail care formula for nail fungus, quick and intense effect",
+   "price_text": "€1867",
+   "price": 1867.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "1,296",
+   "rating_count": 1296,
+   "page": 2
+  },
+  {
+   "rank": 91,
+   "asin": "B0CGJLC8G9",
+   "title": "La Roche Posay Effaclar Duo+M Care Against Pimples & Blackheads, Face | Deeply effective cream against pimples, blackheads and pimple marks - based on microbiome research. Anti-relapse effect",
+   "price_text": "€2019",
+   "price": 2019.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "7,474",
+   "rating_count": 7474,
+   "page": 2
+  },
+  {
+   "rank": 92,
+   "asin": "B0FPDB8ZGS",
+   "title": "by Amazon 200 x 100% Cotton Buds",
+   "price_text": "€0.89",
+   "price": 0.89,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "3,830",
+   "rating_count": 3830,
+   "page": 2
+  },
+  {
+   "rank": 93,
+   "asin": "B0DQWWHXH1",
+   "title": "Braun HC7590 Series 7 Men's Hair Trimmer Grey | Cordless hair trimmer with 17 lengths, trimmer with 50 minutes. Battery, waterproof, includes 5 accessories and ultra-sharp",
+   "price_text": "€32.76",
+   "price": 32.76,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "1,093",
+   "rating_count": 1093,
+   "page": 2
+  },
+  {
+   "rank": 94,
+   "asin": "B0H3ZTL6XY",
+   "title": "NIVEA NIVEA Mini Bus Female 1 ST | Enthält Creme Soft Pflegedusche, Fresh Flower Deo, Soft Creme und Volume Wonder Shampoo, Weihnachtsgeschenke für Frauen",
+   "price_text": "€5.45",
+   "price": 5.45,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "46",
+   "rating_count": 46,
+   "page": 2
+  },
+  {
+   "rank": 95,
+   "asin": "B0DTKCN3Z4",
+   "title": "medicube Capsule Cream with Salmon DNA PDRN Pink Collagen | Light Glow Moisturizer PDRN Niacinamide Moisturiser Even Complexion Korean Skin Care 55g",
+   "price_text": "€2774",
+   "price": 2774.0,
+   "rating_text": "4.5 out of 5 stars",
+   "rating": 4.5,
+   "rating_count_text": "9,233",
+   "rating_count": 9233,
+   "page": 2
+  },
+  {
+   "rank": 96,
+   "asin": "B0GWN2TBJN",
+   "title": "RITUALS Jing Lotus Flower Shower Foam Value Pack 3 x 200ml | Rich Shower Foam Luxury Cleansing Signature Fragrance Value Pack",
+   "price_text": "€2312",
+   "price": 2312.0,
+   "rating_text": "4.8 out of 5 stars",
+   "rating": 4.8,
+   "rating_count_text": "7,518",
+   "rating_count": 7518,
+   "page": 2
+  },
+  {
+   "rank": 97,
+   "asin": "B0D2KNGFZP",
+   "title": "BLOOMORA Mixed Eye Pads (30 Pairs) - Eye Pads with Niacinamide & Hyaluronic - Eye Pads Against Dark Circles - Remove Dark Circles - Eye Patches",
+   "price_text": "€849",
+   "price": 849.0,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "4,325",
+   "rating_count": 4325,
+   "page": 2
+  },
+  {
+   "rank": 98,
+   "asin": "B09XN22JBT",
+   "title": "CeraVe Moisturising Face Cream SPF 50, UVA & UVB Protection | For normal to dry skin, light texture, with 3 ceramides, hyaluronic and MVE. Protected with SPF 50, dermatologically tested",
+   "price_text": "€1617",
+   "price": 1617.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "11,905",
+   "rating_count": 11905,
+   "page": 2
+  },
+  {
+   "rank": 99,
+   "asin": "B0G52CKKMT",
+   "title": "Maybelline New York Sky Tubes Mascara Mascara Black 7.2ml | Mask with tube effect, definition and extreme length, with sheath and castor oil, black",
+   "price_text": "€8.94",
+   "price": 8.94,
+   "rating_text": "4.4 out of 5 stars",
+   "rating": 4.4,
+   "rating_count_text": "1,308",
+   "rating_count": 1308,
+   "page": 2
+  },
+  {
+   "rank": 100,
+   "asin": "B0DFMGBZ9Z",
+   "title": "Beauty of Joseon Relief Sun Aqua-Fresh SPF50 PA++++ Rice Seed Water + Panthenol | Daily Korean Sun Protection for Oily Skin, Lightweight, Non-Sticky and No White Residue, 50 ml",
+   "price_text": "€995",
+   "price": 995.0,
+   "rating_text": "4.6 out of 5 stars",
+   "rating": 4.6,
+   "rating_count_text": "4,722",
+   "rating_count": 4722,
+   "page": 2
+  }
+ ],
+ "recs": [
+  {
+   "asin": "B0B2RM68G2",
+   "rank": 1,
+   "page": 1
+  },
+  {
+   "asin": "B08P4YPB8Q",
+   "rank": 2,
+   "page": 1
+  },
+  {
+   "asin": "B09V8JNGD4",
+   "rank": 3,
+   "page": 1
+  },
+  {
+   "asin": "B09V7Z4TJG",
+   "rank": 4,
+   "page": 1
+  },
+  {
+   "asin": "B0DK4Y2YP3",
+   "rank": 5,
+   "page": 1
+  },
+  {
+   "asin": "B00CDO12Z8",
+   "rank": 6,
+   "page": 1
+  },
+  {
+   "asin": "B0BFQ9RD5B",
+   "rank": 7,
+   "page": 1
+  },
+  {
+   "asin": "B08DJ18C85",
+   "rank": 8,
+   "page": 1
+  },
+  {
+   "asin": "B01LEJ5MSK",
+   "rank": 9,
+   "page": 1
+  },
+  {
+   "asin": "B00017Y63O",
+   "rank": 10,
+   "page": 1
+  },
+  {
+   "asin": "B07FFJ2FZV",
+   "rank": 11,
+   "page": 1
+  },
+  {
+   "asin": "B0BJFLVCZK",
+   "rank": 12,
+   "page": 1
+  },
+  {
+   "asin": "B000RPLZAM",
+   "rank": 13,
+   "page": 1
+  },
+  {
+   "asin": "B09SZ5JX2Y",
+   "rank": 14,
+   "page": 1
+  },
+  {
+   "asin": "B0H4V2T69Z",
+   "rank": 15,
+   "page": 1
+  },
+  {
+   "asin": "B00CZCD63O",
+   "rank": 16,
+   "page": 1
+  },
+  {
+   "asin": "B0DX122DHW",
+   "rank": 17,
+   "page": 1
+  },
+  {
+   "asin": "B06Y1YBBMV",
+   "rank": 18,
+   "page": 1
+  },
+  {
+   "asin": "B07FFFDV8C",
+   "rank": 19,
+   "page": 1
+  },
+  {
+   "asin": "B01MDTVZTZ",
+   "rank": 20,
+   "page": 1
+  },
+  {
+   "asin": "B0CJYCSGZP",
+   "rank": 21,
+   "page": 1
+  },
+  {
+   "asin": "B003JSEGNC",
+   "rank": 22,
+   "page": 1
+  },
+  {
+   "asin": "B09JVNZVH3",
+   "rank": 23,
+   "page": 1
+  },
+  {
+   "asin": "B07FTXBNVL",
+   "rank": 24,
+   "page": 1
+  },
+  {
+   "asin": "B09RN8Q4CW",
+   "rank": 25,
+   "page": 1
+  },
+  {
+   "asin": "B0GD6R7CFJ",
+   "rank": 26,
+   "page": 1
+  },
+  {
+   "asin": "B0GRW4XMYP",
+   "rank": 27,
+   "page": 1
+  },
+  {
+   "asin": "B0DCZXV6HL",
+   "rank": 28,
+   "page": 1
+  },
+  {
+   "asin": "B00M9B66BU",
+   "rank": 29,
+   "page": 1
+  },
+  {
+   "asin": "B0FL19R14K",
+   "rank": 30,
+   "page": 1
+  },
+  {
+   "asin": "B0DBF65JYY",
+   "rank": 31,
+   "page": 1
+  },
+  {
+   "asin": "B0F2TQW9QD",
+   "rank": 32,
+   "page": 1
+  },
+  {
+   "asin": "B0BPSWK6Y5",
+   "rank": 33,
+   "page": 1
+  },
+  {
+   "asin": "B0B7RQ46LD",
+   "rank": 34,
+   "page": 1
+  },
+  {
+   "asin": "B0DFY92NDB",
+   "rank": 35,
+   "page": 1
+  },
+  {
+   "asin": "B0FVT77ZLL",
+   "rank": 36,
+   "page": 1
+  },
+  {
+   "asin": "B0DWFLY18Y",
+   "rank": 37,
+   "page": 1
+  },
+  {
+   "asin": "B0GV4SG697",
+   "rank": 38,
+   "page": 1
+  },
+  {
+   "asin": "B0BXDNXFZH",
+   "rank": 39,
+   "page": 1
+  },
+  {
+   "asin": "B00PFCSXD4",
+   "rank": 40,
+   "page": 1
+  },
+  {
+   "asin": "B0H38V8YHY",
+   "rank": 41,
+   "page": 1
+  },
+  {
+   "asin": "B0BQJBFZT2",
+   "rank": 42,
+   "page": 1
+  },
+  {
+   "asin": "B09BD7L35V",
+   "rank": 43,
+   "page": 1
+  },
+  {
+   "asin": "B0CCJ3SRB9",
+   "rank": 44,
+   "page": 1
+  },
+  {
+   "asin": "B07C5XYT19",
+   "rank": 45,
+   "page": 1
+  },
+  {
+   "asin": "B01D4M09VA",
+   "rank": 46,
+   "page": 1
+  },
+  {
+   "asin": "B0CYTD3P4M",
+   "rank": 47,
+   "page": 1
+  },
+  {
+   "asin": "B08CCM3Q2T",
+   "rank": 48,
+   "page": 1
+  },
+  {
+   "asin": "B0BSHFDZK2",
+   "rank": 49,
+   "page": 1
+  },
+  {
+   "asin": "B01G3NW5UK",
+   "rank": 50,
+   "page": 1
+  },
+  {
+   "asin": "B0DRCQ4PBG",
+   "rank": 51,
+   "page": 2
+  },
+  {
+   "asin": "B083JKPCFB",
+   "rank": 52,
+   "page": 2
+  },
+  {
+   "asin": "B0FJLNLKSJ",
+   "rank": 53,
+   "page": 2
+  },
+  {
+   "asin": "B0H2Z86F3X",
+   "rank": 54,
+   "page": 2
+  },
+  {
+   "asin": "B0B18RNMDZ",
+   "rank": 55,
+   "page": 2
+  },
+  {
+   "asin": "B0FBMN2QLR",
+   "rank": 56,
+   "page": 2
+  },
+  {
+   "asin": "B0GCC2JV65",
+   "rank": 57,
+   "page": 2
+  },
+  {
+   "asin": "B07D38HKCS",
+   "rank": 58,
+   "page": 2
+  },
+  {
+   "asin": "B0FTZ7XR8Z",
+   "rank": 59,
+   "page": 2
+  },
+  {
+   "asin": "B086GHJFJY",
+   "rank": 60,
+   "page": 2
+  },
+  {
+   "asin": "B0CN4YS3PT",
+   "rank": 61,
+   "page": 2
+  },
+  {
+   "asin": "B093VK76NH",
+   "rank": 62,
+   "page": 2
+  },
+  {
+   "asin": "B0CB121J49",
+   "rank": 63,
+   "page": 2
+  },
+  {
+   "asin": "B0773R4X2R",
+   "rank": 64,
+   "page": 2
+  },
+  {
+   "asin": "B0CCYPDLCQ",
+   "rank": 65,
+   "page": 2
+  },
+  {
+   "asin": "B0CX9CW6B1",
+   "rank": 66,
+   "page": 2
+  },
+  {
+   "asin": "B0D9WDQ5SC",
+   "rank": 67,
+   "page": 2
+  },
+  {
+   "asin": "B0C466CNT2",
+   "rank": 68,
+   "page": 2
+  },
+  {
+   "asin": "B0CZ63J96Q",
+   "rank": 69,
+   "page": 2
+  },
+  {
+   "asin": "B0B45LL4DD",
+   "rank": 70,
+   "page": 2
+  },
+  {
+   "asin": "B078VBX61T",
+   "rank": 71,
+   "page": 2
+  },
+  {
+   "asin": "B0FKGJYFC8",
+   "rank": 72,
+   "page": 2
+  },
+  {
+   "asin": "B0H3PVFRWN",
+   "rank": 73,
+   "page": 2
+  },
+  {
+   "asin": "B083JJHLT4",
+   "rank": 74,
+   "page": 2
+  },
+  {
+   "asin": "B0FWK57DL4",
+   "rank": 75,
+   "page": 2
+  },
+  {
+   "asin": "B07PQSRXR6",
+   "rank": 76,
+   "page": 2
+  },
+  {
+   "asin": "B0GX2DMTH1",
+   "rank": 77,
+   "page": 2
+  },
+  {
+   "asin": "B08GBLSDCZ",
+   "rank": 78,
+   "page": 2
+  },
+  {
+   "asin": "B0H9LCG7WF",
+   "rank": 79,
+   "page": 2
+  },
+  {
+   "asin": "B0B6G545PT",
+   "rank": 80,
+   "page": 2
+  },
+  {
+   "asin": "B0D4Y6MNTF",
+   "rank": 81,
+   "page": 2
+  },
+  {
+   "asin": "B0GWNF7TTS",
+   "rank": 82,
+   "page": 2
+  },
+  {
+   "asin": "B0CS68SFRB",
+   "rank": 83,
+   "page": 2
+  },
+  {
+   "asin": "B071914GGL",
+   "rank": 84,
+   "page": 2
+  },
+  {
+   "asin": "B085Z1SP6J",
+   "rank": 85,
+   "page": 2
+  },
+  {
+   "asin": "B09TFYBTKK",
+   "rank": 86,
+   "page": 2
+  },
+  {
+   "asin": "B0D1G7XF9X",
+   "rank": 87,
+   "page": 2
+  },
+  {
+   "asin": "B0BWFLY91K",
+   "rank": 88,
+   "page": 2
+  },
+  {
+   "asin": "B0849D9GB4",
+   "rank": 89,
+   "page": 2
+  },
+  {
+   "asin": "B0CWV72MHN",
+   "rank": 90,
+   "page": 2
+  },
+  {
+   "asin": "B0CGJLC8G9",
+   "rank": 91,
+   "page": 2
+  },
+  {
+   "asin": "B0FPDB8ZGS",
+   "rank": 92,
+   "page": 2
+  },
+  {
+   "asin": "B0DQWWHXH1",
+   "rank": 93,
+   "page": 2
+  },
+  {
+   "asin": "B0H3ZTL6XY",
+   "rank": 94,
+   "page": 2
+  },
+  {
+   "asin": "B0DTKCN3Z4",
+   "rank": 95,
+   "page": 2
+  },
+  {
+   "asin": "B0GWN2TBJN",
+   "rank": 96,
+   "page": 2
+  },
+  {
+   "asin": "B0D2KNGFZP",
+   "rank": 97,
+   "page": 2
+  },
+  {
+   "asin": "B09XN22JBT",
+   "rank": 98,
+   "page": 2
+  },
+  {
+   "asin": "B0G52CKKMT",
+   "rank": 99,
+   "page": 2
+  },
+  {
+   "asin": "B0DFMGBZ9Z",
+   "rank": 100,
+   "page": 2
+  }
+ ]
 }
