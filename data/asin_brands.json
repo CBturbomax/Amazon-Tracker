@@ -968,9 +968,9 @@
   "tries": 1
  },
  "B01LMMZY6O": {
-  "error": "captcha",
-  "checked_at": "2026-11-25T17:19:09+09:00",
-  "tries": 1
+  "error": "no_brand",
+  "checked_at": "2026-11-26T17:05:23+09:00",
+  "tries": 2
  },
  "B01LW1983J": {
   "brand": "Julep",
@@ -2751,7 +2751,7 @@
  },
  "B0DBZS6MHK": {
   "error": "captcha",
-  "checked_at": "2026-11-24T18:52:19+09:00",
+  "checked_at": "2026-11-26T17:06:24+09:00",
   "tries": 0
  },
  "B0DC156Y5X": {
@@ -3343,9 +3343,12 @@
   "tries": 1
  },
  "B0G4XCT439": {
-  "error": "captcha",
-  "checked_at": "2026-11-25T17:18:50+09:00",
-  "tries": 0
+  "checked_at": "2026-11-26T17:05:37+09:00",
+  "tries": 1,
+  "brand": "grace & stella",
+  "source": "po-brand",
+  "domain": "www.amazon.com",
+  "method": "curl_cffi"
  },
  "B0G52CKKMT": {
   "brand": "Maybelline",
@@ -3481,6 +3484,11 @@
   "source": "po-brand",
   "domain": "www.amazon.com",
   "method": "playwright"
+ },
+ "B0H3BR9ZP1": {
+  "error": "captcha",
+  "checked_at": "2026-11-26T17:06:06+09:00",
+  "tries": 0
  },
  "B0H3BT95G6": {
   "error": "captcha",
